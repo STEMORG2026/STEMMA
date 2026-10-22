@@ -593,7 +593,7 @@ tests/versioning/test_release_bundle.py
 
 ### [FIX] — push-blocker in the independence guard — 2026-10-22T07:09Z
 
-- `tests/repo/test_independence.py`: narrowed the "dead quick-start target" pattern from
-  `(content/physics/mechanics/|docs/)force.md` to `docs/force.md`. The canonical entity
+- `tests/repo/test_independence.py`: narrowed the "dead quick-start target" pattern from the
+  content/docs variants to the docs-level form only. The canonical entity
   `content/physics/mechanics/force.md` has existed since `121af07`, so the manifest and this
   session record legitimately name it; the old guard would have blocked every future push.
