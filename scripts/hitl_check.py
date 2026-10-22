@@ -58,6 +58,19 @@ def registered_humans() -> set[str]:
             and a.get("status") == "active" and a.get("type") != "institution"}
 
 
+def registered_machines() -> set[str]:
+    """Active registered machine agents (process/llm) allowed to verify under
+    ADR-0060. Fails closed on any registry error."""
+    import yaml
+    try:
+        data = yaml.safe_load(AGENTS.read_text(encoding="utf-8")) or {}
+    except Exception:
+        return set()
+    return {a["id"] for a in data.get("agents") or []
+            if isinstance(a, dict) and a.get("class") in {"process", "llm"}
+            and a.get("status") == "active"}
+
+
 def human_edit_events(audit: list, humans: set[str], slug: str | None = None) -> list:
     """candidate_edited events attributed to a registered human; with `slug`,
     only events whose edited markdown file is exactly `<slug>.md`."""
@@ -144,6 +157,35 @@ def check_entity(entity_id: str, verbose=False):
     if content_file is not None and status not in REVIEWED_STATUSES:
         if verbose:
             print(f"{full_id}: status '{status}' — not review-gated (draft may be LLM-written), OK")
+        return True, []
+
+    # ---- Delegated path (ADR-0060) ----
+    prov = fm.get("provenance") or {}
+    if prov.get("review_mode") == "owner_delegated":
+        humans = registered_humans()
+        machines = registered_machines()
+        delegation = prov.get("delegation") or {}
+        verification = prov.get("verification") or {}
+        delegated_violations = []
+        if delegation.get("delegated_by") not in humans:
+            delegated_violations.append(
+                f"{full_id}: delegation.delegated_by is not an active human SOLE_OWNER")
+        if verification.get("verifier") not in machines:
+            delegated_violations.append(
+                f"{full_id}: verification.verifier is not an active registered machine agent")
+        passes = [c for c in verification.get("checks") or []
+                  if isinstance(c, dict) and c.get("status") == "pass"]
+        if len(passes) < 2:
+            delegated_violations.append(
+                f"{full_id}: owner_delegated requires >=2 passing verification checks (found {len(passes)})")
+        reviewer = prov.get("reviewer")
+        if reviewer and reviewer not in machines:
+            delegated_violations.append(
+                f"{full_id}: delegated record names a non-machine reviewer '{reviewer}'")
+        if delegated_violations:
+            return False, delegated_violations
+        if verbose:
+            print(f"{full_id}: owner-delegated canonicalization with {len(passes)} passing checks — OK")
         return True, []
 
     # ---- Gated path ----
@@ -321,7 +363,7 @@ def main():
             return 1
         else:
             print(f"OK: HITL check passed — all {len(entities)} entities "
-                  f"({gated} review-gated) + connections/ satisfy human-review requirements")
+                  f"({gated} review-gated) + connections/ satisfy review requirements (human or sanctioned delegated)")
             return 0
 
     if args.check_workflow:

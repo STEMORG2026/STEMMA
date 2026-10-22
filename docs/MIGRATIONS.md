@@ -2,6 +2,54 @@
 
 **Status:** Beginning, no legacy. Old migrations archived to archive/old-design/.
 
+## Standing rule — a schema change is not done until entities adopt it
+
+A schema bump is only half the change. The schemas describe the *current* shape of a
+canonical record, so when a new field is added or promoted, existing entities must be
+updated to use it where it applies. Leaving the corpus validating as "old shape with new
+fields unused" is treated as an unfinished migration, not a passing one.
+
+Follow this sequence on every `schema_version` bump:
+
+1. **ADR + version bump.** Record the change (ADR) and bump `schema_version` in
+   `schema/VERSION.yaml`; update the export version only if the consumer shape changes.
+2. **Validator before content.** Update the validators so the new field is checked, then
+   run `python3 scripts/validate.py`.
+3. **Measure adoption.** Run `python3 scripts/schema_field_coverage.py`; it reports how
+   many entities carry each tracked field, per domain. The adoption delta is the
+   migration's real progress.
+4. **Sync the entities.** Enrich the existing canonical entities with the new fields
+   where they apply (`scripts/enrich_schema_fields.py` for the descriptive 1.4.0 fields;
+   add dimensional/`datasets` fields by hand or with a dedicated pass). Do it in
+   resumable batches with a cache, never fabricate values, and keep the machine-checked
+   delegation provenance from ADR-0060.
+5. **Re-verify.** `validate.py` → `export_jsonld.py` → `export_consumers.py --all` →
+   `review_manifest.py` → `status_truth.py --write` → `content_store.py --write` →
+   `pytest` → `verify_all.py`, and re-run `schema_field_coverage.py`.
+6. **Watch for drift.** `scripts/schema_watch.py --loop --interval 1800` checks the
+   schema and inventory every 30 minutes and records changes; a detected change is the
+   trigger to run steps 2–5 again.
+
+Optional fields with no applicable value stay absent; adoption is measured, not
+mandated per entity. What is mandated is that the corpus is re-examined after every
+bump instead of silently staying on the previous shape.
+
+### Canonical vs consumer fields — not every schema field goes in canonical
+
+A new schema field must be classified before it is adopted. Some describe the
+knowledge itself (`level`, `formal`, `applications`, `limitations`,
+`same_dimensional_quantities`, `datasets`) and belong in canonical entities.
+Others describe how a *consumer* uses the knowledge and must stay out of canonical
+content. The standing example is `learning_objectives`, added by schema 1.4.0 but
+forbidden in canonical entities by ADR-0041 (minimal entity profile) and ADR-0047,
+and mechanically enforced by `tests/curation/test_generality.py`
+(`test_no_curriculum_grade_country_metadata_fields`). It is consumer/curriculum
+metadata, so `scripts/enrich_schema_fields.py` deliberately does not write it and
+`scripts/schema_field_coverage.py` reports it as consumer-only rather than as a
+migration gap. When a future schema bump adds a field, state which side of this
+line it falls on; if it is consumer-facing, exclude it from canonical adoption and
+record the reason here.
+
 ## 2026-09-26 — version baseline for the consumer versioning policy
 
 - **What:** records the versions in force when the policy in
@@ -13,6 +61,24 @@
   (H1, entry below); `relation_registry_version` 1.0.0 (reserved duplicates
   removed; `equivalent_to` / `misconception_of` per ADR-0048).
 - **Consumers:** nothing to do.
+
+## 2026-10-21 — schema 1.4.0: multidomain fields + delegated provenance (additive)
+
+- **What:** `schema_version` 1.4.0 adds multidomain entity types, `level`,
+  `learning_objectives`, `applications`, `limitations`, `formal`, `datasets`, and the
+  `owner_delegated` provenance block (`review_mode`, `verification`, `delegation`).
+- **Validator:** delegated records need a registered human SOLE_OWNER delegator, a
+  registered process/LLM verifier, and at least two passing checks. Human-only promotion is
+  unchanged and remains the default when `review_mode` is absent.
+- **Licensing:** OpenStax content is Tier C (CC BY-NC-SA 4.0, except `physics` CC BY 4.0);
+  only term inventory and factual verification are used, never prose (ADR-0062).
+- **Migration path:** fields are optional, so no record is invalid; the corpus is synced
+  anyway (see the standing rule above). `level` is now present on 100% of entities,
+  `applications` on 100% of canonical entities, `limitations` where they apply, measured by
+  `scripts/schema_field_coverage.py`. `learning_objectives` is intentionally NOT adopted in
+  canonical content (ADR-0041/0047 + generality guard) and is reported as consumer-only.
+- **Export version:** stays 2.2.0 (entity fields are additive; old readers ignore them).
+- **Consumers:** re-export consumer bundles; schema_version is checked by the release gate.
 
 ## 2026-09-26 — release asset rename: `knowledge.canonical.json` → `connections.canonical.json`
 

@@ -129,6 +129,41 @@ agents:
   external_id: null
   status: active
   note: "Writer of machine-drafted candidates (webapp deterministic draft, scripts/evolvable_template.py with ai_drafted false). Previously mislabelled human:curator.001 (audit H1). Never canonical authority; the human editor is recorded as writer, this id as drafted_by."
+- id: llm:qwen3.5-9b
+  class: llm
+  display_name: Qwen 3.5 9B local definition writer
+  external_id: "model:ollama/qwen3.5:9b"
+  status: active
+  note: >-
+    Produces original, concise definitions from a term plus a reference excerpt.
+    Drafts only; canonicalization requires the delegated verification gate.
+- id: process:openstax-importer.v1
+  class: process
+  display_name: OpenStax term-inventory and provenance importer
+  external_id: null
+  status: active
+  note: >-
+    Fetches OpenStax TOCs/key-terms pages, preserves source metadata and license,
+    and emits machine-drafted candidates. It never invents a human review and
+    never writes canonical status by itself (ADR-0060/ADR-0062).
+- id: process:content-validator.v1
+  class: process
+  display_name: Deterministic content gate
+  external_id: null
+  status: active
+  note: >-
+    Runs schema, ID, duplicate, provenance, source-resolution and cross-field
+    checks for owner-delegated candidates. May be recorded as reviewer only
+    under review_mode=owner_delegated (ADR-0060).
+- id: process:content-verifier.v1
+  class: process
+  display_name: Independent content verifier
+  external_id: null
+  status: active
+  note: >-
+    Second, distinct machine pass (source cross-check, dimensional/consistency
+    checks, definition completeness) for owner-delegated candidates. Its checks
+    are appended to provenance.verification.checks (ADR-0060).
 - id: unknown:legacy-relationship
   class: unknown
   display_name: Unrecoverable legacy author (pre-connection inline relationships)

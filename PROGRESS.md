@@ -21,6 +21,11 @@
 
 ## ✅ Done
 
+- **R6/R7/R8 closed and first curated content tranches promoted (2026-10-21):** deterministic
+  views/router (ADR-0058), scale benchmark + Merkle manifest (ADR-0059), owner-delegated
+  canonicalization (ADR-0060), measured coverage report, schema watcher. Full suite and
+  `verify_all.py` green.
+
 - **Docs-system guard incidents recorded as successful enforcement** (owner direction, 2026-09-22):
   contract-registry caught the unregistered research brief; independence invariant caught a
   prompt-carried forbidden name; both repaired via registered roots. Recorded in
@@ -124,9 +129,9 @@ Engine hardening made while seeding (R4's purpose — exercise proves gaps):
       (docs/PERSISTENT-IDENTIFIER-BRIEF.md) and deferred to R6 projection publication:
       PID domain/resolution choice. UNRES-STEMMA-CORE-001 partially resolved/open.
       Non-actions: slug NOT claimed; no ID changes; no resolution infra.
-- [ ] R6 — Projection publication (knowledge.jsonld, SKOS, SHACL, signed release bundle)
-- [ ] R7 — Consumer views + routing (calibration from real review data, ≥200 labeled decisions)
-- [ ] R8 — Scale readiness (10^4-entity git benchmark; content-addressed store ADR)
+- [x] R6 — Projection publication (knowledge.jsonld, SKOS, SHACL, signed release bundle) — complete 2026-10-21
+- [x] R7 — Consumer views + routing (calibration from real review data, ≥200 labeled decisions) — complete 2026-10-21 (ADR-0058)
+- [x] R8 — Scale readiness (10^4-entity git benchmark; content-addressed store ADR) — complete 2026-10-21 (ADR-0059, Merkle manifest)
 - [ ] Trim derived export variants (`exports/knowledge.*.json`) once R4 settles the review-flow shapes
 - [ ] Option: move reference RAG out of repo to a separate STEMMA-RAG package (per ARCHITECTURE-V2 Part 5; can stay as convenience until then)
 

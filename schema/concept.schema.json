@@ -25,14 +25,34 @@
         "concept",
         "quantity",
         "unit",
+        "constant",
         "law",
+        "principle",
+        "theorem",
         "equation",
+        "operator",
+        "function",
+        "distribution",
         "misconception",
         "phenomenon",
+        "process",
+        "structure",
+        "system",
+        "material",
+        "reaction",
+        "organelle",
         "model",
-        "experiment"
+        "experiment",
+        "technique",
+        "instrument",
+        "algorithm",
+        "data-structure",
+        "protocol",
+        "standard",
+        "dataset",
+        "mission"
       ],
-      "description": "Entity type. v0.3 (ADR-0021): adds phenomenon, model, experiment — types the relation registry already referenced in domain/range (audit F3/R20). Additive; type changes on existing entities remain forbidden."
+      "description": "Entity type. Expanded in schema 1.4.0 (ADR-0061) for multidisciplinary bachelor-level coverage: adds principle, theorem, operator, function, distribution, process, structure, system, material, reaction, organelle, technique, instrument, algorithm, data-structure, protocol, standard, dataset, mission, constant. Additive; type changes on existing entities remain forbidden."
     },
     "name": {
       "type": "string"
@@ -40,6 +60,20 @@
     "domain": {
       "type": "string",
       "description": "Subject area, e.g. physics"
+    },
+    "level": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "foundational",
+        "intermediate",
+        "advanced",
+        null
+      ],
+      "default": null,
+      "description": "Knowledge complexity, not a curriculum/grade tag: foundational (school/early undergraduate), intermediate (core undergraduate), advanced (late undergraduate/first-year graduate). Schema 1.4.0 (ADR-0061)."
     },
     "status": {
       "enum": [
@@ -69,6 +103,27 @@
       "type": "string",
       "description": "Scientific definition exactly as meter example with reference — claim with warrant definitional + evidence per L1, not mere orientation, must show agreed status and source reference per ADR-0044"
     },
+    "learning_objectives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Observable outcomes a bachelor-level learner should achieve for this entity. Optional; does not encode a grade or syllabus (schema 1.4.0, ADR-0061)."
+    },
+    "applications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Representative real-world or cross-domain applications. Optional; schema 1.4.0 (ADR-0061)."
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Scope conditions, approximations, or known limits of validity. Optional but strongly recommended for laws/models. Schema 1.4.0 (ADR-0061)."
+    },
     "examples": {
       "type": "array",
       "items": {
@@ -82,6 +137,50 @@
       ],
       "default": null,
       "description": "Canonical mathematical form using defined symbols (optional)"
+    },
+    "formal": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "default": null,
+      "additionalProperties": false,
+      "properties": {
+        "statement": {
+          "type": "string",
+          "description": "Precise verbal or logical statement of the law/theorem/principle/algorithm."
+        },
+        "equation": {
+          "type": "string",
+          "description": "Primary symbolic form (LaTeX or plain notation)."
+        },
+        "variables": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["symbol", "meaning"],
+            "properties": {
+              "symbol": {"type": "string"},
+              "meaning": {"type": "string"},
+              "unit": {"type": ["string", "null"]}
+            }
+          }
+        },
+        "conditions": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "dimensions": {
+          "type": ["string", "null"],
+          "description": "MLT-style dimension for quantities/units, e.g. 'M L T^-2'."
+        },
+        "approximations": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      },
+      "description": "Machine-readable formal content for laws, theorems, equations, quantities, algorithms and protocols. Schema 1.4.0 (ADR-0061)."
     },
     "symbol": {
       "type": [
@@ -144,6 +243,79 @@
       "properties": {
         "ai_drafted": {
           "type": "boolean"
+        },
+        "review_mode": {
+          "type": "string",
+          "enum": [
+            "human",
+            "owner_delegated"
+          ],
+          "default": "human",
+          "description": "Who exercised canonical authority. 'human' is the ADR-0057 human promotion chain. 'owner_delegated' is the owner-sanctioned machine-verification path in ADR-0060: the SOLE_OWNER delegates canonicalization to deterministic gates and registered process agents, with no fabricated human reviewer. Defaults to 'human' when absent."
+        },
+        "verification": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "method": {
+              "type": "string",
+              "description": "How the definition was checked (e.g. source-crosscheck, dimensional-analysis, executable-test)."
+            },
+            "checks": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["name", "status"],
+                "properties": {
+                  "name": {"type": "string"},
+                  "status": {"type": "string", "enum": ["pass", "fail", "warn", "skipped"]},
+                  "evidence": {"type": ["string", "null"]}
+                }
+              }
+            },
+            "verifier": {
+              "type": ["string", "null"],
+              "description": "Registered process/llm agent that executed the verification."
+            },
+            "verified_at": {"type": ["string", "null"]},
+            "notes": {"type": ["string", "null"]}
+          },
+          "description": "Machine-readable verification record for owner-delegated canonicalization (ADR-0060)."
+        },
+        "delegation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "delegated_by",
+            "delegation_ref",
+            "scope",
+            "sanctioned_at"
+          ],
+          "properties": {
+            "delegated_by": {
+              "type": "string",
+              "description": "Registered human SOLE_OWNER who delegated canonical authority."
+            },
+            "delegation_ref": {
+              "type": "string",
+              "description": "ADR or recorded owner decision authorizing this delegation."
+            },
+            "scope": {
+              "type": "string",
+              "description": "What this delegation covers (domain, source family, or tranche)."
+            },
+            "sanctioned_at": {"type": "string"},
+            "retire_when": {
+              "type": ["string", "null"],
+              "description": "Condition under which delegated canonicalization stops applying."
+            },
+            "limitations": {
+              "type": "array",
+              "items": {"type": "string"}
+            }
+          },
+          "description": "Owner delegation block required when review_mode=owner_delegated. Records authority, scope, and limits; it does not claim a human reviewed the artifact."
         },
         "source_kind": {
           "enum": [
@@ -310,6 +482,32 @@
         "null"
       ],
       "description": "ADR-0016: optional ISO8601 last-modification timestamp of this entity object."
+    },
+    "datasets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "description"],
+        "properties": {
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "variables": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "unit": {"type": ["string", "null"]},
+          "source_ref": {
+            "type": ["string", "null"],
+            "pattern": "^stemma:src\\.[a-z0-9][a-z0-9-]*$"
+          },
+          "url": {"type": ["string", "null"]},
+          "license": {"type": ["string", "null"]},
+          "format": {"type": ["string", "null"]},
+          "notes": {"type": ["string", "null"]}
+        }
+      },
+      "description": "Empirical or reference datasets attached to the entity (measurements, constants, material properties, benchmark corpora). Schema 1.4.0 (ADR-0061)."
     },
     "external_ids": {
       "type": "object",

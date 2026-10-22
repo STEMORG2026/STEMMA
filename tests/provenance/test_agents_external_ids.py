@@ -87,6 +87,10 @@ def test_external_ids_format_checks():
 # (a wrong anchor is worse than none). Re-check when Wikidata gains an item.
 NO_FAITHFUL_WIKIDATA_ITEM = {
     "stemma:phys.equations-of-motion",  # constant-acceleration (SUVAT) set; Q215007 is the general ODE sense
+    # Q11465 is the general "velocity" item; sharing it with velocity.md would make
+    # wd/Q11465 ambiguous (the adapter rejects ambiguous external ids), and no
+    # separate item for the instantaneous limit exists.
+    "stemma:phys.instantaneous-velocity",
 }
 
 

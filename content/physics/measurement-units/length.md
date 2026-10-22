@@ -5,6 +5,7 @@ name: Length
 domain: physics
 subdomain: measurement-units
 status: draft
+level: foundational
 definition: 'Length is the SI base physical quantity of spatial extent — the measure
   of one-dimensional distance between two points in space. The metre is the unit in
   which length is expressed: 1 m = the length of the path travelled by light in vacuum

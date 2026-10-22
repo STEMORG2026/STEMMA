@@ -1,0 +1,3642 @@
+{
+  "export_version": "2.2.0",
+  "schema_version": "1.4.0",
+  "policy": "domain:earth-space",
+  "content_hash": "sha256:d98304ee3f9efabf81443d52d40d7486debc76b900c65c9747122659aa628bac",
+  "source": "content/ + connections/ + sources/ (canonical)",
+  "entity_count": 45,
+  "connection_count": 0,
+  "entities": [
+    {
+      "id": "stemma:earth.absorption-spectrum",
+      "type": "phenomenon",
+      "name": "absorption spectrum",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An absorption spectrum represents a specific pattern where dark lines appear superimposed upon an otherwise continuous background of light. This phenomenon occurs because atoms within a cooler gas absorb photons at precise wavelengths, removing them from the transmitted beam and revealing unique elemental fingerprints.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Analyzing stellar atmospheres to determine chemical makeup.",
+        "Detecting interstellar gas clouds along sightlines.",
+        "Calibrating spectrographs for precise wavelength measurements."
+      ],
+      "limitations": [
+        "Requires a continuous background source behind the absorber.",
+        "Sensitive only to atoms in gaseous states, not solids.",
+        "Line broadening can obscure fine spectral details."
+      ]
+    },
+    {
+      "id": "stemma:earth.accelerate",
+      "type": "concept",
+      "name": "accelerate",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Acceleration describes any change in an object's velocity over time. This vector quantity encompasses speeding up, slowing down, or altering direction, indicating that the net force acting on a body is non-zero and causing its motion to evolve.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/2-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/2-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing vehicle safety systems for crash deceleration.",
+        "Planning orbital maneuvers for spacecraft trajectory changes.",
+        "Analyzing projectile paths under varying gravitational fields."
+      ],
+      "limitations": [
+        "Ignores relativistic effects at speeds near light speed.",
+        "Assumes constant mass unless explicitly modeled otherwise.",
+        "Does not account for internal structural deformations."
+      ]
+    },
+    {
+      "id": "stemma:earth.accretion",
+      "type": "process",
+      "name": "accretion",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Accretion is the growth of a massive body as it gathers smaller particles or gas through gravity and collisions. It explains planet formation from dust disks, stellar growth, and the buildup of supermassive black holes.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/14-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/14-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Explaining growth history of supermassive galactic cores.",
+        "Reconstructing early solar system planetary assembly.",
+        "Understanding stellar evolution during pre-main-sequence phases."
+      ],
+      "limitations": [
+        "Ignores radiation pressure opposing gravitational pull.",
+        "Simplifies collisional dynamics in dense particle environments.",
+        "Does not fully model magnetic field interactions."
+      ]
+    },
+    {
+      "id": "stemma:earth.accretion-disk",
+      "type": "structure",
+      "name": "accretion disk",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "An accretion disk consists of a rotating structure composed primarily of gas and dust orbiting compact objects. Found around newborn stars or stellar remnants like black holes, these disks form when material spirals inward due to gravity before eventually falling onto the central body.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/24-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/24-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Modeling star formation within protoplanetary nebulae.",
+        "Studying black hole mass growth via radiation output.",
+        "Simulating planetesimal assembly in early solar systems."
+      ],
+      "limitations": [
+        "Assumes axisymmetric flow ignoring magnetic instabilities.",
+        "Neglects detailed chemical composition variations radially.",
+        "Simplified viscosity models may underestimate heating."
+      ]
+    },
+    {
+      "id": "stemma:earth.active-galactic-nuclei-agn",
+      "type": "structure",
+      "name": "active galactic nuclei (AGN)",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "advanced",
+      "status": "canonical",
+      "definition": "Active galactic nuclei are compact regions at galaxy centers that emit enormous amounts of energy, rivaling quasars in brightness. These objects produce abnormal luminosity through mechanisms involving supermassive black holes accreting matter within their dense cores.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/27-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/27-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Mapping cosmic evolution via quasar redshift surveys.",
+        "Studying jet formation mechanisms in radio galaxies.",
+        "Calibrating distance indicators using standard candle properties."
+      ],
+      "limitations": [
+        "Models assume steady-state accretion ignoring variability.",
+        "Simplifies complex magnetic field geometries near event horizons.",
+        "Observational biases limit detection of obscured nuclei."
+      ]
+    },
+    {
+      "id": "stemma:earth.active-galaxies",
+      "type": "system",
+      "name": "active galaxies",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Active galaxies are celestial systems that contain active galactic nuclei at their centers. Unlike typical spiral or elliptical galaxies, these objects exhibit intense radiation output driven by energetic processes occurring deep within their central regions.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/27-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/27-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Classifying galaxy populations via spectral energy distributions.",
+        "Investigating feedback effects on host galaxy star formation.",
+        "Tracing cosmic history through high-redshift samples."
+      ],
+      "limitations": [
+        "Classification relies heavily on optical selection biases.",
+        "Assumes single dominant power source per system.",
+        "Ignores multi-wavelength observational uncertainties."
+      ]
+    },
+    {
+      "id": "stemma:earth.active-region",
+      "type": "structure",
+      "name": "active region",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "An active region denotes a specific area on the Sun where magnetic fields become highly concentrated. Within these zones, solar phenomena such as sunspots, prominences, and flares frequently occur due to complex interactions between intense magnetic flux tubes.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/15-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/15-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Forecasting space weather impacts on satellites.",
+        "Monitoring communication disruptions during flares.",
+        "Understanding coronal mass ejection origins."
+      ],
+      "limitations": [
+        "Models simplify three-dimensional field topology.",
+        "Assumes uniform plasma conditions within regions.",
+        "Does not fully capture nanoflare heating effects."
+      ]
+    },
+    {
+      "id": "stemma:earth.adaptive-optics",
+      "type": "technique",
+      "name": "adaptive optics",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Adaptive optics are advanced systems integrated into telescopes to correct image distortions caused by Earth's atmosphere. By rapidly adjusting mirror shapes in response to atmospheric turbulence, these technologies restore sharpness and significantly improve the resolution of astronomical observations.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/6-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/6-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Enabling high-resolution imaging of exoplanets.",
+        "Improving laser guide star performance for astronomy.",
+        "Enhancing medical endoscopy through tissue distortion."
+      ],
+      "limitations": [
+        "Requires bright reference stars or lasers nearby.",
+        "Computationally intensive with latency constraints.",
+        "Limited effectiveness in highly turbulent conditions."
+      ]
+    },
+    {
+      "id": "stemma:earth.amino-acids",
+      "type": "material",
+      "name": "amino acids",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Amino acids are organic compounds that serve as the fundamental molecular building blocks for proteins. Each molecule contains an amino group and a carboxyl group, allowing them to link together via peptide bonds to form long chains essential for biological structure.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/30-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/30-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Synthesizing pharmaceuticals requiring specific sequences.",
+        "Analyzing extraterrestrial samples for life signs.",
+        "Developing nutritional supplements based on essential types."
+      ],
+      "limitations": [
+        "Ignores post-translational modification complexities.",
+        "Assumes standard genetic code universality.",
+        "Does not account racemization in ancient specimens."
+      ]
+    },
+    {
+      "id": "stemma:earth.angular-momentum",
+      "type": "concept",
+      "name": "angular momentum",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Angular momentum quantifies the rotational motion of an object based on its speed and mass distribution. This conserved quantity depends on how widely matter is spread around a rotation axis, remaining constant unless acted upon by external torques.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Explaining ice skater speed increase during arm pull-in.",
+        "Modeling planetary oblateness due to rapid rotation.",
+        "Designing gyroscopes for spacecraft attitude control."
+      ],
+      "limitations": [
+        "Neglects relativistic frame-dragging effects near black holes.",
+        "Assumes rigid body approximation ignoring fluid dynamics.",
+        "Does not fully model tidal torque exchanges."
+      ]
+    },
+    {
+      "id": "stemma:earth.anthropic-principle",
+      "type": "principle",
+      "name": "anthropic principle",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The anthropic principle suggests that observed physical laws are constrained by our existence. It posits that if the universe's constants differed even slightly, life could not evolve to measure them.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/29-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/29-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Cosmological model selection in theoretical physics",
+        "Designing experiments testing fundamental constant stability",
+        "Philosophical debates on scientific necessity"
+      ],
+      "limitations": [
+        "Lacks rigorous mathematical proof or falsifiability criteria.",
+        "Often criticized for circular reasoning in explanations."
+      ]
+    },
+    {
+      "id": "stemma:earth.aperture",
+      "type": "concept",
+      "name": "aperture",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An aperture represents the diameter of a telescope's primary lens or mirror. This dimension determines how much light enters the instrument, directly influencing image brightness and resolution.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/6-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/6-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing optical instruments for astronomy or photography",
+        "Optimizing camera sensor exposure in low-light conditions",
+        "Engineering satellite imaging systems"
+      ],
+      "limitations": [
+        "Larger apertures increase structural weight and cost.",
+        "Diffraction effects limit resolution regardless of size."
+      ]
+    },
+    {
+      "id": "stemma:earth.aphelion",
+      "type": "concept",
+      "name": "aphelion",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Aphelion marks the specific point in an orbit where a planet is farthest from the Sun. At this location, orbital velocity reaches its minimum for that particular trajectory.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Predicting seasonal temperature anomalies in eccentric orbits",
+        "Planning spacecraft fuel consumption near solar opposition",
+        "Analyzing climate patterns on non-circular worlds"
+      ],
+      "limitations": [
+        "Assumes negligible gravitational perturbations from other bodies.",
+        "Ignores relativistic effects for high-precision timing."
+      ]
+    },
+    {
+      "id": "stemma:earth.apogee",
+      "type": "concept",
+      "name": "apogee",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Apogee denotes the point in an Earth satellite's orbit where it is farthest from our planet. This position corresponds to the lowest orbital speed during that specific revolution.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing Molniya orbit communications satellites",
+        "Optimizing fuel efficiency during transfer maneuvers",
+        "Scheduling ground station contact windows"
+      ],
+      "limitations": [
+        "Orbit shape changes due to atmospheric drag or thrust.",
+        "Earth's oblateness alters ideal Keplerian paths."
+      ]
+    },
+    {
+      "id": "stemma:earth.apparent-brightness",
+      "type": "concept",
+      "name": "apparent brightness",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Apparent brightness measures the light received by Earth from a distant star or object. It describes how bright an entity appears in our sky, distinct from its intrinsic luminosity.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/17-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/17-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Calibrating photometric data for stellar surveys",
+        "Estimating distances using standard candles like Cepheids",
+        "Monitoring variable star brightness fluctuations"
+      ],
+      "limitations": [
+        "Sensitive to interstellar dust extinction effects.",
+        "Dependent on observer-specific atmospheric conditions."
+      ]
+    },
+    {
+      "id": "stemma:earth.apparent-magnitude",
+      "type": "concept",
+      "name": "apparent magnitude",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Apparent magnitude quantifies how bright a celestial object appears to an observer on Earth. This logarithmic scale indicates that larger numerical values correspond to dimmer objects, while smaller or negative numbers signify exceptionally bright sources like Venus.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/2-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/2-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Cataloging star catalogs like Hipparcos or Gaia",
+        "Public astronomy education on night sky visibility",
+        "Calibrating telescope exposure times"
+      ],
+      "limitations": [
+        "Scale varies slightly between visual and photometric bands.",
+        "Does not account for spectral energy distribution."
+      ]
+    },
+    {
+      "id": "stemma:earth.aurora",
+      "type": "phenomenon",
+      "name": "aurora",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An aurora represents light radiated by atoms and ions within the ionosphere when excited by charged particles arriving from the Sun. This phenomenon is predominantly observed in magnetic polar regions due to the specific interaction between solar wind and Earth's magnetospheric fields.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/15-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/15-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Space weather forecasting for satellite operations",
+        "Studying upper atmospheric chemistry and dynamics",
+        "Communicating with polar region travelers"
+      ],
+      "limitations": [
+        "Predictions rely on simplified solar wind models.",
+        "Visual observation limited by daylight interference."
+      ]
+    },
+    {
+      "id": "stemma:earth.big-bang",
+      "type": "concept",
+      "name": "Big Bang",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The Big Bang theory explains cosmological expansion originating from a primeval explosion involving space and time. This model posits that the universe began as an extremely hot, dense state before rapidly expanding.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/29-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/29-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Guiding deep-field telescope observation strategies",
+        "Informing cosmological parameter estimation efforts",
+        "Educating public on universe origins"
+      ],
+      "limitations": [
+        "Cannot describe conditions before Planck time epoch.",
+        "Does not explain initial singularity cause directly."
+      ]
+    },
+    {
+      "id": "stemma:earth.black-hole",
+      "type": "concept",
+      "name": "black hole",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "A black hole is a region in spacetime where gravity becomes so intense that escape is impossible. Even light cannot flee this area because the gravitational pull exceeds the speed of light within its event horizon.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/24-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/24-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Testing general relativity via stellar orbits",
+        "Developing high-energy astrophysics models",
+        "Planning future space-based interferometry missions"
+      ],
+      "limitations": [
+        "Direct imaging requires extreme resolution capabilities.",
+        "Internal structure remains theoretically uncertain."
+      ]
+    },
+    {
+      "id": "stemma:earth.comet",
+      "type": "concept",
+      "name": "comet",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A comet is a small icy body revolving around the Sun in an elongated orbit. As it approaches perihelion, solar heating vaporizes its ices to form a glowing coma and often spectacular tails that point away from the Sun due to radiation pressure.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/7-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/7-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Studying primordial solar system materials",
+        "Planning spacecraft rendezvous missions like Rosetta",
+        "Public outreach on periodic return events"
+      ],
+      "limitations": [
+        "Orbits perturb significantly due to planetary gravity.",
+        "Activity levels vary unpredictably between visits."
+      ]
+    },
+    {
+      "id": "stemma:earth.cosmological-principle",
+      "type": "principle",
+      "name": "cosmological principle",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "advanced",
+      "status": "canonical",
+      "definition": "The cosmological principle assumes that on large scales, the universe at any given time is identical everywhere. This fundamental concept implies that space is both isotropic and homogeneous throughout cosmic history.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/28-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/28-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Deriving Friedmann equations for universe expansion.",
+        "Standardizing cosmic microwave background analysis.",
+        "Simplifying large-scale structure simulations."
+      ],
+      "limitations": [
+        "Fails at small scales like galaxy clusters.",
+        "Assumes time-invariance which may not hold near Big Bang.",
+        "Breaks down in highly curved spacetime regions."
+      ]
+    },
+    {
+      "id": "stemma:earth.dark-energy",
+      "type": "concept",
+      "name": "dark energy",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Dark energy is a hypothetical force driving the accelerating expansion of our universe. The fundamental source or nature of this pervasive energy remains completely unknown to current physics.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/28-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/28-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Modeling universe fate scenarios like Big Freeze.",
+        "Analyzing supernova distance-redshift data.",
+        "Refining Lambda-CDM standard model parameters."
+      ],
+      "limitations": [
+        "Nature remains physically unidentified.",
+        "Equation of state parameter is poorly constrained.",
+        "May require modifications to general relativity."
+      ]
+    },
+    {
+      "id": "stemma:earth.dark-matter",
+      "type": "concept",
+      "name": "dark matter",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Dark matter constitutes nonluminous mass detectable solely through its gravitational influence on visible objects. Scientists have not yet identified the specific particles composing this mysterious substance that shapes galactic structures.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/25-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/25-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Predicting galaxy rotation curves accurately.",
+        "Simulating cluster collision dynamics.",
+        "Designing direct detection experiment targets."
+      ],
+      "limitations": [
+        "Direct interaction beyond gravity is unproven.",
+        "Particle identity remains elusive to experiments.",
+        "Alternative theories like MOND challenge existence."
+      ]
+    },
+    {
+      "id": "stemma:earth.doppler-effect",
+      "type": "phenomenon",
+      "name": "Doppler effect",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The Doppler effect describes the shift in radiation frequency caused by relative motion between source and observer. When an object moves away, wavelengths stretch to redshift; approaching objects compress waves into blueshift, allowing astronomers to measure stellar velocities.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A receding galaxy shows redshifted spectral lines.",
+        "An approaching ambulance siren sounds higher-pitched."
+      ],
+      "formal": {
+        "statement": "For motion much slower than light, the fractional wavelength shift equals the line-of-sight velocity divided by the speed of light.",
+        "equation": "Delta lambda / lambda = v / c",
+        "variables": [
+          {
+            "symbol": "lambda",
+            "meaning": "rest wavelength",
+            "unit": "m"
+          },
+          {
+            "symbol": "Delta lambda",
+            "meaning": "observed wavelength shift",
+            "unit": "m"
+          },
+          {
+            "symbol": "v",
+            "meaning": "line-of-sight velocity",
+            "unit": "m s^-1"
+          },
+          {
+            "symbol": "c",
+            "meaning": "speed of light",
+            "unit": "m s^-1"
+          }
+        ],
+        "conditions": [
+          "v much less than c",
+          "non-relativistic approximation"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Measuring stellar radial velocities in labs.",
+        "Determining galaxy recession rates cosmologically.",
+        "Analyzing blood flow via medical ultrasound."
+      ],
+      "limitations": [
+        "Requires known rest frequency reference.",
+        "Relativistic corrections needed at high speeds.",
+        "Transverse motion causes secondary redshift effects."
+      ]
+    },
+    {
+      "id": "stemma:earth.event-horizon",
+      "type": "concept",
+      "name": "event horizon",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "advanced",
+      "status": "canonical",
+      "definition": "An event horizon marks a boundary in spacetime where events inside cannot influence the outside world. It defines the region around a black hole beyond which curvature prevents any escape from its gravitational pull.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/24-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/24-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Predicting gravitational lensing patterns near BHs.",
+        "Modeling accretion disk emission limits.",
+        "Testing quantum gravity theories at boundaries."
+      ],
+      "limitations": [
+        "Classical singularity physics breaks down there.",
+        "Quantum effects may blur the sharp edge.",
+        "Observational confirmation remains indirect only."
+      ]
+    },
+    {
+      "id": "stemma:earth.exoplanet",
+      "type": "concept",
+      "name": "exoplanet",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "An exoplanet is any planet that orbits a star other than the Sun. These celestial bodies exist in diverse systems across our galaxy, often detected through indirect methods like transit photometry or radial velocity measurements of their host stars.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/14-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/14-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Searching for biosignatures in atmospheres.",
+        "Comparing solar system formation models.",
+        "Identifying potential colonization targets later."
+      ],
+      "limitations": [
+        "Bias toward massive, close-orbit planets detected.",
+        "Atmospheric composition hard to resolve directly.",
+        "False positives from stellar activity mimic signals."
+      ]
+    },
+    {
+      "id": "stemma:earth.kuiper-belt",
+      "type": "structure",
+      "name": "Kuiper belt",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The Kuiper belt constitutes a region of space located beyond Neptune that maintains dynamic stability similar to the asteroid belt. It serves as the primary source region for most short-period comets found in our solar system.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/13-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/13-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Explaining Oort cloud vs Kuiper dynamics.",
+        "Studying primordial solar nebula remnants.",
+        "Planning flyby mission trajectories safely."
+      ],
+      "limitations": [
+        "Density varies significantly radially outwardly.",
+        "Gravitational perturbations from giant planets alter orbits.",
+        "Observation limited by distance and brightness."
+      ]
+    },
+    {
+      "id": "stemma:earth.local-group",
+      "type": "system",
+      "name": "Local Group",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The gravitationally bound collection of galaxies that includes the Milky Way and Andromeda. It spans a few million light-years and is itself part of the larger Laniakea supercluster.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/28-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/28-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Mapping cosmic web filament structures locally.",
+        "Predicting Andromeda-Milky Way merger timeline.",
+        "Calibrating distance ladder rungs nearby."
+      ],
+      "limitations": [
+        "Boundaries defined by tidal disruption limits.",
+        "Membership status debated for distant dwarfs.",
+        "Expansion rate differs from Hubble flow here."
+      ]
+    },
+    {
+      "id": "stemma:earth.luminosity",
+      "type": "concept",
+      "name": "luminosity",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Luminosity measures the total rate at which an object emits electromagnetic energy into space. Unlike apparent brightness, this intrinsic property depends solely on the source power and distance-independent factors like stellar radius and surface temperature.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/17-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/17-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Determining star distances using standard candles.",
+        "Comparating energy output across spectral types.",
+        "Modeling binary system mass transfer rates."
+      ],
+      "limitations": [
+        "Requires accurate distance measurement first.",
+        "Variable stars complicate steady-state assumptions.",
+        "Interstellar dust extinction dims observed flux."
+      ]
+    },
+    {
+      "id": "stemma:earth.main-sequence",
+      "type": "concept",
+      "name": "main sequence",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The main sequence is a distinct band on the Hertzsprung–Russell diagram containing most known stars. It represents a stable phase where stars fuse hydrogen into helium in their cores, running diagonally from hot blue to cool red types.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/18-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/18-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Classifying unknown star evolutionary stages quickly.",
+        "Estimating cluster age via turn-off point.",
+        "Calibrating cosmological distance indicators reliably."
+      ],
+      "limitations": [
+        "Post-main-sequence evolution changes rapidly.",
+        "Mass loss alters position over long timescales.",
+        "Binary interactions distort single-star tracks."
+      ]
+    },
+    {
+      "id": "stemma:earth.meteor",
+      "type": "phenomenon",
+      "name": "meteor",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A meteor is a streak of light produced when solid space debris burns up in Earth's atmosphere. Often called shooting stars, these brief flashes result from friction heating small particles to incandescence before they completely disintegrate at high altitudes.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/7-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/7-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Predicting fireball visibility for public safety warnings.",
+        "Analyzing cosmic dust composition via spectral data."
+      ]
+    },
+    {
+      "id": "stemma:earth.nebula",
+      "type": "structure",
+      "name": "nebula",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A nebula consists of a vast cloud composed primarily of interstellar gas or dust. These structures often glow visibly in infrared light, serving as stellar nurseries where new stars frequently form.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/20-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/20-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Mapping stellar nurseries to understand galaxy evolution.",
+        "Designing infrared telescopes for deep space observation."
+      ]
+    },
+    {
+      "id": "stemma:earth.neutron-star",
+      "type": "concept",
+      "name": "neutron star",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "A neutron star is an ultra-dense stellar remnant composed primarily of neutrons. Its extreme density arises because gravity compresses atomic nuclei until protons and electrons merge, creating a core where nuclear matter exists in its most compact form.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/23-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/23-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Modeling gravitational wave signals from binary mergers.",
+        "Testing nuclear physics equations in high-density states."
+      ]
+    },
+    {
+      "id": "stemma:earth.oort-cloud",
+      "type": "structure",
+      "name": "Oort cloud",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The Oort cloud describes a large spherical region surrounding the Sun from which most new long-period comets originate. It acts as a reservoir containing objects with aphelia reaching approximately 50,000 astronomical units.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/13-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/13-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Predicting comet return times based on orbital mechanics.",
+        "Assessing potential impact risks from distant solar system bodies."
+      ]
+    },
+    {
+      "id": "stemma:earth.orbit",
+      "type": "concept",
+      "name": "orbit",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An orbit defines the curved path taken by an object revolving around another body. This trajectory results from a balance between gravitational attraction and the tangential velocity of the moving mass.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Calculating satellite launch windows for specific inclinations.",
+        "Designing interplanetary transfer trajectories like Hohmann arcs."
+      ]
+    },
+    {
+      "id": "stemma:earth.parsec",
+      "type": "concept",
+      "name": "parsec",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A parsec serves as a standard astronomical unit of distance, equivalent to approximately 3.26 light-years. It is defined by the geometric relationship where one arcsecond of parallax corresponds exactly to this specific length.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/19-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/19-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Standardizing distances for galactic catalog databases.",
+        "Calibrating stellar luminosity via the inverse square law."
+      ]
+    },
+    {
+      "id": "stemma:earth.planet",
+      "type": "concept",
+      "name": "planet",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A planet represents any substantial celestial body revolving around a star, such as the Sun. Historically, this term applied to objects moving regularly among fixed stars, whereas modern definitions require specific orbital and physical characteristics.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/2-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/2-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Classifying exoplanets detected by transit or radial velocity methods.",
+        "Comparing terrestrial versus gas giant atmospheric compositions."
+      ]
+    },
+    {
+      "id": "stemma:earth.pulsar",
+      "type": "concept",
+      "name": "pulsar",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "A highly magnetised, rapidly rotating neutron star whose beams of radiation sweep past Earth at regular intervals. The pulses are so steady that some pulsars rival atomic clocks as timing references.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/23-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/23-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Developing ultra-precise navigation systems for spacecraft.",
+        "Detecting gravitational waves via pulse arrival time variations."
+      ]
+    },
+    {
+      "id": "stemma:earth.quasar",
+      "type": "concept",
+      "name": "quasar",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "A quasar is an object of very high redshift that appears star-like but exists extragalactically with immense luminosity. Also known as a quasi-stellar object or QSO, it represents one of the brightest sources in the universe.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/27-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/27-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Studying black hole accretion processes in distant galaxies.",
+        "Mapping the large-scale structure of the observable universe."
+      ]
+    },
+    {
+      "id": "stemma:earth.redshift",
+      "type": "phenomenon",
+      "name": "redshift",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Redshift describes the displacement of spectral lines toward longer wavelengths, specifically near the red end. This phenomenon occurs when light sources recede from an observer due to cosmic expansion or relative motion.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/26-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/26-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Determining the age of light from distant galaxies.",
+        "Measuring the rate of universal cosmic expansion history."
+      ]
+    },
+    {
+      "id": "stemma:earth.solar-flare",
+      "type": "phenomenon",
+      "name": "solar flare",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "A solar flare is a sudden burst of electromagnetic radiation originating from active regions on the Sun. These explosive events release vast energy stored in magnetic fields, often accelerating particles that can disrupt satellite communications and power grids near Earth.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/15-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/15-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing resilient spacecraft shielding systems",
+        "Forecasting geomagnetic storm risks for aviation",
+        "Calibrating ground-based radio astronomy instruments"
+      ],
+      "limitations": [
+        "Models often assume simplified magnetic field geometries.",
+        "Predictions rely on incomplete real-time solar data.",
+        "Effects vary significantly with Earth's specific orbital position."
+      ]
+    },
+    {
+      "id": "stemma:earth.sunspot",
+      "type": "structure",
+      "name": "sunspot",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A sunspot is a temporary dark region on the solar surface caused by intense magnetic activity. These cooler areas inhibit convection, reducing heat flow and making them appear darker against the brighter photosphere while often signaling periods of high solar variability.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/15-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/15-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Monitoring solar cycle phases for climate studies",
+        "Calibrating stellar age estimates in exoplanet research",
+        "Assessing historical space weather reconstruction accuracy"
+      ],
+      "limitations": [
+        "Visual observation misses subsurface magnetic complexity.",
+        "Definitions vary across different spectral bands.",
+        "Small spots may be missed by low-resolution sensors."
+      ]
+    },
+    {
+      "id": "stemma:earth.telescope",
+      "type": "instrument",
+      "name": "telescope",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A telescope functions as an instrument designed to collect visible light or other electromagnetic radiation. It magnifies distant objects by gathering photons and focusing them for detailed observation.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/6-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/6-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Observing distant galaxies for cosmological research",
+        "Capturing high-resolution images of planetary surfaces",
+        "Detecting faint celestial objects via photon accumulation"
+      ],
+      "limitations": [
+        "Atmospheric turbulence limits ground-based resolution.",
+        "Optical designs struggle with extreme wavelengths.",
+        "Mechanical stability restricts tracking speed."
+      ]
+    },
+    {
+      "id": "stemma:earth.terrestrial-planet",
+      "type": "concept",
+      "name": "terrestrial planet",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A rocky planet with a solid silicate surface, a dense metal core, and little or no hydrogen-helium envelope. Mercury, Venus, Earth, and Mars are the Solar System examples.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/7-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/7-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Guiding robotic exploration mission targets",
+        "Modeling planetary formation in protoplanetary disks",
+        "Assessing potential for life on rocky worlds"
+      ],
+      "limitations": [
+        "Surface conditions differ drastically between members.",
+        "Internal structures are inferred, not directly seen.",
+        "Definitions exclude icy moons or gas giants."
+      ]
+    },
+    {
+      "id": "stemma:earth.white-dwarf",
+      "type": "concept",
+      "name": "white dwarf",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The dense, Earth-sized remnant left after a low-mass star has shed its outer layers and stopped fusion. It is supported by electron degeneracy pressure and slowly cools over billions of years.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/18-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/18-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Determining ages of star clusters via luminosity",
+        "Studying Type Ia supernova progenitor systems",
+        "Analyzing gravitational wave sources in binaries"
+      ],
+      "limitations": [
+        "Standard models ignore complex magnetic fields.",
+        "Crustal composition varies by formation history.",
+        "Accretion disks alter standard cooling predictions."
+      ]
+    }
+  ],
+  "connections": []
+}

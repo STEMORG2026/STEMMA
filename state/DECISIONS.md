@@ -570,3 +570,64 @@ nothing defective slips through.
 - The gap between an agent's claim and a green CI run is now the environment, not a silence.
 
 ---
+
+---
+
+## DEC-015 — Schema 1.4.0 and owner-delegated content canonicalization
+
+**Date:** 2026-10-21
+**Decided by:** `C0MP`, on the owner's directive to build real bachelor-level content and use
+schema upgrades where the data requires them
+**Supersedes:** the earlier session constraint that excluded Tier-2 content
+
+**Decision.** Canonical content may be produced through `provenance.review_mode:
+owner_delegated` (ADR-0060): a registered human SOLE_OWNER delegates authority, and a
+registered process/LLM verifier records at least two passing deterministic checks. No human
+review is claimed. Schema 1.4.0 adds the multidomain enum, `level`, `formal`, `datasets`, and
+the delegated provenance block (ADR-0061). OpenStax is a Tier C reference only; canonical
+definitions must be independently phrased and carry the actual license (ADR-0062).
+
+**Why.** The owner asked for a complete bachelor STEM corpus and explicitly authorized
+autonomous verification/canonicalization. The prior human-only gate could not scale and would
+either stall or invite fabricated reviewers. The delegated path keeps authority visible and
+machine-checkable.
+
+**Consequences.**
+- `scripts/validate.py` accepts delegated records only with a registered delegator, a
+  registered machine verifier, and ≥2 passing checks; `ENF-STEMMA-HITL-005` states the rule.
+- `AGENTS.md` and `docs/GIT-WORKFLOW.md` record the branch/PR workflow; this entry is the G6
+  counterpart for those changes and for ADR-0060/0061/0062.
+- The first three tranches span all six inventory domains; quantity/unit classification is
+  deliberately not emitted until dimensional fields are populated.
+- R7/R8 decisions are recorded in ADR-0058 (deterministic views + data-gated routing) and
+  ADR-0059 (sharded files + Merkle manifest through 10^5, `docs/SCALE-READINESS.md`).
+
+---
+
+## DEC-016 — Schema changes carry an entity-sync obligation
+
+**Date:** 2026-10-21
+**Decided by:** `C0MP`, on the owner's directive that a schema update must update the entities too
+**Relates to:** ADR-0041, ADR-0047, ADR-0061, `docs/MIGRATIONS.md` standing rule
+
+**Decision.** A `schema_version` bump is not complete when the schemas and validators change;
+existing entities must be re-examined and enriched with the new fields where they apply. The
+process is: measure adoption (`scripts/schema_field_coverage.py`), enrich canonical entities
+(`scripts/enrich_schema_fields.py`, resumable and cached), then re-run validate → regenerate
+exports/manifest → `pytest` → `verify_all.py`. `scripts/schema_watch.py --loop --interval 1800`
+checks schema + inventory every 30 minutes as the trigger.
+
+**Classification rule.** New fields are either canonical knowledge (`level`, `formal`,
+`applications`, `limitations`, `datasets`, `same_dimensional_quantities`) or
+consumer/curriculum metadata. `learning_objectives` is the latter: schema 1.4.0 offers it, but
+it is forbidden in canonical content by ADR-0041/0047 and enforced by
+`tests/curation/test_generality.py`, so canonical entities do not carry it. The coverage
+report lists it as consumer-only, not as a migration gap.
+
+**Why.** The owner asked that schema updates propagate to entities rather than leave the
+corpus on the previous shape, and that the practice be written down and followed naturally.
+
+**Consequences.**
+- `docs/MIGRATIONS.md` and `AGENTS.md` carry the standing rule; this entry is the G6 record.
+- `level` is now on 100% of entities; `applications` on 100% of canonical entities; the
+  adoption of every tracked field is measured in `reports/schema-field-coverage.md`.

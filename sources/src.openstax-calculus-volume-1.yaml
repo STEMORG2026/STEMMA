@@ -1,0 +1,41 @@
+id: stemma:src.openstax-calculus-volume-1
+type: textbook
+citation: Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath,
+  Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William
+  Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David
+  McCune (2016). Calculus Volume 1. OpenStax. https://openstax.org/books/calculus-volume-1
+title: Calculus Volume 1
+authors:
+- Gilbert Strang
+- Joseph Lakey
+- Elaine A. Terry
+- Alfred K. Mulzet
+- Sheri J. Boyd
+- Joyati Debnath
+- Michelle Merriweather
+- David Smith
+- Nicoleta Virginia Bila
+- Valeree Falduto
+- Kirsten R. Messer
+- William Radulovich
+- Erica M. Rutter
+- David Torain
+- Edwin “Jed” Herman
+- Catherine Abbott
+- Julie Levandosky
+- David McCune
+year: '2016'
+publisher: OpenStax
+isbn: 978-1-947172-13-5
+url: https://openstax.org/books/calculus-volume-1
+language: en
+source_role: secondary
+accessed_at: '2026-10-20'
+retrieved_at: '2026-10-20'
+writer: process:openstax-importer.v1
+license: Creative Commons Attribution-NonCommercial-ShareAlike License 4.0
+locator_authority: OpenStax
+rights:
+  license: Creative Commons Attribution-NonCommercial-ShareAlike License (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+  attribution: OpenStax, Calculus Volume 1. Used as a Tier C reference for term discovery and factual
+    verification; canonical definitions are independently phrased.

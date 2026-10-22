@@ -16,14 +16,14 @@
 | `A7F3` | `20261001-1215-A7F3-cold-start-handoff` | 2026-10-01T12:15Z | Verify a cold clone can continue from `state/`, fix the cold-start gaps, sweep the chain for sibling silent-skip paths, incorporate MACP Amendment 1, and correct the FAISS mislabel | — | **COMPLETED** |
 | `A7F3` | `20261001-2339-A7F3-protocol-startup` | 2026-10-01T23:39Z | Startup sequence (steps 1-10); then, on owner instruction, design and implement the MACP gate set and make session-state sync a blocking pre-push gate | — | **COMPLETED** |
 | `A7F3` | `20261002-0130-A7F3-start-time-enforcement` | 2026-10-02T01:30Z | Move MACP enforcement from publish time to start time: a STEP 8 verification receipt that gates registration, gated `macp_log.py`, receipt required by the sync gate, and REGISTRATION promoted to STARTUP step 1 | — | **COMPLETED** |
+| `R6A1` | `20261002-0534-R6A1-protocol-enforcement-review` | 2026-10-02T05:34Z | Review MACP enforcement and recommend an overhaul or targeted changes; no implementation | — | **COMPLETED** |
+| `C0MP` | `20261020-2333-C0MP-complete-stemma` | 2026-10-20T23:33Z | Complete infrastructure and build verified bachelor-level canonical STEM content under ADR-0060; reconcile state/docs and keep gates green | `scripts/*`, `tests/**`, `docs/*.md`, `docs/decisions/*.md`, `docs/docs-contract.yaml`, `exports/**`, `reports/*`, `state/**`, `PROGRESS.md`, `README.md`, `AGENTS.md`, `Makefile`, `.gitignore`, `explorer/**`, `schema/**`, `spec/**`, `content/**`, `connections/**`, `sources/**`, `.workbuddy-ai/**` | **IN-PROGRESS** |
 
-**No agent is currently active.** `files_owned` is empty for every row, so any file is free to
-claim. Begin with `state/STARTUP.md`, the authoritative sequence (v1.2).
+**No agent was active between R6A1 and C0MP.** R6A1 was an orphaned phase-A registration:
+no branch, base commit, files, receipt, or work. It was closed administratively on
+2026-10-20 during reconciliation (see its session file).
 
-> The most recent session, `20261002-0130-A7F3-start-time-enforcement`, is `COMPLETED` — closed
-> on the **owner's** instruction (DEC-007, N4). It is the most recent session, so
-> `scripts/macp_sync_gate.py` still verifies its record against git — closing a session does not
-> put it beyond the sync check.
+> The preceding session, `20261002-0130-A7F3-start-time-enforcement`, remains `COMPLETED` on the owner's instruction (DEC-007, N4). This is a new objective, not a reopening.
 
 ---
 
@@ -34,6 +34,7 @@ MACP requires **4 alphanumeric characters**. Existing IDs:
 | id | Notes |
 |---|---|
 | `A7F3` | This agent. Corresponds to **`llm:coding-agent.001`** in STEMMA canonical provenance (`content/**` frontmatter `provenance.writer` / `provenance.reviewer`). |
+| `C0MP` | Completion session. Uses the machine identity `process:deterministic-draft.v1` for generated artifacts; performs no Tier-2 human review. |
 
 Keep the MACP id and the STEMMA provenance id aligned, so a `state/` session can be traced
 to the canonical records it touched. When you register, add your own row here mapping your

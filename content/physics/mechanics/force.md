@@ -5,6 +5,7 @@ name: Force
 domain: physics
 subdomain: mechanics
 status: draft
+level: intermediate
 definition: 'Force is the derived physical quantity of mechanical interaction: the
   net force on a body equals the time rate of change of its linear momentum, F = dp/dt
   (Newton, Principia Lex II); for constant mass this reduces to F = m a. Force is

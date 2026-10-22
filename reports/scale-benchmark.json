@@ -1,0 +1,26 @@
+{
+  "dataset": "scale-10000",
+  "derived": {
+    "bytes_per_entity": 454.5,
+    "content_bytes": 4545005,
+    "records_read": 10000,
+    "status_per_second": 152260.7,
+    "written_per_second": 40036.9
+  },
+  "entities": 10000,
+  "limits": [
+    "single local filesystem and git version; timings vary by machine",
+    "synthetic entities are smaller than fully sourced records",
+    "no export, JSON-LD, SHACL, or ZIP bundle step is measured"
+  ],
+  "repeats": 3,
+  "timings_seconds": {
+    "edit_sample": 0.0039,
+    "git_add": 0.2176,
+    "git_commit": 0.0844,
+    "git_diff_stat_median": 0.011,
+    "git_status_median": 0.0657,
+    "validation_shaped_read_median": 0.122,
+    "write_files": 0.2498
+  }
+}

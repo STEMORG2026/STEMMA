@@ -4,7 +4,7 @@
 > agent cannot clear by itself. If an agent *can* clear it, it is not a blocker — it is
 > a task.
 >
-> **Current count: 2 actionable · 2 parked · 0 technical.**  (BLK-001 and BLK-004 cleared
+> **Current count: 5 actionable · 2 parked · 0 technical.**  (BLK-001 and BLK-004 cleared
 > 2026-10-01; BLK-007 is a closed self-reported protocol violation, kept as a record.)
 
 ---
@@ -257,3 +257,14 @@ _(none yet)_
 There are **no technical blockers**. Gates are green on all four layers, no conflicting
 agent holds a needed file, and `state/conflicts/` holds one boundary question that does not
 stop work. The three items above are all human-authority waits, not defects.
+
+### BLK-008 — `ENF-STEMMA-HITL-005` needs owner ratification
+
+**Status:** **OPEN** (agent-authored Tier-2 rule)
+**Unblocks when:** the owner confirms the delegated-canonicalization enforcement rule, or
+replaces it with a different gate.
+
+The agent added `ENF-STEMMA-HITL-005` to `spec/machine-readable/enforcement_rules.yaml` while
+implementing ADR-0060. The rule is enforced in code and tested, but the spec is Tier 2; this
+entry keeps the Tier-2 change visible until the owner ratifies it. It does not block content
+work because the same condition is already enforced by `scripts/validate.py`.

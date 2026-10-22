@@ -1,8 +1,8 @@
 {
   "export_version": "2.2.0",
-  "schema_version": "1.3.0",
+  "schema_version": "1.4.0",
   "policy": "type:unit",
-  "content_hash": "sha256:df7943c4e08e53620f6169cce4b58f99b6371f362d1833b355d32fd5656944f9",
+  "content_hash": "sha256:d98304ee3f9efabf81443d52d40d7486debc76b900c65c9747122659aa628bac",
   "source": "content/ + connections/ + sources/ (canonical)",
   "entity_count": 3,
   "connection_count": 1,
@@ -14,6 +14,7 @@
       "domain": "physics",
       "subdomain": "measurement-units",
       "status": "draft",
+      "level": "foundational",
       "definition": "The kilogram (symbol: kg) is the SI base unit of mass. It is defined by taking the fixed numerical value of the Planck constant h to be exactly 6.62607015e-34 when expressed in the unit joule second, J s, which is equal to kg m2 s-1, where the metre and the second are defined in terms of c and ΔνCs. Exact per BIPM definition of the kilogram (SI Brochure 9th ed., 2019, §2.3.1.2; the text of the 26th CGPM 2018, Resolution 1).",
       "symbol": "kg",
       "unit": "kilogram (kg)",
@@ -54,6 +55,7 @@
       "domain": "physics",
       "subdomain": "measurement-units",
       "status": "canonical",
+      "level": "foundational",
       "definition": "The metre (symbol: m) is the base unit of length in the International System of Units (SI). It is scientifically defined as the length of the path travelled by light in a vacuum during a time interval of 1/299,792,458 of a second. Exact: c=299,792,458 m/s. Agreed per BIPM SI Brochure 9th ed. 2019 redefinition, fixing c exact.",
       "symbol": "m",
       "unit": "metre (m)",
@@ -141,7 +143,11 @@
         "cleared_stage": "validator",
         "cleared_at": "2026-10-01T01:22:05.740837+00:00",
         "clearance_evidence": "connection obligation satisfied: conn.000156 exists and is canonical under the waived chain (validator -> independent_validator). Debt incurred 2026-10-01, cleared 2026-10-01."
-      }
+      },
+      "applications": [
+        "Standardizing global scientific measurements and engineering tolerances.",
+        "Calibrating laser ranging instruments for geodesy."
+      ]
     },
     {
       "id": "stemma:phys.second",
@@ -150,6 +156,7 @@
       "domain": "physics",
       "subdomain": "measurement-units",
       "status": "draft",
+      "level": "foundational",
       "definition": "The second (symbol: s) is the SI base unit of time. It is defined by taking the fixed numerical value of the caesium frequency ΔνCs, the unperturbed ground-state hyperfine transition frequency of the caesium-133 atom, to be exactly 9,192,631,770 when expressed in the unit hertz, which is equal to s-1. Exact per BIPM definition of the second (SI Brochure 9th ed., 2019, §2.3.1.1; the text of the 26th CGPM 2018, Resolution 1).",
       "symbol": "s",
       "unit": "second (s)",

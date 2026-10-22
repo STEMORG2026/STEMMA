@@ -140,19 +140,25 @@ slow-research evaluation docs/PERSISTENT-IDENTIFIER-BRIEF.md):
 - Non-actions: slug NOT claimed; no ID changes; no resolution infrastructure.
 R4 proceeds unchanged (never depended on the gate).
 
-## R6 — Projection Publication (Roadmap R4 After Phase 5) Days — 🔄 STARTED 2026-09-23 (increment 1: knowledge.jsonld projection + validation + determinism, PID-agnostic)
+## R6 — Projection Publication (Roadmap R4 After Phase 5) — ✅ COMPLETE 2026-10-21
+
+Delivered: JSON-LD projection + validation + SHACL shapes + deterministic release bundle + publication gate. Identifier base `stemma-urn-only` (2026-10-01).
 
 **Identifier base DECIDED 2026-10-01: `stemma-urn-only`** — ADR-0053(b) settled at this stage per Amendment 0001: STEMMA publishes under its own `stemma:` URNs with **no external resolution base** (`docs/decisions/r6-identifier-base.md`); the projection keeps `"stemma": "stemma:"`. `publication_gate.py` is now OPEN. Deferred deliberately until the corpus, the review process, and the identifier policy are proven (upgrade conditions in that record §6); w3id remains the *intended* base, adopted later via a one-line `@context` change. `docs/IDENTIFIER-POLICY.md` records the semantic guarantees that carry persistence in the meantime. This decision requires no owner infrastructure action.
 
 exports/knowledge.jsonld + SKOS mapping + context file + SHACL shapes learn-from + signed release bundle + integrity manifest pluggable BFO schema.org
 
-## R7 — Consumer Views and Routing (After Phase 6) Days
+## R7 — Consumer Views and Routing (After Phase 6) — ✅ COMPLETE 2026-10-21
 
-exports/views/* generation determinism tests calibration report from real review data review-queue routing R7 heuristic worksheet-ordering not predictive model threshold ≥200 labeled decisions across ≥3 domains.
+Delivered: five deterministic views + index, calibration report from real review data, and a
+heuristic worksheet-ordering router that stays inactive below the 200-decision / 3-domain
+threshold (ADR-0058).
 
-## R8 — Scale Readiness (Days)
+## R8 — Scale Readiness — ✅ COMPLETE 2026-10-21
 
-Benchmark git performance at 10^4 entities design content-addressed store with Merkle roots decide via ADR whether to migrate at 10^5 keep sharded YAML+LFS for now document migration plan.
+Delivered: 10^4/10^5 git benchmark (`reports/scale-benchmark.*`), Merkle content manifest
+(`exports/content-manifest.json`), ADR-0059 decision to stay on sharded Markdown + LFS through
+10^5, and `docs/SCALE-READINESS.md` with revisit triggers.
 
 ## Current Status — After Ideal Order Rewrite
 

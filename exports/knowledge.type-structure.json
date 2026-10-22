@@ -1,0 +1,2342 @@
+{
+  "export_version": "2.2.0",
+  "schema_version": "1.4.0",
+  "policy": "type:structure",
+  "content_hash": "sha256:d98304ee3f9efabf81443d52d40d7486debc76b900c65c9747122659aa628bac",
+  "source": "content/ + connections/ + sources/ (canonical)",
+  "entity_count": 29,
+  "connection_count": 0,
+  "entities": [
+    {
+      "id": "stemma:bio.a-horizon",
+      "type": "structure",
+      "name": "A horizon",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The A horizon represents a soil layer consisting of organic material mixed with weathered mineral products. This zone typically exhibits distinct coloration due to the accumulation of humus and leached clay particles from upper layers.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/31-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/31-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Guiding sustainable agricultural land management practices.",
+        "Assessing nutrient availability for crop growth."
+      ]
+    },
+    {
+      "id": "stemma:bio.abdominal-aorta",
+      "type": "structure",
+      "name": "abdominal aorta",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The abdominal aorta is the portion of the main artery situated below the diaphragm and above the common iliac arteries. It serves as the primary vessel distributing oxygenated blood to organs within the abdomen and pelvis.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Surgical planning for aneurysm repair or organ transplantation.",
+        "Diagnosing vascular diseases affecting pelvic blood flow."
+      ]
+    },
+    {
+      "id": "stemma:bio.abdominopelvic-cavity",
+      "type": "structure",
+      "name": "abdominopelvic cavity",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The abdominopelvic cavity is a major division of the anterior body cavity housing abdominal and pelvic viscera. It encompasses both the abdomen proper and the pelvis, separated by an imaginary line between the hip bones.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Clinical diagnosis of internal injuries or infections in trauma cases.",
+        "Surgical approaches for accessing digestive or reproductive systems."
+      ]
+    },
+    {
+      "id": "stemma:bio.abducens-nerve",
+      "type": "structure",
+      "name": "abducens nerve",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The abducens nerve is the sixth cranial nerve responsible for controlling specific extraocular muscles. Its primary function involves contracting a muscle that moves the eye laterally away from its resting position.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Neurological assessment for stroke or tumor affecting eye muscles.",
+        "Rehabilitation therapy restoring gaze after nerve damage."
+      ]
+    },
+    {
+      "id": "stemma:bio.abductor-digiti-minimi",
+      "type": "structure",
+      "name": "abductor digiti minimi",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The abductor digiti minimi is a specific muscle located in the hand that moves the little finger away from the midline. It originates on the pisiform bone and inserts onto the fifth metacarpal to enable abduction of this digit.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Treating carpal tunnel syndrome or trigger thumb conditions.",
+        "Rehabilitating grip strength after tendon repairs."
+      ]
+    },
+    {
+      "id": "stemma:bio.abductor-pollicis-brevis",
+      "type": "structure",
+      "name": "abductor pollicis brevis",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The abductor pollicis brevis is a superficial muscle in the thenar eminence that moves the thumb away from the palm. It originates on the scaphoid and trapezium bones to facilitate abduction of the first digit.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Surgical repair of de Quervain's tenosynovitis affecting wrist movement.",
+        "Assessing nerve compression in carpals impacting hand function."
+      ]
+    },
+    {
+      "id": "stemma:bio.abductor-pollicis-longus",
+      "type": "structure",
+      "name": "abductor pollicis longus",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The abductor pollicis longus is a deep muscle that moves the thumb away from the plane of the palm. It inserts into the first metacarpal bone to assist in abduction and extension during grasping motions.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Treating radial nerve palsy affecting thumb mobility in trauma cases.",
+        "Rehabilitating grip strength after wrist fractures or ligament tears."
+      ]
+    },
+    {
+      "id": "stemma:bio.cell-membrane",
+      "type": "structure",
+      "name": "cell membrane",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The cell membrane surrounds all animal cells with a lipid bilayer interspersed with various functional molecules. Also known as the plasma membrane, it regulates material exchange and maintains cellular integrity against external environments.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Developing drug delivery systems targeting specific cells.",
+        "Understanding antibiotic mechanisms disrupting bacterial membranes."
+      ]
+    },
+    {
+      "id": "stemma:bio.chromosome",
+      "type": "structure",
+      "name": "chromosome",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A chromosome is a distinct structure located within the nucleus comprising condensed chromatin. It contains DNA sequences that carry genetic information necessary for inheritance and cellular function.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/4-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Mapping disease-causing mutations in genomes.",
+        "Breeding plants with desirable agricultural characteristics."
+      ]
+    },
+    {
+      "id": "stemma:bio.cytoplasm",
+      "type": "structure",
+      "name": "cytoplasm",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Cytoplasm fills the entire region between the plasma membrane and nuclear envelope within a cell. It consists of organelles suspended in gel-like cytosol, supported by the cytoskeleton and various dissolved chemicals essential for life.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/4-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Understanding cell structure in tissue engineering models.",
+        "Analyzing metabolic pathways occurring outside the nucleus."
+      ]
+    },
+    {
+      "id": "stemma:bio.mitochondrion",
+      "type": "structure",
+      "name": "mitochondrion",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A mitochondrion is a membrane-bound organelle enclosed by a double lipid bilayer that generates cellular energy in the form of ATP. Often called the powerhouse, it converts nutrients into usable chemical energy through oxidative phosphorylation processes.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Investigating mitochondrial diseases causing muscle weakness.",
+        "Engineering biofuels using enhanced energy production pathways."
+      ]
+    },
+    {
+      "id": "stemma:bio.neuron",
+      "type": "structure",
+      "name": "neuron",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A neuron is a specialized excitable cell designed to receive, process, and transmit electrical or chemical signals throughout the nervous system. These cells form intricate networks that enable rapid communication between different parts of an organism's body.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/35-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing brain-computer interfaces for prosthetics.",
+        "Treating neurological disorders via synaptic modulation."
+      ]
+    },
+    {
+      "id": "stemma:bio.organelle",
+      "type": "structure",
+      "name": "organelle",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A membrane-bound or structurally distinct compartment inside a cell that carries out a specialized function. Examples include mitochondria for energy conversion, ribosomes for protein synthesis, and the nucleus for storing genetic material.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Engineering synthetic cells for biomanufacturing.",
+        "Targeting mitochondria in metabolic disease research."
+      ]
+    },
+    {
+      "id": "stemma:bio.ribosome",
+      "type": "structure",
+      "name": "ribosome",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The ribosome is a cellular structure responsible for synthesizing proteins by translating genetic instructions from messenger RNA. Acting as the cell's primary protein factory, it ensures that essential enzymes and structural components are produced accurately.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/4-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Producing insulin via recombinant DNA technology.",
+        "Designing antibiotics that target bacterial ribosomes."
+      ]
+    },
+    {
+      "id": "stemma:chem.active-electrode",
+      "type": "structure",
+      "name": "active electrode",
+      "domain": "chemistry",
+      "subdomain": "general",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "An active electrode functions as a direct participant in the redox chemistry of an electrochemical cell, acting either as a reactant or product. Consequently, its physical mass diminishes or increases throughout the reaction process due to material consumption or deposition.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-chemistry-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Chemistry 2e (2019), OpenStax. Term locator: https://openstax.org/books/chemistry-2e/pages/17-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Flowers, Don Frantz, Paul Hooker, George Kaminski, Jennifer Look, Carol Martinez, Andrew Eklund, Mark Blaser, Klaus Theopold, Richard Langley, Tom Sorensen, Allison Soult, Troy Milliken, Vicki Moravec, Jason Powell, Emad El-Giar, Simon Bott, Don Carpenetti, William R. Robinson, PhD",
+        "link": "https://openstax.org/books/chemistry-2e/pages/17-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Manufacturing aluminum via molten salt electrolysis using carbon anodes.",
+        "Designing rechargeable batteries with lithium metal electrodes.",
+        "Constructing sacrificial anode corrosion protection systems."
+      ],
+      "limitations": [
+        "Electrode lifespan is limited by material consumption rates.",
+        "Performance degrades if passivation layers form on the surface.",
+        "Not suitable for applications requiring constant electrode geometry."
+      ]
+    },
+    {
+      "id": "stemma:earth.accretion-disk",
+      "type": "structure",
+      "name": "accretion disk",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "An accretion disk consists of a rotating structure composed primarily of gas and dust orbiting compact objects. Found around newborn stars or stellar remnants like black holes, these disks form when material spirals inward due to gravity before eventually falling onto the central body.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/24-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/24-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Modeling star formation within protoplanetary nebulae.",
+        "Studying black hole mass growth via radiation output.",
+        "Simulating planetesimal assembly in early solar systems."
+      ],
+      "limitations": [
+        "Assumes axisymmetric flow ignoring magnetic instabilities.",
+        "Neglects detailed chemical composition variations radially.",
+        "Simplified viscosity models may underestimate heating."
+      ]
+    },
+    {
+      "id": "stemma:earth.active-galactic-nuclei-agn",
+      "type": "structure",
+      "name": "active galactic nuclei (AGN)",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "advanced",
+      "status": "canonical",
+      "definition": "Active galactic nuclei are compact regions at galaxy centers that emit enormous amounts of energy, rivaling quasars in brightness. These objects produce abnormal luminosity through mechanisms involving supermassive black holes accreting matter within their dense cores.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/27-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/27-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Mapping cosmic evolution via quasar redshift surveys.",
+        "Studying jet formation mechanisms in radio galaxies.",
+        "Calibrating distance indicators using standard candle properties."
+      ],
+      "limitations": [
+        "Models assume steady-state accretion ignoring variability.",
+        "Simplifies complex magnetic field geometries near event horizons.",
+        "Observational biases limit detection of obscured nuclei."
+      ]
+    },
+    {
+      "id": "stemma:earth.active-region",
+      "type": "structure",
+      "name": "active region",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "An active region denotes a specific area on the Sun where magnetic fields become highly concentrated. Within these zones, solar phenomena such as sunspots, prominences, and flares frequently occur due to complex interactions between intense magnetic flux tubes.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/15-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/15-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Forecasting space weather impacts on satellites.",
+        "Monitoring communication disruptions during flares.",
+        "Understanding coronal mass ejection origins."
+      ],
+      "limitations": [
+        "Models simplify three-dimensional field topology.",
+        "Assumes uniform plasma conditions within regions.",
+        "Does not fully capture nanoflare heating effects."
+      ]
+    },
+    {
+      "id": "stemma:earth.kuiper-belt",
+      "type": "structure",
+      "name": "Kuiper belt",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The Kuiper belt constitutes a region of space located beyond Neptune that maintains dynamic stability similar to the asteroid belt. It serves as the primary source region for most short-period comets found in our solar system.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/13-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/13-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Explaining Oort cloud vs Kuiper dynamics.",
+        "Studying primordial solar nebula remnants.",
+        "Planning flyby mission trajectories safely."
+      ],
+      "limitations": [
+        "Density varies significantly radially outwardly.",
+        "Gravitational perturbations from giant planets alter orbits.",
+        "Observation limited by distance and brightness."
+      ]
+    },
+    {
+      "id": "stemma:earth.nebula",
+      "type": "structure",
+      "name": "nebula",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A nebula consists of a vast cloud composed primarily of interstellar gas or dust. These structures often glow visibly in infrared light, serving as stellar nurseries where new stars frequently form.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/20-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/20-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Mapping stellar nurseries to understand galaxy evolution.",
+        "Designing infrared telescopes for deep space observation."
+      ]
+    },
+    {
+      "id": "stemma:earth.oort-cloud",
+      "type": "structure",
+      "name": "Oort cloud",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The Oort cloud describes a large spherical region surrounding the Sun from which most new long-period comets originate. It acts as a reservoir containing objects with aphelia reaching approximately 50,000 astronomical units.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/13-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/13-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Predicting comet return times based on orbital mechanics.",
+        "Assessing potential impact risks from distant solar system bodies."
+      ]
+    },
+    {
+      "id": "stemma:earth.sunspot",
+      "type": "structure",
+      "name": "sunspot",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A sunspot is a temporary dark region on the solar surface caused by intense magnetic activity. These cooler areas inhibit convection, reducing heat flow and making them appear darker against the brighter photosphere while often signaling periods of high solar variability.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/15-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/15-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Monitoring solar cycle phases for climate studies",
+        "Calibrating stellar age estimates in exoplanet research",
+        "Assessing historical space weather reconstruction accuracy"
+      ],
+      "limitations": [
+        "Visual observation misses subsurface magnetic complexity.",
+        "Definitions vary across different spectral bands.",
+        "Small spots may be missed by low-resolution sensors."
+      ]
+    },
+    {
+      "id": "stemma:eng.stack",
+      "type": "structure",
+      "name": "stack",
+      "domain": "engineering",
+      "subdomain": "computer",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A stack is a linear data structure used primarily for storing local variables during function execution. It operates on the Last-In-First-Out principle, where elements are added and removed from the same end known as the top.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-introduction-computer-science"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Introduction to Computer Science (2024), OpenStax. Term locator: https://openstax.org/books/introduction-computer-science/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Dr. Jean-Claude Franchitti, Amal Alhosban, Mark Buckler, Joanna Gilberti, Scott Gray, Matthew Hertz, Andrew Hurd, Kevin Lin, Sai Mukkavilli, Phuc (Brian) Nguyen, Shahab Tayeb, Zdeněk Troníček, Kevin Wortman, Mohamed Zahran",
+        "link": "https://openstax.org/books/introduction-computer-science/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Managing function call frames during program execution.",
+        "Implementing undo mechanisms in text editors or games.",
+        "Parsing nested expressions like parentheses in compilers."
+      ],
+      "limitations": [
+        "Fixed size limits maximum number of stored items.",
+        "Cannot access arbitrary elements without sequential traversal.",
+        "Stack overflow occurs if recursion depth is excessive."
+      ]
+    },
+    {
+      "id": "stemma:math.conic-section",
+      "type": "structure",
+      "name": "conic section",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A conic section represents any curve created by slicing a double-napped cone with an intersecting plane. The resulting shapes include circles, ellipses, parabolas, and hyperbolas depending on the angle of intersection relative to the axis.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-2/pages/7-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "William Radulovich, Erica M. Rutter, David Smith, Gilbert Strang, Kirsten R. Messer, Alfred K. Mulzet, Nicoleta Virginia Bila, Sheri J. Boyd, Joyati Debnath, Edwin “Jed” Herman, Valeree Falduto, Elaine A. Terry, David Torain, Michelle Merriweather, Catherine Abbott, Joseph Lakey, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-2/pages/7-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing satellite dishes using parabolic shapes.",
+        "Mapping planetary orbits as elliptical paths."
+      ]
+    },
+    {
+      "id": "stemma:math.ellipse",
+      "type": "structure",
+      "name": "ellipse",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An ellipse is defined as the collection of all points in a plane where the sum of distances to two fixed foci remains constant. This geometric locus forms an oval shape that generalizes the properties found within circular figures.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/10-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/10-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "Planetary orbits are ellipses with the Sun at one focus.",
+        "A whispering gallery has an elliptical ceiling."
+      ],
+      "formal": {
+        "statement": "An ellipse is the locus of points whose distances to two fixed foci have a constant sum.",
+        "equation": "x^2 / a^2 + y^2 / b^2 = 1",
+        "variables": [
+          {
+            "symbol": "a",
+            "meaning": "semi-major axis"
+          },
+          {
+            "symbol": "b",
+            "meaning": "semi-minor axis"
+          }
+        ],
+        "conditions": [
+          "a > b > 0",
+          "axes aligned with the coordinate axes"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Designing planetary orbits in celestial mechanics contexts.",
+        "Architectural planning for whispering gallery acoustics systems."
+      ]
+    },
+    {
+      "id": "stemma:math.hyperbola",
+      "type": "structure",
+      "name": "hyperbola",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A hyperbola consists of all points in a plane where the absolute difference between distances to two fixed foci equals a positive constant. This curve forms two separate branches that open away from each other symmetrically.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/10-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/10-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A hyperbola models the path of a comet on an unbound trajectory.",
+        "Two-branch curves describe some scattering trajectories."
+      ],
+      "formal": {
+        "statement": "A hyperbola is the locus of points whose absolute distance difference to two fixed foci is constant.",
+        "equation": "x^2 / a^2 - y^2 / b^2 = 1",
+        "variables": [
+          {
+            "symbol": "a",
+            "meaning": "distance from center to vertex"
+          },
+          {
+            "symbol": "b",
+            "meaning": "conjugate-axis scale"
+          }
+        ],
+        "conditions": [
+          "a > 0, b > 0",
+          "axes aligned with the coordinate axes"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Modeling gravitational slingshot trajectories in orbital mechanics.",
+        "Designing cooling towers based on structural stability needs."
+      ]
+    },
+    {
+      "id": "stemma:math.matrix",
+      "type": "structure",
+      "name": "matrix",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "A rectangular array of numbers, symbols, or expressions arranged in rows and columns. Matrices encode linear transformations and systems of equations; they are added entrywise, multiplied under a row-by-column rule, and analyzed through determinants, rank, and eigenvalues.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/9-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/9-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A 2x3 matrix has two rows and three columns.",
+        "Matrix multiplication composes two linear transformations."
+      ],
+      "formal": {
+        "statement": "The entry in row i and column j of a product matrix is the dot product of row i of the first factor with column j of the second.",
+        "equation": "(AB)_{ij} = sum_k A_{ik} B_{kj}",
+        "variables": [
+          {
+            "symbol": "A, B",
+            "meaning": "compatible matrices"
+          },
+          {
+            "symbol": "i, j, k",
+            "meaning": "row, column, and summation indices"
+          }
+        ],
+        "conditions": [
+          "inner dimensions match",
+          "entries from a common field"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Rendering 3D graphics transformations in computer software.",
+        "Solving large-scale economic input-output models efficiently."
+      ]
+    },
+    {
+      "id": "stemma:math.parabola",
+      "type": "structure",
+      "name": "parabola",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A parabola is the set of points equidistant from a fixed point known as the focus and a non-intersecting line called the directrix. This unique geometric definition creates an open curve symmetric about its axis.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/10-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/10-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A projectile's path near Earth is approximately a parabola.",
+        "Parabolic mirrors focus parallel light to a point."
+      ],
+      "formal": {
+        "statement": "A parabola is the locus of points equidistant from a fixed focus and a fixed directrix.",
+        "equation": "y = a x^2 + b x + c",
+        "variables": [
+          {
+            "symbol": "a, b, c",
+            "meaning": "coefficients with a not zero"
+          }
+        ],
+        "conditions": [
+          "a not equal to 0",
+          "axis parallel to the y-axis in this form"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Designing satellite dishes for optimal signal reflection paths.",
+        "Calculating projectile motion trajectories in physics labs."
+      ]
+    },
+    {
+      "id": "stemma:math.sequence",
+      "type": "structure",
+      "name": "sequence",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An ordered list of elements indexed by the natural numbers or a finite range. Sequences may be defined by explicit formulas or recurrence relations, and their long-run behavior is described by limits, monotonicity, and convergence.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-2/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "William Radulovich, Erica M. Rutter, David Smith, Gilbert Strang, Kirsten R. Messer, Alfred K. Mulzet, Nicoleta Virginia Bila, Sheri J. Boyd, Joyati Debnath, Edwin “Jed” Herman, Valeree Falduto, Elaine A. Terry, David Torain, Michelle Merriweather, Catherine Abbott, Joseph Lakey, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-2/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Predicting compound interest growth in financial planning.",
+        "Simulating iterative algorithms in computer science loops.",
+        "Modeling population dynamics with discrete time steps."
+      ]
+    }
+  ],
+  "connections": []
+}

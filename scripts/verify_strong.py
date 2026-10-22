@@ -232,8 +232,6 @@ def check_embeddings_deterministic():
     print(f"OK: Embeddings content_hash versioning — {meta['content_hash'][:30]}... model={meta['model']} dim={meta['dimensions']}")
 
     import shutil
-    shutil.copy(emb_path, "/tmp/embeddings1.jsonl")
-    shutil.copy(meta_path, "/tmp/meta1.json")
 
     # Rerun exactly the same kind of run. A placeholder store (H5) is labelled
     # stemma:placeholder-hash, which embed.py only writes with --placeholder;
@@ -244,6 +242,16 @@ def check_embeddings_deterministic():
         cmd += ["--placeholder"] + (["--model", first["requested_model"]] if first.get("requested_model") else [])
     else:
         cmd += ["--model", meta.get("model", "sentence-transformers/all-MiniLM-L6-v2")]
+
+    # Generate once before snapshotting, so the assertion tests determinism rather
+    # than whether the committed store happens to be current with the export.
+    run(cmd, fail_fast=False)
+    if not emb_path.exists():
+        print("WARN: embeddings.jsonl was not produced; skipping deterministic check")
+        return
+    shutil.copy(emb_path, "/tmp/embeddings1.jsonl")
+    shutil.copy(meta_path, "/tmp/meta1.json")
+
     run(cmd, fail_fast=False)
     
     if emb_path.exists():

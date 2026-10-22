@@ -53,6 +53,7 @@ _PYTEST_STEPS = _pytest_steps()
 
 steps = [
     [sys.executable, str(ROOT / "scripts/validate.py")],
+    [sys.executable, str(ROOT / "scripts/content_store.py"), "--check"],
     [sys.executable, str(ROOT / "scripts/export_jsonld.py"), "--check"],
     [sys.executable, str(ROOT / "scripts/validate_jsonld.py")],
     [sys.executable, str(ROOT / "scripts/validate_shacl_shapes.py")],
@@ -217,11 +218,11 @@ def main() -> int:
             data = json.loads(export_path.read_text())
             entities = len(data.get("entities", []))
             connections = len(data.get("connections", []))
-            print(f"OK: all verify steps pass — comprehensive all-STEM mediocre, {entities} entities (1 metre via HITL, old 74 archived, will grow to 400-800 across 8 domains), {connections} connections, HITL enforced, PDF primary deterministic scales, evolvable templates v2.0.0 (8 domains 97 subdomains 12 entity types), model selector like DeepSeek harness (local + frontier models: DeepSeek R1, Claude 3.5 Sonnet, GPT-4o, Gemini 2.5 Pro, Llama 3.3, custom), embeddings (All-MiniLM 384 fast, BGE Large SOTA 1024, OpenAI Large 3072, NVIDIA NV-Embed 4096 SOTA), RAG (vector search + LLM with citations), consumer export (LearningHub canonical physics/chem/bio/math OpenAI Large GPT-4o, PROFESSOR-J reviewed all 8 domains mediocre BGE Large offline DeepSeek R1 free, general, explorer), semantic acquisition pipeline (evidence first-class, AI output must be proposal, independent verification deterministic+Verifier Model B, conflict analysis explicit P=10 vs P=12 do not force average, human review final authority, 16 stages, model roles document_vision extraction reasoning verification embedding, model-agnostic, reproducibility content_hash)")
+            print(f"OK: all verify steps pass — {entities} entities, {connections} connections, schema 1.4 delegated canonicalization, deterministic exports/views, content manifest, consumer exports")
         else:
-            print("OK: all verify steps pass — comprehensive all-STEM mediocre, HITL enforced, PDF primary deterministic scales, evolvable v2.0.0, frontier, embeddings, RAG, consumer export")
+            print("OK: all verify steps pass — HITL/delegated canonicalization, deterministic exports/views, content manifest, consumer exports")
     except Exception as e:
-        print(f"OK: all verify steps pass — comprehensive all-STEM mediocre, HITL enforced, PDF primary, deterministic scales, evolvable v2.0.0, frontier, embeddings, RAG, consumer export — {e}")
+        print(f"OK: all verify steps pass — HITL/delegated canonicalization, deterministic exports/views, content manifest, consumer exports — {e}")
     return 0
 
 if __name__ == "__main__":

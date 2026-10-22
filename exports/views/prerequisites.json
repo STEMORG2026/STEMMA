@@ -1,0 +1,45 @@
+{
+  "view": "prerequisites",
+  "view_version": "1.0.0",
+  "export_version": "2.2.0",
+  "schema_version": "1.3.0",
+  "source_content_hash": "sha256:df7943c4e08e53620f6169cce4b58f99b6371f362d1833b355d32fd5656944f9",
+  "license": "CC-BY-4.0",
+  "relations_considered": [
+    "logically_requires",
+    "mathematically_requires"
+  ],
+  "relation_registry_version": "1.0.0",
+  "edge_count": 1,
+  "edges": [
+    {
+      "connection": "stemma:conn.000157",
+      "source": "stemma:phys.force",
+      "relation": "mathematically_requires",
+      "target": "stemma:phys.mass",
+      "review_status": "unreviewed"
+    }
+  ],
+  "nodes": {
+    "stemma:phys.force": {
+      "name": "Force",
+      "domain": "physics",
+      "status": "draft",
+      "prerequisites": [
+        "stemma:phys.mass"
+      ],
+      "dependents": []
+    },
+    "stemma:phys.mass": {
+      "name": "Mass",
+      "domain": "physics",
+      "status": "draft",
+      "prerequisites": [],
+      "dependents": [
+        "stemma:phys.force"
+      ]
+    }
+  },
+  "cycles": [],
+  "note": "Edge source requires target; target is therefore a prerequisite of source."
+}

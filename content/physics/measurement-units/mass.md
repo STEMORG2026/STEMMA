@@ -5,6 +5,7 @@ name: Mass
 domain: physics
 subdomain: measurement-units
 status: draft
+level: foundational
 definition: Mass is the SI base physical quantity measuring a body's inertia and its
   quantity of matter. Its SI unit, the kilogram, is defined by taking the fixed numerical
   value of the Planck constant h to be exactly 6.62607015e-34 when expressed in J

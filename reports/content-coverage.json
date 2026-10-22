@@ -1,0 +1,255 @@
+{
+  "domains": {
+    "biology": {
+      "books": 3,
+      "canonical": 45,
+      "coverage_percent": 0.81,
+      "draft": 0,
+      "entities": 45,
+      "inventory_terms": 5548
+    },
+    "chemistry": {
+      "books": 2,
+      "canonical": 42,
+      "coverage_percent": 5.48,
+      "draft": 0,
+      "entities": 42,
+      "inventory_terms": 766
+    },
+    "earth-space": {
+      "books": 1,
+      "canonical": 45,
+      "coverage_percent": 13.01,
+      "draft": 0,
+      "entities": 45,
+      "inventory_terms": 346
+    },
+    "engineering": {
+      "books": 4,
+      "canonical": 44,
+      "coverage_percent": 2.82,
+      "draft": 0,
+      "entities": 44,
+      "inventory_terms": 1560
+    },
+    "mathematics": {
+      "books": 7,
+      "canonical": 45,
+      "coverage_percent": 2.6,
+      "draft": 0,
+      "entities": 45,
+      "inventory_terms": 1728
+    },
+    "physics": {
+      "books": 5,
+      "canonical": 39,
+      "coverage_percent": 3.14,
+      "draft": 8,
+      "entities": 47,
+      "inventory_terms": 1495
+    }
+  },
+  "inventory_books": 22,
+  "inventory_unique_terms": 9492,
+  "source_gaps": {
+    "books_with_no_parsed_terms": [
+      "additive-manufacturing-essentials",
+      "college-physics-2e",
+      "introduction-python-programming",
+      "microbiology",
+      "organic-chemistry"
+    ],
+    "engineering_breadth": "OpenStax covers computer, software, data, and additive manufacturing; civil/electrical/chemical/mechanical breadth still needs public-domain DOE/NASA/NIST/USACE sources."
+  },
+  "subdomains": [
+    {
+      "books": [
+        "biology-2e"
+      ],
+      "coverage_percent": 1.4,
+      "domain": "biology",
+      "entities": 33,
+      "inventory_terms": 2358,
+      "subdomain": "general"
+    },
+    {
+      "books": [
+        "microbiology"
+      ],
+      "coverage_percent": 0.0,
+      "domain": "biology",
+      "entities": 0,
+      "inventory_terms": 0,
+      "subdomain": "microbiology"
+    },
+    {
+      "books": [
+        "anatomy-and-physiology-2e"
+      ],
+      "coverage_percent": 0.38,
+      "domain": "biology",
+      "entities": 12,
+      "inventory_terms": 3190,
+      "subdomain": "physiology"
+    },
+    {
+      "books": [
+        "chemistry-2e"
+      ],
+      "coverage_percent": 5.48,
+      "domain": "chemistry",
+      "entities": 42,
+      "inventory_terms": 766,
+      "subdomain": "general"
+    },
+    {
+      "books": [
+        "organic-chemistry"
+      ],
+      "coverage_percent": 0.0,
+      "domain": "chemistry",
+      "entities": 0,
+      "inventory_terms": 0,
+      "subdomain": "organic-chemistry"
+    },
+    {
+      "books": [
+        "astronomy-2e"
+      ],
+      "coverage_percent": 13.01,
+      "domain": "earth-space",
+      "entities": 45,
+      "inventory_terms": 346,
+      "subdomain": "astronomy"
+    },
+    {
+      "books": [
+        "introduction-computer-science"
+      ],
+      "coverage_percent": 3.76,
+      "domain": "engineering",
+      "entities": 42,
+      "inventory_terms": 1116,
+      "subdomain": "computer"
+    },
+    {
+      "books": [
+        "principles-data-science"
+      ],
+      "coverage_percent": 0.45,
+      "domain": "engineering",
+      "entities": 2,
+      "inventory_terms": 444,
+      "subdomain": "data-engineering"
+    },
+    {
+      "books": [
+        "additive-manufacturing-essentials"
+      ],
+      "coverage_percent": 0.0,
+      "domain": "engineering",
+      "entities": 0,
+      "inventory_terms": 0,
+      "subdomain": "mechanical"
+    },
+    {
+      "books": [
+        "introduction-python-programming"
+      ],
+      "coverage_percent": 0.0,
+      "domain": "engineering",
+      "entities": 0,
+      "inventory_terms": 0,
+      "subdomain": "software-engineering"
+    },
+    {
+      "books": [
+        "algebra-and-trigonometry-2e",
+        "college-algebra-2e"
+      ],
+      "coverage_percent": 0.29,
+      "domain": "mathematics",
+      "entities": 2,
+      "inventory_terms": 682,
+      "subdomain": "algebra"
+    },
+    {
+      "books": [
+        "calculus-volume-1",
+        "calculus-volume-2",
+        "calculus-volume-3"
+      ],
+      "coverage_percent": 3.94,
+      "domain": "mathematics",
+      "entities": 23,
+      "inventory_terms": 584,
+      "subdomain": "calculus"
+    },
+    {
+      "books": [
+        "precalculus-2e"
+      ],
+      "coverage_percent": 5.66,
+      "domain": "mathematics",
+      "entities": 18,
+      "inventory_terms": 318,
+      "subdomain": "precalculus"
+    },
+    {
+      "books": [
+        "introductory-statistics-2e"
+      ],
+      "coverage_percent": 1.39,
+      "domain": "mathematics",
+      "entities": 2,
+      "inventory_terms": 144,
+      "subdomain": "statistics-probability"
+    },
+    {
+      "books": [],
+      "coverage_percent": 0.0,
+      "domain": "physics",
+      "entities": 11,
+      "inventory_terms": 0,
+      "subdomain": "electricity-magnetism"
+    },
+    {
+      "books": [
+        "college-physics-2e",
+        "physics",
+        "university-physics-volume-1",
+        "university-physics-volume-2",
+        "university-physics-volume-3"
+      ],
+      "coverage_percent": 0.0,
+      "domain": "physics",
+      "entities": 0,
+      "inventory_terms": 1495,
+      "subdomain": "general"
+    },
+    {
+      "books": [],
+      "coverage_percent": 0.0,
+      "domain": "physics",
+      "entities": 6,
+      "inventory_terms": 0,
+      "subdomain": "measurement-units"
+    },
+    {
+      "books": [],
+      "coverage_percent": 0.0,
+      "domain": "physics",
+      "entities": 20,
+      "inventory_terms": 0,
+      "subdomain": "mechanics"
+    },
+    {
+      "books": [],
+      "coverage_percent": 0.0,
+      "domain": "physics",
+      "entities": 10,
+      "inventory_terms": 0,
+      "subdomain": "thermal-physics"
+    }
+  ]
+}

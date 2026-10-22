@@ -34,10 +34,11 @@ class TestReleaseBundleAndGate(unittest.TestCase):
             self.assertTrue((bundle / f).exists(), f)
         self._run("build_release_bundle.py", "--verify", str(bundle))
         m = json.loads((bundle / "manifest.json").read_text(encoding="utf-8"))
-        # Corpus state 2026-10-01 (UNRES-STEMMA-HITL-002): the 6 LLM-written
-        # entities were demoted to draft and conn.000157 to unreviewed, so only
-        # the human-written metre + human-reviewed conn.000156 are canonical.
-        self.assertEqual(m["entity_count"], 1)
+        # Derive the expected count from the live export so the release test
+        # does not pin a corpus size that changes with every content tranche.
+        export = json.loads((ROOT / "exports" / "knowledge.json").read_text(encoding="utf-8"))
+        expected = sum(1 for e in export.get("entities", []) if e.get("status") == "canonical")
+        self.assertEqual(m["entity_count"], expected)
         self.assertEqual(m["assertion_count"], 1)
         self.assertIn("BLOCKED", m["amendment_0001_gate"])
 

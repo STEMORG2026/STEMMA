@@ -1,12 +1,1100 @@
 {
   "export_version": "2.2.0",
-  "schema_version": "1.3.0",
+  "schema_version": "1.4.0",
   "policy": "domain:physics",
-  "content_hash": "sha256:df7943c4e08e53620f6169cce4b58f99b6371f362d1833b355d32fd5656944f9",
+  "content_hash": "sha256:d98304ee3f9efabf81443d52d40d7486debc76b900c65c9747122659aa628bac",
   "source": "content/ + connections/ + sources/ (canonical)",
-  "entity_count": 9,
+  "entity_count": 47,
   "connection_count": 2,
   "entities": [
+    {
+      "id": "stemma:phys.absolute-pressure",
+      "type": "concept",
+      "name": "absolute pressure",
+      "domain": "physics",
+      "subdomain": "thermal-physics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Absolute pressure is defined as the total thermodynamic pressure measured relative to a perfect vacuum rather than ambient conditions. It equals the sum of gauge pressure and atmospheric pressure, providing an accurate baseline for calculations involving gas laws or fluid dynamics.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-1/pages/14-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Stephen D. Druger, William Moebs, Samuel J. Ling, Jeff Sanny, David Anderson, Daniel Bowman, Gerald Friedman, Edw. S. Ginsberg, Kenneth Podolak, Takashi Sato, David Smith, Joseph Trout, Kevin Wheelock, Dedra Demaree, Richard Ludlow, Patrick Motl, Lev Gasparov, Lee LaRue, Mark Lattery, Tao Pang, Alice Kolakowska",
+        "link": "https://openstax.org/books/university-physics-volume-1/pages/14-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "governed_by": [
+        "stemma:phys.ideal-gas-law"
+      ],
+      "applications": [
+        "Calibrating tire inflation systems for vehicle safety standards.",
+        "Designing deep-sea submersibles to withstand external water forces.",
+        "Predicting weather patterns based on atmospheric column weight."
+      ],
+      "limitations": [
+        "Requires accurate local atmospheric pressure baseline measurements.",
+        "Sensors often measure gauge pressure needing manual conversion steps.",
+        "High pressures may deviate from ideal gas behavior assumptions."
+      ]
+    },
+    {
+      "id": "stemma:phys.absolute-temperature-scale",
+      "type": "concept",
+      "name": "absolute temperature scale",
+      "domain": "physics",
+      "subdomain": "thermal-physics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An absolute temperature scale is a measurement system where zero corresponds to the theoretical state of no thermal motion. Examples include Kelvin, which possesses a zero point at absolute zero and avoids negative values found in relative scales.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "governed_by": [
+        "stemma:phys.zeroth-law-thermodynamics"
+      ],
+      "applications": [
+        "Calibrating scientific instruments for high-precision laboratory experiments.",
+        "Designing cryogenic cooling systems for superconducting magnets.",
+        "Analyzing stellar spectra based on blackbody radiation curves."
+      ],
+      "limitations": [
+        "Cannot measure temperatures below theoretical zero point physically.",
+        "Requires precise definition of triple water point calibration standards.",
+        "Practical sensors often output relative scales needing conversion."
+      ]
+    },
+    {
+      "id": "stemma:phys.absolute-zero",
+      "type": "concept",
+      "name": "absolute zero",
+      "domain": "physics",
+      "subdomain": "thermal-physics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Absolute zero denotes the lowest possible temperature where molecular motion reaches its minimum quantum mechanical limit. At this point, the average kinetic energy of molecules effectively becomes zero, representing a fundamental boundary in thermodynamics.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "governed_by": [
+        "stemma:phys.zeroth-law-thermodynamics"
+      ],
+      "applications": [
+        "Cryogenic cooling systems design.",
+        "Superconducting material research"
+      ]
+    },
+    {
+      "id": "stemma:phys.absorber",
+      "type": "material",
+      "name": "absorber",
+      "domain": "physics",
+      "subdomain": "thermal-physics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An absorber functions as any object capable of capturing and retaining incident radiation energy rather than reflecting or transmitting it. This component plays a critical role in thermal systems by converting electromagnetic waves into internal heat within the material.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-3"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 3 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-3/pages/6-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, Jeff Sanny, Dedra Demaree, Edw. S. Ginsberg, Joseph Trout, Gerald Friedman, Lev Gasparov, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Tao Pang, Kenneth Podolak, William Moebs, Kevin Wheelock, David Smith, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-3/pages/6-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "governed_by": [
+        "stemma:phys.first-law-thermodynamics"
+      ],
+      "applications": [
+        "Solar thermal collector panels.",
+        "Radiation shielding materials"
+      ]
+    },
+    {
+      "id": "stemma:phys.ac-current",
+      "type": "concept",
+      "name": "ac current",
+      "domain": "physics",
+      "subdomain": "electricity-magnetism",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Current that periodically reverses direction, usually described by a sinusoidal waveform. Its magnitude is quoted as a root-mean-square value for power calculations, and its frequency is set by the source.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/15-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/15-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.coulombs-law",
+        "stemma:phys.faraday-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Power distribution grids utilizing 50 or 60 Hz frequencies for efficient transmission.",
+        "Audio amplifiers converting direct signals into varying electrical currents for speakers.",
+        "Wireless charging systems inducing oscillating magnetic fields to transfer energy."
+      ],
+      "limitations": [
+        "Standard RMS formulas assume ideal sinusoidal waveforms without significant harmonic distortion.",
+        "Skin effect increases resistance at very high frequencies, invalidating simple DC models.",
+        "Non-linear loads generate harmonics that complicate pure sine-wave power calculations."
+      ]
+    },
+    {
+      "id": "stemma:phys.ac-voltage",
+      "type": "concept",
+      "name": "ac voltage",
+      "domain": "physics",
+      "subdomain": "electricity-magnetism",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "AC voltage represents electric potential difference that fluctuates sinusoidally at a constant frequency. This alternating variation drives AC current through circuits, enabling efficient long-distance power transmission via transformers.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/15-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/15-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.coulombs-law",
+        "stemma:phys.faraday-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Long-distance power grid distribution.",
+        "Household appliance operation via standard outlets."
+      ]
+    },
+    {
+      "id": "stemma:phys.action-at-a-distance-force",
+      "type": "concept",
+      "name": "action-at-a-distance force",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An action-at-a-distance force is a type of interaction that exerts influence without requiring physical contact between objects. This concept distinguishes itself from contact forces by acting across empty space, such as gravity or magnetism.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-1/pages/13-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Stephen D. Druger, William Moebs, Samuel J. Ling, Jeff Sanny, David Anderson, Daniel Bowman, Gerald Friedman, Edw. S. Ginsberg, Kenneth Podolak, Takashi Sato, David Smith, Joseph Trout, Kevin Wheelock, Dedra Demaree, Richard Ludlow, Patrick Motl, Lev Gasparov, Lee LaRue, Mark Lattery, Tao Pang, Alice Kolakowska",
+        "link": "https://openstax.org/books/university-physics-volume-1/pages/13-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q1407429"
+      },
+      "applications": [
+        "Modeling planetary orbits without physical tethering.",
+        "Designing magnetic levitation systems in transport."
+      ]
+    },
+    {
+      "id": "stemma:phys.alternating-current",
+      "type": "concept",
+      "name": "alternating current",
+      "domain": "physics",
+      "subdomain": "electricity-magnetism",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Alternating current is an electric flow where the direction of charge movement reverses at regular time intervals. Unlike direct current, this type oscillates periodically back and forth within a circuit.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-physics"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Physics (2020), OpenStax. Term locator: https://openstax.org/books/physics/pages/19-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Peter Urone, Roger Hinrichs, Fatih Gozuacik, Denise Pattison, Catherine Tabor",
+        "link": "https://openstax.org/books/physics/pages/19-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.coulombs-law",
+        "stemma:phys.faraday-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "National electrical power grids.",
+        "Induction motor operation in industrial machinery."
+      ]
+    },
+    {
+      "id": "stemma:phys.alternating-current-ac",
+      "type": "concept",
+      "name": "alternating current (ac)",
+      "domain": "physics",
+      "subdomain": "electricity-magnetism",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Alternating current represents the flow of electric charge that periodically reverses its direction over time. This periodic reversal distinguishes it from direct current, which maintains a constant directional flow through conductors.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/15-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/15-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.coulombs-law",
+        "stemma:phys.faraday-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "National electrical power grids.",
+        "Induction motor operation in industrial machinery."
+      ]
+    },
+    {
+      "id": "stemma:phys.angle-of-rotation",
+      "type": "concept",
+      "name": "angle of rotation",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The angle of rotation is defined as the ratio between an arc length and its corresponding radius of curvature. This geometric quantity measures how far a point moves along a circular path relative to the center.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-physics"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Physics (2020), OpenStax. Term locator: https://openstax.org/books/physics/pages/6-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Peter Urone, Roger Hinrichs, Fatih Gozuacik, Denise Pattison, Catherine Tabor",
+        "link": "https://openstax.org/books/physics/pages/6-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q4763367"
+      },
+      "applications": [
+        "Designing gear systems with precise tooth engagement angles.",
+        "Analyzing satellite orbital path segments relative to Earth center."
+      ]
+    },
+    {
+      "id": "stemma:phys.angular-acceleration",
+      "type": "concept",
+      "name": "angular acceleration",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Angular acceleration is the time rate of change describing variations in angular velocity. It quantifies how quickly an object's rotational speed increases or decreases around a specific axis.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-1/pages/10-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Stephen D. Druger, William Moebs, Samuel J. Ling, Jeff Sanny, David Anderson, Daniel Bowman, Gerald Friedman, Edw. S. Ginsberg, Kenneth Podolak, Takashi Sato, David Smith, Joseph Trout, Kevin Wheelock, Dedra Demaree, Richard Ludlow, Patrick Motl, Lev Gasparov, Lee LaRue, Mark Lattery, Tao Pang, Alice Kolakowska",
+        "link": "https://openstax.org/books/university-physics-volume-1/pages/10-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q186300"
+      },
+      "applications": [
+        "Controlling motor spin-up rates in robotics actuators.",
+        "Analyzing deceleration of spinning flywheels during braking events."
+      ]
+    },
+    {
+      "id": "stemma:phys.angular-velocity",
+      "type": "concept",
+      "name": "angular velocity",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Angular velocity is the time rate at which angular position changes for a rotating body. This vector quantity describes how fast and in what direction an object rotates around its axis.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-1/pages/10-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Stephen D. Druger, William Moebs, Samuel J. Ling, Jeff Sanny, David Anderson, Daniel Bowman, Gerald Friedman, Edw. S. Ginsberg, Kenneth Podolak, Takashi Sato, David Smith, Joseph Trout, Kevin Wheelock, Dedra Demaree, Richard Ludlow, Patrick Motl, Lev Gasparov, Lee LaRue, Mark Lattery, Tao Pang, Alice Kolakowska",
+        "link": "https://openstax.org/books/university-physics-volume-1/pages/10-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q161635"
+      },
+      "applications": [
+        "Specifying fan blade RPM for HVAC airflow control.",
+        "Calculating satellite orbital period relative to Earth axis."
+      ]
+    },
+    {
+      "id": "stemma:phys.center-of-mass",
+      "type": "concept",
+      "name": "center of mass",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The center of mass is defined as the weighted average position of all mass in a system. It acts as the single point where external forces effectively influence the translational motion of the entire object.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-1/pages/9-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Stephen D. Druger, William Moebs, Samuel J. Ling, Jeff Sanny, David Anderson, Daniel Bowman, Gerald Friedman, Edw. S. Ginsberg, Kenneth Podolak, Takashi Sato, David Smith, Joseph Trout, Kevin Wheelock, Dedra Demaree, Richard Ludlow, Patrick Motl, Lev Gasparov, Lee LaRue, Mark Lattery, Tao Pang, Alice Kolakowska",
+        "link": "https://openstax.org/books/university-physics-volume-1/pages/9-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q2945123"
+      },
+      "examples": [
+        "A uniform rod balances at its midpoint.",
+        "A binary star system orbits about a point between the two stars."
+      ],
+      "formal": {
+        "statement": "The center of mass is the mass-weighted average position of all parts of a system.",
+        "equation": "r_cm = (sum m_i r_i) / (sum m_i)",
+        "variables": [
+          {
+            "symbol": "r_cm",
+            "meaning": "center-of-mass position",
+            "unit": "m"
+          },
+          {
+            "symbol": "m_i",
+            "meaning": "mass of particle i",
+            "unit": "kg"
+          },
+          {
+            "symbol": "r_i",
+            "meaning": "position of particle i",
+            "unit": "m"
+          }
+        ],
+        "conditions": [
+          "any mass distribution",
+          "external forces act as if applied at this point"
+        ],
+        "dimensions": "L"
+      },
+      "applications": [
+        "Balancing vehicle chassis for stable handling dynamics.",
+        "Designing spacecraft attitude control systems around gravity centers."
+      ]
+    },
     {
       "id": "stemma:phys.conservation-energy",
       "type": "law",
@@ -14,6 +1102,7 @@
       "domain": "physics",
       "subdomain": "mechanics",
       "status": "draft",
+      "level": "foundational",
       "definition": "Conservation of energy: for an isolated system the total energy — summed over all forms (kinetic, potential, thermal, chemical, nuclear, ...) — remains constant in time; energy transforms between forms but is neither created nor destroyed. Historical line: Mayer (1842), Joule (1843), Helmholtz (1847, 'Über die Erhaltung der Kraft'); standard statement per Halliday, Resnick, Walker 12th ed., Ch 8.",
       "symbol": "E_total = const",
       "same_dimensional_quantities": null,
@@ -60,12 +1149,943 @@
       }
     },
     {
+      "id": "stemma:phys.elastic-collision",
+      "type": "process",
+      "name": "elastic collision",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An elastic collision occurs when objects separate after impact while conserving their total kinetic energy. This idealized process ensures that no mechanical energy is transformed into heat or sound during the interaction.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-physics"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Physics (2020), OpenStax. Term locator: https://openstax.org/books/physics/pages/8-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Peter Urone, Roger Hinrichs, Fatih Gozuacik, Denise Pattison, Catherine Tabor",
+        "link": "https://openstax.org/books/physics/pages/8-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q1044799"
+      },
+      "examples": [
+        "Idealised billiard balls rebound without losing kinetic energy.",
+        "Gas molecules are often modelled with elastic collisions."
+      ],
+      "formal": {
+        "statement": "An elastic collision conserves total linear momentum and total kinetic energy.",
+        "equation": "p_i = p_f and K_i = K_f",
+        "variables": [
+          {
+            "symbol": "p",
+            "meaning": "total momentum",
+            "unit": "kg m s^-1"
+          },
+          {
+            "symbol": "K",
+            "meaning": "total kinetic energy",
+            "unit": "J"
+          }
+        ],
+        "conditions": [
+          "isolated system",
+          "no deformation or heat loss"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Analyzing billiard ball impacts in game physics simulations.",
+        "Modeling neutron scattering processes in nuclear reactors."
+      ]
+    },
+    {
+      "id": "stemma:phys.electric-charge",
+      "type": "concept",
+      "name": "electric charge",
+      "domain": "physics",
+      "subdomain": "electricity-magnetism",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Electric charge is a physical property causing attraction or repulsion between objects. Each charged entity generates an electric force field and experiences influence from other charges, defining the basis of electrostatic interactions.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.coulombs-law",
+        "stemma:phys.faraday-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A proton carries charge +e and an electron -e.",
+        "Rubbing a balloon transfers electrons, leaving it negatively charged."
+      ],
+      "formal": {
+        "statement": "Electric charge is quantized in integer multiples of the elementary charge.",
+        "equation": "q = n e",
+        "variables": [
+          {
+            "symbol": "q",
+            "meaning": "net charge",
+            "unit": "C"
+          },
+          {
+            "symbol": "n",
+            "meaning": "integer number of elementary charges"
+          },
+          {
+            "symbol": "e",
+            "meaning": "elementary charge",
+            "unit": "C"
+          }
+        ],
+        "conditions": [
+          "isolated charge",
+          "n is an integer"
+        ],
+        "dimensions": "I T"
+      },
+      "applications": [
+        "Electrostatic precipitators for air filtration.",
+        "Capacitor energy storage in electronics."
+      ]
+    },
+    {
+      "id": "stemma:phys.electric-current",
+      "type": "concept",
+      "name": "electric current",
+      "domain": "physics",
+      "subdomain": "electricity-magnetism",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Electric current describes moving electric charge flowing through a conductor. This flow rate is measured in amperes and represents the net movement of charged particles, typically electrons, driven by an electromotive force.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-physics"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Physics (2020), OpenStax. Term locator: https://openstax.org/books/physics/pages/19-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Peter Urone, Roger Hinrichs, Fatih Gozuacik, Denise Pattison, Catherine Tabor",
+        "link": "https://openstax.org/books/physics/pages/19-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.coulombs-law",
+        "stemma:phys.faraday-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A wire carrying 2 C in 4 s has a current of 0.5 A.",
+        "Current in a circuit is measured with an ammeter in series."
+      ],
+      "formal": {
+        "statement": "Electric current is the rate at which net charge passes through a surface.",
+        "equation": "I = dQ/dt",
+        "variables": [
+          {
+            "symbol": "I",
+            "meaning": "current",
+            "unit": "A"
+          },
+          {
+            "symbol": "Q",
+            "meaning": "charge",
+            "unit": "C"
+          },
+          {
+            "symbol": "t",
+            "meaning": "time",
+            "unit": "s"
+          }
+        ],
+        "conditions": [
+          "steady or instantaneous rate",
+          "conventional current uses positive charge flow"
+        ],
+        "dimensions": "I"
+      },
+      "applications": [
+        "Battery-powered device operation.",
+        "Electroplating processes in manufacturing industries."
+      ]
+    },
+    {
+      "id": "stemma:phys.electric-field",
+      "type": "phenomenon",
+      "name": "electric field",
+      "domain": "physics",
+      "subdomain": "electricity-magnetism",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The electric field is a physical phenomenon generated by an electric charge within space. It transmits force between charges without direct contact, allowing interactions to occur across distances through the surrounding medium.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.coulombs-law",
+        "stemma:phys.faraday-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A positive point charge produces a radial electric field pointing away from it.",
+        "Between oppositely charged parallel plates the electric field is approximately uniform."
+      ],
+      "formal": {
+        "statement": "The electric field at a point is the electrostatic force per unit positive test charge placed there.",
+        "equation": "E = F / q",
+        "variables": [
+          {
+            "symbol": "E",
+            "meaning": "electric field",
+            "unit": "N C^-1"
+          },
+          {
+            "symbol": "F",
+            "meaning": "force on the test charge",
+            "unit": "N"
+          },
+          {
+            "symbol": "q",
+            "meaning": "test charge",
+            "unit": "C"
+          }
+        ],
+        "conditions": [
+          "test charge is stationary and small",
+          "no time-varying magnetic field"
+        ],
+        "dimensions": "M L T^-3 I^-1"
+      },
+      "applications": [
+        "Deflection plates in cathode ray tubes.",
+        "Non-contact sensors for touchless interfaces."
+      ]
+    },
+    {
+      "id": "stemma:phys.electric-potential",
+      "type": "concept",
+      "name": "electric potential",
+      "domain": "physics",
+      "subdomain": "electricity-magnetism",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Electric potential represents the electric potential energy possessed per unit of charge at a specific point. This scalar quantity determines how much work is required to move a test charge against existing electrostatic forces.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/7-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/7-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.coulombs-law",
+        "stemma:phys.faraday-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A 12 V battery maintains a potential difference of 12 J/C between its terminals.",
+        "For a point charge, potential falls as one over distance."
+      ],
+      "formal": {
+        "statement": "Electric potential is the electrostatic potential energy per unit positive charge.",
+        "equation": "V = U / q",
+        "variables": [
+          {
+            "symbol": "V",
+            "meaning": "electric potential",
+            "unit": "V"
+          },
+          {
+            "symbol": "U",
+            "meaning": "electric potential energy",
+            "unit": "J"
+          },
+          {
+            "symbol": "q",
+            "meaning": "charge",
+            "unit": "C"
+          }
+        ],
+        "conditions": [
+          "electrostatic field",
+          "reference potential chosen"
+        ],
+        "dimensions": "M L^2 T^-3 I^-1"
+      },
+      "applications": [
+        "Battery terminal specifications in circuits.",
+        "High-voltage transmission line safety analysis."
+      ]
+    },
+    {
+      "id": "stemma:phys.electric-power",
+      "type": "concept",
+      "name": "electric power",
+      "domain": "physics",
+      "subdomain": "electricity-magnetism",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Electric power quantifies the rate at which electric energy transfers through an electrical circuit. It measures how quickly work is performed by moving charges under the influence of voltage and current.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-physics"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Physics (2020), OpenStax. Term locator: https://openstax.org/books/physics/pages/19-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Peter Urone, Roger Hinrichs, Fatih Gozuacik, Denise Pattison, Catherine Tabor",
+        "link": "https://openstax.org/books/physics/pages/19-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.coulombs-law",
+        "stemma:phys.faraday-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A 60 W lamp running on 120 V draws 0.5 A.",
+        "A resistor dissipates power as heat according to I squared R."
+      ],
+      "formal": {
+        "statement": "Electric power is the rate at which electrical energy is transferred by a current through a potential difference.",
+        "equation": "P = I V",
+        "variables": [
+          {
+            "symbol": "P",
+            "meaning": "electric power",
+            "unit": "W"
+          },
+          {
+            "symbol": "I",
+            "meaning": "current",
+            "unit": "A"
+          },
+          {
+            "symbol": "V",
+            "meaning": "potential difference",
+            "unit": "V"
+          }
+        ],
+        "conditions": [
+          "steady current",
+          "resistive or general circuit element"
+        ],
+        "dimensions": "M L^2 T^-3"
+      },
+      "applications": [
+        "Appliance wattage ratings on packaging labels.",
+        "Utility billing calculations for household usage."
+      ]
+    },
+    {
+      "id": "stemma:phys.energy",
+      "type": "concept",
+      "name": "energy",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Energy is fundamentally defined as the ability to perform work on a system. This scalar quantity exists in various forms, such as kinetic or potential energy, and remains conserved within isolated systems according to physical laws.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-physics"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Physics (2020), OpenStax. Term locator: https://openstax.org/books/physics/pages/9-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Peter Urone, Roger Hinrichs, Fatih Gozuacik, Denise Pattison, Catherine Tabor",
+        "link": "https://openstax.org/books/physics/pages/9-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q11379"
+      },
+      "applications": [
+        "Calculating fuel requirements for vehicle propulsion cycles.",
+        "Designing renewable storage solutions like pumped hydro dams."
+      ]
+    },
+    {
+      "id": "stemma:phys.entropy",
+      "type": "concept",
+      "name": "entropy",
+      "domain": "physics",
+      "subdomain": "thermal-physics",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Entropy is a state function describing system disorder that changes during heat transfer with the environment. Its value increases for spontaneous processes, reflecting irreversible energy dispersal.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/4-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/4-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.second-law-thermodynamics"
+      ],
+      "applications": [
+        "Heat engine efficiency analysis.",
+        "Information theory data storage limits"
+      ],
+      "limitations": [
+        "Macroscopic system approximations only."
+      ]
+    },
+    {
+      "id": "stemma:phys.first-law-thermodynamics",
+      "type": "law",
+      "name": "first law of thermodynamics",
+      "domain": "physics",
+      "subdomain": "thermal-physics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The first law states that internal energy change equals heat added minus work done by the system. This principle establishes conservation of energy for any transition between equilibrium states.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.zeroth-law-thermodynamics",
+        "stemma:phys.ideal-gas-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A gas absorbing 100 J and doing 40 J of work increases its internal energy by 60 J.",
+        "Adiabatic compression raises internal energy because work is done on the system with no heat transfer."
+      ],
+      "formal": {
+        "statement": "For a closed system, the change in internal energy equals the heat added to the system minus the work done by the system.",
+        "equation": "Delta U = Q - W",
+        "variables": [
+          {
+            "symbol": "U",
+            "meaning": "internal energy",
+            "unit": "J"
+          },
+          {
+            "symbol": "Q",
+            "meaning": "heat added to the system",
+            "unit": "J"
+          },
+          {
+            "symbol": "W",
+            "meaning": "work done by the system",
+            "unit": "J"
+          }
+        ],
+        "conditions": [
+          "closed system",
+          "sign convention: W is work done by the system"
+        ],
+        "dimensions": "M L^2 T^-2"
+      },
+      "historical": {
+        "stated_by": "Rudolf Clausius",
+        "year": 1850,
+        "where": "Ueber die bewegende Kraft der Wärme (1850)",
+        "timeline": [
+          {
+            "year": 1850,
+            "event": "Clausius gives the first explicit statement of the first law for thermodynamic cycles"
+          }
+        ]
+      },
+      "applications": [
+        "Engine cycle analysis.",
+        "Building HVAC load calculations"
+      ]
+    },
+    {
       "id": "stemma:phys.force",
       "type": "quantity",
       "name": "Force",
       "domain": "physics",
       "subdomain": "mechanics",
       "status": "draft",
+      "level": "intermediate",
       "definition": "Force is the derived physical quantity of mechanical interaction: the net force on a body equals the time rate of change of its linear momentum, F = dp/dt (Newton, Principia Lex II); for constant mass this reduces to F = m a. Force is a vector quantity — it has magnitude and direction and adds by vector addition (net force = vector sum). SI derived unit: the newton, N = kg m s-2. Reference: Halliday, Resnick, Walker, Fundamentals of Physics 12th ed., Ch 5; Newton, Principia (1687), Lex II.",
       "quantity_kind": "derived",
       "tensor_character": "vector",
@@ -107,12 +2127,365 @@
       }
     },
     {
+      "id": "stemma:phys.friction",
+      "type": "concept",
+      "name": "friction",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Friction acts as a force opposing relative motion between contacting surfaces. It converts mechanical energy into thermal energy, thereby reducing the total kinetic energy of moving parts.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-1/pages/6-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Stephen D. Druger, William Moebs, Samuel J. Ling, Jeff Sanny, David Anderson, Daniel Bowman, Gerald Friedman, Edw. S. Ginsberg, Kenneth Podolak, Takashi Sato, David Smith, Joseph Trout, Kevin Wheelock, Dedra Demaree, Richard Ludlow, Patrick Motl, Lev Gasparov, Lee LaRue, Mark Lattery, Tao Pang, Alice Kolakowska",
+        "link": "https://openstax.org/books/university-physics-volume-1/pages/6-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q82580"
+      },
+      "applications": [
+        "Engineering brake pads for safe vehicle stopping distances.",
+        "Preventing unwanted slippage in climbing gear systems."
+      ]
+    },
+    {
+      "id": "stemma:phys.heat",
+      "type": "concept",
+      "name": "heat",
+      "domain": "physics",
+      "subdomain": "thermal-physics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Heat represents energy transferred exclusively because of a temperature difference between systems. This transfer continues until thermal equilibrium is reached, distinguishing it from internal energy which remains within the system.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.first-law-thermodynamics",
+        "stemma:phys.zeroth-law-thermodynamics"
+      ],
+      "applications": [
+        "Thermal management in electronics.",
+        "Cooking process optimization"
+      ],
+      "limitations": [
+        "Requires non-equilibrium state."
+      ]
+    },
+    {
+      "id": "stemma:phys.inelastic-collision",
+      "type": "process",
+      "name": "inelastic collision",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An inelastic collision describes an event where objects collide and kinetic energy is not conserved. Some mechanical energy transforms into other forms like thermal energy or deformation, causing the final speed to be lower.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-physics"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Physics (2020), OpenStax. Term locator: https://openstax.org/books/physics/pages/8-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Peter Urone, Roger Hinrichs, Fatih Gozuacik, Denise Pattison, Catherine Tabor",
+        "link": "https://openstax.org/books/physics/pages/8-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q2074917"
+      },
+      "examples": [
+        "Two cars crumpling in a crash lose kinetic energy to deformation.",
+        "Clay sticking to a wall is a perfectly inelastic collision."
+      ],
+      "formal": {
+        "statement": "An inelastic collision conserves total linear momentum while converting part of the kinetic energy into internal energy.",
+        "equation": "p_i = p_f and K_f < K_i",
+        "variables": [
+          {
+            "symbol": "p",
+            "meaning": "total momentum",
+            "unit": "kg m s^-1"
+          },
+          {
+            "symbol": "K",
+            "meaning": "total kinetic energy",
+            "unit": "J"
+          }
+        ],
+        "conditions": [
+          "isolated system",
+          "some kinetic energy becomes heat, sound, or deformation"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Analyzing car crash dynamics for safety barrier design.",
+        "Studying meteorite impacts causing atmospheric heating events."
+      ]
+    },
+    {
+      "id": "stemma:phys.instantaneous-velocity",
+      "type": "concept",
+      "name": "instantaneous velocity",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Instantaneous velocity specifies the speed and direction of an object at a precise moment. Unlike average velocity, this vector quantity captures rapid changes in position occurring over infinitesimally small time intervals.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-1/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Stephen D. Druger, William Moebs, Samuel J. Ling, Jeff Sanny, David Anderson, Daniel Bowman, Gerald Friedman, Edw. S. Ginsberg, Kenneth Podolak, Takashi Sato, David Smith, Joseph Trout, Kevin Wheelock, Dedra Demaree, Richard Ludlow, Patrick Motl, Lev Gasparov, Lee LaRue, Mark Lattery, Tao Pang, Alice Kolakowska",
+        "link": "https://openstax.org/books/university-physics-volume-1/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Analyzing car crash dynamics for liability determination.",
+        "Tracking satellite orbital adjustments in real-time navigation systems.",
+        "Modeling fluid particle flow rates at specific pipe cross-sections."
+      ],
+      "limitations": [
+        "Requires differentiable continuous motion functions without jumps.",
+        "Measurement precision limited by sensor sampling frequency and noise.",
+        "Conceptually abstract; difficult to observe directly with standard tools."
+      ]
+    },
+    {
       "id": "stemma:phys.kilogram",
       "type": "unit",
       "name": "Kilogram",
       "domain": "physics",
       "subdomain": "measurement-units",
       "status": "draft",
+      "level": "foundational",
       "definition": "The kilogram (symbol: kg) is the SI base unit of mass. It is defined by taking the fixed numerical value of the Planck constant h to be exactly 6.62607015e-34 when expressed in the unit joule second, J s, which is equal to kg m2 s-1, where the metre and the second are defined in terms of c and ΔνCs. Exact per BIPM definition of the kilogram (SI Brochure 9th ed., 2019, §2.3.1.2; the text of the 26th CGPM 2018, Resolution 1).",
       "symbol": "kg",
       "unit": "kilogram (kg)",
@@ -147,12 +2520,131 @@
       }
     },
     {
+      "id": "stemma:phys.kinetic-energy",
+      "type": "concept",
+      "name": "kinetic energy",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Kinetic energy measures an object's motion as one-half its mass times speed squared. This scalar quantity depends entirely on the reference frame chosen for observation.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-1/pages/7-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Stephen D. Druger, William Moebs, Samuel J. Ling, Jeff Sanny, David Anderson, Daniel Bowman, Gerald Friedman, Edw. S. Ginsberg, Kenneth Podolak, Takashi Sato, David Smith, Joseph Trout, Kevin Wheelock, Dedra Demaree, Richard Ludlow, Patrick Motl, Lev Gasparov, Lee LaRue, Mark Lattery, Tao Pang, Alice Kolakowska",
+        "link": "https://openstax.org/books/university-physics-volume-1/pages/7-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q46276"
+      },
+      "examples": [
+        "Doubling a car's speed quadruples its kinetic energy.",
+        "A 2 kg object moving at 3 m/s has 9 J of kinetic energy."
+      ],
+      "formal": {
+        "statement": "The kinetic energy of a translating body is one half its mass times the square of its speed.",
+        "equation": "K = 1/2 m v^2",
+        "variables": [
+          {
+            "symbol": "K",
+            "meaning": "kinetic energy",
+            "unit": "J"
+          },
+          {
+            "symbol": "m",
+            "meaning": "mass",
+            "unit": "kg"
+          },
+          {
+            "symbol": "v",
+            "meaning": "speed",
+            "unit": "m s^-1"
+          }
+        ],
+        "conditions": [
+          "non-relativistic speed",
+          "point mass or rigid body in translation"
+        ],
+        "dimensions": "M L^2 T^-2"
+      },
+      "applications": [
+        "Designing vehicle crumple zones for collision safety standards.",
+        "Calculating impact damage potential of falling debris or projectiles.",
+        "Optimizing roller coaster loop designs based on speed thresholds."
+      ],
+      "limitations": [
+        "Values are relative and change depending on observer's frame of reference.",
+        "Ignores internal energy states like heat or chemical bonds within matter.",
+        "Formula assumes non-relativistic speeds far below light velocity."
+      ]
+    },
+    {
       "id": "stemma:phys.length",
       "type": "quantity",
       "name": "Length",
       "domain": "physics",
       "subdomain": "measurement-units",
       "status": "draft",
+      "level": "foundational",
       "definition": "Length is the SI base physical quantity of spatial extent — the measure of one-dimensional distance between two points in space. The metre is the unit in which length is expressed: 1 m = the length of the path travelled by light in vacuum during 1/299,792,458 of a second (c fixed exact). Agreed per BIPM SI Brochure 9th ed. (2019), base quantities table; §2.3.1.",
       "symbol": "L",
       "unit": "metre (m)",
@@ -192,12 +2684,130 @@
       }
     },
     {
+      "id": "stemma:phys.magnetic-field",
+      "type": "concept",
+      "name": "magnetic field",
+      "domain": "physics",
+      "subdomain": "electricity-magnetism",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "A magnetic field consists of directional lines indicating force magnitude and direction near magnets. It exerts forces on moving charges, defining the region where magnetic interactions occur.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-physics"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Physics (2020), OpenStax. Term locator: https://openstax.org/books/physics/pages/15-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Peter Urone, Roger Hinrichs, Fatih Gozuacik, Denise Pattison, Catherine Tabor",
+        "link": "https://openstax.org/books/physics/pages/15-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.coulombs-law",
+        "stemma:phys.faraday-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q11408"
+      },
+      "examples": [
+        "A compass needle aligns with Earth's magnetic field.",
+        "A charged particle moving perpendicular to a magnetic field follows a circular path."
+      ],
+      "formal": {
+        "statement": "The magnetic force on a moving charge is the charge times the cross product of velocity and magnetic field.",
+        "equation": "F = q (v x B)",
+        "variables": [
+          {
+            "symbol": "F",
+            "meaning": "magnetic force",
+            "unit": "N"
+          },
+          {
+            "symbol": "q",
+            "meaning": "charge",
+            "unit": "C"
+          },
+          {
+            "symbol": "v",
+            "meaning": "velocity",
+            "unit": "m s^-1"
+          },
+          {
+            "symbol": "B",
+            "meaning": "magnetic field",
+            "unit": "T"
+          }
+        ],
+        "conditions": [
+          "point charge",
+          "classical electromagnetism"
+        ],
+        "dimensions": "M L T^-2"
+      },
+      "applications": [
+        "MRI machine imaging systems in hospitals.",
+        "Electric motor torque generation mechanisms."
+      ]
+    },
+    {
       "id": "stemma:phys.mass",
       "type": "quantity",
       "name": "Mass",
       "domain": "physics",
       "subdomain": "measurement-units",
       "status": "draft",
+      "level": "foundational",
       "definition": "Mass is the SI base physical quantity measuring a body's inertia and its quantity of matter. Its SI unit, the kilogram, is defined by taking the fixed numerical value of the Planck constant h to be exactly 6.62607015e-34 when expressed in J s = kg m2 s-1, with the metre and second as separately defined (SI 2019 redefinition). Agreed per BIPM SI Brochure 9th ed. (2019) §2.3.1.",
       "symbol": "M",
       "unit": "kilogram (kg)",
@@ -240,6 +2850,7 @@
       "domain": "physics",
       "subdomain": "measurement-units",
       "status": "canonical",
+      "level": "foundational",
       "definition": "The metre (symbol: m) is the base unit of length in the International System of Units (SI). It is scientifically defined as the length of the path travelled by light in a vacuum during a time interval of 1/299,792,458 of a second. Exact: c=299,792,458 m/s. Agreed per BIPM SI Brochure 9th ed. 2019 redefinition, fixing c exact.",
       "symbol": "m",
       "unit": "metre (m)",
@@ -327,7 +2938,129 @@
         "cleared_stage": "validator",
         "cleared_at": "2026-10-01T01:22:05.740837+00:00",
         "clearance_evidence": "connection obligation satisfied: conn.000156 exists and is canonical under the waived chain (validator -> independent_validator). Debt incurred 2026-10-01, cleared 2026-10-01."
-      }
+      },
+      "applications": [
+        "Standardizing global scientific measurements and engineering tolerances.",
+        "Calibrating laser ranging instruments for geodesy."
+      ]
+    },
+    {
+      "id": "stemma:phys.momentum",
+      "type": "concept",
+      "name": "momentum",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Momentum represents the measure of an object's quantity of motion. It is calculated as the product of mass and velocity, serving as a vector quantity that accounts for both how fast an object moves and its inertia.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-1/pages/9-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Stephen D. Druger, William Moebs, Samuel J. Ling, Jeff Sanny, David Anderson, Daniel Bowman, Gerald Friedman, Edw. S. Ginsberg, Kenneth Podolak, Takashi Sato, David Smith, Joseph Trout, Kevin Wheelock, Dedra Demaree, Richard Ludlow, Patrick Motl, Lev Gasparov, Lee LaRue, Mark Lattery, Tao Pang, Alice Kolakowska",
+        "link": "https://openstax.org/books/university-physics-volume-1/pages/9-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q41273"
+      },
+      "examples": [
+        "A 1,000 kg car moving at 20 m/s has momentum 20,000 kg m/s in its direction of travel.",
+        "A bowling ball and a tennis ball can share momentum if their masses and speeds compensate."
+      ],
+      "formal": {
+        "statement": "Linear momentum is the product of an object's mass and its velocity.",
+        "equation": "p = m v",
+        "variables": [
+          {
+            "symbol": "p",
+            "meaning": "linear momentum",
+            "unit": "kg m s^-1"
+          },
+          {
+            "symbol": "m",
+            "meaning": "mass",
+            "unit": "kg"
+          },
+          {
+            "symbol": "v",
+            "meaning": "velocity",
+            "unit": "m s^-1"
+          }
+        ],
+        "conditions": [
+          "non-relativistic speed",
+          "constant mass"
+        ],
+        "dimensions": "M L T^-1"
+      },
+      "applications": [
+        "Engineering airbag deployment timing for passenger safety.",
+        "Analyzing billiard ball collisions in sports physics simulations.",
+        "Designing rocket propulsion systems relying on exhaust recoil forces."
+      ],
+      "limitations": [
+        "Conservation strictly applies only to isolated, frictionless systems.",
+        "Classical formula fails at relativistic speeds approaching light speed.",
+        "Does not account for energy dissipation during inelastic impacts."
+      ]
     },
     {
       "id": "stemma:phys.newtons-second-law",
@@ -336,6 +3069,7 @@
       "domain": "physics",
       "subdomain": "mechanics",
       "status": "draft",
+      "level": "foundational",
       "definition": "Newton's second law of motion: the net external force on a system equals the time rate of change of its total linear momentum, ΣF = dp/dt; for constant mass this reduces to F = m a. Valid in classical (non-relativistic) mechanics in inertial reference frames. Stated by Isaac Newton as Lex II in Philosophiae Naturalis Principia Mathematica (1687); standard modern formulation per Halliday, Resnick, Walker 12th ed., Ch 5.",
       "symbol": "F_net = m a",
       "same_dimensional_quantities": null,
@@ -383,12 +3117,200 @@
       }
     },
     {
+      "id": "stemma:phys.potential-energy",
+      "type": "concept",
+      "name": "potential energy",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Potential energy is a position-dependent function representing stored capacity to do work. Its value relies on the configuration of objects relative to one another within the system.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-1/pages/8-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Stephen D. Druger, William Moebs, Samuel J. Ling, Jeff Sanny, David Anderson, Daniel Bowman, Gerald Friedman, Edw. S. Ginsberg, Kenneth Podolak, Takashi Sato, David Smith, Joseph Trout, Kevin Wheelock, Dedra Demaree, Richard Ludlow, Patrick Motl, Lev Gasparov, Lee LaRue, Mark Lattery, Tao Pang, Alice Kolakowska",
+        "link": "https://openstax.org/books/university-physics-volume-1/pages/8-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q155640"
+      },
+      "examples": [
+        "A raised book stores gravitational potential energy relative to the floor.",
+        "A compressed spring stores elastic potential energy."
+      ],
+      "formal": {
+        "statement": "The change in potential energy equals the negative of the work done by a conservative force.",
+        "equation": "Delta U = -W_conservative",
+        "variables": [
+          {
+            "symbol": "U",
+            "meaning": "potential energy",
+            "unit": "J"
+          },
+          {
+            "symbol": "W",
+            "meaning": "work done by the conservative force",
+            "unit": "J"
+          }
+        ],
+        "conditions": [
+          "conservative force field",
+          "reference zero chosen for U"
+        ],
+        "dimensions": "M L^2 T^-2"
+      },
+      "applications": [
+        "Designing hydroelectric dam reservoirs for power generation cycles.",
+        "Sizing spring mechanisms in mechanical watches or vehicle suspensions.",
+        "Modeling chemical bond stability in molecular structure analysis."
+      ],
+      "limitations": [
+        "Values depend entirely on arbitrary reference point selection.",
+        "Only defined strictly within conservative force field contexts.",
+        "Ignores non-conservative forces like air resistance during transitions."
+      ]
+    },
+    {
+      "id": "stemma:phys.pressure",
+      "type": "concept",
+      "name": "pressure",
+      "domain": "physics",
+      "subdomain": "thermal-physics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Pressure quantifies force pressing normally on a surface divided by that specific area. It serves as the bulk stress experienced uniformly throughout fluids at rest.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-1/pages/12-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Stephen D. Druger, William Moebs, Samuel J. Ling, Jeff Sanny, David Anderson, Daniel Bowman, Gerald Friedman, Edw. S. Ginsberg, Kenneth Podolak, Takashi Sato, David Smith, Joseph Trout, Kevin Wheelock, Dedra Demaree, Richard Ludlow, Patrick Motl, Lev Gasparov, Lee LaRue, Mark Lattery, Tao Pang, Alice Kolakowska",
+        "link": "https://openstax.org/books/university-physics-volume-1/pages/12-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.ideal-gas-law"
+      ],
+      "applications": [
+        "Tire inflation monitoring.",
+        "Hydraulic press operation"
+      ]
+    },
+    {
       "id": "stemma:phys.second",
       "type": "unit",
       "name": "Second",
       "domain": "physics",
       "subdomain": "measurement-units",
       "status": "draft",
+      "level": "foundational",
       "definition": "The second (symbol: s) is the SI base unit of time. It is defined by taking the fixed numerical value of the caesium frequency ΔνCs, the unperturbed ground-state hyperfine transition frequency of the caesium-133 atom, to be exactly 9,192,631,770 when expressed in the unit hertz, which is equal to s-1. Exact per BIPM definition of the second (SI Brochure 9th ed., 2019, §2.3.1.1; the text of the 26th CGPM 2018, Resolution 1).",
       "symbol": "s",
       "unit": "second (s)",
@@ -424,12 +3346,307 @@
       }
     },
     {
+      "id": "stemma:phys.second-law-thermodynamics",
+      "type": "law",
+      "name": "second law of thermodynamics",
+      "domain": "physics",
+      "subdomain": "thermal-physics",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The second law dictates that total entropy never decreases in a spontaneous process. It implies the directionality of natural changes and limits the efficiency of heat engines.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-physics"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Physics (2020), OpenStax. Term locator: https://openstax.org/books/physics/pages/12-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Peter Urone, Roger Hinrichs, Fatih Gozuacik, Denise Pattison, Catherine Tabor",
+        "link": "https://openstax.org/books/physics/pages/12-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.first-law-thermodynamics",
+        "stemma:phys.zeroth-law-thermodynamics"
+      ],
+      "historical": {
+        "stated_by": "Rudolf Clausius and William Thomson",
+        "year": 1850,
+        "where": "Clausius (1850); Thomson (1851)",
+        "timeline": [
+          {
+            "year": 1824,
+            "event": "Carnot publishes his principle on heat-engine efficiency"
+          },
+          {
+            "year": 1850,
+            "event": "Clausius states the heat-flow form of the second law"
+          },
+          {
+            "year": 1851,
+            "event": "Thomson states the Kelvin-Planck form"
+          }
+        ]
+      },
+      "applications": [
+        "Refrigerator performance rating.",
+        "Climate change energy models"
+      ],
+      "limitations": [
+        "Idealized reversible processes excluded."
+      ]
+    },
+    {
+      "id": "stemma:phys.simple-harmonic-motion",
+      "type": "phenomenon",
+      "name": "simple harmonic motion",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Simple harmonic motion describes oscillatory movement in systems where net force follows Hooke's law. This specific type of periodic motion occurs when restoring forces are directly proportional to displacement from equilibrium.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-physics"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Physics (2020), OpenStax. Term locator: https://openstax.org/books/physics/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Peter Urone, Roger Hinrichs, Fatih Gozuacik, Denise Pattison, Catherine Tabor",
+        "link": "https://openstax.org/books/physics/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q835975"
+      },
+      "examples": [
+        "A mass on an ideal spring oscillates with constant period.",
+        "A small-angle pendulum approximates simple harmonic motion."
+      ],
+      "formal": {
+        "statement": "Simple harmonic motion is periodic motion whose acceleration is proportional to displacement and directed toward the equilibrium position.",
+        "equation": "a = -omega^2 x",
+        "variables": [
+          {
+            "symbol": "a",
+            "meaning": "acceleration",
+            "unit": "m s^-2"
+          },
+          {
+            "symbol": "omega",
+            "meaning": "angular frequency",
+            "unit": "rad s^-1"
+          },
+          {
+            "symbol": "x",
+            "meaning": "displacement from equilibrium",
+            "unit": "m"
+          }
+        ],
+        "conditions": [
+          "linear restoring force",
+          "small oscillations about stable equilibrium"
+        ],
+        "dimensions": "L T^-2"
+      },
+      "applications": [
+        "Tuning guitar strings for specific musical note frequencies.",
+        "Designing building dampers to reduce earthquake structural sway.",
+        "Analyzing pendulum clocks for precise timekeeping mechanisms."
+      ],
+      "limitations": [
+        "Assumes ideal springs with zero internal friction or damping.",
+        "Breaks down when amplitudes become large enough to distort linearity.",
+        "Requires strictly linear restoring forces proportional to displacement."
+      ]
+    },
+    {
+      "id": "stemma:phys.temperature",
+      "type": "concept",
+      "name": "temperature",
+      "domain": "physics",
+      "subdomain": "thermal-physics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A measure of the average random kinetic energy of the particles in a substance, fixing the direction of heat flow between bodies in thermal contact. It is read on empirical scales such as Celsius, Fahrenheit, or kelvin, with the kelvin scale anchored at absolute zero.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.zeroth-law-thermodynamics",
+        "stemma:phys.ideal-gas-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Weather forecasting metrics.",
+        "Medical fever monitoring"
+      ]
+    },
+    {
       "id": "stemma:phys.time",
       "type": "quantity",
       "name": "Time",
       "domain": "physics",
       "subdomain": "measurement-units",
       "status": "draft",
+      "level": "foundational",
       "definition": "Time is the SI base physical quantity of duration and temporal sequence. Its SI unit, the second, is defined by taking the fixed numerical value of the caesium frequency ΔνCs — the unperturbed ground-state hyperfine transition frequency of the caesium-133 atom — to be exactly 9,192,631,770 hertz (Hz = s-1): one second is the duration of 9,192,631,770 periods of the radiation corresponding to that transition. Exact per BIPM SI Brochure 9th ed. (2019) §2.3.1.",
       "symbol": "T",
       "unit": "second (s)",
@@ -465,6 +3682,439 @@
         "year": 2019,
         "where": "SI Brochure 9th ed."
       }
+    },
+    {
+      "id": "stemma:phys.torque",
+      "type": "concept",
+      "name": "torque",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Torque results from taking the cross product of force and lever arm distance. This vector quantity determines the rotational effect produced on an object around a specific axis.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-1/pages/10-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Stephen D. Druger, William Moebs, Samuel J. Ling, Jeff Sanny, David Anderson, Daniel Bowman, Gerald Friedman, Edw. S. Ginsberg, Kenneth Podolak, Takashi Sato, David Smith, Joseph Trout, Kevin Wheelock, Dedra Demaree, Richard Ludlow, Patrick Motl, Lev Gasparov, Lee LaRue, Mark Lattery, Tao Pang, Alice Kolakowska",
+        "link": "https://openstax.org/books/university-physics-volume-1/pages/10-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q48103"
+      },
+      "examples": [
+        "Pushing a door far from its hinges produces more torque than pushing near the hinges.",
+        "A wrench multiplies torque when force is applied at a larger lever arm."
+      ],
+      "formal": {
+        "statement": "Torque is the cross product of the position vector from the pivot to the point of force application and the force vector.",
+        "equation": "tau = r x F",
+        "variables": [
+          {
+            "symbol": "tau",
+            "meaning": "torque",
+            "unit": "N m"
+          },
+          {
+            "symbol": "r",
+            "meaning": "position vector from pivot",
+            "unit": "m"
+          },
+          {
+            "symbol": "F",
+            "meaning": "force",
+            "unit": "N"
+          }
+        ],
+        "conditions": [
+          "rigid body",
+          "fixed pivot or axis"
+        ],
+        "dimensions": "M L^2 T^-2"
+      },
+      "applications": [
+        "Sizing engine crankshafts to handle maximum load stresses.",
+        "Designing bolt tightening procedures for structural assembly safety.",
+        "Optimizing wrench lengths for loosening rusted fasteners effectively."
+      ],
+      "limitations": [
+        "Calculation assumes rigid bodies without deformation under load.",
+        "Depends critically on precise definition of rotation axis location.",
+        "Ignores frictional losses at pivot points in real mechanisms."
+      ]
+    },
+    {
+      "id": "stemma:phys.velocity",
+      "type": "concept",
+      "name": "velocity",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Velocity is defined as the speed and direction of an object's motion. This vector quantity distinguishes itself from scalar speed by explicitly incorporating directional information to describe how position changes over time.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-physics"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Physics (2020), OpenStax. Term locator: https://openstax.org/books/physics/pages/2-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Peter Urone, Roger Hinrichs, Fatih Gozuacik, Denise Pattison, Catherine Tabor",
+        "link": "https://openstax.org/books/physics/pages/2-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q11465"
+      },
+      "examples": [
+        "A car that travels 120 km east in 2 h has average velocity 60 km/h east.",
+        "A satellite in a circular orbit has a velocity tangent to its path even though its speed is constant."
+      ],
+      "formal": {
+        "statement": "Velocity is the time derivative of position; average velocity is displacement divided by elapsed time.",
+        "equation": "v = dx/dt",
+        "variables": [
+          {
+            "symbol": "v",
+            "meaning": "velocity",
+            "unit": "m s^-1"
+          },
+          {
+            "symbol": "x",
+            "meaning": "position",
+            "unit": "m"
+          },
+          {
+            "symbol": "t",
+            "meaning": "time",
+            "unit": "s"
+          }
+        ],
+        "conditions": [
+          "classical mechanics",
+          "position measured in a chosen reference frame"
+        ],
+        "dimensions": "L T^-1"
+      },
+      "applications": [
+        "Navigating aircraft through wind currents for accurate flight paths.",
+        "Programming autonomous vehicles to maintain lane and speed limits.",
+        "Tracking migratory bird patterns relative to Earth's rotation."
+      ],
+      "limitations": [
+        "Requires consistent coordinate system definitions across observers.",
+        "Instantaneous values can be noisy without high-frequency sampling.",
+        "Does not describe acceleration unless time derivative is taken."
+      ]
+    },
+    {
+      "id": "stemma:phys.voltage",
+      "type": "concept",
+      "name": "voltage",
+      "domain": "physics",
+      "subdomain": "electricity-magnetism",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Voltage quantifies the change in potential energy per unit charge between two points. Measured in volts, this potential difference drives electric current through a circuit by providing the necessary force to move charges.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/7-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/7-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.coulombs-law",
+        "stemma:phys.faraday-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A 9 V battery does 9 J of work per coulomb of charge.",
+        "Voltage is measured across two points with a voltmeter."
+      ],
+      "formal": {
+        "statement": "Potential difference is the work done per unit charge moving between two points.",
+        "equation": "V = W / q",
+        "variables": [
+          {
+            "symbol": "V",
+            "meaning": "potential difference",
+            "unit": "V"
+          },
+          {
+            "symbol": "W",
+            "meaning": "work done on the charge",
+            "unit": "J"
+          },
+          {
+            "symbol": "q",
+            "meaning": "charge",
+            "unit": "C"
+          }
+        ],
+        "conditions": [
+          "electrostatic or steady-circuit context",
+          "path-independent for conservative fields"
+        ],
+        "dimensions": "M L^2 T^-3 I^-1"
+      },
+      "applications": [
+        "Battery selection for electronic devices.",
+        "Safety protocols for high-voltage equipment handling."
+      ]
+    },
+    {
+      "id": "stemma:phys.work",
+      "type": "concept",
+      "name": "work",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Work occurs when a force acts upon an object causing displacement. It is calculated as the dot product of force and displacement, representing energy transfer that happens only when motion results from applied forces.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-1/pages/7-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Stephen D. Druger, William Moebs, Samuel J. Ling, Jeff Sanny, David Anderson, Daniel Bowman, Gerald Friedman, Edw. S. Ginsberg, Kenneth Podolak, Takashi Sato, David Smith, Joseph Trout, Kevin Wheelock, Dedra Demaree, Richard Ludlow, Patrick Motl, Lev Gasparov, Lee LaRue, Mark Lattery, Tao Pang, Alice Kolakowska",
+        "link": "https://openstax.org/books/university-physics-volume-1/pages/7-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q42213"
+      },
+      "applications": [
+        "Sizing motors for conveyor belt load lifting capacities.",
+        "Estimating fuel consumption based on vehicle resistance forces.",
+        "Designing ergonomic tools to minimize user exertion per task."
+      ],
+      "limitations": [
+        "Defined strictly only when displacement occurs parallel to force.",
+        "Ignores heat generation or internal energy changes during processes.",
+        "Scalar result loses directional information of applied vectors."
+      ]
     }
   ],
   "connections": [

@@ -5,6 +5,7 @@ name: Kilogram
 domain: physics
 subdomain: measurement-units
 status: draft
+level: foundational
 definition: "The kilogram (symbol: kg) is the SI base unit of mass. It is defined by taking the fixed numerical value of the Planck constant h to be exactly 6.62607015e-34 when expressed in the unit joule second, J s, which is equal to kg m2 s-1, where the metre and the second are defined in terms of c and ΔνCs. Exact per BIPM definition of the kilogram (SI Brochure 9th ed., 2019, §2.3.1.2; the text of the 26th CGPM 2018, Resolution 1)."
 symbol: "kg"
 unit: "kilogram (kg)"
