@@ -601,3 +601,13 @@ tests/versioning/test_release_bundle.py
 Follow-up state commits in this push: `5c12a18`, `5381a2e`, `ff69b2e` (each records or
 repairs the session/state trail; the commit that writes this line is the branch tip and is
 exempt from enumeration).
+
+### [FIX] — grounded-chat namespace guard — 2026-10-22T08:17Z
+
+- `explorer/scripts/verify-grounded-chat.mjs`: the citation-namespace check hardcoded
+  `(phys|core|conn)`, so it failed as soon as the answer cited `stemma:bio.*`,
+  `stemma:chem.*`, or `stemma:earth.*`. It now derives the allowed namespaces from the
+  export and still requires every citation to be a real export id. CI's Explorer Build
+  failed at this step on PR #92.
+- Follow-up commits: `f21752d` (previous tip) is included here; the commit that writes this
+  line is the branch tip and is exempt from enumeration.

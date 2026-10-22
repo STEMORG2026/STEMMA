@@ -121,8 +121,12 @@ check('every citation names a real export id',
   citedIds.join(', '));
 check('every cited id is also in the grounding set',
   citedIds.every(id => grounded.groundingIds.includes(id)));
+// Derived, not hardcoded: the corpus spans phys/chem/bio/earth/astro/math/eng.
+// A hardcoded (phys|core|conn) list silently fails once another domain is cited.
+const stemmaNamespaces = new Set(
+  [...exportEntityIds, ...exportConnIds].map(id => id.split('.')[0]));
 check('every citation carries a stable STEMMA id',
-  grounded.citations.every(c => /^stemma:(phys|core|conn)\./.test(c.id)));
+  grounded.citations.every(c => /^stemma:/.test(c.id) && stemmaNamespaces.has(c.id.split('.')[0])));
 check('every citation carries a label',
   grounded.citations.every(c => typeof c.label === 'string' && c.label.length > 0));
 check('entity citations carry the entity source refs from the export',
