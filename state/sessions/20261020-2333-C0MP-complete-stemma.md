@@ -597,3 +597,7 @@ tests/versioning/test_release_bundle.py
   content/docs variants to the docs-level form only. The canonical entity
   `content/physics/mechanics/force.md` has existed since `121af07`, so the manifest and this
   session record legitimately name it; the old guard would have blocked every future push.
+
+Follow-up state commits in this push: `5c12a18`, `5381a2e`, `ff69b2e` (each records or
+repairs the session/state trail; the commit that writes this line is the branch tip and is
+exempt from enumeration).
