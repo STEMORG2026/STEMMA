@@ -3,7 +3,7 @@
     {
       "level": "INFO",
       "type": "isolated_entities",
-      "message": "265 entities have no connections",
+      "message": "295 entities have no connections",
       "ids": [
         "stemma:bio.3-utr",
         "stemma:bio.5-cap",

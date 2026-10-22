@@ -2,13 +2,13 @@
 
 > **Current state only.** What IS, not what happened. History lives in `sessions/`.
 
-**Last Reconciled:** 2026-10-22T06:54Z
+**Last Reconciled:** 2026-10-22T10:49Z
 **Reconciled by:** `C0MP`
 **Protocol:** MACP **v1.2** (`state/PROTOCOL.md`; startup sequence in `state/STARTUP.md`)
 
 > **C0MP is active** on session `20261020-2333-C0MP-complete-stemma` (branch
-> `feat/bachelor-multidomain`, based on `f197bdc`): R6/R7/R8 complete, the 260-entity
-> bachelor corpus committed, and the production-readiness audit green. The prior session
+> `feat/coverage-batch-2`, based on `0df9032`): R6/R7/R8 complete; PR #92 squash-merged;
+> 30 biology entities added (298 total, 290 reviewed, 8 drafts); production-readiness audit green. The prior session
 > `20261002-0130-A7F3-start-time-enforcement` remains `COMPLETED` (DEC-007, N4); no other
 > agent is live. Session status remains `IN-PROGRESS` until the owner closes it.
 
@@ -22,7 +22,7 @@
 | | |
 |---|---|
 | Repo | `STEMORG2026/STEMMA` (`Er-Sajan-PLG/STEMMA` is a pure redirect) |
-| Branch | `feat/bachelor-multidomain` (PR pending) |
+| Branch | `feat/coverage-batch-2` (continuing after PR #92 merged) |
 | Version | `VERSION` = **3.0.0** · schema `1.4.0` · export `2.2.0` · relation registry `1.0.0` |
 | Owner | Sajan (`human:curator.001`, `SOLE_OWNER`) |
 
@@ -42,7 +42,7 @@
 > chain's row records its failures and not its step count.
 
 <!-- BEGIN GENERATED: gate-status — do not edit by hand; regenerate with `python3 scripts/gate_status.py` -->
-**Measured:** 2026-10-22T05:48Z · **HEAD:** `f197bdc`
+**Measured:** 2026-10-22T10:59Z · **HEAD:** `0df9032`
 
 | Gate | Status | Result (context, not byte-compared) |
 |---|---|---|
@@ -53,6 +53,7 @@
 | `scripts/verify_strong.py --quick` | **PASS** | exit 0 |
 | `tests/repo/test_state_tree.py` | **PASS** | **PASS — 22/22** |
 <!-- END GENERATED: gate-status -->
+
 
 
 

@@ -330,6 +330,291 @@
       }
     },
     {
+      "@id": "stemma:bio.abo-blood-group",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "ABO blood group",
+      "entityType": "concept",
+      "status": "canonical",
+      "definition": "The ABO blood group system classifies human blood types based on specific glycoprotein antigens present or absent. These markers appear on the surface of erythrocytes and determine compatibility for safe transfusions between different individuals.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/18-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.above-ground-biomass",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "above-ground biomass",
+      "entityType": "concept",
+      "status": "canonical",
+      "definition": "Above-ground biomass quantifies the total mass of all living plant material located above the soil surface. This metric is essential for estimating carbon storage and productivity within terrestrial ecosystems per unit area.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/44-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.abscisic-acid-aba",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "abscisic acid (ABA)",
+      "entityType": "material",
+      "status": "canonical",
+      "definition": "Abscisic acid functions as a critical plant hormone that triggers dormancy in seeds and other vegetative organs. This chemical signal helps plants survive adverse environmental conditions by halting growth until favorable returns.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/30-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.abscission",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "abscission",
+      "entityType": "process",
+      "status": "canonical",
+      "definition": "Abscission describes the physiological process leading to the detachment and fall of plant organs. This mechanism facilitates leaf or petal drop, allowing plants to shed damaged parts or prepare for seasonal changes.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/30-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.absolute-refractory-period",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "absolute refractory period",
+      "entityType": "concept",
+      "status": "canonical",
+      "definition": "The absolute refractory period is a specific interval within an action potential during which no new electrical impulse can be initiated. This limitation occurs because voltage-gated sodium channels remain inactivated, preventing the immediate generation of another signal regardless of stimulus strength.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.absorption",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "absorption",
+      "entityType": "process",
+      "status": "canonical",
+      "definition": "Absorption describes the physiological process where digested nutrients pass from the intestinal lumen through mucosal cells. These substances then enter either the bloodstream or lacteals to be distributed throughout the body for cellular utilization and metabolic functions.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.absorptive-state",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "absorptive state",
+      "entityType": "concept",
+      "status": "canonical",
+      "definition": "Also known as the fed state, this absorptive state represents a specific metabolic condition occurring shortly after food ingestion. During these initial hours, the body prioritizes digesting meals and absorbing nutrients while insulin levels remain elevated to facilitate storage.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.abstract",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "abstract",
+      "entityType": "structure",
+      "status": "canonical",
+      "definition": "A concise summary placed at the start of a scientific report that states the study's question, methods, principal findings, and conclusions, allowing readers to judge relevance before reading the full paper.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/1-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.abyssal-zone",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "abyssal zone",
+      "entityType": "structure",
+      "status": "canonical",
+      "definition": "The abyssal zone constitutes the deepest part of the ocean floor found at depths exceeding four thousand meters. This extreme environment is characterized by perpetual darkness, near-freezing temperatures, and immense pressure that supports unique biological communities adapted to these harsh conditions.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/44-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.acanthostega",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "Acanthostega",
+      "entityType": "structure",
+      "status": "canonical",
+      "definition": "Acanthostega represents one of the earliest known tetrapods discovered by paleontologists in geological strata. This ancient organism provides critical evidence regarding the evolutionary transition from aquatic ancestors to land-dwelling vertebrates during the Devonian period.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/29-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.accessory-digestive-organ",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "accessory digestive organ",
+      "entityType": "structure",
+      "status": "canonical",
+      "definition": "A structure outside the main digestive tube—such as the teeth, tongue, salivary glands, liver, gallbladder, or pancreas—that helps break down food mechanically or supplies secretions needed for chemical digestion.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.accessory-duct",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "accessory duct",
+      "entityType": "structure",
+      "status": "canonical",
+      "definition": "The accessory duct, also called the duct of Santorini, is a specific channel running from the pancreas into the duodenum. It provides an alternative pathway for pancreatic secretions to enter the small intestine alongside the main bile and digestive enzymes.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/23-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.accessory-fruit",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "accessory fruit",
+      "entityType": "concept",
+      "status": "canonical",
+      "definition": "An accessory fruit is a botanical structure derived from tissues other than the ovary itself. This development often involves parts like receptacles or sepals swelling to enclose seeds, distinguishing it from true fruits formed solely by ripened ovaries.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/32-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.acclimatization",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "acclimatization",
+      "entityType": "process",
+      "status": "canonical",
+      "definition": "The gradual, reversible physiological adjustment an organism makes during sustained exposure to a changed environment, such as high altitude or temperature extremes, improving function under the new conditions.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/33-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.adaptation",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "adaptation",
+      "entityType": "concept",
+      "status": "canonical",
+      "definition": "A heritable characteristic or behavior that improves an organism's ability to survive and reproduce in its current surroundings, having arisen through natural selection over generations.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/18-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
       "@id": "stemma:bio.allele",
       "@type": [
         "skos:Concept",
@@ -346,6 +631,44 @@
         "reviewedAt": "2026-10-20T00:00:00+00:00",
         "sourceKind": "textbook",
         "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/12-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.amino-acid",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "amino acid",
+      "entityType": "material",
+      "status": "canonical",
+      "definition": "An amino acid acts as the essential monomer unit required to construct all protein structures. It features a central alpha carbon bonded to an amino group, carboxyl group, hydrogen atom, and a unique side chain that dictates its chemical properties.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/3-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.biodiversity",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "biodiversity",
+      "entityType": "concept",
+      "status": "canonical",
+      "definition": "The full range of biological variation within a system, encompassing the number and distinctness of species as well as genetic differences, biochemical diversity, and the variety of ecosystems they form.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/47-key-terms. Used as a reference; definition independently phrased."
       }
     },
     {
@@ -403,6 +726,25 @@
         "reviewedAt": "2026-10-20T00:00:00+00:00",
         "sourceKind": "textbook",
         "sourceCitation": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.chloroplast",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "chloroplast",
+      "entityType": "organelle",
+      "status": "canonical",
+      "definition": "A membrane-bound organelle in plant and algal cells that captures light energy and converts it into chemical energy through photosynthesis, producing sugars and releasing oxygen.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/4-key-terms. Used as a reference; definition independently phrased."
       }
     },
     {
@@ -482,6 +824,25 @@
       }
     },
     {
+      "@id": "stemma:bio.eukaryote",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "eukaryote",
+      "entityType": "structure",
+      "status": "canonical",
+      "definition": "A eukaryote is an organism composed of cells containing a distinct nucleus and various membrane-bound organelles. This complex cellular architecture allows for specialized functions within compartments, distinguishing them from simpler prokaryotic life forms.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/1-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
       "@id": "stemma:bio.evolution",
       "@type": [
         "skos:Concept",
@@ -520,6 +881,25 @@
       }
     },
     {
+      "@id": "stemma:bio.food-web",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "food web",
+      "entityType": "model",
+      "status": "canonical",
+      "definition": "A representation of feeding relationships in an ecological community as an interconnected network, tracing energy flow from primary producers through consumers at several trophic levels and into decomposers.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/46-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
       "@id": "stemma:bio.gene",
       "@type": [
         "skos:Concept",
@@ -536,6 +916,44 @@
         "reviewedAt": "2026-10-20T00:00:00+00:00",
         "sourceKind": "textbook",
         "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/10-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.gene-expression",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "gene expression",
+      "entityType": "process",
+      "status": "canonical",
+      "definition": "Gene expression encompasses the cellular mechanisms that regulate whether a specific gene is active or inactive. These processes control the synthesis of functional products like proteins, determining which traits are physically manifested in an organism at any given moment.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/16-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.genetic-drift",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "genetic drift",
+      "entityType": "concept",
+      "status": "canonical",
+      "definition": "Genetic drift is an evolutionary mechanism describing random fluctuations in allele frequencies within a population. This stochastic process causes significant changes primarily in small populations, where chance events rather than natural selection determine which genetic variants persist or disappear over generations.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/19-key-terms. Used as a reference; definition independently phrased."
       }
     },
     {
@@ -748,6 +1166,63 @@
       }
     },
     {
+      "@id": "stemma:bio.nucleotide",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "nucleotide",
+      "entityType": "material",
+      "status": "canonical",
+      "definition": "An organic molecule that serves as a building block of nucleic acids, composed of a five-carbon sugar, at least one phosphate group, and a nitrogen-containing base.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/3-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.nucleus",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "nucleus",
+      "entityType": "organelle",
+      "status": "canonical",
+      "definition": "The membrane-enclosed organelle that holds a eukaryotic cell's genetic material and coordinates gene expression, DNA replication, and cell division, separating these processes from the cytoplasm.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/2-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.organ",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "organ",
+      "entityType": "structure",
+      "status": "canonical",
+      "definition": "A discrete body structure formed from two or more kinds of tissue that together carry out a particular physiological task, such as the heart pumping blood or the lungs exchanging gases.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/1-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
       "@id": "stemma:bio.organelle",
       "@type": [
         "skos:Concept",
@@ -757,6 +1232,25 @@
       "entityType": "structure",
       "status": "canonical",
       "definition": "A membrane-bound or structurally distinct compartment inside a cell that carries out a specialized function. Examples include mitochondria for energy conversion, ribosomes for protein synthesis, and the nucleus for storing genetic material.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/1-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.organism",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "organism",
+      "entityType": "concept",
+      "status": "canonical",
+      "definition": "An individual living being with cellular organization that can independently carry out the physiological activities needed for life, including metabolism, growth, response to stimuli, and reproduction.",
       "provenance": {
         "aiDrafted": true,
         "writer": "process:openstax-importer.v1",
@@ -805,6 +1299,25 @@
       }
     },
     {
+      "@id": "stemma:bio.prokaryote",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "prokaryote",
+      "entityType": "structure",
+      "status": "canonical",
+      "definition": "A prokaryote represents a single-celled organism characterized by the absence of membrane-bound organelles. Crucially, these organisms lack a true nucleus surrounded by a nuclear membrane, keeping their genetic material free-floating within the cytoplasm.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/1-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
       "@id": "stemma:bio.protein",
       "@type": [
         "skos:Concept",
@@ -843,6 +1356,25 @@
       }
     },
     {
+      "@id": "stemma:bio.speciation",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "speciation",
+      "entityType": "process",
+      "status": "canonical",
+      "definition": "The evolutionary process by which a new species arises, typically after populations become reproductively isolated and accumulate genetic differences that eventually prevent successful interbreeding between them.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/18-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
       "@id": "stemma:bio.species",
       "@type": [
         "skos:Concept",
@@ -859,6 +1391,44 @@
         "reviewedAt": "2026-10-20T00:00:00+00:00",
         "sourceKind": "textbook",
         "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/18-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.symbiosis",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "symbiosis",
+      "entityType": "process",
+      "status": "canonical",
+      "definition": "A prolonged association between organisms of different species in which their interactions affect each other's survival, population size, or distribution, ranging from mutual benefit to parasitism.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/45-key-terms. Used as a reference; definition independently phrased."
+      }
+    },
+    {
+      "@id": "stemma:bio.tissue",
+      "@type": [
+        "skos:Concept",
+        "stemma:Concept"
+      ],
+      "name": "tissue",
+      "entityType": "structure",
+      "status": "canonical",
+      "definition": "A cooperative assembly of cells that share structure and function, working together as one of the organizational levels between individual cells and complete organs in multicellular life.",
+      "provenance": {
+        "aiDrafted": true,
+        "writer": "process:openstax-importer.v1",
+        "reviewer": "process:content-validator.v1",
+        "reviewedAt": "2026-10-20T00:00:00+00:00",
+        "sourceKind": "textbook",
+        "sourceCitation": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/1-key-terms. Used as a reference; definition independently phrased."
       }
     },
     {

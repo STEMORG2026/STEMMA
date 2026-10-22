@@ -1,7 +1,7 @@
 {
   "export_version": "2.2.0",
   "schema_version": "1.4.0",
-  "content_hash": "sha256:d98304ee3f9efabf81443d52d40d7486debc76b900c65c9747122659aa628bac",
+  "content_hash": "sha256:fc0a6d3361f24af1f1638f0ee52040f5f3ad1deb4a37cae6583f8ae960b161aa",
   "kernel_version": "3.0.0",
   "relation_registry_version": "1.0.0",
   "relation_registry": {
@@ -1117,7 +1117,7 @@
     ]
   },
   "source": "content/ + connections/ (canonical) + derived",
-  "entity_count": 268,
+  "entity_count": 298,
   "connection_count": 2,
   "explicit": {
     "count": 2,
@@ -1151,7 +1151,7 @@
             "degree": 1,
             "in_degree": 1,
             "out_degree": 0,
-            "pagerank": 0.001035
+            "pagerank": 0.000931
           }
         ],
         [
@@ -1160,7 +1160,7 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
@@ -1169,7 +1169,7 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
@@ -1178,7 +1178,7 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
@@ -1187,7 +1187,7 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
@@ -1196,7 +1196,7 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
@@ -1205,7 +1205,7 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
@@ -1214,7 +1214,7 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
@@ -1223,7 +1223,7 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
@@ -1232,7 +1232,7 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
@@ -1241,7 +1241,7 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
@@ -1250,7 +1250,7 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
@@ -1259,7 +1259,7 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
@@ -1268,7 +1268,7 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
@@ -1277,7 +1277,7 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
@@ -1286,43 +1286,43 @@
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
-          "stemma:bio.allele",
+          "stemma:bio.abo-blood-group",
           {
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
-          "stemma:bio.cell",
+          "stemma:bio.above-ground-biomass",
           {
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
-          "stemma:bio.cell-membrane",
+          "stemma:bio.abscisic-acid-aba",
           {
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ],
         [
-          "stemma:bio.cellular-respiration",
+          "stemma:bio.abscission",
           {
             "degree": 0,
             "in_degree": 0,
             "out_degree": 0,
-            "pagerank": 0.00056
+            "pagerank": 0.000503
           }
         ]
       ],
@@ -1331,1614 +1331,1794 @@
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.5-cap": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.5-utr": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.7-methylguanosine-cap": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.a-horizon": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.abdominal-aorta": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.abdominopelvic-cavity": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.abducens-nerve": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.abduct": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.abduction": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.abductor": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.abductor-digiti-minimi": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.abductor-pollicis-brevis": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.abductor-pollicis-longus": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.abiotic": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
+        },
+        "stemma:bio.abo-blood-group": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.above-ground-biomass": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.abscisic-acid-aba": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.abscission": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.absolute-refractory-period": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.absorption": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.absorptive-state": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.abstract": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.abyssal-zone": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.acanthostega": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.accessory-digestive-organ": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.accessory-duct": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.accessory-fruit": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.acclimatization": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.adaptation": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
         },
         "stemma:bio.allele": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
+        },
+        "stemma:bio.amino-acid": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.biodiversity": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
         },
         "stemma:bio.cell": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.cell-membrane": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.cellular-respiration": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
+        },
+        "stemma:bio.chloroplast": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
         },
         "stemma:bio.chromosome": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.cytoplasm": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.ecosystem": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.enzyme": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
+        },
+        "stemma:bio.eukaryote": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
         },
         "stemma:bio.evolution": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.food-chain": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
+        },
+        "stemma:bio.food-web": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
         },
         "stemma:bio.gene": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
+        },
+        "stemma:bio.gene-expression": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.genetic-drift": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
         },
         "stemma:bio.genotype": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.homeostasis": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.hormone": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.immune-system": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.meiosis": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.metabolism": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.mitochondrion": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.mitosis": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.mutation": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.natural-selection": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.neuron": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
+        },
+        "stemma:bio.nucleotide": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.nucleus": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.organ": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
         },
         "stemma:bio.organelle": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
+        },
+        "stemma:bio.organism": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
         },
         "stemma:bio.phenotype": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.population": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
+        },
+        "stemma:bio.prokaryote": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
         },
         "stemma:bio.protein": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.ribosome": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
+        },
+        "stemma:bio.speciation": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
         },
         "stemma:bio.species": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
+        },
+        "stemma:bio.symbiosis": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
+        },
+        "stemma:bio.tissue": {
+          "degree": 0,
+          "in_degree": 0,
+          "out_degree": 0,
+          "pagerank": 0.000503
         },
         "stemma:bio.transcription": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:bio.translation": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.accuracy": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.acid": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.acid-anhydride": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.acid-base-indicator": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.acid-base-reaction": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.acid-ionization": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.acid-ionization-constant-ka": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.acidic": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.actinide": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.actinide-series": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.activated-complex": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.active-electrode": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.actual-yield": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.atom": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.base": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.buffer": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.calorimetry": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.catalyst": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.chemical-equation": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.covalent-bond": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.electron": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.electronegativity": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.empirical-formula": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.equilibrium": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.ion": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.ionic-bond": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.limiting-reactant": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.molar-mass": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.mole": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.molecular-formula": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.molecule": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.neutron": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.organic-compound": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.oxidation": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.percent-yield": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.periodic-table": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.precipitate": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.proton": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.reduction": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.solute": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.solvent": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:chem.stoichiometry": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.absorption-spectrum": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.accelerate": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.accretion": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.accretion-disk": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.active-galactic-nuclei-agn": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.active-galaxies": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.active-region": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.adaptive-optics": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.amino-acids": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.angular-momentum": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.anthropic-principle": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.aperture": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.aphelion": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.apogee": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.apparent-brightness": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.apparent-magnitude": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.aurora": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.big-bang": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.black-hole": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.comet": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.cosmological-principle": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.dark-energy": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.dark-matter": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.doppler-effect": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.event-horizon": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.exoplanet": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.kuiper-belt": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.local-group": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.luminosity": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.main-sequence": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.meteor": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.nebula": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.neutron-star": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.oort-cloud": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.orbit": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.parsec": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.planet": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.pulsar": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.quasar": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.redshift": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.solar-flare": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.sunspot": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.telescope": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.terrestrial-planet": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:earth.white-dwarf": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.3-d-printing": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.3d-visualization": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.4-d-printing": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.abstract-data-type-adt": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.abstract-method": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.abstract-model": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.abstract-representation": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.abstraction": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.acceptance-testing": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.access-control": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.access-control-list-acl": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.access-enforcement": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.access-modifier": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.accessibility": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.accessibility-testing": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.algorithm": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.authentication": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.authorization": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.code-review": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.compiler": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.complexity": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.concurrency": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.continuous-integration": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.data-structure": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.debugging": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.deployment": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.design-pattern": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.encapsulation": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.encryption": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.index": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.inheritance": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.interface": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.machine-learning": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.network": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.neural-network": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.normalization": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.operating-system": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.polymorphism": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.refactoring": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.software-architecture": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.stack": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.transaction": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.unit-testing": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:eng.version-control": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.absolute-convergence": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.absolute-error": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.absolute-extremum": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.absolute-maximum": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.absolute-minimum": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.absolute-value-equation": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.absolute-value-function": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.absolute-value-inequality": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.acceleration": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.acceleration-vector": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.addition-method": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.addition-principle": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.adjacent-side": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.algebraic-expression": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.algebraic-function": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.arithmetic-sequence": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.binomial-theorem": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.combination": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.complex-number": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.conic-section": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.derivative": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.differential-equation": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.domain": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.ellipse": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.exponential-growth": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.function": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.geometric-sequence": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.hyperbola": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.limit": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.logarithm": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.logarithmic-function": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.matrix": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.mean": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.parabola": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.permutation": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.polar-coordinates": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.polynomial": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.probability": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.range": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.rational-function": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.relation": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.sequence": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.series": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.variance": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:math.vector": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.absolute-pressure": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.absolute-temperature-scale": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.absolute-zero": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.absorber": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.ac-current": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.ac-voltage": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.action-at-a-distance-force": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.alternating-current": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.alternating-current-ac": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.angle-of-rotation": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.angular-acceleration": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.angular-velocity": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.center-of-mass": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.conservation-energy": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.elastic-collision": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.electric-charge": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.electric-current": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.electric-field": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.electric-potential": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.electric-power": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.energy": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.entropy": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.first-law-thermodynamics": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.force": {
           "degree": 1,
           "in_degree": 0,
           "out_degree": 1,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.friction": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.heat": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.inelastic-collision": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.instantaneous-velocity": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.kilogram": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.kinetic-energy": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.length": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.magnetic-field": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.mass": {
           "degree": 1,
           "in_degree": 1,
           "out_degree": 0,
-          "pagerank": 0.001035
+          "pagerank": 0.000931
         },
         "stemma:phys.metre": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.momentum": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.newtons-second-law": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.potential-energy": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.pressure": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.second": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.second-law-thermodynamics": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.simple-harmonic-motion": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.temperature": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.time": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.torque": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.velocity": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.voltage": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         },
         "stemma:phys.work": {
           "degree": 0,
           "in_degree": 0,
           "out_degree": 0,
-          "pagerank": 0.00056
+          "pagerank": 0.000503
         }
       }
     },
     "components": {
-      "count": 267,
+      "count": 297,
       "largest": 2,
       "isolated": [
         "stemma:bio.3-utr",
@@ -2956,11 +3136,11 @@
         "stemma:bio.abductor-pollicis-brevis",
         "stemma:bio.abductor-pollicis-longus",
         "stemma:bio.abiotic",
-        "stemma:bio.allele",
-        "stemma:bio.cell",
-        "stemma:bio.cell-membrane",
-        "stemma:bio.cellular-respiration",
-        "stemma:bio.chromosome"
+        "stemma:bio.abo-blood-group",
+        "stemma:bio.above-ground-biomass",
+        "stemma:bio.abscisic-acid-aba",
+        "stemma:bio.abscission",
+        "stemma:bio.absolute-refractory-period"
       ],
       "sizes": [
         2,

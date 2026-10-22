@@ -34,11 +34,11 @@ none
 - Provenance gaps (no reviewed_by): 0
 
 ## Entity review coverage
-- Entities: 268
-- Human-reviewed/canonical entities: 260 (97.0%)
-- Canonical entities: 260
-- By status: {'canonical': 260, 'draft': 8}
-- By domain: {"biology": {"canonical": 45, "human_reviewed": 45, "total": 45}, "chemistry": {"canonical": 42, "human_reviewed": 42, "total": 42}, "earth-space": {"canonical": 45, "human_reviewed": 45, "total": 45}, "engineering": {"canonical": 44, "human_reviewed": 44, "total": 44}, "mathematics": {"canonical": 45, "human_reviewed": 45, "total": 45}, "physics": {"canonical": 39, "human_reviewed": 39, "total": 47}}
+- Entities: 298
+- Human-reviewed/canonical entities: 290 (97.3%)
+- Canonical entities: 290
+- By status: {'canonical': 290, 'draft': 8}
+- By domain: {"biology": {"canonical": 75, "human_reviewed": 75, "total": 75}, "chemistry": {"canonical": 42, "human_reviewed": 42, "total": 42}, "earth-space": {"canonical": 45, "human_reviewed": 45, "total": 45}, "engineering": {"canonical": 44, "human_reviewed": 44, "total": 44}, "mathematics": {"canonical": 45, "human_reviewed": 45, "total": 45}, "physics": {"canonical": 39, "human_reviewed": 39, "total": 47}}
 
 ## Note
 Schema correctness != semantic acceptance. Canonical objects (397) include 382 proposed/unreviewed.

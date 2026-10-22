@@ -2,7 +2,7 @@
   "export_version": "2.2.0",
   "schema_version": "1.4.0",
   "policy": "type:phenomenon",
-  "content_hash": "sha256:d98304ee3f9efabf81443d52d40d7486debc76b900c65c9747122659aa628bac",
+  "content_hash": "sha256:fc0a6d3361f24af1f1638f0ee52040f5f3ad1deb4a37cae6583f8ae960b161aa",
   "source": "content/ + connections/ + sources/ (canonical)",
   "entity_count": 8,
   "connection_count": 0,

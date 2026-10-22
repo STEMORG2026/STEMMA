@@ -188,10 +188,180 @@
       "writer": "process:openstax-importer.v1"
     },
     {
+      "content_hash": "sha256:38ceb9997be57a2b203706bb87b4410a17a4ea76242a574282a89c805bafce8a",
+      "id": "stemma:bio.abo-blood-group",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/abo-blood-group.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:87f5701e6d07250f44f9652feb9c3652577dbb208a8749eb778db0e5ce5723d4",
+      "id": "stemma:bio.above-ground-biomass",
+      "kind": "entity",
+      "relpath": "content/biology/general/above-ground-biomass.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:9fa40c12fd22e769912bc9c25ddd9d5a91f4266fc5baaf5a1b20c58f9fcc2e11",
+      "id": "stemma:bio.abscisic-acid-aba",
+      "kind": "entity",
+      "relpath": "content/biology/general/abscisic-acid-aba.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:328160f7e4a4c62d121a6b2d73b4388fbc8c09471424281cf4d4594245ff3872",
+      "id": "stemma:bio.abscission",
+      "kind": "entity",
+      "relpath": "content/biology/general/abscission.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:3955fc8c75603744c08b5e706285738bfd9329ac72081324aedb868642bc76bf",
+      "id": "stemma:bio.absolute-refractory-period",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/absolute-refractory-period.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:ee2963c150fb708039c1618d5d27503532b5f71f3d6f381be559fb565e2a1c29",
+      "id": "stemma:bio.absorption",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/absorption.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:056d78eaaffd915a90b157eda18dc8600463f2b48ee1a261e77e890b03e7df04",
+      "id": "stemma:bio.absorptive-state",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/absorptive-state.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:06322047359e12362be9e966be729659f6b8357f624a5182117058236a5dc5d9",
+      "id": "stemma:bio.abstract",
+      "kind": "entity",
+      "relpath": "content/biology/general/abstract.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:334bb4581d429d247d25ce46e35d538a59522ac06d3b500c5478c48dd1a4099c",
+      "id": "stemma:bio.abyssal-zone",
+      "kind": "entity",
+      "relpath": "content/biology/general/abyssal-zone.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:1c93b3839ddcf06e75e8000f4e4b98157217d6bcb758be2c85c66a000d9c9742",
+      "id": "stemma:bio.acanthostega",
+      "kind": "entity",
+      "relpath": "content/biology/general/acanthostega.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e22ef3f1d96498732a7bcfbe8f5e5d69134407541d706efde05704865ef7fd44",
+      "id": "stemma:bio.accessory-digestive-organ",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/accessory-digestive-organ.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:2dbe3d81b0d6489147549863ffe43a6bb23c113317c7d4f57cb509b56a1a3af3",
+      "id": "stemma:bio.accessory-duct",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/accessory-duct.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0c5a21abf0962cc2791be3f09f419689f6fed5ed784fc70d4e7dd0854bff88ab",
+      "id": "stemma:bio.accessory-fruit",
+      "kind": "entity",
+      "relpath": "content/biology/general/accessory-fruit.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:8378a8efdfcb807fac34a8e1ae92621652d9881cbfe80f5601de9e27320bb081",
+      "id": "stemma:bio.acclimatization",
+      "kind": "entity",
+      "relpath": "content/biology/general/acclimatization.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:007783f282ef35132cc8104bca4b3d581a27dfdd67ac88b9008a6a7af6f18d46",
+      "id": "stemma:bio.adaptation",
+      "kind": "entity",
+      "relpath": "content/biology/general/adaptation.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
       "content_hash": "sha256:bfd21d64cb5a602f51a5a35720ab1b297066a27efa36c278b9acc9ec6ea17148",
       "id": "stemma:bio.allele",
       "kind": "entity",
       "relpath": "content/biology/general/allele.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:6ede4a00ee40e0f27c7288b7558d1a1b022ec0392722e2aa399505ac6a96d1ff",
+      "id": "stemma:bio.amino-acid",
+      "kind": "entity",
+      "relpath": "content/biology/general/amino-acid.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:f2ea2a3cdc13c43ea51da5924e4073c718c92346ecfd9ec1fb3f590895f1147e",
+      "id": "stemma:bio.biodiversity",
+      "kind": "entity",
+      "relpath": "content/biology/general/biodiversity.md",
       "reviewed_at": "2026-10-20T00:00:00+00:00",
       "reviewer": "process:content-validator.v1",
       "status": "canonical",
@@ -222,6 +392,16 @@
       "id": "stemma:bio.cellular-respiration",
       "kind": "entity",
       "relpath": "content/biology/physiology/cellular-respiration.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:1c9c4278a402968fac5d3ba6c715aa17f07989723c8228a4f7b45ab7e9adf537",
+      "id": "stemma:bio.chloroplast",
+      "kind": "entity",
+      "relpath": "content/biology/general/chloroplast.md",
       "reviewed_at": "2026-10-20T00:00:00+00:00",
       "reviewer": "process:content-validator.v1",
       "status": "canonical",
@@ -268,6 +448,16 @@
       "writer": "process:openstax-importer.v1"
     },
     {
+      "content_hash": "sha256:3f88a42daef7d40f2b01b385e0b608fe0bc9f670cf0f5d432c4895bec59247c1",
+      "id": "stemma:bio.eukaryote",
+      "kind": "entity",
+      "relpath": "content/biology/general/eukaryote.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
       "content_hash": "sha256:082cd4356e7a554954fb764fa79b8753c80757d12cc54ab17cb023d13e812e33",
       "id": "stemma:bio.evolution",
       "kind": "entity",
@@ -288,10 +478,40 @@
       "writer": "process:openstax-importer.v1"
     },
     {
+      "content_hash": "sha256:15f4ce5ceaae9626c142eff3669644eacb51f3be66422e932ef6a7c1f1351694",
+      "id": "stemma:bio.food-web",
+      "kind": "entity",
+      "relpath": "content/biology/general/food-web.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
       "content_hash": "sha256:98e68114e362c4f9bb8814391986c0c1bf3474e71740266f1d6fcca9dde28b82",
       "id": "stemma:bio.gene",
       "kind": "entity",
       "relpath": "content/biology/general/gene.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:025581fca406a3b9f94324bf8644139c534d538d739e1265e5de9b2a8b24f05f",
+      "id": "stemma:bio.gene-expression",
+      "kind": "entity",
+      "relpath": "content/biology/general/gene-expression.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:96acd5b9804ef00ebd35079d7174bcbe1de0ccf2a3427ebb1eccba193fb92813",
+      "id": "stemma:bio.genetic-drift",
+      "kind": "entity",
+      "relpath": "content/biology/general/genetic-drift.md",
       "reviewed_at": "2026-10-20T00:00:00+00:00",
       "reviewer": "process:content-validator.v1",
       "status": "canonical",
@@ -408,10 +628,50 @@
       "writer": "process:openstax-importer.v1"
     },
     {
+      "content_hash": "sha256:40a6cf704a0ef33d0035c693a8063c8af5b1e64555c9995c87bd2c607ee2cb38",
+      "id": "stemma:bio.nucleotide",
+      "kind": "entity",
+      "relpath": "content/biology/general/nucleotide.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:299d7e95c1b2536c1587f9d5f26d4785b708999c2cb47fd824360f2399c2cc16",
+      "id": "stemma:bio.nucleus",
+      "kind": "entity",
+      "relpath": "content/biology/general/nucleus.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:623898e5960b5d0ccfe3d9faa64137a6b7bc4ba2914eb7678e809a0d9bef9af7",
+      "id": "stemma:bio.organ",
+      "kind": "entity",
+      "relpath": "content/biology/general/organ.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
       "content_hash": "sha256:c28ddd10932d5614198b01f206e70bab36462b34ee36c15a7dbb8dac95b845c3",
       "id": "stemma:bio.organelle",
       "kind": "entity",
       "relpath": "content/biology/general/organelle.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e7a70f9842eaafb0c5d76366ba7349e929fe71b7fea697037d73d94b3f8f3a8f",
+      "id": "stemma:bio.organism",
+      "kind": "entity",
+      "relpath": "content/biology/general/organism.md",
       "reviewed_at": "2026-10-20T00:00:00+00:00",
       "reviewer": "process:content-validator.v1",
       "status": "canonical",
@@ -438,6 +698,16 @@
       "writer": "process:openstax-importer.v1"
     },
     {
+      "content_hash": "sha256:00dbcdf6c0ab972d0075fb5d2023adefeab525e93b0ee9e9ceb8d1933ef73f6a",
+      "id": "stemma:bio.prokaryote",
+      "kind": "entity",
+      "relpath": "content/biology/general/prokaryote.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
       "content_hash": "sha256:fe50e364c89ef0a969f7164108607ad79dbc4a1d58d25e8e44f678846645a648",
       "id": "stemma:bio.protein",
       "kind": "entity",
@@ -458,10 +728,40 @@
       "writer": "process:openstax-importer.v1"
     },
     {
+      "content_hash": "sha256:eb42ee62927fccb1868c9ea548dac166f130a6912abd212afb1a156ebf04765e",
+      "id": "stemma:bio.speciation",
+      "kind": "entity",
+      "relpath": "content/biology/general/speciation.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
       "content_hash": "sha256:86eeaecc7eaa49b0777a78c7f945bb8cc97e4f3d6f17331ce721acfa0084912f",
       "id": "stemma:bio.species",
       "kind": "entity",
       "relpath": "content/biology/general/species.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:022727615489815b79d75f064b4ab8a6af7592a05f6b302d30234919db3274e4",
+      "id": "stemma:bio.symbiosis",
+      "kind": "entity",
+      "relpath": "content/biology/general/symbiosis.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:f265e18f1d7bf23a09f644d4199e26e8c4e415fada6f386de853d83d30627457",
+      "id": "stemma:bio.tissue",
+      "kind": "entity",
+      "relpath": "content/biology/general/tissue.md",
       "reviewed_at": "2026-10-20T00:00:00+00:00",
       "reviewer": "process:content-validator.v1",
       "status": "canonical",
@@ -2666,6 +2966,6 @@
       "writer": "process:openstax-importer.v1"
     }
   ],
-  "entry_count": 261,
+  "entry_count": 291,
   "manifest_version": "1.0.0"
 }
