@@ -2,10 +2,10 @@
   "domains": {
     "biology": {
       "books": 3,
-      "canonical": 45,
-      "coverage_percent": 0.81,
+      "canonical": 75,
+      "coverage_percent": 1.35,
       "draft": 0,
-      "entities": 45,
+      "entities": 75,
       "inventory_terms": 5548
     },
     "chemistry": {
@@ -66,9 +66,9 @@
       "books": [
         "biology-2e"
       ],
-      "coverage_percent": 1.4,
+      "coverage_percent": 2.42,
       "domain": "biology",
-      "entities": 33,
+      "entities": 57,
       "inventory_terms": 2358,
       "subdomain": "general"
     },
@@ -86,9 +86,9 @@
       "books": [
         "anatomy-and-physiology-2e"
       ],
-      "coverage_percent": 0.38,
+      "coverage_percent": 0.56,
       "domain": "biology",
-      "entities": 12,
+      "entities": 18,
       "inventory_terms": 3190,
       "subdomain": "physiology"
     },

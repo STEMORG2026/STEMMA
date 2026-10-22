@@ -5,7 +5,7 @@ Coverage means canonical/draft entity files in `content/`, not generated or plan
 
 | Domain | Inventory terms | Entities | Canonical | Draft | Coverage |
 |---|---:|---:|---:|---:|---:|
-| biology | 5548 | 45 | 45 | 0 | 0.81% |
+| biology | 5548 | 75 | 75 | 0 | 1.35% |
 | chemistry | 766 | 42 | 42 | 0 | 5.48% |
 | earth-space | 346 | 45 | 45 | 0 | 13.01% |
 | engineering | 1560 | 44 | 44 | 0 | 2.82% |

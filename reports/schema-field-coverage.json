@@ -2,30 +2,30 @@
   "adoption": {
     "applications": {
       "count": 260,
-      "percent": 97.0
+      "percent": 87.2
     },
     "datasets": {
       "count": 0,
       "percent": 0.0
     },
     "examples": {
-      "count": 137,
-      "percent": 51.1
+      "count": 158,
+      "percent": 53.0
     },
     "formal": {
       "count": 46,
-      "percent": 17.2
+      "percent": 15.4
     },
     "level": {
-      "count": 268,
+      "count": 298,
       "percent": 100.0
     },
     "limitations": {
       "count": 72,
-      "percent": 26.9
+      "percent": 24.2
     },
     "same_dimensional_quantities": {
-      "count": 268,
+      "count": 298,
       "percent": 100.0
     }
   },
@@ -33,12 +33,12 @@
     "biology": {
       "applications": 45,
       "datasets": 0,
-      "entities": 45,
-      "examples": 28,
+      "entities": 75,
+      "examples": 49,
       "formal": 2,
-      "level": 45,
+      "level": 75,
       "limitations": 0,
-      "same_dimensional_quantities": 45
+      "same_dimensional_quantities": 75
     },
     "chemistry": {
       "applications": 42,
@@ -97,7 +97,7 @@
       "policy": "not canonical (ADR-0041/0047)"
     }
   },
-  "entity_files": 268,
+  "entity_files": 298,
   "schema_version_source": "schema/VERSION.yaml",
   "tracked_fields": [
     "level",

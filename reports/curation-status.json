@@ -47,20 +47,21 @@
   "provenance_gaps_count": 0,
   "evidence_gaps_sample": [],
   "provenance_gaps_sample": [],
-  "entity_count": 268,
-  "entity_reviewed_count": 260,
-  "entity_canonical_count": 260,
+  "entity_count": 298,
+  "entity_reviewed_count": 290,
+  "entity_canonical_count": 290,
   "entity_status": {
-    "canonical": 260,
+    "canonical": 290,
     "draft": 8
   },
   "entity_type": {
-    "concept": 150,
-    "structure": 29,
-    "process": 29,
+    "concept": 159,
+    "structure": 38,
+    "process": 35,
+    "material": 9,
+    "organelle": 2,
     "system": 8,
-    "material": 6,
-    "model": 6,
+    "model": 7,
     "instrument": 3,
     "constant": 1,
     "technique": 5,
@@ -75,9 +76,9 @@
   },
   "entity_review_coverage_by_domain": {
     "biology": {
-      "total": 45,
-      "human_reviewed": 45,
-      "canonical": 45
+      "total": 75,
+      "human_reviewed": 75,
+      "canonical": 75
     },
     "chemistry": {
       "total": 42,

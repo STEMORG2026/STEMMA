@@ -4,6 +4,6 @@
 
 | Level | Type | Message |
 |-------|------|---------|
-| INFO | isolated_entities | 265 entities have no connections |
+| INFO | isolated_entities | 295 entities have no connections |
 
 Full: `reports/integrity-anomalies.json`

@@ -625,3 +625,112 @@ exempt from enumeration).
   counterpart.
 - Commit `02c5429` (the grounded-chat fix) is in scope for this push; the commit that
   writes this section is the branch tip and is exempt from enumeration.
+
+### [MILESTONE] — PR #92 merged; biology coverage batch — 2026-10-22T10:49Z
+
+- PR #92 squash-merged to `main` as `0df9032`; the local and remote
+  `feat/bachelor-multidomain` branch was deleted. Work continues on
+  `feat/coverage-batch-2`, based on `0df9032`.
+- Generated 30 biology drafts from the OpenStax inventory. The first promotion pass
+  promoted 16 and failed 14 (short or formulaic definitions, and 8-word overlaps with the
+  reference glossary); all 14 were rewritten independently, including correcting
+  `nucleus` from the atomic nucleus to the cell organelle, and all 30 then promoted.
+- Corpus: **298 entities (290 reviewed, 8 physics drafts)**; biology is 75 entities of
+  5,548 inventory terms (1.35%). Exports, consumers, review manifest, content manifest,
+  coverage and schema-field reports regenerated.
+- Verification: 379 pytest passed; adapters 77 passed / 24 skipped; explorer
+  typecheck/build/verify/grounded-chat pass; docs check pass; `gate_status.py` 6/6 green.
+- Commits in scope: `0df9032` (merge) and the commit that writes this section (tip,
+  exempt from enumeration).
+
+Changed paths (87):
+
+```
+README.md
+content/biology/general/above-ground-biomass.md
+content/biology/general/abscisic-acid-aba.md
+content/biology/general/abscission.md
+content/biology/general/abstract.md
+content/biology/general/abyssal-zone.md
+content/biology/general/acanthostega.md
+content/biology/general/accessory-fruit.md
+content/biology/general/acclimatization.md
+content/biology/general/adaptation.md
+content/biology/general/amino-acid.md
+content/biology/general/biodiversity.md
+content/biology/general/chloroplast.md
+content/biology/general/eukaryote.md
+content/biology/general/food-web.md
+content/biology/general/gene-expression.md
+content/biology/general/genetic-drift.md
+content/biology/general/nucleotide.md
+content/biology/general/nucleus.md
+content/biology/general/organ.md
+content/biology/general/organism.md
+content/biology/general/prokaryote.md
+content/biology/general/speciation.md
+content/biology/general/symbiosis.md
+content/biology/general/tissue.md
+content/biology/physiology/abo-blood-group.md
+content/biology/physiology/absolute-refractory-period.md
+content/biology/physiology/absorption.md
+content/biology/physiology/absorptive-state.md
+content/biology/physiology/accessory-digestive-organ.md
+content/biology/physiology/accessory-duct.md
+exports/consumers/general/knowledge.general.json
+exports/consumers/learninghub/knowledge.learninghub.json
+exports/consumers/professor-j/knowledge.professor-j.json
+exports/consumers/stemma-explorer/knowledge.stemma-explorer.json
+exports/content-manifest.json
+exports/knowledge.ai-rag.json
+exports/knowledge.all.json
+exports/knowledge.canonical.json
+exports/knowledge.connections-only.json
+exports/knowledge.domain-biology.json
+exports/knowledge.domain-chemistry.json
+exports/knowledge.domain-earth-space.json
+exports/knowledge.domain-engineering.json
+exports/knowledge.domain-mathematics.json
+exports/knowledge.domain-physics.json
+exports/knowledge.educational.json
+exports/knowledge.entities-only.json
+exports/knowledge.extended.json
+exports/knowledge.json
+exports/knowledge.jsonld
+exports/knowledge.proposed.json
+exports/knowledge.rejected.json
+exports/knowledge.reviewed.json
+exports/knowledge.status-canonical.json
+exports/knowledge.status-draft.json
+exports/knowledge.trusted.json
+exports/knowledge.type-concept.json
+exports/knowledge.type-constant.json
+exports/knowledge.type-equation.json
+exports/knowledge.type-function.json
+exports/knowledge.type-instrument.json
+exports/knowledge.type-law.json
+exports/knowledge.type-material.json
+exports/knowledge.type-model.json
+exports/knowledge.type-organelle.json
+exports/knowledge.type-phenomenon.json
+exports/knowledge.type-principle.json
+exports/knowledge.type-process.json
+exports/knowledge.type-quantity.json
+exports/knowledge.type-structure.json
+exports/knowledge.type-system.json
+exports/knowledge.type-technique.json
+exports/knowledge.type-theorem.json
+exports/knowledge.type-unit.json
+reports/content-coverage.json
+reports/content-coverage.md
+reports/curation-status.json
+reports/curation-status.md
+reports/dependency-review-campaign/batch-01.md
+reports/integrity-anomalies.json
+reports/integrity-anomalies.md
+reports/schema-field-coverage.json
+reports/schema-field-coverage.md
+reports/validation-report.json
+spec/machine-readable/review_manifest.json
+state/DASHBOARD.md
+```
