@@ -734,3 +734,20 @@ reports/validation-report.json
 spec/machine-readable/review_manifest.json
 state/DASHBOARD.md
 ```
+
+### [HANDOFF] — pause point — 2026-10-22T11:16Z
+
+- PR #92 (R6–R8 + corpus) squash-merged as `0df9032`; PR #93 (30 biology entities)
+  squash-merged as `a0edd12`; both branches were deleted and `main` is clean at `a0edd12`.
+- Corpus at pause: **298 entities (290 reviewed, 8 physics drafts)**, 2 connections, 20
+  sources; biology 75/5,548 (1.35%). Gate block last measured 2026-10-22T10:59Z on
+  `0df9032`, 6/6 green; PR #93 merged after it, so regenerate on resume.
+- The exact resume sequence and the planned tranche order are in
+  `state/plans/agent-C0MP-complete-stemma.md` under "Resume point — paused". Next tranche:
+  chemistry 30, then mathematics, earth-space, engineering, the 8 physics drafts, the five
+  zero-term OpenStax books, `datasets`, and engineering breadth sources.
+- This handoff updates this session log, `state/DASHBOARD.md`, `PROGRESS.md`, and the plan. The docs PR that
+  carries it must be merged before resuming; add its squash SHA to this log as the first
+  resume action, because the tip exemption no longer covers it once a new commit exists.
+- `a0edd12` is listed here; the commit that writes this section is the branch tip and is
+  exempt from enumeration.

@@ -2,13 +2,14 @@
 
 > **Current state only.** What IS, not what happened. History lives in `sessions/`.
 
-**Last Reconciled:** 2026-10-22T10:49Z
+**Last Reconciled:** 2026-10-22T11:16Z
 **Reconciled by:** `C0MP`
 **Protocol:** MACP **v1.2** (`state/PROTOCOL.md`; startup sequence in `state/STARTUP.md`)
 
-> **C0MP is active** on session `20261020-2333-C0MP-complete-stemma` (branch
-> `feat/coverage-batch-2`, based on `0df9032`): R6/R7/R8 complete; PR #92 squash-merged;
-> 30 biology entities added (298 total, 290 reviewed, 8 drafts); production-readiness audit green. The prior session
+> **C0MP is paused** on session `20261020-2333-C0MP-complete-stemma` (branch `main`,
+> based on `a0edd12`): PR #92 merged as `0df9032`, PR #93 merged as `a0edd12`; 298
+> entities (290 reviewed, 8 drafts); biology 75/5,548 (1.35%). Next tranche: chemistry 30.
+> Resume at "Resume point — paused" in `state/plans/agent-C0MP-complete-stemma.md`. The prior session
 > `20261002-0130-A7F3-start-time-enforcement` remains `COMPLETED` (DEC-007, N4); no other
 > agent is live. Session status remains `IN-PROGRESS` until the owner closes it.
 
@@ -22,7 +23,7 @@
 | | |
 |---|---|
 | Repo | `STEMORG2026/STEMMA` (`Er-Sajan-PLG/STEMMA` is a pure redirect) |
-| Branch | `feat/coverage-batch-2` (continuing after PR #92 merged) |
+| Branch | `main` (paused at `a0edd12`; next branch `feat/coverage-batch-3`) |
 | Version | `VERSION` = **3.0.0** · schema `1.4.0` · export `2.2.0` · relation registry `1.0.0` |
 | Owner | Sajan (`human:curator.001`, `SOLE_OWNER`) |
 
@@ -43,6 +44,8 @@
 
 <!-- BEGIN GENERATED: gate-status — do not edit by hand; regenerate with `python3 scripts/gate_status.py` -->
 **Measured:** 2026-10-22T10:59Z · **HEAD:** `0df9032`
+
+> PR #93 merged after this measurement; regenerate the block on resume.
 
 | Gate | Status | Result (context, not byte-compared) |
 |---|---|---|

@@ -65,6 +65,14 @@
   - [x] **Completion pass (same day):** Tier-1 artifacts created (`webapp/README.md`, `adapters/README.md`, `explorer/README.md`, PR template, 2 issue templates, `.env.example` + `.env` git-ignored); new mechanical invariants: `api_surface` (12 endpoints ↔ docs), `env_surface` (env vars ↔ `.env.example`/WEBAPP.md), tier-strict enforcement `[0,1]`; hooks wiring (pre-commit: impact+validate; pre-push: sync+diff+check); AGENTS.md docs mandate; +9 engine/integration tests → suite now 156
   - [x] Invariants caught real gaps on first run: `/v2/stats` undocumented in adapter README, 4 provider env vars undocumented (docs/WEBAPP.md section added), `OPENAI_API_KEY` missing from `.env.example`
 
+## ⏸️ Paused — 2026-10-22
+
+The bachelor STEM corpus work is paused after PR #93 (30 biology entities, merged as
+`a0edd12`). Corpus: 298 entities, 290 reviewed, 8 physics drafts. The exact resume
+sequence, remaining tranches, and operational gotchas are recorded in
+`state/plans/agent-C0MP-complete-stemma.md` under "Resume point — paused". Start there,
+not from this file.
+
 ## 🔄 In Progress (R6 — Projection Publication, ADR-0007)
 
 Increments 1–3 landed 2026-09-23 — projection mechanics; **PID-agnostic per the R5 Amendment**: entities project as `stemma:`-scheme opaque URIs (the scheme the amendment binds), no external identifier base claimed; the PID/resolution decision stays gated to the publication step and will be re-validated against then-current data (identifier infrastructure drifts — the purl.org lesson from the R5 brief).

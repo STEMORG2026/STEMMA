@@ -134,3 +134,68 @@ No existing canonical record is overwritten by the import pipeline.
 - Coverage report states measured entity counts per domain/subdomain and names gaps.
 - `pytest`, `verify_all.py`, docs check, state-tree, and startup receipt all pass.
 - Pending PRs merged, branches cleaned, and `origin/main` merged before any push.
+
+## Resume point — paused 2026-10-22T11:16Z
+
+**Where we stopped.** PR #92 (R6–R8 + 260-entity corpus) squash-merged as `0df9032`; PR
+#93 (30 biology entities) squash-merged as `a0edd12`; both branches deleted and `main`
+is clean. Corpus: **298 entities (290 reviewed, 8 physics drafts)**, 2 connections, 20
+sources; biology is 75 of 5,548 inventory terms (**1.35%**). The generated gate block was
+last measured at 2026-10-22T10:59Z on `0df9032` (6/6 green); PR #93 merged after that
+measurement, so regenerate it on resume.
+
+**First actions on resume (in order).**
+1. `git checkout main && git pull --ff-only`; create `feat/coverage-batch-3`.
+2. Add the squash SHA of the docs/pause-point PR that carries this handoff to the session
+   log's commit enumeration (`git log --oneline --grep 'pause point'`). `macp_sync_gate.py`
+   refuses a push when a non-tip commit since `Base commit 50566bf` is unlisted; the tip
+   is exempt. `0df9032`, `a0edd12`, and `e6a0baf` are already listed.
+3. Refresh STEP 8 if a new gate block is generated: `python3 scripts/startup_receipt.py`,
+   then `python3 scripts/gate_status.py` (all six gates, ~5+ min).
+4. Run one content tranche end to end (below), then the regeneration chain, tests, docs,
+   explorer, `gate_status.py`, commit, push, PR.
+
+**Planned tranche order.**
+1. **Chemistry 30** (`--domain chemistry --limit 30`): bond energy, lone pair, resonance,
+   intermolecular force, oxidation number, electrolysis, activation energy (Ea), addition
+   reaction, adhesive force, alcohol, aldehyde, alkali metal, alkaline battery, alkaline
+   earth metal, alkane, alkene, alkyl group, alkyne, allotropes, alloy, + the next 10.
+2. **Mathematics 30**: parametric equations, standard deviation, normal and binomial
+   distributions, conditional probability, expected value, alternating series, …
+3. **Earth-space 30**: planetary nebula, parallax, apparent solar time, asteroid, …
+4. **Engineering 30**: tree, heapsort, binary search, hash table, linked list, array list,
+   recursion, memory, …
+5. **Physics:** promote the 8 remaining drafts (`length`, `mass`, `second`, `time`,
+   `kilogram`, `force`, `newton's-second-law`, `conservation-energy`), then the next 22
+   priority terms (acceleration due to gravity, average acceleration, …).
+6. **Zero-term books (parser work, not generation):** `additive-manufacturing-essentials`,
+   `college-physics-2e`, `introduction-python-programming`, `microbiology`,
+   `organic-chemistry` yield no inventory terms. Debug `scripts/openstax_inventory.py`
+   for those slugs; microbiology and organic chemistry are the largest blocked subdomains.
+7. **Remaining schema field:** `datasets` is 0/298; it needs real dataset sources, not
+   fabricated links.
+8. **Engineering breadth:** civil/electrical/chemical/mechanical sources beyond OpenStax
+   (DOE/NASA/NIST/USACE) under the ADR-0062 license gate.
+
+**Operational notes (learned in this batch).**
+- Generation uses Ollama `qwen3.5:9b`; `state/cache/llm-definitions.json` has 302 entries.
+  Run `generate_openstax_content.py --domain X --limit N`, then
+  `promote_delegated.py --domain X --limit N`. Expect failures: the biology batch needed
+  14 of 30 definitions rewritten for length, formulaic wording, or 8-word verbatim overlap;
+  `nucleus` initially described the atomic nucleus and was corrected to the cell organelle.
+- **Never run `verify_all.py` and `pytest` concurrently.** `verify_all.py` regenerates
+  `review_manifest.json` in write mode and pytest's mutation tests temporarily edit
+  `content/physics/mechanics/force.md` / `metre.md`; the overlap produced a stale manifest
+  hash (895b… vs 871e…). Re-running `review_manifest.py` after pytest fixes it.
+- After any content edit, run in order: `validate.py`, `export_jsonld.py`,
+  `export_consumers.py --all`, `review_manifest.py`, `status_truth.py --write`,
+  `curation_status.py`, `integrity_anomalies.py`, `coverage_report.py`,
+  `schema_field_coverage.py`, `content_store.py --write`.
+- `review_manifest.py --check` must pass before commit (291 reviewed records after this
+  batch).
+- Baselines: 379 pytest passed; adapters 77 passed / 24 skipped; explorer
+  typecheck/build/verify/grounded-chat pass; docs check pass; `gate_status.py` 6/6 green.
+- The schema watcher is not running; restart with
+  `python3 scripts/schema_watch.py --loop --interval 1800` (its runtime files are ignored).
+- Accepted branch prefixes: `feat|fix|docs|chore|ci|task|refactor|test|dependabot|arena`.
+- Main history is squash merges; delete merged branches and prune after each merge.
