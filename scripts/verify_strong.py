@@ -80,14 +80,14 @@ def check_no_secrets():
             for pat in secret_patterns:
                 if re.search(pat, text, re.IGNORECASE):
                     if "example" not in text.lower() and "provenance" not in text.lower():
-                        print(f"FAIL: Potential secret in {f}: pattern {pat}")
+                        print(f"FAIL: Potential secret in {f} — matched a secret pattern; inspect and remove the value")
                         sys.exit(1)
         for f in d.rglob("*.yaml"):
             text = f.read_text(encoding='utf-8', errors='ignore')
             for pat in secret_patterns:
                 if re.search(pat, text, re.IGNORECASE):
                     if "example" not in text.lower():
-                        print(f"FAIL: Potential secret in {f}: pattern {pat}")
+                        print(f"FAIL: Potential secret in {f} — matched a secret pattern; inspect and remove the value")
                         sys.exit(1)
     print("OK: No secrets in canonical content/")
 

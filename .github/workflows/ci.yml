@@ -377,6 +377,10 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
+          # Check out the PR head, not the synthetic merge commit. The sync gate
+          # exempts the branch tip from the commit-list check; on a merge ref the
+          # tip is the merge commit, so the real head commit looks unlisted.
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
           fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v7

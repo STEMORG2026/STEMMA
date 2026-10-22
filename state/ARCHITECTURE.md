@@ -193,6 +193,11 @@ run. CI runs `gate_status.py --check` (does a fresh run reproduce the committed 
 and `scripts/macp_startup_gate.py` (did every live session start at or before the block's
 stamp — i.e. did it run STEP 8?). The block also owns `HEAD`, read from `git rev-parse`.
 
+On a pull request the MACP job checks out `github.event.pull_request.head.sha`, not the
+synthetic merge commit: the sync gate exempts the **branch tip** from its commit-list check,
+and under a merge ref the tip is the merge commit, so the real head commit would look
+unlisted.
+
 This replaced a hand-written table. On 2026-10-01 its stamp was found ~8.5 h stale and its
 neighbouring `HEAD` row 11 commits stale, while every value in the same file that a guard
 covered was correct: the guards checked shape, and that table was pure assertion. The

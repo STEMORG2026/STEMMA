@@ -9,7 +9,7 @@
 **Branch:** feat/bachelor-multidomain (based on `origin/main` f197bdc)
 **Base commit:** 50566bf
 **Task:** Complete STEMMA infrastructure (R6/R7/R8) and build verified bachelor-level canonical STEM content under the owner-delegated path in ADR-0060, licensed per ADR-0062 and schema 1.4.0.
-**Files owned:** `scripts/*`, `tests/**`, `docs/*.md`, `docs/decisions/*.md`, `docs/docs-contract.yaml`, `exports/**`, `reports/*`, `state/**`, `PROGRESS.md`, `README.md`, `AGENTS.md`, `Makefile`, `.gitignore`, `explorer/**`, `schema/**`, `spec/**`, `content/**`, `connections/**`, `sources/**`, `.workbuddy-ai/**`
+**Files owned:** `scripts/*`, `tests/**`, `docs/*.md`, `docs/decisions/*.md`, `docs/docs-contract.yaml`, `exports/**`, `reports/*`, `state/**`, `PROGRESS.md`, `README.md`, `AGENTS.md`, `Makefile`, `.gitignore`, `.github/workflows/**`, `explorer/**`, `schema/**`, `spec/**`, `content/**`, `connections/**`, `sources/**`, `.workbuddy-ai/**`
 
 > Append-only event log. Registration metadata completed from reconnaissance in phase B.
 
@@ -611,3 +611,17 @@ exempt from enumeration).
   failed at this step on PR #92.
 - Follow-up commits: `f21752d` (previous tip) is included here; the commit that writes this
   line is the branch tip and is exempt from enumeration.
+
+### [FIX] — CI gate context and secret-log false positive — 2026-10-22T08:34Z
+
+- `.github/workflows/ci.yml`: the MACP job now checks out the PR head instead of the
+  synthetic merge commit. The sync gate exempts the branch tip from the commit-list check;
+  under the merge ref the tip is the merge commit, so the real head looked unlisted and the
+  `pull_request` run failed on an otherwise-green branch.
+- `scripts/verify_strong.py`: the secret detector no longer echoes the matched pattern
+  (CodeQL `py/clear-text-logging-sensitive-data`, 2 high alerts on the changed file). It
+  still fails closed and names the offending file.
+- `state/ARCHITECTURE.md`: records the MACP checkout rule so the CI change has its P4
+  counterpart.
+- Commit `02c5429` (the grounded-chat fix) is in scope for this push; the commit that
+  writes this section is the branch tip and is exempt from enumeration.
