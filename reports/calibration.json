@@ -1,0 +1,52 @@
+{
+  "report_version": "1.0.0",
+  "source_content_hash": "sha256:df7943c4e08e53620f6169cce4b58f99b6371f362d1833b355d32fd5656944f9",
+  "export_version": "2.2.0",
+  "method": {
+    "decision_unit": "review-state transition (from != to) or reviewed entity with provenance.reviewed_at",
+    "excluded": "no-op transitions (reviewed -> reviewed) and unlabeled worksheet rows",
+    "threshold": {
+      "decisions_required": 200,
+      "domains_required": 3,
+      "decisions_met": false,
+      "domains_met": false,
+      "met": false
+    }
+  },
+  "current_corpus": {
+    "decisions_total": 6,
+    "distinct_objects": 3,
+    "accepted": 5,
+    "rejected": 0,
+    "demoted": 1,
+    "accepted_transition_rate": 0.8333,
+    "corrections_labeled": 0,
+    "domains_with_decisions": 1,
+    "domains": [
+      "physics"
+    ],
+    "by_domain": {
+      "physics": {
+        "decisions": 6,
+        "accepted": 5,
+        "rejected": 0,
+        "demoted": 1
+      }
+    }
+  },
+  "historical_pilot": {
+    "available": true,
+    "source": "reports/curation-pilot.md",
+    "corpus": "archived pilot corpus (not the current repository corpus)",
+    "proposals": 36,
+    "accepted": 12,
+    "acceptance_rate": 0.3333,
+    "auto_canonicalized": 0
+  },
+  "verdict": "INSUFFICIENT — below the ADR-0058 activation threshold; accepted_transition_rate is descriptive, not a calibration",
+  "limitations": [
+    "Accepted transitions include reviewed and canonical stages; they are not independent samples.",
+    "The archived pilot belongs to a retired corpus and is shown as history, not current quality.",
+    "No rejected-with-correction decision exists in the current corpus, so correction calibration is not measurable."
+  ]
+}

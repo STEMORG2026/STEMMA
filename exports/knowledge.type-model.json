@@ -1,0 +1,486 @@
+{
+  "export_version": "2.2.0",
+  "schema_version": "1.4.0",
+  "policy": "type:model",
+  "content_hash": "sha256:d98304ee3f9efabf81443d52d40d7486debc76b900c65c9747122659aa628bac",
+  "source": "content/ + connections/ + sources/ (canonical)",
+  "entity_count": 6,
+  "connection_count": 0,
+  "entities": [
+    {
+      "id": "stemma:bio.food-chain",
+      "type": "model",
+      "name": "food chain",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A food chain provides a linear representation of energy flow from primary producers to higher-level consumers. This model illustrates how organisms depend on one another for nutrition, describing essential ecosystem structure and dynamic interactions.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/46-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/46-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Managing fisheries by understanding predator-prey dynamics.",
+        "Assessing impact of invasive species on native food webs."
+      ]
+    },
+    {
+      "id": "stemma:chem.periodic-table",
+      "type": "model",
+      "name": "periodic table",
+      "domain": "chemistry",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The periodic table is a systematic arrangement of elements placing those with similar chemical properties close together. This organization allows prediction of element behavior based on group trends and atomic number sequences.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-chemistry-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Chemistry 2e (2019), OpenStax. Term locator: https://openstax.org/books/chemistry-2e/pages/2-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Flowers, Don Frantz, Paul Hooker, George Kaminski, Jennifer Look, Carol Martinez, Andrew Eklund, Mark Blaser, Klaus Theopold, Richard Langley, Tom Sorensen, Allison Soult, Troy Milliken, Vicki Moravec, Jason Powell, Emad El-Giar, Simon Bott, Don Carpenetti, William R. Robinson, PhD",
+        "link": "https://openstax.org/books/chemistry-2e/pages/2-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Selecting catalysts for specific industrial reactions.",
+        "Discovering new materials with desired electronic traits."
+      ]
+    },
+    {
+      "id": "stemma:eng.3d-visualization",
+      "type": "model",
+      "name": "3D visualization",
+      "domain": "engineering",
+      "subdomain": "data-engineering",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Three-dimensional visualization is a graphical display representing data across spatial axes. It typically plots information along the x, y, and z dimensions to provide depth perception in analysis.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-principles-data-science"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Principles of Data Science (2025), OpenStax. Term locator: https://openstax.org/books/principles-data-science/pages/9-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Dr. Shaun V. Ault, Dr. Soohyun Nam Liao, Larry Musolino, Wisam Bukaita, Aeron Zentner",
+        "link": "https://openstax.org/books/principles-data-science/pages/9-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Analyzing terrain elevation or fluid flow dynamics visually.",
+        "Designing architectural models for structural integrity review.",
+        "Simulating molecular structures to study chemical interactions."
+      ],
+      "limitations": [
+        "Requires significant computational resources compared to 2D plots.",
+        "May obscure data density when projecting high-dimensional points.",
+        "Interpretation depends on user ability to perceive depth cues."
+      ]
+    },
+    {
+      "id": "stemma:eng.abstract-model",
+      "type": "model",
+      "name": "abstract model",
+      "domain": "engineering",
+      "subdomain": "computer",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "An abstract model is a technique deriving high-level conceptual representations. It simplifies complex systems to explore theoretical limits of new algorithms and computational capabilities.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-introduction-computer-science"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Introduction to Computer Science (2024), OpenStax. Term locator: https://openstax.org/books/introduction-computer-science/pages/4-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Dr. Jean-Claude Franchitti, Amal Alhosban, Mark Buckler, Joanna Gilberti, Scott Gray, Matthew Hertz, Andrew Hurd, Kevin Lin, Sai Mukkavilli, Phuc (Brian) Nguyen, Shahab Tayeb, Zdeněk Troníček, Kevin Wortman, Mohamed Zahran",
+        "link": "https://openstax.org/books/introduction-computer-science/pages/4-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Algorithm capability exploration.",
+        "Computational theory validation."
+      ]
+    },
+    {
+      "id": "stemma:eng.neural-network",
+      "type": "model",
+      "name": "neural network",
+      "domain": "engineering",
+      "subdomain": "computer",
+      "level": "advanced",
+      "status": "canonical",
+      "definition": "A neural network is a computational model inspired by biological brains, consisting of interconnected artificial neurons that process information. These structures adjust their internal weights based on input stimuli to recognize complex patterns and solve problems through layered processing.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-introduction-computer-science"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Introduction to Computer Science (2024), OpenStax. Term locator: https://openstax.org/books/introduction-computer-science/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Dr. Jean-Claude Franchitti, Amal Alhosban, Mark Buckler, Joanna Gilberti, Scott Gray, Matthew Hertz, Andrew Hurd, Kevin Lin, Sai Mukkavilli, Phuc (Brian) Nguyen, Shahab Tayeb, Zdeněk Troníček, Kevin Wortman, Mohamed Zahran",
+        "link": "https://openstax.org/books/introduction-computer-science/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Image recognition systems in autonomous vehicles.",
+        "Natural language processing for chatbots and translation.",
+        "Medical imaging analysis to detect early disease signs."
+      ],
+      "limitations": [
+        "High computational cost requires powerful hardware resources.",
+        "Deep models often act as black boxes without insight.",
+        "Prone to overfitting if training data is insufficient."
+      ]
+    },
+    {
+      "id": "stemma:eng.software-architecture",
+      "type": "model",
+      "name": "software architecture",
+      "domain": "engineering",
+      "subdomain": "computer",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Software architecture is the high-level structure defining a system's major components, their responsibilities, and how they interact. This blueprint guides development teams in building scalable solutions while ensuring that interrelationships between modules support long-term maintainability.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-introduction-computer-science"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Introduction to Computer Science (2024), OpenStax. Term locator: https://openstax.org/books/introduction-computer-science/pages/9-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Dr. Jean-Claude Franchitti, Amal Alhosban, Mark Buckler, Joanna Gilberti, Scott Gray, Matthew Hertz, Andrew Hurd, Kevin Lin, Sai Mukkavilli, Phuc (Brian) Nguyen, Shahab Tayeb, Zdeněk Troníček, Kevin Wortman, Mohamed Zahran",
+        "link": "https://openstax.org/books/introduction-computer-science/pages/9-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing cloud-native platforms for global e-commerce sites.",
+        "Structuring safety-critical avionics control systems.",
+        "Planning enterprise data lakes for analytics workloads."
+      ],
+      "limitations": [
+        "Overly rigid architectures struggle with rapid market shifts.",
+        "Complex diagrams often fail to capture dynamic behaviors.",
+        "Early architectural decisions are hard to reverse later."
+      ]
+    }
+  ],
+  "connections": []
+}

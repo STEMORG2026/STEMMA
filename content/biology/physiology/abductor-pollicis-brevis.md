@@ -1,0 +1,82 @@
+---
+id: stemma:bio.abductor-pollicis-brevis
+type: structure
+name: abductor pollicis brevis
+domain: biology
+subdomain: physiology
+level: foundational
+status: canonical
+definition: The abductor pollicis brevis is a superficial muscle in the thenar eminence that moves the
+  thumb away from the palm. It originates on the scaphoid and trapezium bones to facilitate abduction
+  of the first digit.
+examples: []
+same_dimensional_quantities: null
+source_refs:
+- stemma:src.openstax-anatomy-and-physiology-2e
+provenance:
+  ai_drafted: true
+  source_kind: textbook
+  source: 'Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms.
+    Used as a reference; definition independently phrased.'
+  writer: process:openstax-importer.v1
+  drafted_by: llm:qwen3.5-9b
+  original_author: J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H.
+    Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew
+    Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko
+    Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver,
+    Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck,
+    Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea,
+    Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah
+    Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen
+    Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth
+    Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary
+    Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard,
+    Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan,
+    Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson,
+    Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré,
+    John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao,
+    Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard,
+    Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan,
+    Scott Payne, Laird Sheldahl, Pam Elf
+  link: https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms
+  retrieved_at: '2026-10-20'
+  review_mode: owner_delegated
+  reviewer: process:content-validator.v1
+  reviewed_at: '2026-10-20T00:00:00+00:00'
+  verification:
+    method: schema + source-resolution + no-verbatim + definition-quality
+    verifier: process:content-verifier.v1
+    verified_at: '2026-10-20'
+    notes: Deterministic checks over the cited OpenStax inventory row; no human review claimed.
+    checks:
+    - name: schema
+      status: pass
+      evidence: process:content-validator.v1
+    - name: source-resolution
+      status: pass
+      evidence: process:content-validator.v1
+    - name: no-verbatim
+      status: pass
+      evidence: process:content-verifier.v1
+    - name: definition-quality
+      status: pass
+      evidence: process:content-verifier.v1
+  delegation:
+    delegated_by: human:curator.001
+    delegation_ref: docs/decisions/0060-owner-delegated-content-canonicalization.md
+    scope: OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory
+    sanctioned_at: '2026-10-20'
+    retire_when: a domain human reviewer is registered and accepts the tranche
+    limitations:
+    - reference grade is Tier C (NC-SA) or Tier B; no source prose reused
+    - machine checks cover schema, provenance, source resolution, and copying only
+    - not a substitute for domain-expert review of scientific correctness
+rights:
+  license: CC-BY-4.0
+  attribution: Original STEMMA definition generated from the cited reference; no source prose copied.
+applications:
+- "Surgical repair of de Quervain's tenosynovitis affecting wrist movement."
+- "Assessing nerve compression in carpals impacting hand function."
+---
+
+The abductor pollicis brevis is a superficial muscle in the thenar eminence that moves the thumb away from the palm. It originates on the scaphoid and trapezium bones to facilitate abduction of the first digit.

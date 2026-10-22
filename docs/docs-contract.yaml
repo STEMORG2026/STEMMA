@@ -25,6 +25,7 @@ artifacts:
   - {path: requirements.txt, cat: A11, tier: 1, kind: CANONICAL, sources: [scripts/, tests/]}
   # ---- docs/ (ADR-0029 living set) ----
   - {path: docs/README.md, cat: A14, tier: 2, kind: INDEX, sources: [docs/, spec/], depends_on: []}
+  - {path: docs/GIT-WORKFLOW.md, cat: A11, tier: 2, kind: CANONICAL, sources: [AGENTS.md, .github/workflows/]}
   - {path: docs/VISION.md, cat: A1, tier: 2, kind: CANONICAL, sources: [content/, schema/]}
   - {path: docs/ARCHITECTURE-V2.md, cat: A3, tier: 2, kind: CANONICAL, sources: [scripts/, schema/, webapp/, explorer/]}
   - {path: docs/ARCHITECTURE.md, cat: A3, tier: 2, kind: CANONICAL, sources: [docs/ARCHITECTURE-V2.md]}
@@ -35,6 +36,7 @@ artifacts:
   - {path: docs/PIPELINES.md, cat: A3, tier: 2, kind: CANONICAL, sources: [scripts/, webapp/, workflow/]}
   - {path: docs/IMPLEMENTATION-PLAN-V2.md, cat: A1, tier: 2, kind: CANONICAL, sources: [docs/decisions/, schema/]}
   - {path: docs/IMPLEMENTATION-STATUS.md, cat: A1, tier: 2, kind: CANONICAL, sources: [spec/, scripts/, docs/decisions/]}
+  - {path: docs/SCALE-READINESS.md, cat: A1, tier: 2, kind: CANONICAL, sources: [docs/decisions/0059-scale-readiness-sharded-files.md, scripts/scale_benchmark.py, scripts/content_store.py]}
   - {path: docs/ROADMAP.md, cat: A1, tier: 2, kind: CANONICAL, sources: [docs/decisions/, spec/, PROGRESS.md]}
   - {path: docs/TESTING.md, cat: A7, tier: 2, kind: CANONICAL, sources: [scripts/verify_all.py, tests/, spec/machine-readable/validate_recovery.py]}
   - {path: docs/STANDARDS.md, cat: A11, tier: 2, kind: CANONICAL, sources: [schema/]}

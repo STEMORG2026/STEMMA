@@ -91,9 +91,9 @@ vertical slice (2026-09-22, ahead of the R4 content acceptance test):
 Machine-checkable live counts — `scripts/status_truth.py` (CI) fails if this
 block drifts from canonical content (audit F2: status honesty is a gate):
 
-- Entities: **9** — human-reviewed/canonical: **1**, draft: **8**
+- Entities: **268** — human-reviewed/canonical: **260**, draft: **8**
 - Connections (first-class assertions): **2** — review-canonical: **1** (50.0%), unreviewed: **1**
-- Canonical source records: **3**
+- Canonical source records: **20**
 <!-- status-truth:end -->
 
 Canonicality is a *reviewed* property, not a folder: consumers filter by

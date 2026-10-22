@@ -1,0 +1,80 @@
+{
+  "view": "formulations",
+  "view_version": "1.0.0",
+  "export_version": "2.2.0",
+  "schema_version": "1.3.0",
+  "source_content_hash": "sha256:df7943c4e08e53620f6169cce4b58f99b6371f362d1833b355d32fd5656944f9",
+  "license": "CC-BY-4.0",
+  "law_count": 2,
+  "laws": [
+    {
+      "id": "stemma:phys.conservation-energy",
+      "name": "Conservation of Energy",
+      "domain": "physics",
+      "status": "draft",
+      "formulations": [
+        {
+          "kind": "modern",
+          "statement": "Conservation of energy: for an isolated system the total energy — summed over all forms (kinetic, potential, thermal, chemical, nuclear, ...) — remains constant in time; energy transforms between forms but is neither created nor destroyed. Historical line: Mayer (1842), Joule (1843), Helmholtz (1847, 'Über die Erhaltung der Kraft'); standard statement per Halliday, Resnick, Walker 12th ed., Ch 8.",
+          "symbol": "E_total = const",
+          "source_refs": [
+            "stemma:src.halliday-resnick-walker-12th"
+          ]
+        },
+        {
+          "kind": "historical",
+          "year": 1842,
+          "by": "Julius Robert Mayer",
+          "event": "First statement of energy conservation (work-heat equivalence)"
+        },
+        {
+          "kind": "historical",
+          "year": 1843,
+          "by": "James Prescott Joule",
+          "event": "Experimental mechanical equivalent of heat"
+        },
+        {
+          "kind": "historical",
+          "year": 1847,
+          "by": "Hermann von Helmholtz",
+          "event": "Über die Erhaltung der Kraft — formal statement of energy conservation"
+        }
+      ]
+    },
+    {
+      "id": "stemma:phys.newtons-second-law",
+      "name": "Newton's Second Law",
+      "domain": "physics",
+      "status": "draft",
+      "formulations": [
+        {
+          "kind": "modern",
+          "statement": "Newton's second law of motion: the net external force on a system equals the time rate of change of its total linear momentum, ΣF = dp/dt; for constant mass this reduces to F = m a. Valid in classical (non-relativistic) mechanics in inertial reference frames. Stated by Isaac Newton as Lex II in Philosophiae Naturalis Principia Mathematica (1687); standard modern formulation per Halliday, Resnick, Walker 12th ed., Ch 5.",
+          "symbol": "F_net = m a",
+          "source_refs": [
+            "stemma:src.halliday-resnick-walker-12th",
+            "stemma:src.newton-principia-1687"
+          ]
+        },
+        {
+          "kind": "historical",
+          "year": 1687,
+          "by": "Isaac Newton",
+          "event": "Principia Lex II: mutationem motus proportionalem esse vi motrici impressae"
+        },
+        {
+          "kind": "historical",
+          "year": 1820,
+          "by": "Momentum-era formulation",
+          "event": "dsp/dt form standardized in classical mechanics texts"
+        },
+        {
+          "kind": "historical",
+          "year": 2019,
+          "by": "SI 2019",
+          "event": "F = m a expressed with exact SI definitions (N = kg m s-2)"
+        }
+      ]
+    }
+  ]
+}

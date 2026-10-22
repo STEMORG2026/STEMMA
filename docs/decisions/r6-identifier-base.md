@@ -74,7 +74,7 @@ base is adopted at this time.**
 
 | Consideration | Assessment |
 |---|---|
-| Corpus maturity | 9 entities, 7 canonical. Real content at 10²–10³ scale is the plan (R7/R8). |
+| Corpus maturity | 92 entities, 84 canonical as of 2026-10-21 (owner-delegated OpenStax tranche); real content at 10²–10³ scale is in progress. |
 | Review depth | Single curator + AI assistance today. AI-assisted verification is a planned *next* step, not an established practice. |
 | What a public PID promises | An operational commitment to keep resolving, indefinitely, for strangers' stored strings. |
 | Consequence of promising early | If the project stalls or the base is wrong, other people's data breaks — and (brief Phase 7 S4/S7) an early own-domain choice is the one *unrecoverable* variant. |

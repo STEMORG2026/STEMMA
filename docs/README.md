@@ -66,6 +66,8 @@ All early work from start included as implementation of new architecture, not pr
 | Reset and HITL Guide beginning clean | [RESET-AND-HITL-GUIDE.md](RESET-AND-HITL-GUIDE.md) |
 | Versioning | [VERSIONING.md](VERSIONING.md) |
 | Migrations | [MIGRATIONS.md](MIGRATIONS.md) |
+| Git workflow (branch/PR/merge/push) | [GIT-WORKFLOW.md](GIT-WORKFLOW.md) |
+| Scale readiness (measured limits, R8) | [SCALE-READINESS.md](SCALE-READINESS.md) |
 | Curation protocol | [CURATION-PROTOCOL.md](CURATION-PROTOCOL.md) |
 
 ## Supplementary docs

@@ -2,17 +2,15 @@
 
 > **Current state only.** What IS, not what happened. History lives in `sessions/`.
 
-**Last Reconciled:** 2026-10-02T03:25Z
-**Reconciled by:** `A7F3`
+**Last Reconciled:** 2026-10-22T06:54Z
+**Reconciled by:** `C0MP`
 **Protocol:** MACP **v1.2** (`state/PROTOCOL.md`; startup sequence in `state/STARTUP.md`)
 
-> **No agent is active.** Session `20261002-0130-A7F3-start-time-enforcement` is `COMPLETED` and
-> its files are released — closed on the **owner's** instruction (DEC-007, N4), after PR #85
-> merged (`362682c`). It delivered two-phase registration (`PROTOCOL.md` §3, `STARTUP.md`,
-> `startup_receipt.py` gated on phase B, a state-tree git-validity guard → 22 checks, DEC-013),
-> the `environment_blocked` gate semantics (DEC-014), and the CI fixes (detached-checkout branch
-> resolution; required checks that never skip, in a `pull_request`-only `required-checks.yml`).
-> A new session may start freely; begin with `state/STARTUP.md`, the authoritative sequence (v1.2).
+> **C0MP is active** on session `20261020-2333-C0MP-complete-stemma` (branch
+> `feat/bachelor-multidomain`, based on `f197bdc`): R6/R7/R8 complete, the 260-entity
+> bachelor corpus committed, and the production-readiness audit green. The prior session
+> `20261002-0130-A7F3-start-time-enforcement` remains `COMPLETED` (DEC-007, N4); no other
+> agent is live. Session status remains `IN-PROGRESS` until the owner closes it.
 
 > **Staleness policy (protocol §6 step 3):** `< 24 h` → trustworthy · `24–48 h` → verify key
 > claims before relying on them · `> 48 h` → **STALE**, you must reconcile before working.
@@ -24,8 +22,8 @@
 | | |
 |---|---|
 | Repo | `STEMORG2026/STEMMA` (`Er-Sajan-PLG/STEMMA` is a pure redirect) |
-| Branch | `main` (everything merged) |
-| Version | `VERSION` = **3.0.0** · schema `1.3.0` · export `2.2.0` · relation registry `1.0.0` |
+| Branch | `feat/bachelor-multidomain` (PR pending) |
+| Version | `VERSION` = **3.0.0** · schema `1.4.0` · export `2.2.0` · relation registry `1.0.0` |
 | Owner | Sajan (`human:curator.001`, `SOLE_OWNER`) |
 
 > `HEAD` is deliberately **not** stated here. It lives in the generated Gate Status block below,
@@ -44,17 +42,18 @@
 > chain's row records its failures and not its step count.
 
 <!-- BEGIN GENERATED: gate-status — do not edit by hand; regenerate with `python3 scripts/gate_status.py` -->
-**Measured:** 2026-10-02T01:49Z · **HEAD:** `e9c3e2d`
+**Measured:** 2026-10-22T05:48Z · **HEAD:** `f197bdc`
 
 | Gate | Status | Result (context, not byte-compared) |
 |---|---|---|
-| `pytest tests/ -q` | **PASS** | **370 passed** |
+| `pytest tests/ -q` | **PASS** | **379 passed** |
 | `scripts/verify_all.py` | **PASS** | **0 FAIL** (exit 0) |
 | `scripts/docs.py check` | **PASS** | **PASS** |
 | `spec/machine-readable/validate_recovery.py` | **PASS** | **PASS** — 9/9 checks |
 | `scripts/verify_strong.py --quick` | **PASS** | exit 0 |
 | `tests/repo/test_state_tree.py` | **PASS** | **PASS — 22/22** |
 <!-- END GENERATED: gate-status -->
+
 
 
 
@@ -85,7 +84,7 @@
 | `UNRES` records | **9 CLOSED · 1 DEFERRED · 1 OPEN** of 11 |
 | — open | `UNRES-STEMMA-CORE-003` — **deliberately left OPEN** by owner directive |
 | — deferred | `UNRES-STEMMA-SCH-001` (`revisit_trigger` recorded) |
-| Corpus | **1 canonical** (`stemma:phys.metre`, human-written + human-reviewed) / **8 drafts** |
+| Corpus | See the generated README status block — counts are not restated here |
 
 ## Open Work
 
@@ -133,13 +132,12 @@
    **environment-blocked** rather than red. **CI has no such shim.** Re-run a red pytest row
    before believing it.
 
-> **Corpus — checked 2026-10-01, so the next agent need not redo it.** Every entity under
-> `content/` passes `schema/concept.schema.json` with **0 errors**. The non-canonical drafts are
-> therefore **structurally ready**: nothing about their front matter blocks promotion. Their only
-> blocker is **HITL review**, and that is not delegable — `scripts/review_entity.py` refuses any
-> actor that is not an active `human:` in `schema/agent-registry.yaml`, and ADR-0057 requires
-> consecutive promotion stages on separate days. `review_entity.py list` already emits exactly the
-> fields a reviewer needs, so no extra report is warranted.
+> **Corpus — updated 2026-10-21.** Every entity under `content/` passes
+> `schema/concept.schema.json`. Canonicalization now has two paths: human review
+> (`scripts/review_entity.py`) and owner-delegated machine verification (ADR-0060,
+> `scripts/promote_delegated.py`). The delegated path never claims a human reviewer; it records
+> the delegator, verifier, checks, and limitations. `scripts/hitl_check.py --all` enforces both.
+> Counts live in the README status block, owned by `scripts/status_truth.py`.
 >
 > Counts are deliberately not restated here — the generated README status block owns them
 > (REQ-STEMMA-OPS-002).

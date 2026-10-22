@@ -5,6 +5,7 @@ name: Newton's Second Law
 domain: physics
 subdomain: mechanics
 status: draft
+level: foundational
 definition: 'Newton''s second law of motion: the net external force on a system equals
   the time rate of change of its total linear momentum, ΣF = dp/dt; for constant mass
   this reduces to F = m a. Valid in classical (non-relativistic) mechanics in inertial

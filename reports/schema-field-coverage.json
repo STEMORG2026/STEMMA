@@ -1,0 +1,111 @@
+{
+  "adoption": {
+    "applications": {
+      "count": 260,
+      "percent": 97.0
+    },
+    "datasets": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "examples": {
+      "count": 137,
+      "percent": 51.1
+    },
+    "formal": {
+      "count": 46,
+      "percent": 17.2
+    },
+    "level": {
+      "count": 268,
+      "percent": 100.0
+    },
+    "limitations": {
+      "count": 72,
+      "percent": 26.9
+    },
+    "same_dimensional_quantities": {
+      "count": 268,
+      "percent": 100.0
+    }
+  },
+  "by_domain": {
+    "biology": {
+      "applications": 45,
+      "datasets": 0,
+      "entities": 45,
+      "examples": 28,
+      "formal": 2,
+      "level": 45,
+      "limitations": 0,
+      "same_dimensional_quantities": 45
+    },
+    "chemistry": {
+      "applications": 42,
+      "datasets": 0,
+      "entities": 42,
+      "examples": 20,
+      "formal": 9,
+      "level": 42,
+      "limitations": 10,
+      "same_dimensional_quantities": 42
+    },
+    "earth-space": {
+      "applications": 45,
+      "datasets": 0,
+      "entities": 45,
+      "examples": 21,
+      "formal": 1,
+      "level": 45,
+      "limitations": 35,
+      "same_dimensional_quantities": 45
+    },
+    "engineering": {
+      "applications": 44,
+      "datasets": 0,
+      "entities": 44,
+      "examples": 24,
+      "formal": 0,
+      "level": 44,
+      "limitations": 13,
+      "same_dimensional_quantities": 44
+    },
+    "mathematics": {
+      "applications": 45,
+      "datasets": 0,
+      "entities": 45,
+      "examples": 25,
+      "formal": 17,
+      "level": 45,
+      "limitations": 0,
+      "same_dimensional_quantities": 45
+    },
+    "physics": {
+      "applications": 39,
+      "datasets": 0,
+      "entities": 47,
+      "examples": 19,
+      "formal": 17,
+      "level": 47,
+      "limitations": 14,
+      "same_dimensional_quantities": 47
+    }
+  },
+  "consumer_only": {
+    "learning_objectives": {
+      "count": 0,
+      "policy": "not canonical (ADR-0041/0047)"
+    }
+  },
+  "entity_files": 268,
+  "schema_version_source": "schema/VERSION.yaml",
+  "tracked_fields": [
+    "level",
+    "formal",
+    "examples",
+    "applications",
+    "limitations",
+    "datasets",
+    "same_dimensional_quantities"
+  ]
+}

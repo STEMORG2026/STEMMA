@@ -36,7 +36,10 @@ EXEMPT_FILES = {
 FORBIDDEN = [
     ("retired doc NORTHSTAR.md", re.compile(r"NORTHSTAR\.md")),
     ("retired doc STEMMA-SPECIFICATION.md", re.compile(r"STEMMA-SPECIFICATION\.md")),
-    ("dead quick-start target force.md", re.compile(r"(?:content/physics/mechanics/|docs/)force\.md")),
+    # The retired quick-start example lived at docs/force.md. A canonical entity
+    # content/physics/mechanics/force.md now exists (121af07), so only the docs/
+    # form is a dead target.
+    ("dead quick-start target docs/force.md", re.compile(r"docs/force\.md")),
     ("ecosystem controller reference STEM-TUITION", re.compile(r"STEM-TUITION")),
     ("ecosystem reference JARVIS", re.compile(r"JARVIS")),
     ("retired ID namespace lhs:", re.compile(r"\blhs:")),

@@ -1,0 +1,752 @@
+{
+  "export_version": "2.2.0",
+  "schema_version": "1.4.0",
+  "policy": "type:phenomenon",
+  "content_hash": "sha256:d98304ee3f9efabf81443d52d40d7486debc76b900c65c9747122659aa628bac",
+  "source": "content/ + connections/ + sources/ (canonical)",
+  "entity_count": 8,
+  "connection_count": 0,
+  "entities": [
+    {
+      "id": "stemma:earth.absorption-spectrum",
+      "type": "phenomenon",
+      "name": "absorption spectrum",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An absorption spectrum represents a specific pattern where dark lines appear superimposed upon an otherwise continuous background of light. This phenomenon occurs because atoms within a cooler gas absorb photons at precise wavelengths, removing them from the transmitted beam and revealing unique elemental fingerprints.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Analyzing stellar atmospheres to determine chemical makeup.",
+        "Detecting interstellar gas clouds along sightlines.",
+        "Calibrating spectrographs for precise wavelength measurements."
+      ],
+      "limitations": [
+        "Requires a continuous background source behind the absorber.",
+        "Sensitive only to atoms in gaseous states, not solids.",
+        "Line broadening can obscure fine spectral details."
+      ]
+    },
+    {
+      "id": "stemma:earth.aurora",
+      "type": "phenomenon",
+      "name": "aurora",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An aurora represents light radiated by atoms and ions within the ionosphere when excited by charged particles arriving from the Sun. This phenomenon is predominantly observed in magnetic polar regions due to the specific interaction between solar wind and Earth's magnetospheric fields.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/15-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/15-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Space weather forecasting for satellite operations",
+        "Studying upper atmospheric chemistry and dynamics",
+        "Communicating with polar region travelers"
+      ],
+      "limitations": [
+        "Predictions rely on simplified solar wind models.",
+        "Visual observation limited by daylight interference."
+      ]
+    },
+    {
+      "id": "stemma:earth.doppler-effect",
+      "type": "phenomenon",
+      "name": "Doppler effect",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The Doppler effect describes the shift in radiation frequency caused by relative motion between source and observer. When an object moves away, wavelengths stretch to redshift; approaching objects compress waves into blueshift, allowing astronomers to measure stellar velocities.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A receding galaxy shows redshifted spectral lines.",
+        "An approaching ambulance siren sounds higher-pitched."
+      ],
+      "formal": {
+        "statement": "For motion much slower than light, the fractional wavelength shift equals the line-of-sight velocity divided by the speed of light.",
+        "equation": "Delta lambda / lambda = v / c",
+        "variables": [
+          {
+            "symbol": "lambda",
+            "meaning": "rest wavelength",
+            "unit": "m"
+          },
+          {
+            "symbol": "Delta lambda",
+            "meaning": "observed wavelength shift",
+            "unit": "m"
+          },
+          {
+            "symbol": "v",
+            "meaning": "line-of-sight velocity",
+            "unit": "m s^-1"
+          },
+          {
+            "symbol": "c",
+            "meaning": "speed of light",
+            "unit": "m s^-1"
+          }
+        ],
+        "conditions": [
+          "v much less than c",
+          "non-relativistic approximation"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Measuring stellar radial velocities in labs.",
+        "Determining galaxy recession rates cosmologically.",
+        "Analyzing blood flow via medical ultrasound."
+      ],
+      "limitations": [
+        "Requires known rest frequency reference.",
+        "Relativistic corrections needed at high speeds.",
+        "Transverse motion causes secondary redshift effects."
+      ]
+    },
+    {
+      "id": "stemma:earth.meteor",
+      "type": "phenomenon",
+      "name": "meteor",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A meteor is a streak of light produced when solid space debris burns up in Earth's atmosphere. Often called shooting stars, these brief flashes result from friction heating small particles to incandescence before they completely disintegrate at high altitudes.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/7-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/7-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Predicting fireball visibility for public safety warnings.",
+        "Analyzing cosmic dust composition via spectral data."
+      ]
+    },
+    {
+      "id": "stemma:earth.redshift",
+      "type": "phenomenon",
+      "name": "redshift",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Redshift describes the displacement of spectral lines toward longer wavelengths, specifically near the red end. This phenomenon occurs when light sources recede from an observer due to cosmic expansion or relative motion.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/26-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/26-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Determining the age of light from distant galaxies.",
+        "Measuring the rate of universal cosmic expansion history."
+      ]
+    },
+    {
+      "id": "stemma:earth.solar-flare",
+      "type": "phenomenon",
+      "name": "solar flare",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "A solar flare is a sudden burst of electromagnetic radiation originating from active regions on the Sun. These explosive events release vast energy stored in magnetic fields, often accelerating particles that can disrupt satellite communications and power grids near Earth.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/15-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/15-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing resilient spacecraft shielding systems",
+        "Forecasting geomagnetic storm risks for aviation",
+        "Calibrating ground-based radio astronomy instruments"
+      ],
+      "limitations": [
+        "Models often assume simplified magnetic field geometries.",
+        "Predictions rely on incomplete real-time solar data.",
+        "Effects vary significantly with Earth's specific orbital position."
+      ]
+    },
+    {
+      "id": "stemma:phys.electric-field",
+      "type": "phenomenon",
+      "name": "electric field",
+      "domain": "physics",
+      "subdomain": "electricity-magnetism",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The electric field is a physical phenomenon generated by an electric charge within space. It transmits force between charges without direct contact, allowing interactions to occur across distances through the surrounding medium.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.coulombs-law",
+        "stemma:phys.faraday-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A positive point charge produces a radial electric field pointing away from it.",
+        "Between oppositely charged parallel plates the electric field is approximately uniform."
+      ],
+      "formal": {
+        "statement": "The electric field at a point is the electrostatic force per unit positive test charge placed there.",
+        "equation": "E = F / q",
+        "variables": [
+          {
+            "symbol": "E",
+            "meaning": "electric field",
+            "unit": "N C^-1"
+          },
+          {
+            "symbol": "F",
+            "meaning": "force on the test charge",
+            "unit": "N"
+          },
+          {
+            "symbol": "q",
+            "meaning": "test charge",
+            "unit": "C"
+          }
+        ],
+        "conditions": [
+          "test charge is stationary and small",
+          "no time-varying magnetic field"
+        ],
+        "dimensions": "M L T^-3 I^-1"
+      },
+      "applications": [
+        "Deflection plates in cathode ray tubes.",
+        "Non-contact sensors for touchless interfaces."
+      ]
+    },
+    {
+      "id": "stemma:phys.simple-harmonic-motion",
+      "type": "phenomenon",
+      "name": "simple harmonic motion",
+      "domain": "physics",
+      "subdomain": "mechanics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Simple harmonic motion describes oscillatory movement in systems where net force follows Hooke's law. This specific type of periodic motion occurs when restoring forces are directly proportional to displacement from equilibrium.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-physics"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Physics (2020), OpenStax. Term locator: https://openstax.org/books/physics/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Peter Urone, Roger Hinrichs, Fatih Gozuacik, Denise Pattison, Catherine Tabor",
+        "link": "https://openstax.org/books/physics/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.newtons-second-law",
+        "stemma:phys.conservation-energy"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "external_ids": {
+        "wd": "Q835975"
+      },
+      "examples": [
+        "A mass on an ideal spring oscillates with constant period.",
+        "A small-angle pendulum approximates simple harmonic motion."
+      ],
+      "formal": {
+        "statement": "Simple harmonic motion is periodic motion whose acceleration is proportional to displacement and directed toward the equilibrium position.",
+        "equation": "a = -omega^2 x",
+        "variables": [
+          {
+            "symbol": "a",
+            "meaning": "acceleration",
+            "unit": "m s^-2"
+          },
+          {
+            "symbol": "omega",
+            "meaning": "angular frequency",
+            "unit": "rad s^-1"
+          },
+          {
+            "symbol": "x",
+            "meaning": "displacement from equilibrium",
+            "unit": "m"
+          }
+        ],
+        "conditions": [
+          "linear restoring force",
+          "small oscillations about stable equilibrium"
+        ],
+        "dimensions": "L T^-2"
+      },
+      "applications": [
+        "Tuning guitar strings for specific musical note frequencies.",
+        "Designing building dampers to reduce earthquake structural sway.",
+        "Analyzing pendulum clocks for precise timekeeping mechanisms."
+      ],
+      "limitations": [
+        "Assumes ideal springs with zero internal friction or damping.",
+        "Breaks down when amplitudes become large enough to distort linearity.",
+        "Requires strictly linear restoring forces proportional to displacement."
+      ]
+    }
+  ],
+  "connections": []
+}

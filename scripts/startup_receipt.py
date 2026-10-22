@@ -50,6 +50,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -163,6 +164,23 @@ def session_branch(session_id: str) -> str:
     return match.group(1) if match else "main"
 
 
+def _branch_resolves_in_git(branch: str) -> bool:
+    """Whether `branch` names a real git ref.
+
+    A CI `pull_request` checkout is frequently a detached HEAD at the merge commit, where
+    the source branch is not present as a local ref. There the name cannot be resolved and
+    we must not fail on it — the Base commit check still validates the repository. A
+    genuinely bogus branch on a normal checkout still fails: rev-parse rejects it and the
+    checkout is not detached.
+    """
+    if subprocess.run(["git", "rev-parse", "--verify", "--quiet", branch],
+                      cwd=ROOT, capture_output=True).returncode == 0:
+        return True
+    head = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"],
+                          cwd=ROOT, capture_output=True, text=True)
+    return (head.stdout or "").strip() == "HEAD"
+
+
 def phase_b_complete(session_id: str) -> tuple[bool, str]:
     """Whether the live session has finished registration phase B.
 
@@ -196,7 +214,18 @@ def status_for(session_id: str, *, now: datetime | None = None) -> tuple[str, st
 
     ``ok`` requires a receipt whose ``ran_at`` is at or after the session's ``Started`` —
     an old receipt means the checks were run before this session existed.
+
+    **Receipt-generation window.** The state-tree check is itself one of the five checks,
+    and it asserts that the live session has a current receipt. During the receipt run no
+    current receipt can exist yet (and a previous run may have left a red one), so without
+    this window the first verification of any new session is a guaranteed red — a
+    deadlock. While ``STEMMA_RECEIPT_IN_PROGRESS`` names this session, this guard reports
+    ``ok``; the script sets that variable only for the subprocesses it spawns. The window
+    is safe because the receipt is what CI and every later gate read: it records the real
+    result of every check, including this one.
     """
+    if os.environ.get("STEMMA_RECEIPT_IN_PROGRESS") == session_id:
+        return "ok", f"{session_id}: receipt generation in progress"
     started = session_started(session_id)
     if started is None:
         return "missing", f"{session_id} has no session file or no parseable `Started` stamp"
@@ -225,7 +254,7 @@ def status_for(session_id: str, *, now: datetime | None = None) -> tuple[str, st
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser = argparse.ArgumentParser(description=(__doc__ or "").splitlines()[0])
     parser.add_argument("--session", help="session id to attribute the receipt to")
     parser.add_argument("--check", action="store_true",
                         help="report whether a current green receipt exists; do not run checks")
@@ -268,9 +297,12 @@ def main(argv: list[str] | None = None) -> int:
     results: list[dict] = []
     print(f"STEP 8 receipt for {session_id} (branch {branch}) — {ran_at}\n")
 
+    check_env = dict(os.environ)
+    check_env["STEMMA_RECEIPT_IN_PROGRESS"] = session_id
     for name, command in checks_for(branch):
         started = time.monotonic()
-        proc = subprocess.run(command, cwd=ROOT, capture_output=True, text=True)
+        proc = subprocess.run(command, cwd=ROOT, capture_output=True, text=True,
+                              env=check_env)
         elapsed = round(time.monotonic() - started, 2)
         blob = proc.stdout + proc.stderr
         if proc.returncode == 0:

@@ -1,0 +1,150 @@
+id: stemma:src.openstax-anatomy-and-physiology-2e
+type: textbook
+citation: J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana
+  Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael
+  Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela
+  Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin,
+  Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie
+  Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra
+  Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth
+  Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis
+  Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang,
+  David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle,
+  Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande,
+  Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison,
+  Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason
+  Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston,
+  Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer,
+  Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi,
+  Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf (2022). Anatomy and Physiology
+  2e. OpenStax. https://openstax.org/books/anatomy-and-physiology-2e
+title: Anatomy and Physiology 2e
+authors:
+- J. Gordon Betts
+- Kelly A. Young
+- James A. Wise
+- Eddie Johnson
+- Brandon Poe
+- Dean H. Kruse
+- Oksana Korol
+- Jody E. Johnson
+- Mark Womble
+- Peter DeSaix
+- William Blaker
+- Julie Bowers
+- Matthew Barlow
+- Michael Hortsch
+- Emily Bradshaw
+- Kathleen Tallman
+- Boyd Campbell
+- Rohinton Tarapore
+- Branko Jablanovic
+- Pamela Dobbins
+- Brian Shmaefsky
+- Barbara Christie-Pope
+- Douglas Sizemore
+- Maurice Culver
+- Debra McLaughlin
+- Bruce Maring
+- Peter Dukehart
+- Susan Dentel
+- Elizabeth Tattersall
+- Margaret Weck
+- Neil Westergaard
+- Marnie Chapman
+- William Kleinelp
+- Brenda Leady
+- Susanna Heinze
+- Julie May
+- Ann Caplea
+- Kim Aaronson
+- Lopamudra Agarwal
+- Gary Allen
+- Nishi Bryska
+- Susan Caley Opsal
+- Norman Johnson
+- Sarah Leupen
+- Robert Mallet
+- Kenneth Crane
+- Heather Cushman
+- Chaya Gopalan
+- Mark Hubley
+- Dale Horeth
+- Kathleen Weiss
+- Sharon Ellerton
+- Janis Thompson
+- Rita Thrasher
+- Nicholas Mitchell
+- David Van Wylen
+- Elisabeth Martin
+- Ivan Paul
+- Lihua Liang
+- David Wortham
+- Shobhana Natarajan
+- Betsy Ott
+- Sondra Dubowsky
+- Mary Jane Niles
+- Mark Thomas
+- Mike Pyle
+- Umesh Yadav
+- Ann Henninger
+- Elizabeth DuPriest
+- Timothy Ballard
+- Phillip Nicotera
+- Michael Giangrande
+- Natalie Maxwell
+- Cameron Perkins
+- Robert Rawding
+- Lynn Gargan
+- Jeff Keyte
+- Victor Greco
+- Robert Allison
+- Heather Armbruster
+- Lynn Wandrey
+- David Pfeiffer
+- Mark Jonasson
+- Susan Spencer
+- Leigh Kleinert
+- Jason Schreer
+- Thomas Pilat
+- Ikemefuna Nwosu
+- Patty Dolan
+- Ellen DuPré
+- John Lepri
+- Carla Endres
+- Eileen Preston
+- Eric Sun
+- Tom Swenson
+- Tony Yates
+- Justin York
+- Cheri Zao
+- Elena Zoubina
+- Noelle Cutter
+- Lynnette Danzl-Tauer
+- Myriam Feldman
+- Jane Davis
+- Rosemary Hubbard
+- Aaron Payette
+- Greg Fitch
+- Robert Sullivan
+- AnnMarie DelliPizzi
+- Cynthia Standley
+- Shobhana Natarajan
+- Scott Payne
+- Laird Sheldahl
+- Pam Elf
+year: '2022'
+publisher: OpenStax
+isbn: 978-1-951693-42-8
+url: https://openstax.org/books/anatomy-and-physiology-2e
+language: en
+source_role: secondary
+accessed_at: '2026-10-20'
+retrieved_at: '2026-10-20'
+writer: process:openstax-importer.v1
+license: Creative Commons Attribution-NonCommercial-ShareAlike License 4.0
+locator_authority: OpenStax
+rights:
+  license: Creative Commons Attribution-NonCommercial-ShareAlike License (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+  attribution: OpenStax, Anatomy and Physiology 2e. Used as a Tier C reference for term discovery and
+    factual verification; canonical definitions are independently phrased.

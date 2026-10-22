@@ -47,23 +47,62 @@
   "provenance_gaps_count": 0,
   "evidence_gaps_sample": [],
   "provenance_gaps_sample": [],
-  "entity_count": 9,
-  "entity_reviewed_count": 1,
-  "entity_canonical_count": 1,
+  "entity_count": 268,
+  "entity_reviewed_count": 260,
+  "entity_canonical_count": 260,
   "entity_status": {
-    "draft": 8,
-    "canonical": 1
+    "canonical": 260,
+    "draft": 8
   },
   "entity_type": {
+    "concept": 150,
+    "structure": 29,
+    "process": 29,
+    "system": 8,
+    "material": 6,
+    "model": 6,
+    "instrument": 3,
+    "constant": 1,
+    "technique": 5,
+    "equation": 3,
+    "phenomenon": 8,
+    "principle": 4,
+    "function": 4,
+    "theorem": 1,
     "unit": 3,
     "quantity": 4,
-    "law": 2
+    "law": 4
   },
   "entity_review_coverage_by_domain": {
+    "biology": {
+      "total": 45,
+      "human_reviewed": 45,
+      "canonical": 45
+    },
+    "chemistry": {
+      "total": 42,
+      "human_reviewed": 42,
+      "canonical": 42
+    },
+    "earth-space": {
+      "total": 45,
+      "human_reviewed": 45,
+      "canonical": 45
+    },
+    "engineering": {
+      "total": 44,
+      "human_reviewed": 44,
+      "canonical": 44
+    },
+    "mathematics": {
+      "total": 45,
+      "human_reviewed": 45,
+      "canonical": 45
+    },
     "physics": {
-      "total": 9,
-      "human_reviewed": 1,
-      "canonical": 1
+      "total": 47,
+      "human_reviewed": 39,
+      "canonical": 39
     }
   }
 }

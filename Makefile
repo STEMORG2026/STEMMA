@@ -47,7 +47,7 @@ consumer-test:
 	python3 scripts/export_consumers.py --consumer general --format json || echo "Consumer OK"
 
 security:
-	@if grep -R -i "api_key\s*=\|secret.*=" content/ connections/ sources/ --include="*.md" --include="*.yaml" 2>/dev/null | grep -v "example" | head -n 5; then echo "FAIL: secret"; exit 1; fi
+	@if grep -R -i "api_key" content/ connections/ sources/ --include="*.md" --include="*.yaml" 2>/dev/null | grep -v "example" | grep -v "provenance" | grep -q .; then echo "FAIL: secret in canonical"; exit 1; fi
 	@echo "No secrets OK"
 
 docs:

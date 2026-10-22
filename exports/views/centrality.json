@@ -1,0 +1,103 @@
+{
+  "view": "centrality",
+  "view_version": "1.0.0",
+  "export_version": "2.2.0",
+  "schema_version": "1.3.0",
+  "source_content_hash": "sha256:df7943c4e08e53620f6169cce4b58f99b6371f362d1833b355d32fd5656944f9",
+  "license": "CC-BY-4.0",
+  "input": "exports/knowledge.extended.json derived.centrality.all",
+  "algorithm": "PageRank over explicit+inverse edges (graph_analysis.py)",
+  "entity_count": 9,
+  "rows": [
+    {
+      "id": "stemma:phys.mass",
+      "name": "Mass",
+      "domain": "physics",
+      "status": "draft",
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0,
+      "pagerank": 0.030833
+    },
+    {
+      "id": "stemma:phys.conservation-energy",
+      "name": "Conservation of Energy",
+      "domain": "physics",
+      "status": "draft",
+      "degree": 0,
+      "in_degree": 0,
+      "out_degree": 0,
+      "pagerank": 0.016667
+    },
+    {
+      "id": "stemma:phys.force",
+      "name": "Force",
+      "domain": "physics",
+      "status": "draft",
+      "degree": 1,
+      "in_degree": 0,
+      "out_degree": 1,
+      "pagerank": 0.016667
+    },
+    {
+      "id": "stemma:phys.kilogram",
+      "name": "Kilogram",
+      "domain": "physics",
+      "status": "draft",
+      "degree": 0,
+      "in_degree": 0,
+      "out_degree": 0,
+      "pagerank": 0.016667
+    },
+    {
+      "id": "stemma:phys.length",
+      "name": "Length",
+      "domain": "physics",
+      "status": "draft",
+      "degree": 0,
+      "in_degree": 0,
+      "out_degree": 0,
+      "pagerank": 0.016667
+    },
+    {
+      "id": "stemma:phys.metre",
+      "name": "Metre",
+      "domain": "physics",
+      "status": "canonical",
+      "degree": 0,
+      "in_degree": 0,
+      "out_degree": 0,
+      "pagerank": 0.016667
+    },
+    {
+      "id": "stemma:phys.newtons-second-law",
+      "name": "Newton's Second Law",
+      "domain": "physics",
+      "status": "draft",
+      "degree": 0,
+      "in_degree": 0,
+      "out_degree": 0,
+      "pagerank": 0.016667
+    },
+    {
+      "id": "stemma:phys.second",
+      "name": "Second",
+      "domain": "physics",
+      "status": "draft",
+      "degree": 0,
+      "in_degree": 0,
+      "out_degree": 0,
+      "pagerank": 0.016667
+    },
+    {
+      "id": "stemma:phys.time",
+      "name": "Time",
+      "domain": "physics",
+      "status": "draft",
+      "degree": 0,
+      "in_degree": 0,
+      "out_degree": 0,
+      "pagerank": 0.016667
+    }
+  ]
+}

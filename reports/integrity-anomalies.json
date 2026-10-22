@@ -3,14 +3,18 @@
     {
       "level": "INFO",
       "type": "isolated_entities",
-      "message": "6 entities have no connections",
+      "message": "265 entities have no connections",
       "ids": [
-        "stemma:phys.conservation-energy",
-        "stemma:phys.kilogram",
-        "stemma:phys.length",
-        "stemma:phys.newtons-second-law",
-        "stemma:phys.second",
-        "stemma:phys.time"
+        "stemma:bio.3-utr",
+        "stemma:bio.5-cap",
+        "stemma:bio.5-utr",
+        "stemma:bio.7-methylguanosine-cap",
+        "stemma:bio.a-horizon",
+        "stemma:bio.abdominal-aorta",
+        "stemma:bio.abdominopelvic-cavity",
+        "stemma:bio.abducens-nerve",
+        "stemma:bio.abduct",
+        "stemma:bio.abduction"
       ]
     }
   ],

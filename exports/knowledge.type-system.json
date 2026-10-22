@@ -1,0 +1,650 @@
+{
+  "export_version": "2.2.0",
+  "schema_version": "1.4.0",
+  "policy": "type:system",
+  "content_hash": "sha256:d98304ee3f9efabf81443d52d40d7486debc76b900c65c9747122659aa628bac",
+  "source": "content/ + connections/ + sources/ (canonical)",
+  "entity_count": 8,
+  "connection_count": 0,
+  "entities": [
+    {
+      "id": "stemma:bio.ecosystem",
+      "type": "system",
+      "name": "ecosystem",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An ecosystem represents a functional unit comprising all living organisms within a specific area alongside their nonliving environmental components. It functions through complex interactions where biotic factors depend on abiotic resources to sustain energy flow and nutrient cycling.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing sustainable agricultural practices based on local cycles.",
+        "Predicting climate change impacts on biodiversity hotspots."
+      ]
+    },
+    {
+      "id": "stemma:bio.immune-system",
+      "type": "system",
+      "name": "immune system",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The immune system functions as a series of barriers, cells, and soluble mediators responding to infections. It coordinates complex defenses against pathogenic organisms, protecting the body from disease while maintaining internal stability.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing vaccines to stimulate adaptive immunity responses.",
+        "Developing immunosuppressants for organ transplant patients."
+      ]
+    },
+    {
+      "id": "stemma:chem.buffer",
+      "type": "system",
+      "name": "buffer",
+      "domain": "chemistry",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A buffer consists of significant quantities of a weak acid and its conjugate base. Its primary role is to maintain stable pH levels despite the addition of small amounts of strong acids or bases.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-chemistry-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Chemistry 2e (2019), OpenStax. Term locator: https://openstax.org/books/chemistry-2e/pages/14-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Flowers, Don Frantz, Paul Hooker, George Kaminski, Jennifer Look, Carol Martinez, Andrew Eklund, Mark Blaser, Klaus Theopold, Richard Langley, Tom Sorensen, Allison Soult, Troy Milliken, Vicki Moravec, Jason Powell, Emad El-Giar, Simon Bott, Don Carpenetti, William R. Robinson, PhD",
+        "link": "https://openstax.org/books/chemistry-2e/pages/14-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Maintaining stable blood pH levels in human physiology daily.",
+        "Stabilizing fermentation conditions for yogurt and cheese production.",
+        "Controlling pH in photographic developing solutions effectively."
+      ],
+      "limitations": [
+        "Effectiveness drops once component reserves are exhausted completely.",
+        "Cannot neutralize large amounts of added acid or base quickly.",
+        "Temperature changes can alter dissociation constants affecting performance."
+      ]
+    },
+    {
+      "id": "stemma:earth.active-galaxies",
+      "type": "system",
+      "name": "active galaxies",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Active galaxies are celestial systems that contain active galactic nuclei at their centers. Unlike typical spiral or elliptical galaxies, these objects exhibit intense radiation output driven by energetic processes occurring deep within their central regions.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/27-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/27-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Classifying galaxy populations via spectral energy distributions.",
+        "Investigating feedback effects on host galaxy star formation.",
+        "Tracing cosmic history through high-redshift samples."
+      ],
+      "limitations": [
+        "Classification relies heavily on optical selection biases.",
+        "Assumes single dominant power source per system.",
+        "Ignores multi-wavelength observational uncertainties."
+      ]
+    },
+    {
+      "id": "stemma:earth.local-group",
+      "type": "system",
+      "name": "Local Group",
+      "domain": "earth-space",
+      "subdomain": "astronomy",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The gravitationally bound collection of galaxies that includes the Milky Way and Andromeda. It spans a few million light-years and is itself part of the larger Laniakea supercluster.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-astronomy-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Astronomy 2e (2022), OpenStax. Term locator: https://openstax.org/books/astronomy-2e/pages/28-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Andrew Fraknoi, David Morrison, Sidney Wolff",
+        "link": "https://openstax.org/books/astronomy-2e/pages/28-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Mapping cosmic web filament structures locally.",
+        "Predicting Andromeda-Milky Way merger timeline.",
+        "Calibrating distance ladder rungs nearby."
+      ],
+      "limitations": [
+        "Boundaries defined by tidal disruption limits.",
+        "Membership status debated for distant dwarfs.",
+        "Expansion rate differs from Hubble flow here."
+      ]
+    },
+    {
+      "id": "stemma:eng.network",
+      "type": "system",
+      "name": "network",
+      "domain": "engineering",
+      "subdomain": "computer",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A network consists of various technological devices that are interconnected and share information. These systems enable distributed communication by linking multiple nodes to exchange data across a shared medium.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-introduction-computer-science"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Introduction to Computer Science (2024), OpenStax. Term locator: https://openstax.org/books/introduction-computer-science/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Dr. Jean-Claude Franchitti, Amal Alhosban, Mark Buckler, Joanna Gilberti, Scott Gray, Matthew Hertz, Andrew Hurd, Kevin Lin, Sai Mukkavilli, Phuc (Brian) Nguyen, Shahab Tayeb, Zdeněk Troníček, Kevin Wortman, Mohamed Zahran",
+        "link": "https://openstax.org/books/introduction-computer-science/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Global internet infrastructure connecting billions of users.",
+        "Corporate intranets for secure internal file transfer.",
+        "Sensor grids monitoring environmental conditions remotely."
+      ],
+      "limitations": [
+        "Latency increases as network topology expands significantly.",
+        "Single points of failure can disrupt entire systems.",
+        "Security vulnerabilities grow with each added node."
+      ]
+    },
+    {
+      "id": "stemma:eng.operating-system",
+      "type": "system",
+      "name": "operating system",
+      "domain": "engineering",
+      "subdomain": "computer",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An operating system is fundamental software that manages computer hardware resources and provides common services for application programs. It acts as an intermediary between users and the machine, ensuring efficient task scheduling while maintaining stability across diverse computing environments.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-introduction-computer-science"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Introduction to Computer Science (2024), OpenStax. Term locator: https://openstax.org/books/introduction-computer-science/pages/4-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Dr. Jean-Claude Franchitti, Amal Alhosban, Mark Buckler, Joanna Gilberti, Scott Gray, Matthew Hertz, Andrew Hurd, Kevin Lin, Sai Mukkavilli, Phuc (Brian) Nguyen, Shahab Tayeb, Zdeněk Troníček, Kevin Wortman, Mohamed Zahran",
+        "link": "https://openstax.org/books/introduction-computer-science/pages/4-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Managing memory and CPU on personal computers.",
+        "Running server clusters to host web applications.",
+        "Controlling embedded systems in automotive electronics."
+      ],
+      "limitations": [
+        "Kernel bugs can cause system-wide crashes or freezes.",
+        "Resource contention limits performance under heavy loads.",
+        "Legacy code may not support modern security standards."
+      ]
+    },
+    {
+      "id": "stemma:math.polar-coordinates",
+      "type": "system",
+      "name": "polar coordinates",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Polar coordinates specify a point's location using a radial distance and an angular rotation from the polar axis. This system represents position via radius r indicating distance from the pole and theta representing direction.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/8-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/8-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Describing circular motion patterns in physics simulations easily.",
+        "Mapping geographic locations on radar or sonar displays efficiently."
+      ]
+    }
+  ],
+  "connections": []
+}

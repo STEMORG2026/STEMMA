@@ -1,0 +1,3859 @@
+{
+  "export_version": "2.2.0",
+  "schema_version": "1.4.0",
+  "policy": "domain:mathematics",
+  "content_hash": "sha256:d98304ee3f9efabf81443d52d40d7486debc76b900c65c9747122659aa628bac",
+  "source": "content/ + connections/ + sources/ (canonical)",
+  "entity_count": 45,
+  "connection_count": 0,
+  "entities": [
+    {
+      "id": "stemma:math.absolute-convergence",
+      "type": "concept",
+      "name": "absolute convergence",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Absolute convergence describes a specific condition for infinite series where the sum of absolute values converges. This property ensures that rearranging terms does not alter the resulting limit, distinguishing it from conditional convergence.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-2/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "William Radulovich, Erica M. Rutter, David Smith, Gilbert Strang, Kirsten R. Messer, Alfred K. Mulzet, Nicoleta Virginia Bila, Sheri J. Boyd, Joyati Debnath, Edwin “Jed” Herman, Valeree Falduto, Elaine A. Terry, David Torain, Michelle Merriweather, Catherine Abbott, Joseph Lakey, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-2/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Ensuring stability in numerical integration algorithms.",
+        "Validating infinite sums in signal processing."
+      ]
+    },
+    {
+      "id": "stemma:math.absolute-error",
+      "type": "concept",
+      "name": "absolute error",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Absolute error quantifies the magnitude of difference between an estimated value and its actual true quantity. It is calculated as the non-negative distance separating these two values without considering direction.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-2/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "William Radulovich, Erica M. Rutter, David Smith, Gilbert Strang, Kirsten R. Messer, Alfred K. Mulzet, Nicoleta Virginia Bila, Sheri J. Boyd, Joyati Debnath, Edwin “Jed” Herman, Valeree Falduto, Elaine A. Terry, David Torain, Michelle Merriweather, Catherine Abbott, Joseph Lakey, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-2/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Assessing sensor accuracy in robotics systems.",
+        "Evaluating prediction quality in economic forecasting."
+      ]
+    },
+    {
+      "id": "stemma:math.absolute-extremum",
+      "type": "concept",
+      "name": "absolute extremum",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An absolute extremum represents either a global maximum or minimum value attained by a function across its entire domain. This point signifies the highest or lowest output possible for all valid inputs.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-1/pages/4-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath, Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-1/pages/4-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Optimizing profit margins for business operations.",
+        "Finding lowest energy states in molecular physics."
+      ]
+    },
+    {
+      "id": "stemma:math.absolute-maximum",
+      "type": "concept",
+      "name": "absolute maximum",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An absolute maximum occurs at a specific input where the function value exceeds every other output in its domain. This point represents the single highest peak achievable by the entire curve.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-1/pages/4-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath, Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-1/pages/4-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Determining peak voltage in electrical circuits.",
+        "Finding optimal temperature for chemical reactions."
+      ]
+    },
+    {
+      "id": "stemma:math.absolute-minimum",
+      "type": "concept",
+      "name": "absolute minimum",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An absolute minimum exists at an input where the function value is less than or equal to all other outputs. This point corresponds to the single lowest valley within the complete domain of definition.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-1/pages/4-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath, Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-1/pages/4-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Minimizing material costs in manufacturing processes.",
+        "Finding ground state energy levels in quantum mechanics."
+      ]
+    },
+    {
+      "id": "stemma:math.absolute-value-equation",
+      "type": "equation",
+      "name": "absolute value equation",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An absolute value equation sets an expression inside modulus signs equal to a non-negative constant. Solving such equations requires considering both positive and negative cases for the inner variable.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Calculating total distance traveled regardless of direction changes.",
+        "Determining tolerance limits in manufacturing quality control.",
+        "Solving error bounds where deviation magnitude matters most."
+      ]
+    },
+    {
+      "id": "stemma:math.absolute-value-function",
+      "type": "function",
+      "name": "absolute value function",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The absolute value function maps any real number to its non-negative magnitude regardless of sign. It forms a V-shaped graph with the origin as its vertex and acts piecewise linearly.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-1/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath, Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-1/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Calculating total distance traveled regardless of direction.",
+        "Measuring signal strength in telecommunications networks."
+      ]
+    },
+    {
+      "id": "stemma:math.absolute-value-inequality",
+      "type": "equation",
+      "name": "absolute value inequality",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "An absolute value inequality compares an expression within modulus signs to a constant using comparison operators. Solving these requires splitting the problem into separate cases based on positive and negative scenarios.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Setting acceptable temperature ranges for food safety standards.",
+        "Defining error margins in experimental measurement data analysis.",
+        "Establishing safe operating limits for electrical voltage fluctuations."
+      ]
+    },
+    {
+      "id": "stemma:math.acceleration",
+      "type": "concept",
+      "name": "acceleration",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Acceleration measures how quickly velocity changes over time within a physical system. Mathematically, it corresponds to the derivative of the velocity vector with respect to temporal variables.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-1/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath, Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-1/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Calculating g-force experienced by astronauts in orbit.",
+        "Optimizing engine performance for vehicle acceleration tests."
+      ]
+    },
+    {
+      "id": "stemma:math.acceleration-vector",
+      "type": "concept",
+      "name": "acceleration vector",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The acceleration vector describes both the magnitude and direction of a particle's changing velocity. It is obtained by taking the second derivative of the position vector in kinematic analysis.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-3"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 3 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-3/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, David Smith, Elaine A. Terry, David Torain, Edwin “Jed” Herman, Kirsten R. Messer, Alfred K. Mulzet, William Radulovich, Erica M. Rutter, David McCune, Michelle Merriweather, Joseph Lakey, Julie Levandosky, Valeree Falduto, Catherine Abbott, Joyati Debnath",
+        "link": "https://openstax.org/books/calculus-volume-3/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Analyzing car dynamics during braking maneuvers.",
+        "Designing flight paths for autonomous drones."
+      ]
+    },
+    {
+      "id": "stemma:math.addition-method",
+      "type": "technique",
+      "name": "addition method",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The addition method is a systematic algebraic technique for solving systems of linear equations. It involves adding modified versions of the original equations to eliminate one variable, thereby simplifying the system so that substitution can determine all unknowns.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/9-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/9-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Balancing chemical reaction stoichiometry coefficients simultaneously.",
+        "Calculating intersection points of supply and demand curves.",
+        "Resolving simultaneous constraints in resource allocation problems."
+      ]
+    },
+    {
+      "id": "stemma:math.addition-principle",
+      "type": "principle",
+      "name": "Addition Principle",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The Addition Principle states that if two mutually exclusive events occur in m and n ways respectively, the total number of outcomes for either event is their sum. This rule provides a fundamental method for counting possibilities when choices are distinct.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Counting total ways to win lottery with separate ticket types.",
+        "Calculating possible outcomes in dice rolls excluding doubles.",
+        "Estimating survey response categories that cannot overlap."
+      ]
+    },
+    {
+      "id": "stemma:math.adjacent-side",
+      "type": "concept",
+      "name": "adjacent side",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "In a right triangle, the adjacent side is the leg sharing a vertex with a chosen acute angle, excluding the hypotenuse. Which leg is adjacent depends on the selected angle; the remaining leg is the opposite side.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Calculating roof pitch angles in architectural design projects.",
+        "Determining shadow lengths based on sun elevation angles.",
+        "Navigating triangulation problems using known distance measurements."
+      ]
+    },
+    {
+      "id": "stemma:math.algebraic-expression",
+      "type": "concept",
+      "name": "algebraic expression",
+      "domain": "mathematics",
+      "subdomain": "algebra",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An algebraic expression consists of constants and variables linked together through basic arithmetic operations such as addition, subtraction, multiplication, or division. These mathematical phrases represent values without necessarily including an equality sign to form a complete equation.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-algebra-and-trigonometry-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Algebra and Trigonometry 2e (2021), OpenStax. Term locator: https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Formulating physics formulas for force or energy.",
+        "Modeling financial growth without fixed endpoints."
+      ]
+    },
+    {
+      "id": "stemma:math.algebraic-function",
+      "type": "function",
+      "name": "algebraic function",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "An algebraic function is defined by combining input variables using only standard operations like addition, subtraction, multiplication, division, powers, and roots. This specific type of mapping ensures the relationship between inputs and outputs remains polynomial or rational in nature.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-1/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath, Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-1/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Modeling orbital mechanics with polynomial approximations.",
+        "Analyzing electrical circuits using rational expressions."
+      ]
+    },
+    {
+      "id": "stemma:math.arithmetic-sequence",
+      "type": "concept",
+      "name": "arithmetic sequence",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An arithmetic sequence is a specific ordered list of numbers generated by adding a fixed constant to each preceding term. The defining characteristic involves maintaining an identical difference between every pair of consecutive elements within the series.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-2/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "William Radulovich, Erica M. Rutter, David Smith, Gilbert Strang, Kirsten R. Messer, Alfred K. Mulzet, Nicoleta Virginia Bila, Sheri J. Boyd, Joyati Debnath, Edwin “Jed” Herman, Valeree Falduto, Elaine A. Terry, David Torain, Michelle Merriweather, Catherine Abbott, Joseph Lakey, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-2/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "3, 7, 11, 15 is arithmetic with common difference 4.",
+        "The sequence of even numbers is arithmetic."
+      ],
+      "formal": {
+        "statement": "An arithmetic sequence adds the same constant difference between consecutive terms.",
+        "equation": "a_n = a_1 + (n - 1) d",
+        "variables": [
+          {
+            "symbol": "a_n",
+            "meaning": "n-th term"
+          },
+          {
+            "symbol": "a_1",
+            "meaning": "first term"
+          },
+          {
+            "symbol": "d",
+            "meaning": "common difference"
+          },
+          {
+            "symbol": "n",
+            "meaning": "term index"
+          }
+        ],
+        "conditions": [
+          "constant common difference"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Predicting linear depreciation of assets over time.",
+        "Scheduling equal maintenance intervals for machinery."
+      ]
+    },
+    {
+      "id": "stemma:math.binomial-theorem",
+      "type": "theorem",
+      "name": "Binomial Theorem",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The Binomial Theorem provides an algebraic formula for expanding powers of binomials into sums involving combinatorial coefficients. It allows systematic generation of terms without performing repeated multiplication operations on the initial expression.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "(x + y)^2 expands to x^2 + 2xy + y^2.",
+        "The coefficients of (x + y)^n form row n of Pascal's triangle."
+      ],
+      "formal": {
+        "statement": "A power of a binomial expands as a sum of terms whose coefficients are binomial coefficients.",
+        "equation": "(x + y)^n = sum_{k=0}^{n} C(n,k) x^{n-k} y^{k}",
+        "variables": [
+          {
+            "symbol": "n",
+            "meaning": "nonnegative integer exponent"
+          },
+          {
+            "symbol": "x, y",
+            "meaning": "terms of the binomial"
+          },
+          {
+            "symbol": "C(n,k)",
+            "meaning": "binomial coefficient"
+          }
+        ],
+        "conditions": [
+          "n is a nonnegative integer"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Probability distribution calculations for binary outcomes.",
+        "Approximating functions via Taylor series expansions."
+      ]
+    },
+    {
+      "id": "stemma:math.combination",
+      "type": "concept",
+      "name": "combination",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A selection of items in which order is irrelevant, so choosing the same members in a different sequence counts as one outcome. Combinations are counted with binomial coefficients and are used for sampling and unordered subsets.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "Choosing 3 students from 10 to form a committee gives C(10,3) = 120 combinations.",
+        "A five-card poker hand is a combination because card order does not matter."
+      ],
+      "formal": {
+        "statement": "The number of k-element subsets of an n-element set is n factorial divided by k factorial times n minus k factorial.",
+        "equation": "C(n,k) = n! / (k! (n-k)!)",
+        "variables": [
+          {
+            "symbol": "n",
+            "meaning": "total number of items"
+          },
+          {
+            "symbol": "k",
+            "meaning": "number selected"
+          }
+        ],
+        "conditions": [
+          "0 <= k <= n",
+          "order does not matter",
+          "no repetition"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Sampling without replacement in statistical surveys.",
+        "Determining possible lottery ticket combinations mathematically."
+      ]
+    },
+    {
+      "id": "stemma:math.complex-number",
+      "type": "concept",
+      "name": "complex number",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "A complex number combines a real part with an imaginary component expressed in the standard form. This extension of the real number system enables solutions to polynomial equations lacking real roots, facilitating advanced analysis in electrical engineering and quantum mechanics through geometric rotation.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Analyzing alternating current circuits in electrical engineering.",
+        "Modeling wave functions and quantum states in physics."
+      ]
+    },
+    {
+      "id": "stemma:math.conic-section",
+      "type": "structure",
+      "name": "conic section",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A conic section represents any curve created by slicing a double-napped cone with an intersecting plane. The resulting shapes include circles, ellipses, parabolas, and hyperbolas depending on the angle of intersection relative to the axis.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-2/pages/7-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "William Radulovich, Erica M. Rutter, David Smith, Gilbert Strang, Kirsten R. Messer, Alfred K. Mulzet, Nicoleta Virginia Bila, Sheri J. Boyd, Joyati Debnath, Edwin “Jed” Herman, Valeree Falduto, Elaine A. Terry, David Torain, Michelle Merriweather, Catherine Abbott, Joseph Lakey, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-2/pages/7-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing satellite dishes using parabolic shapes.",
+        "Mapping planetary orbits as elliptical paths."
+      ]
+    },
+    {
+      "id": "stemma:math.derivative",
+      "type": "concept",
+      "name": "derivative",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The instantaneous rate at which a function changes with respect to its input, defined as the limit of a difference quotient. Geometrically it gives the slope of the tangent line, and it measures sensitivity in applications such as motion and optimization.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-1/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath, Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-1/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "The derivative of x^2 is 2x.",
+        "Speed is the magnitude of the derivative of position with respect to time."
+      ],
+      "formal": {
+        "statement": "The derivative is the limit of the difference quotient as the input increment approaches zero.",
+        "equation": "f'(x) = lim_{h -> 0} (f(x+h) - f(x)) / h",
+        "variables": [
+          {
+            "symbol": "f'",
+            "meaning": "derivative of f"
+          },
+          {
+            "symbol": "x",
+            "meaning": "input value"
+          },
+          {
+            "symbol": "h",
+            "meaning": "input increment"
+          }
+        ],
+        "conditions": [
+          "the limit exists",
+          "f is defined near x"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Optimizing production costs to maximize profit margins.",
+        "Determining instantaneous velocity from position data."
+      ]
+    },
+    {
+      "id": "stemma:math.differential-equation",
+      "type": "concept",
+      "name": "differential equation",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "A differential equation is a mathematical statement relating a function to one or more of its derivatives. Such equations model dynamic systems by connecting rates of change directly to the state variables, forming the basis for analyzing physical phenomena like motion and heat flow.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-2/pages/4-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "William Radulovich, Erica M. Rutter, David Smith, Gilbert Strang, Kirsten R. Messer, Alfred K. Mulzet, Nicoleta Virginia Bila, Sheri J. Boyd, Joyati Debnath, Edwin “Jed” Herman, Valeree Falduto, Elaine A. Terry, David Torain, Michelle Merriweather, Catherine Abbott, Joseph Lakey, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-2/pages/4-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Simulating population dynamics in ecology studies.",
+        "Modeling heat transfer through solid materials."
+      ]
+    },
+    {
+      "id": "stemma:math.domain",
+      "type": "concept",
+      "name": "domain",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The domain of a function specifies the complete set of allowable input values for which the rule is defined. Identifying this restriction ensures mathematical validity by excluding inputs that would cause undefined operations like division by zero or taking square roots of negative numbers.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-1/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath, Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-1/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Ensuring software inputs avoid division by zero errors.",
+        "Validating sensor readings within physical measurement limits."
+      ]
+    },
+    {
+      "id": "stemma:math.ellipse",
+      "type": "structure",
+      "name": "ellipse",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An ellipse is defined as the collection of all points in a plane where the sum of distances to two fixed foci remains constant. This geometric locus forms an oval shape that generalizes the properties found within circular figures.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/10-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/10-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "Planetary orbits are ellipses with the Sun at one focus.",
+        "A whispering gallery has an elliptical ceiling."
+      ],
+      "formal": {
+        "statement": "An ellipse is the locus of points whose distances to two fixed foci have a constant sum.",
+        "equation": "x^2 / a^2 + y^2 / b^2 = 1",
+        "variables": [
+          {
+            "symbol": "a",
+            "meaning": "semi-major axis"
+          },
+          {
+            "symbol": "b",
+            "meaning": "semi-minor axis"
+          }
+        ],
+        "conditions": [
+          "a > b > 0",
+          "axes aligned with the coordinate axes"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Designing planetary orbits in celestial mechanics contexts.",
+        "Architectural planning for whispering gallery acoustics systems."
+      ]
+    },
+    {
+      "id": "stemma:math.exponential-growth",
+      "type": "concept",
+      "name": "exponential growth",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Exponential growth describes a dynamic process where system quantities increase at rates proportional to their current values. This behavior follows a specific mathematical model characterized by the equation y equals y sub zero times e raised to the power of k t.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-1/pages/6-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath, Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-1/pages/6-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A population with unlimited resources can grow exponentially at first.",
+        "Compound interest at a fixed rate follows exponential growth."
+      ],
+      "formal": {
+        "statement": "A quantity exhibits exponential growth when its rate of change is proportional to its current value.",
+        "equation": "N(t) = N_0 e^{k t}",
+        "variables": [
+          {
+            "symbol": "N",
+            "meaning": "quantity at time t"
+          },
+          {
+            "symbol": "N_0",
+            "meaning": "initial quantity"
+          },
+          {
+            "symbol": "k",
+            "meaning": "positive growth constant",
+            "unit": "s^-1"
+          },
+          {
+            "symbol": "t",
+            "meaning": "time",
+            "unit": "s"
+          }
+        ],
+        "conditions": [
+          "constant positive growth rate",
+          "unlimited resources in the modelled regime"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Forecasting viral spread during early pandemic phases.",
+        "Estimating compound interest on long-term investments."
+      ]
+    },
+    {
+      "id": "stemma:math.function",
+      "type": "concept",
+      "name": "function",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A rule that assigns exactly one output value to each input drawn from a specified domain. Functions may be described by formulas, tables, graphs, or algorithms, and their behavior is studied through domain, range, composition, and inverse relations.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-1/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath, Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-1/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "f(x) = x^2 maps each real number to its square.",
+        "A vending-machine selection is a function from buttons to items if each button gives one item."
+      ],
+      "formal": {
+        "statement": "A function from A to B assigns exactly one element of B to each element of A.",
+        "equation": "f: A -> B, y = f(x)",
+        "variables": [
+          {
+            "symbol": "A",
+            "meaning": "domain"
+          },
+          {
+            "symbol": "B",
+            "meaning": "codomain"
+          },
+          {
+            "symbol": "x",
+            "meaning": "input"
+          },
+          {
+            "symbol": "y",
+            "meaning": "output"
+          }
+        ],
+        "conditions": [
+          "each input has exactly one output"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Programming algorithms with deterministic input outputs.",
+        "Modeling economic supply curves for goods."
+      ]
+    },
+    {
+      "id": "stemma:math.geometric-sequence",
+      "type": "concept",
+      "name": "geometric sequence",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A geometric sequence is a progression where each term results from multiplying the previous value by a constant ratio. This structure ensures that the quotient of any consecutive pair remains identical across all positive integer indices.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-2/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "William Radulovich, Erica M. Rutter, David Smith, Gilbert Strang, Kirsten R. Messer, Alfred K. Mulzet, Nicoleta Virginia Bila, Sheri J. Boyd, Joyati Debnath, Edwin “Jed” Herman, Valeree Falduto, Elaine A. Terry, David Torain, Michelle Merriweather, Catherine Abbott, Joseph Lakey, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-2/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "2, 6, 18, 54 is geometric with ratio 3.",
+        "A halving sequence has ratio 1/2."
+      ],
+      "formal": {
+        "statement": "A geometric sequence multiplies each term by the same constant ratio to obtain the next.",
+        "equation": "a_n = a_1 r^{n-1}",
+        "variables": [
+          {
+            "symbol": "a_n",
+            "meaning": "n-th term"
+          },
+          {
+            "symbol": "a_1",
+            "meaning": "first term"
+          },
+          {
+            "symbol": "r",
+            "meaning": "common ratio"
+          },
+          {
+            "symbol": "n",
+            "meaning": "term index"
+          }
+        ],
+        "conditions": [
+          "constant common ratio"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Calculating radioactive decay over discrete time steps.",
+        "Analyzing compound interest with fixed percentage increases."
+      ]
+    },
+    {
+      "id": "stemma:math.hyperbola",
+      "type": "structure",
+      "name": "hyperbola",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A hyperbola consists of all points in a plane where the absolute difference between distances to two fixed foci equals a positive constant. This curve forms two separate branches that open away from each other symmetrically.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/10-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/10-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A hyperbola models the path of a comet on an unbound trajectory.",
+        "Two-branch curves describe some scattering trajectories."
+      ],
+      "formal": {
+        "statement": "A hyperbola is the locus of points whose absolute distance difference to two fixed foci is constant.",
+        "equation": "x^2 / a^2 - y^2 / b^2 = 1",
+        "variables": [
+          {
+            "symbol": "a",
+            "meaning": "distance from center to vertex"
+          },
+          {
+            "symbol": "b",
+            "meaning": "conjugate-axis scale"
+          }
+        ],
+        "conditions": [
+          "a > 0, b > 0",
+          "axes aligned with the coordinate axes"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Modeling gravitational slingshot trajectories in orbital mechanics.",
+        "Designing cooling towers based on structural stability needs."
+      ]
+    },
+    {
+      "id": "stemma:math.limit",
+      "type": "concept",
+      "name": "limit",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The value that a function or sequence approaches as its input or index approaches a target. Limits formalize closeness without requiring the target point itself to be reached, and they underpin continuity, derivatives, and convergence.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-1/pages/2-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath, Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-1/pages/2-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "The limit of sin(x)/x as x approaches 0 is 1.",
+        "A function can have a limit at a point where it is undefined."
+      ],
+      "formal": {
+        "statement": "For every positive epsilon there exists a positive delta such that inputs within delta of a, but distinct from a, map within epsilon of L.",
+        "equation": "lim_{x -> a} f(x) = L",
+        "variables": [
+          {
+            "symbol": "a",
+            "meaning": "target input"
+          },
+          {
+            "symbol": "L",
+            "meaning": "limit value"
+          },
+          {
+            "symbol": "epsilon",
+            "meaning": "output tolerance"
+          },
+          {
+            "symbol": "delta",
+            "meaning": "input tolerance"
+          }
+        ],
+        "conditions": [
+          "two-sided limit",
+          "f defined on a punctured neighbourhood of a"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Designing tolerance limits for manufacturing parts.",
+        "Ensuring algorithm stability under varying data inputs."
+      ]
+    },
+    {
+      "id": "stemma:math.logarithm",
+      "type": "concept",
+      "name": "logarithm",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A logarithm represents the specific exponent required to raise a base number to produce a given value. This inverse operation of exponentiation allows solving equations where the unknown appears in an exponent, fundamentally linking multiplicative relationships to additive ones.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/4-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/4-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Measuring earthquake intensity on the Richter scale system.",
+        "Calculating compound interest periods in financial modeling tasks."
+      ]
+    },
+    {
+      "id": "stemma:math.logarithmic-function",
+      "type": "function",
+      "name": "logarithmic function",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A logarithmic function is a mathematical mapping defined for any base greater than zero but not equal to one. It establishes an inverse relationship where the output exponent multiplied by the base yields the input argument value.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-1/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath, Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-1/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "log base 10 of 1000 is 3.",
+        "A logarithmic scale compresses large ranges, as in the Richter scale."
+      ],
+      "formal": {
+        "statement": "A logarithm is the exponent to which a base must be raised to produce a given number.",
+        "equation": "y = log_b(x) if and only if b^y = x",
+        "variables": [
+          {
+            "symbol": "b",
+            "meaning": "base"
+          },
+          {
+            "symbol": "x",
+            "meaning": "argument"
+          },
+          {
+            "symbol": "y",
+            "meaning": "logarithm"
+          }
+        ],
+        "conditions": [
+          "b > 0 and b not equal to 1",
+          "x > 0"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Modeling population growth and radioactive decay rates.",
+        "Calculating pH levels in chemistry solutions.",
+        "Analyzing sound intensity measured as decibels."
+      ]
+    },
+    {
+      "id": "stemma:math.matrix",
+      "type": "structure",
+      "name": "matrix",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "A rectangular array of numbers, symbols, or expressions arranged in rows and columns. Matrices encode linear transformations and systems of equations; they are added entrywise, multiplied under a row-by-column rule, and analyzed through determinants, rank, and eigenvalues.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/9-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/9-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A 2x3 matrix has two rows and three columns.",
+        "Matrix multiplication composes two linear transformations."
+      ],
+      "formal": {
+        "statement": "The entry in row i and column j of a product matrix is the dot product of row i of the first factor with column j of the second.",
+        "equation": "(AB)_{ij} = sum_k A_{ik} B_{kj}",
+        "variables": [
+          {
+            "symbol": "A, B",
+            "meaning": "compatible matrices"
+          },
+          {
+            "symbol": "i, j, k",
+            "meaning": "row, column, and summation indices"
+          }
+        ],
+        "conditions": [
+          "inner dimensions match",
+          "entries from a common field"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Rendering 3D graphics transformations in computer software.",
+        "Solving large-scale economic input-output models efficiently."
+      ]
+    },
+    {
+      "id": "stemma:math.mean",
+      "type": "concept",
+      "name": "Mean",
+      "domain": "mathematics",
+      "subdomain": "statistics-probability",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "A measure of central location found by adding all observations and dividing by their count. The arithmetic mean is sensitive to extreme values, while weighted, geometric, and harmonic means suit different data structures and rates.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-introductory-statistics-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Introductory Statistics 2e (2023), OpenStax. Term locator: https://openstax.org/books/introductory-statistics-2e/pages/2-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Barbara Illowsky, Susan Dean, Daniel Birmajer, Bryan Blount, Sheri Boyd, Matthew Einsohn, Nancy Foreman, James Helmreich, Lynette Kenyon, Sheldon Lee, Jeff Taub",
+        "link": "https://openstax.org/books/introductory-statistics-2e/pages/2-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "The mean of 2, 4, and 9 is 5.",
+        "A trimmed mean reduces the influence of outliers."
+      ],
+      "formal": {
+        "statement": "The arithmetic mean is the sum of observations divided by the number of observations.",
+        "equation": "x_bar = (1/n) sum_{i=1}^{n} x_i",
+        "variables": [
+          {
+            "symbol": "x_bar",
+            "meaning": "sample mean"
+          },
+          {
+            "symbol": "x_i",
+            "meaning": "i-th observation"
+          },
+          {
+            "symbol": "n",
+            "meaning": "number of observations"
+          }
+        ],
+        "conditions": [
+          "quantitative data",
+          "n > 0"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Determining average household income in economic reports.",
+        "Balancing chemical reaction stoichiometry ratios."
+      ]
+    },
+    {
+      "id": "stemma:math.parabola",
+      "type": "structure",
+      "name": "parabola",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A parabola is the set of points equidistant from a fixed point known as the focus and a non-intersecting line called the directrix. This unique geometric definition creates an open curve symmetric about its axis.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/10-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/10-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A projectile's path near Earth is approximately a parabola.",
+        "Parabolic mirrors focus parallel light to a point."
+      ],
+      "formal": {
+        "statement": "A parabola is the locus of points equidistant from a fixed focus and a fixed directrix.",
+        "equation": "y = a x^2 + b x + c",
+        "variables": [
+          {
+            "symbol": "a, b, c",
+            "meaning": "coefficients with a not zero"
+          }
+        ],
+        "conditions": [
+          "a not equal to 0",
+          "axis parallel to the y-axis in this form"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Designing satellite dishes for optimal signal reflection paths.",
+        "Calculating projectile motion trajectories in physics labs."
+      ]
+    },
+    {
+      "id": "stemma:math.permutation",
+      "type": "concept",
+      "name": "permutation",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A permutation describes an arrangement of objects where the specific order of selection is significant. This concept counts distinct sequences rather than just groups, making it essential for probability calculations involving ordered outcomes and symmetric group theory applications.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Determining possible password combinations for security systems.",
+        "Analyzing genetic marker sequences in biological research studies."
+      ]
+    },
+    {
+      "id": "stemma:math.polar-coordinates",
+      "type": "system",
+      "name": "polar coordinates",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Polar coordinates specify a point's location using a radial distance and an angular rotation from the polar axis. This system represents position via radius r indicating distance from the pole and theta representing direction.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/8-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/8-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Describing circular motion patterns in physics simulations easily.",
+        "Mapping geographic locations on radar or sonar displays efficiently."
+      ]
+    },
+    {
+      "id": "stemma:math.polynomial",
+      "type": "concept",
+      "name": "polynomial",
+      "domain": "mathematics",
+      "subdomain": "algebra",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A polynomial is an algebraic expression formed by summing terms containing variables raised to nonnegative integer powers. Its key property involves finite combinations of these monomials multiplied by constant coefficients, enabling representation of various continuous functions through degree-based classification.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-algebra-and-trigonometry-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Algebra and Trigonometry 2e (2021), OpenStax. Term locator: https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Approximating continuous curves in engineering design.",
+        "Modeling projectile motion trajectories over time."
+      ]
+    },
+    {
+      "id": "stemma:math.probability",
+      "type": "concept",
+      "name": "probability",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A number from zero to one expressing how likely an event is under a stated model or experiment. Frequencies over repeated trials approach theoretical probabilities, and the rules of probability combine events through complements, unions, and conditional dependence.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A fair coin has probability 1/2 of landing heads.",
+        "The probability of rolling an even number on a fair die is 1/2."
+      ],
+      "formal": {
+        "statement": "For equally likely outcomes, the probability of an event is the number of favorable outcomes divided by the total number of outcomes.",
+        "equation": "P(A) = |A| / |Omega|",
+        "variables": [
+          {
+            "symbol": "A",
+            "meaning": "event"
+          },
+          {
+            "symbol": "Omega",
+            "meaning": "sample space"
+          }
+        ],
+        "conditions": [
+          "finite sample space",
+          "outcomes equally likely"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Predicting weather patterns and insurance risk assessment.",
+        "Designing randomized controlled trials in clinical research."
+      ]
+    },
+    {
+      "id": "stemma:math.range",
+      "type": "concept",
+      "name": "range",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The range represents the complete set of output values produced when all valid inputs are applied to a function. Distinguishing this from the domain clarifies which results are achievable, helping analysts understand functional limits and codomain restrictions in theoretical modeling.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-1/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath, Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-1/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Determining feasible profit margins in economic models.",
+        "Setting sensor limits based on measurable physical quantities.",
+        "Validating simulation results within expected numerical bounds."
+      ]
+    },
+    {
+      "id": "stemma:math.rational-function",
+      "type": "concept",
+      "name": "rational function",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "A rational function is defined as the quotient of two polynomial expressions where both numerator and denominator are polynomials. Its behavior near vertical asymptotes depends on degree differences, creating discontinuities that require careful domain analysis to avoid undefined division scenarios.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-1"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 1 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-1/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Joseph Lakey, Elaine A. Terry, Alfred K. Mulzet, Sheri J. Boyd, Joyati Debnath, Michelle Merriweather, David Smith, Nicoleta Virginia Bila, Valeree Falduto, Kirsten R. Messer, William Radulovich, Erica M. Rutter, David Torain, Edwin “Jed” Herman, Catherine Abbott, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-1/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Modeling concentration changes in chemical mixtures over time.",
+        "Describing hyperbolic paths of celestial bodies under gravity.",
+        "Analyzing efficiency curves where output saturates with input."
+      ]
+    },
+    {
+      "id": "stemma:math.relation",
+      "type": "concept",
+      "name": "relation",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A relation constitutes a set comprising ordered pairs that associate elements from one domain to another. This broad concept generalizes functions by allowing multiple outputs for single inputs, serving as the foundational structure for defining mappings in abstract algebra and logic.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Modeling database foreign keys and graph network connections.",
+        "Formalizing logical implications in computer science proofs."
+      ]
+    },
+    {
+      "id": "stemma:math.sequence",
+      "type": "structure",
+      "name": "sequence",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An ordered list of elements indexed by the natural numbers or a finite range. Sequences may be defined by explicit formulas or recurrence relations, and their long-run behavior is described by limits, monotonicity, and convergence.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-2/pages/5-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "William Radulovich, Erica M. Rutter, David Smith, Gilbert Strang, Kirsten R. Messer, Alfred K. Mulzet, Nicoleta Virginia Bila, Sheri J. Boyd, Joyati Debnath, Edwin “Jed” Herman, Valeree Falduto, Elaine A. Terry, David Torain, Michelle Merriweather, Catherine Abbott, Joseph Lakey, Julie Levandosky, David McCune",
+        "link": "https://openstax.org/books/calculus-volume-2/pages/5-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Predicting compound interest growth in financial planning.",
+        "Simulating iterative algorithms in computer science loops.",
+        "Modeling population dynamics with discrete time steps."
+      ]
+    },
+    {
+      "id": "stemma:math.series",
+      "type": "concept",
+      "name": "series",
+      "domain": "mathematics",
+      "subdomain": "precalculus",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The formal sum of the terms of a sequence, written with an index and evaluated through its sequence of partial sums. A series converges when those partial sums approach a finite limit, and divergence tests decide whether such a limit exists.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-precalculus-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Precalculus 2e (2021), OpenStax. Term locator: https://openstax.org/books/precalculus-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood, Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez",
+        "link": "https://openstax.org/books/precalculus-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Approximating complex functions like sine via Taylor expansions.",
+        "Calculating total interest in compound financial annuity models."
+      ]
+    },
+    {
+      "id": "stemma:math.variance",
+      "type": "concept",
+      "name": "Variance",
+      "domain": "mathematics",
+      "subdomain": "statistics-probability",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The average of the squared deviations of observations from their mean, measured in squared units. It quantifies spread around the center; its square root is the standard deviation, and sample formulas correct for lost degrees of freedom.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-introductory-statistics-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Introductory Statistics 2e (2023), OpenStax. Term locator: https://openstax.org/books/introductory-statistics-2e/pages/2-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Barbara Illowsky, Susan Dean, Daniel Birmajer, Bryan Blount, Sheri Boyd, Matthew Einsohn, Nancy Foreman, James Helmreich, Lynette Kenyon, Sheldon Lee, Jeff Taub",
+        "link": "https://openstax.org/books/introductory-statistics-2e/pages/2-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "Data 2, 4, 4, 4, 5, 5, 7, 9 has population variance 4.",
+        "A portfolio's variance measures how much its returns fluctuate."
+      ],
+      "formal": {
+        "statement": "Population variance is the mean of the squared deviations from the population mean.",
+        "equation": "sigma^2 = (1/N) sum_{i=1}^{N} (x_i - mu)^2",
+        "variables": [
+          {
+            "symbol": "sigma^2",
+            "meaning": "population variance"
+          },
+          {
+            "symbol": "x_i",
+            "meaning": "i-th observation"
+          },
+          {
+            "symbol": "mu",
+            "meaning": "population mean"
+          },
+          {
+            "symbol": "N",
+            "meaning": "population size"
+          }
+        ],
+        "conditions": [
+          "population data",
+          "N > 0"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Assessing quality control tolerance limits in manufacturing.",
+        "Measuring portfolio risk volatility in financial markets."
+      ]
+    },
+    {
+      "id": "stemma:math.vector",
+      "type": "concept",
+      "name": "vector",
+      "domain": "mathematics",
+      "subdomain": "calculus",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A quantity with both magnitude and direction that combines under vector addition and scalar multiplication. Vectors represent displacements, velocities, and forces, and in coordinate systems they are written as ordered components with a norm and inner product.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-calculus-volume-3"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Calculus Volume 3 (2016), OpenStax. Term locator: https://openstax.org/books/calculus-volume-3/pages/2-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gilbert Strang, Nicoleta Virginia Bila, Sheri J. Boyd, David Smith, Elaine A. Terry, David Torain, Edwin “Jed” Herman, Kirsten R. Messer, Alfred K. Mulzet, William Radulovich, Erica M. Rutter, David McCune, Michelle Merriweather, Joseph Lakey, Julie Levandosky, Valeree Falduto, Catherine Abbott, Joyati Debnath",
+        "link": "https://openstax.org/books/calculus-volume-3/pages/2-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A displacement of 3 m east and 4 m north has magnitude 5 m.",
+        "Wind velocity combines speed with direction."
+      ],
+      "formal": {
+        "statement": "A vector in three dimensions is a linear combination of orthonormal basis vectors.",
+        "equation": "v = v_x i + v_y j + v_z k",
+        "variables": [
+          {
+            "symbol": "v",
+            "meaning": "vector"
+          },
+          {
+            "symbol": "v_x, v_y, v_z",
+            "meaning": "components"
+          },
+          {
+            "symbol": "i, j, k",
+            "meaning": "orthonormal basis vectors"
+          }
+        ],
+        "conditions": [
+          "chosen coordinate system",
+          "Euclidean space"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Navigating aircraft using wind velocity correction vectors.",
+        "Analyzing stress tensors in structural engineering beams.",
+        "Rendering 3D graphics through position and direction data."
+      ]
+    }
+  ],
+  "connections": []
+}

@@ -1,0 +1,44 @@
+id: stemma:src.openstax-university-physics-volume-1
+type: textbook
+citation: Stephen D. Druger, William Moebs, Samuel J. Ling, Jeff Sanny, David Anderson, Daniel Bowman,
+  Gerald Friedman, Edw. S. Ginsberg, Kenneth Podolak, Takashi Sato, David Smith, Joseph Trout, Kevin Wheelock,
+  Dedra Demaree, Richard Ludlow, Patrick Motl, Lev Gasparov, Lee LaRue, Mark Lattery, Tao Pang, Alice
+  Kolakowska (2016). University Physics Volume 1. OpenStax. https://openstax.org/books/university-physics-volume-1
+title: University Physics Volume 1
+authors:
+- Stephen D. Druger
+- William Moebs
+- Samuel J. Ling
+- Jeff Sanny
+- David Anderson
+- Daniel Bowman
+- Gerald Friedman
+- Edw. S. Ginsberg
+- Kenneth Podolak
+- Takashi Sato
+- David Smith
+- Joseph Trout
+- Kevin Wheelock
+- Dedra Demaree
+- Richard Ludlow
+- Patrick Motl
+- Lev Gasparov
+- Lee LaRue
+- Mark Lattery
+- Tao Pang
+- Alice Kolakowska
+year: '2016'
+publisher: OpenStax
+isbn: 978-1-947172-20-3
+url: https://openstax.org/books/university-physics-volume-1
+language: en
+source_role: secondary
+accessed_at: '2026-10-20'
+retrieved_at: '2026-10-20'
+writer: process:openstax-importer.v1
+license: Creative Commons Attribution-NonCommercial-ShareAlike License 4.0
+locator_authority: OpenStax
+rights:
+  license: Creative Commons Attribution-NonCommercial-ShareAlike License (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+  attribution: OpenStax, University Physics Volume 1. Used as a Tier C reference for term discovery and
+    factual verification; canonical definitions are independently phrased.

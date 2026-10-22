@@ -172,3 +172,40 @@ rules:
     owner: Sajan
     recorded_by: executor
     recorded_at: "2026-10-01"
+
+  - id: ENF-STEMMA-HITL-005
+    title: Owner-delegated machine canonicalization is explicit and bounded
+    statement: >-
+      The SOLE_OWNER MAY delegate canonicalization to deterministic machine
+      gates for a named scope. The delegation SHALL be recorded in
+      provenance.delegation with delegated_by, delegation_ref, scope,
+      sanctioned_at and retire_when; the record SHALL carry
+      review_mode=owner_delegated; and provenance.verification.checks SHALL
+      contain at least two passing checks executed by a registered process:/llm:
+      agent. A delegated record MAY use canonical status without a human
+      promotion_history, but SHALL NOT claim a human reviewer. Delegation is not
+      a blanket waiver: it is scoped, recorded, and revocable.
+    applies_to: [entity]
+    normative_strength: SHALL
+    rule:
+      kind: delegated_canonicalization
+      active: true
+      review_mode: owner_delegated
+      min_passing_checks: 2
+      allowed_statuses: [canonical]
+      requires_human_promotion_history: false
+      forbids_fabricated_human_reviewer: true
+    enforcement_point:
+      gate: "scripts/validate.py:check_delegation_block"
+      cli: "scripts/promote_delegated.py"
+    rationale: >-
+      Owner directive 2026-10-20: complete bachelor-level content across the
+      sciences and engineering, verify it, and make it canonical without waiting
+      for per-item owner review. The repository's human-only canonical rule is
+      preserved as the default; delegation is a separate, visible authority path
+      so machine verification is never mistaken for human review.
+    related_adr: ADR-0060
+    related_requirement: REQ-STEMMA-CONTENT-001
+    owner: Sajan
+    recorded_by: executor
+    recorded_at: "2026-10-20"

@@ -1,10 +1,10 @@
 {
   "export_version": "2.2.0",
-  "schema_version": "1.3.0",
+  "schema_version": "1.4.0",
   "policy": "type:law",
-  "content_hash": "sha256:df7943c4e08e53620f6169cce4b58f99b6371f362d1833b355d32fd5656944f9",
+  "content_hash": "sha256:d98304ee3f9efabf81443d52d40d7486debc76b900c65c9747122659aa628bac",
   "source": "content/ + connections/ + sources/ (canonical)",
-  "entity_count": 2,
+  "entity_count": 4,
   "connection_count": 0,
   "entities": [
     {
@@ -14,6 +14,7 @@
       "domain": "physics",
       "subdomain": "mechanics",
       "status": "draft",
+      "level": "foundational",
       "definition": "Conservation of energy: for an isolated system the total energy — summed over all forms (kinetic, potential, thermal, chemical, nuclear, ...) — remains constant in time; energy transforms between forms but is neither created nor destroyed. Historical line: Mayer (1842), Joule (1843), Helmholtz (1847, 'Über die Erhaltung der Kraft'); standard statement per Halliday, Resnick, Walker 12th ed., Ch 8.",
       "symbol": "E_total = const",
       "same_dimensional_quantities": null,
@@ -60,12 +61,133 @@
       }
     },
     {
+      "id": "stemma:phys.first-law-thermodynamics",
+      "type": "law",
+      "name": "first law of thermodynamics",
+      "domain": "physics",
+      "subdomain": "thermal-physics",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The first law states that internal energy change equals heat added minus work done by the system. This principle establishes conservation of energy for any transition between equilibrium states.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-university-physics-volume-2"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "University Physics Volume 2 (2016), OpenStax. Term locator: https://openstax.org/books/university-physics-volume-2/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Gerald Friedman, Stephen D. Druger, Alice Kolakowska, Samuel J. Ling, David Anderson, Daniel Bowman, William Moebs, Lev Gasparov, Jeff Sanny, Lee LaRue, Mark Lattery, Richard Ludlow, Patrick Motl, Dedra Demaree, Edw. S. Ginsberg, David Smith, Joseph Trout, Kevin Wheelock, Tao Pang, Kenneth Podolak, Takashi Sato",
+        "link": "https://openstax.org/books/university-physics-volume-2/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.zeroth-law-thermodynamics",
+        "stemma:phys.ideal-gas-law"
+      ],
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A gas absorbing 100 J and doing 40 J of work increases its internal energy by 60 J.",
+        "Adiabatic compression raises internal energy because work is done on the system with no heat transfer."
+      ],
+      "formal": {
+        "statement": "For a closed system, the change in internal energy equals the heat added to the system minus the work done by the system.",
+        "equation": "Delta U = Q - W",
+        "variables": [
+          {
+            "symbol": "U",
+            "meaning": "internal energy",
+            "unit": "J"
+          },
+          {
+            "symbol": "Q",
+            "meaning": "heat added to the system",
+            "unit": "J"
+          },
+          {
+            "symbol": "W",
+            "meaning": "work done by the system",
+            "unit": "J"
+          }
+        ],
+        "conditions": [
+          "closed system",
+          "sign convention: W is work done by the system"
+        ],
+        "dimensions": "M L^2 T^-2"
+      },
+      "historical": {
+        "stated_by": "Rudolf Clausius",
+        "year": 1850,
+        "where": "Ueber die bewegende Kraft der Wärme (1850)",
+        "timeline": [
+          {
+            "year": 1850,
+            "event": "Clausius gives the first explicit statement of the first law for thermodynamic cycles"
+          }
+        ]
+      },
+      "applications": [
+        "Engine cycle analysis.",
+        "Building HVAC load calculations"
+      ]
+    },
+    {
       "id": "stemma:phys.newtons-second-law",
       "type": "law",
       "name": "Newton's Second Law",
       "domain": "physics",
       "subdomain": "mechanics",
       "status": "draft",
+      "level": "foundational",
       "definition": "Newton's second law of motion: the net external force on a system equals the time rate of change of its total linear momentum, ΣF = dp/dt; for constant mass this reduces to F = m a. Valid in classical (non-relativistic) mechanics in inertial reference frames. Stated by Isaac Newton as Lex II in Philosophiae Naturalis Principia Mathematica (1687); standard modern formulation per Halliday, Resnick, Walker 12th ed., Ch 5.",
       "symbol": "F_net = m a",
       "same_dimensional_quantities": null,
@@ -111,6 +233,103 @@
           }
         ]
       }
+    },
+    {
+      "id": "stemma:phys.second-law-thermodynamics",
+      "type": "law",
+      "name": "second law of thermodynamics",
+      "domain": "physics",
+      "subdomain": "thermal-physics",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The second law dictates that total entropy never decreases in a spontaneous process. It implies the directionality of natural changes and limits the efficiency of heat engines.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-physics"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Physics (2020), OpenStax. Term locator: https://openstax.org/books/physics/pages/12-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Paul Peter Urone, Roger Hinrichs, Fatih Gozuacik, Denise Pattison, Catherine Tabor",
+        "link": "https://openstax.org/books/physics/pages/12-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "governed_by": [
+        "stemma:phys.first-law-thermodynamics",
+        "stemma:phys.zeroth-law-thermodynamics"
+      ],
+      "historical": {
+        "stated_by": "Rudolf Clausius and William Thomson",
+        "year": 1850,
+        "where": "Clausius (1850); Thomson (1851)",
+        "timeline": [
+          {
+            "year": 1824,
+            "event": "Carnot publishes his principle on heat-engine efficiency"
+          },
+          {
+            "year": 1850,
+            "event": "Clausius states the heat-flow form of the second law"
+          },
+          {
+            "year": 1851,
+            "event": "Thomson states the Kelvin-Planck form"
+          }
+        ]
+      },
+      "applications": [
+        "Refrigerator performance rating.",
+        "Climate change energy models"
+      ],
+      "limitations": [
+        "Idealized reversible processes excluded."
+      ]
     }
   ],
   "connections": []

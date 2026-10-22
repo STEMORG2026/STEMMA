@@ -14,6 +14,29 @@ STEMMA exists so that anyone — educators, developers, researchers, AI systems,
 
 ---
 
+## Git and PR Workflow (owner directive 2026-10-20)
+
+Every work item starts on a branch, never directly on `main`:
+
+1. `git fetch origin --prune` and `git pull --ff-only origin main`.
+2. Create `feat/<slug>`, `fix/<slug>`, `content/<slug>`, or `docs/<slug>` from
+   the current `main`.
+3. Before pushing: `git fetch origin --prune`, rebase/merge `origin/main`, and
+   rerun the gates. Never push a stale branch.
+4. Open a PR; required checks must be green before merge. Do not bypass branch
+   protection.
+5. Merge pending PRs first (including bot/dependency PRs) and fix their
+   failures before starting unrelated work.
+6. After a merge, delete the merged branch locally and remotely; prune stale
+   tracking refs. Keep a branch only while it is unmerged or actively used.
+7. Record cleanup, merged PRs, and any pre-existing failures in the session log
+   (`state/sessions/<session>.md`) and the plan.
+
+The short version is also in `docs/GIT-WORKFLOW.md`; if they disagree, this
+section wins.
+
+---
+
 ## Canonical Truth Lives In
 
 | Location | Purpose | Authority |
@@ -87,6 +110,31 @@ fails, fix the cause — do not work around the gate. The contract lives in
 4. **Validator update** to enforce new rules
 5. **Export version bump** (`export_version`) if shape changes
 6. **Consumer notification** (adapters may need updates)
+
+### A schema change is not done until entities adopt it
+
+A schema bump that leaves every entity on the previous shape is an unfinished
+migration. After any `schema_version` change:
+
+- run `python3 scripts/schema_field_coverage.py` to measure adoption of the new
+  fields per domain;
+- enrich existing canonical entities with the new fields where they apply
+  (`python3 scripts/enrich_schema_fields.py`, resumable batches, cached), never
+  fabricating values and keeping the ADR-0060 delegation provenance;
+- re-run `validate.py`, regenerate exports/manifest, then `pytest` and
+  `verify_all.py`.
+
+`scripts/schema_watch.py --loop --interval 1800` checks schema + inventory every
+30 minutes; a detected change is the trigger to repeat the steps. Full protocol:
+`docs/MIGRATIONS.md` → "Standing rule — a schema change is not done until
+entities adopt it".
+
+Classify each new field first: knowledge fields (`level`, `formal`,
+`applications`, `limitations`, `datasets`, `same_dimensional_quantities`) go into
+canonical entities; consumer/curriculum fields (`learning_objectives`) must stay
+out of canonical content (ADR-0041/0047, enforced by
+`tests/curation/test_generality.py`). `learning_objectives` is therefore reported
+as consumer-only, not as a migration gap.
 
 ---
 

@@ -3,14 +3,20 @@
 # Unknown subdomains: add to this file (not schema) via ADR update.
 
 physics:
+  - general
   - mechanics
   - thermal-physics
   - electricity-magnetism
   - waves-optics
   - atomic-nuclear
+  - quantum-mechanics
+  - relativity
+  - condensed-matter
+  - computational-physics
   - measurement-units
 
 chemistry:
+  - general
   - matter-foundations
   - atomic-structure-periodicity
   - bonding-structure
@@ -19,34 +25,84 @@ chemistry:
   - electrochemistry-redox
   - equilibrium-kinetics
   - organic-chemistry
+  - inorganic-chemistry
+  - analytical-chemistry
+  - spectroscopy
   - thermodynamics
+  - biochemistry
+  - polymer-chemistry
+  - environmental-chemistry
 
 biology:
+  - general
   - cell-biology
   - genetics-heredity
   - evolution-ecology
   - metabolism-processes
   - physiology
+  - microbiology
+  - molecular-biology
+  - botany
+  - zoology
+  - neuroscience
+  - immunology
+  - developmental-biology
+  - bioinformatics
 
 earth-space:
+  - general
   - atmosphere-climate
   - earth-systems-geology
   - space-cosmology
+  - astronomy
+  - astrophysics
+  - planetary-science
+  - geology
+  - oceanography
 
 engineering:
+  - general
   - design-process
+  - civil
+  - electrical
+  - chemical
+  - mechanical
+  - computer
+  - materials
+  - industrial
+  - aerospace
+  - biomedical
+  - systems
+  - thermodynamics
+  - fluid-mechanics
+  - control-systems
+  - software-engineering
+  - data-engineering
 
 scientific-practice:
   - inquiry-observation
   - epistemology-nature-of-science
+  - measurement
+  - methodology
+  - modeling
+  - ethics
+  - communication
 
 mathematics:
+  - general
   - foundations
   - arithmetic
   - number-theory
   - algebra
   - geometry
+  - trigonometry
   - measurement
   - statistics-probability
   - functions
+  - precalculus
   - calculus
+  - differential-equations
+  - linear-algebra
+  - discrete-mathematics
+  - numerical-analysis
+  - analysis

@@ -50,3 +50,16 @@ sign-*/
 # the crash case, where a stranded staging file must not show up as an untracked
 # change and trip the `git diff --exit-code -- exports reports` freshness gate.
 .*.tmp
+
+# schema watcher runtime files
+state/schema-watch.pid
+state/schema-watch.out
+state/schema-watch.json
+state/schema-watch-log.jsonl
+
+# Local agent tool memory (pre-existing untracked tool directory; not project data)
+.workbuddy-ai/
+
+# Resumable generator caches and staging (derived working data, regenerable)
+state/cache/
+state/staging/

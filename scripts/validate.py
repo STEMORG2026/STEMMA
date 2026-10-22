@@ -88,7 +88,13 @@ STATUSES = {
 # Entity types — must match the enum in concept.schema.json (v0.3 adds
 # phenomenon/model/experiment per ADR-0021; check_registry_coherence reads the
 # schema enum as the authoritative list and falls back to this set).
-TYPES = {"concept", "quantity", "unit", "law", "equation", "misconception", "phenomenon", "model", "experiment"}
+TYPES = {
+    "concept", "quantity", "unit", "constant", "law", "principle", "theorem",
+    "equation", "operator", "function", "distribution", "misconception",
+    "phenomenon", "process", "structure", "system", "material", "reaction",
+    "organelle", "model", "experiment", "technique", "instrument", "algorithm",
+    "data-structure", "protocol", "standard", "dataset", "mission",
+}
 REQUIRED = ["id", "type", "name", "domain", "status", "definition", "provenance"]
 
 SOURCE_KINDS = {
@@ -245,16 +251,78 @@ def check_agent_registry_shape(agents: dict[str, dict], errors: list) -> None:
             errors.append(f"schema/agent-registry.yaml: agent {aid} status must be active|retired|test")
 
 
+def is_owner_delegated(record: dict) -> bool:
+    """True when the owner has delegated canonical authority to machine gates."""
+    prov = record.get("provenance")
+    return isinstance(prov, dict) and prov.get("review_mode") == "owner_delegated"
+
+
+def check_delegation_block(record: dict, agents: dict[str, dict], errors: list) -> None:
+    """Validate the owner-delegation provenance block (ADR-0060).
+
+    Delegated canonicalization is legal only when it is explicit: a registered
+    human SOLE_OWNER, a recorded delegation reference, a scope, a sanction date,
+    and at least two passing machine checks by a registered process/LLM agent.
+    This does not claim a human reviewed the artifact; it records that the owner
+    authorized a different path and what that path actually checked.
+    """
+    here = f"{record.get('_file', '<record>')}:"
+    prov = record.get("provenance")
+    if not isinstance(prov, dict):
+        errors.append(f"{here} review_mode=owner_delegated requires a provenance object")
+        return
+    delegation = prov.get("delegation")
+    if not isinstance(delegation, dict):
+        errors.append(f"{here} review_mode=owner_delegated requires provenance.delegation (ADR-0060)")
+        return
+    for field in ("delegated_by", "delegation_ref", "scope", "sanctioned_at"):
+        if not delegation.get(field):
+            errors.append(f"{here} provenance.delegation.{field} is required (ADR-0060)")
+    delegator = delegation.get("delegated_by")
+    if isinstance(delegator, str):
+        if delegator not in agents:
+            errors.append(f"{here} delegated_by {delegator!r} not in schema/agent-registry.yaml")
+        elif agents.get(delegator, {}).get("class") != "human":
+            errors.append(f"{here} delegated_by {delegator!r} must be a human owner")
+        elif agents.get(delegator, {}).get("status") != "active":
+            errors.append(f"{here} delegated_by {delegator!r} is not active")
+
+    verification = prov.get("verification")
+    if not isinstance(verification, dict):
+        errors.append(f"{here} review_mode=owner_delegated requires provenance.verification (ADR-0060)")
+        verification = {}
+    checks = verification.get("checks")
+    if not isinstance(checks, list) or not checks:
+        errors.append(f"{here} provenance.verification.checks must contain at least two checks (ADR-0060)")
+    else:
+        passing = [c for c in checks if isinstance(c, dict) and c.get("status") == "pass"]
+        if len(passing) < 2:
+            errors.append(
+                f"{here} owner-delegated canonicalization needs >=2 passing verification checks "
+                f"(found {len(passing)}) (ADR-0060)")
+    verifier = verification.get("verifier") or prov.get("reviewer")
+    if not isinstance(verifier, str) or verifier not in agents:
+        errors.append(f"{here} owner-delegated canonicalization requires a registered machine verifier")
+    elif agents.get(verifier, {}).get("class") not in ("process", "llm"):
+        errors.append(f"{here} machine verifier {verifier!r} must be a process:/llm: agent")
+    if not prov.get("reviewed_at"):
+        errors.append(f"{here} owner-delegated canonicalization requires provenance.reviewed_at")
+
+
 def check_entity_agents(entity: dict, agents: dict[str, dict], errors: list) -> None:
     """Entity provenance agents must resolve in the agent registry (H1).
 
     writer/reviewer/drafted_by were free strings, so `human:anyone` passed.
-    reviewer must be a human agent; drafted_by records the machine origin of a
-    human-written entity and must be an llm:/process: agent."""
+    reviewer must be a human agent on the default path; drafted_by records the
+    machine origin of a human-written entity and must be an llm:/process: agent.
+    Under an explicit owner delegation (ADR-0060) the writer and reviewer may be
+    machine agents, and the delegation block — not a fabricated human reviewer —
+    is the authority record."""
     here = f"{entity.get('_file', '<entity>')}:"
     prov = entity.get("provenance")
     if not isinstance(prov, dict):
         prov = {}
+    delegated = prov.get("review_mode") == "owner_delegated"
     for field in ("writer", "reviewer", "drafted_by"):
         aid = prov.get(field)
         if aid is None:
@@ -263,7 +331,7 @@ def check_entity_agents(entity: dict, agents: dict[str, dict], errors: list) -> 
             errors.append(f"{here} provenance.{field} {aid!r} not in schema/agent-registry.yaml (H1)")
             continue
         cls = agents[aid].get("class")
-        if field == "reviewer" and cls != "human":
+        if field == "reviewer" and cls != "human" and not delegated:
             errors.append(f"{here} provenance.reviewer must be a human agent (found {aid!r})")
         if field == "drafted_by" and cls not in ("llm", "process"):
             errors.append(f"{here} provenance.drafted_by must be an llm:/process: agent (found {aid!r})")
@@ -276,6 +344,9 @@ def check_entity_agents(entity: dict, agents: dict[str, dict], errors: list) -> 
     # human writer AND a registered human reviewer. Drafts are exempt.
     status = entity.get("status")
     if status in REVIEWED_STATUSES:
+        if delegated:
+            check_delegation_block(entity, agents, errors)
+            return
         writer = prov.get("writer")
         if not isinstance(writer, str) or writer not in agents:
             errors.append(
@@ -474,6 +545,18 @@ def check_promotion_chain(record: dict, agents: dict[str, dict], errors: list, h
         return
     history = prov.get("promotion_history")
     status = effective_status(record)
+
+    # Owner-delegated path (ADR-0060): the owner has authorized deterministic
+    # machine verification instead of the human promotion chain. Do not
+    # fabricate human stages; require the delegation block and at least two
+    # passing checks, and allow only the terminal canonical status on this path.
+    if is_owner_delegated(record):
+        check_delegation_block(record, agents, errors)
+        if status in REVIEWED_STATUSES and status != "canonical":
+            errors.append(
+                f"{here} owner-delegated review may only claim 'canonical' among reviewed "
+                f"statuses (found '{status}') — ADR-0060")
+        return
 
     chain_desc = " -> ".join(required_stages)
     if not history:

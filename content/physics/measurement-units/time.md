@@ -5,6 +5,7 @@ name: Time
 domain: physics
 subdomain: measurement-units
 status: draft
+level: foundational
 definition: 'Time is the SI base physical quantity of duration and temporal sequence.
   Its SI unit, the second, is defined by taking the fixed numerical value of the caesium
   frequency ΔνCs — the unperturbed ground-state hyperfine transition frequency of

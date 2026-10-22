@@ -1,0 +1,36 @@
+id: stemma:src.openstax-introduction-computer-science
+type: textbook
+citation: Dr. Jean-Claude Franchitti, Amal Alhosban, Mark Buckler, Joanna Gilberti, Scott Gray, Matthew
+  Hertz, Andrew Hurd, Kevin Lin, Sai Mukkavilli, Phuc (Brian) Nguyen, Shahab Tayeb, Zdeněk Troníček, Kevin
+  Wortman, Mohamed Zahran (2024). Introduction to Computer Science. OpenStax. https://openstax.org/books/introduction-computer-science
+title: Introduction to Computer Science
+authors:
+- Dr. Jean-Claude Franchitti
+- Amal Alhosban
+- Mark Buckler
+- Joanna Gilberti
+- Scott Gray
+- Matthew Hertz
+- Andrew Hurd
+- Kevin Lin
+- Sai Mukkavilli
+- Phuc (Brian) Nguyen
+- Shahab Tayeb
+- Zdeněk Troníček
+- Kevin Wortman
+- Mohamed Zahran
+year: '2024'
+publisher: OpenStax
+isbn: 978-1-961584-58-7
+url: https://openstax.org/books/introduction-computer-science
+language: en
+source_role: secondary
+accessed_at: '2026-10-20'
+retrieved_at: '2026-10-20'
+writer: process:openstax-importer.v1
+license: Creative Commons Attribution-NonCommercial-ShareAlike License 4.0
+locator_authority: OpenStax
+rights:
+  license: Creative Commons Attribution-NonCommercial-ShareAlike License (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+  attribution: OpenStax, Introduction to Computer Science. Used as a Tier C reference for term discovery
+    and factual verification; canonical definitions are independently phrased.

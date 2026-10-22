@@ -1,0 +1,26 @@
+id: stemma:src.openstax-physics
+type: textbook
+citation: Paul Peter Urone, Roger Hinrichs, Fatih Gozuacik, Denise Pattison, Catherine Tabor (2020). Physics.
+  OpenStax. https://openstax.org/books/physics
+title: Physics
+authors:
+- Paul Peter Urone
+- Roger Hinrichs
+- Fatih Gozuacik
+- Denise Pattison
+- Catherine Tabor
+year: '2020'
+publisher: OpenStax
+isbn: 978-1-951693-21-3
+url: https://openstax.org/books/physics
+language: en
+source_role: secondary
+accessed_at: '2026-10-20'
+retrieved_at: '2026-10-20'
+writer: process:openstax-importer.v1
+license: Creative Commons Attribution License 4.0
+locator_authority: OpenStax
+rights:
+  license: Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/)
+  attribution: OpenStax, Physics. Used as a Tier B reference for term discovery and factual verification;
+    canonical definitions are independently phrased.

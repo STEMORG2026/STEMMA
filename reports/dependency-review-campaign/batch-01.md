@@ -11,7 +11,7 @@ python3 scripts/apply_review_decisions.py reports/dependency-review-campaign/bat
 
 | # | Connection | Assertion | Types | Domain/range | Text support | Evidence | Score |
 |---|-----------|-----------|-------|--------------|--------------|----------|-------|
-| 1 | `stemma:conn.000157` | **Force** mathematically requires **Mass** | quantity→quantity | ok | name 'Mass' | 2 item(s) | 0.0675 |
+| 1 | `stemma:conn.000157` | **Force** mathematically requires **Mass** | quantity→quantity | ok | name 'Mass' | 2 item(s) | 0.021595 |
 
 ## Reviewer notes
 

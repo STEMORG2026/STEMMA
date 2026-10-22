@@ -38,7 +38,2497 @@
       "writer": null
     },
     {
-      "content_hash": "sha256:02502c1b9826268c14c91b6be8b58c2a44f6de7bf9117659792cf6cbd4c16d6d",
+      "content_hash": "sha256:c89137677d7008de840a7529d37374a93ec7a8af924bb020cc9a5ebe310b89de",
+      "id": "stemma:bio.3-utr",
+      "kind": "entity",
+      "relpath": "content/biology/general/3-utr.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:d9f3e798551e71aa1ce2a294248799378c27a91d1a8e2c266075137a10943032",
+      "id": "stemma:bio.5-cap",
+      "kind": "entity",
+      "relpath": "content/biology/general/5-cap.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:91f80355a291ce837cd0ebd4e2a77b96756b91e06ff52683e7681b5bd33a0ff8",
+      "id": "stemma:bio.5-utr",
+      "kind": "entity",
+      "relpath": "content/biology/general/5-utr.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:cae26d9818502bfa9b561602fdd24e1534e8022319b47dcfb8aca11f711bcf40",
+      "id": "stemma:bio.7-methylguanosine-cap",
+      "kind": "entity",
+      "relpath": "content/biology/general/7-methylguanosine-cap.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:d4782bce1c4c06cecd5bdaaa7483f515632deca4f8b61ee2d0ebbacf910b9907",
+      "id": "stemma:bio.a-horizon",
+      "kind": "entity",
+      "relpath": "content/biology/general/a-horizon.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:c499556440f5a4904f07bb667d4cf985d4898301a77508b5bc648d2212683d86",
+      "id": "stemma:bio.abdominal-aorta",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/abdominal-aorta.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:66bca7ab581ac3fe071948b409d227f224db0fdee9c18e6541b38d12111212da",
+      "id": "stemma:bio.abdominopelvic-cavity",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/abdominopelvic-cavity.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:7df0d67c258a4c5529e4d69e59f5961b6a5b983b7af2112cb4d77c6a1742bd4e",
+      "id": "stemma:bio.abducens-nerve",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/abducens-nerve.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:dd024ed1668b5ebc44bd4a52f1e9e22b7083d0e0abb6d95e2a1f721de95ee976",
+      "id": "stemma:bio.abduct",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/abduct.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:64aa0bfe80923ad5606758b73fd45a03d06329010e673e96e6c708bb2741e990",
+      "id": "stemma:bio.abduction",
+      "kind": "entity",
+      "relpath": "content/biology/general/abduction.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:436d73c01ada41796ed1e623ade9a0624c916d89764ff90acd42b1ccd4141a30",
+      "id": "stemma:bio.abductor",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/abductor.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:ee4c09b0fd451f865bb8d699600443e33ab0988512a192d06545d925a2c26549",
+      "id": "stemma:bio.abductor-digiti-minimi",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/abductor-digiti-minimi.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:514e2afe1d4e33e8dc466078c070df675c5135157c1ccd4b06e1b1897b563575",
+      "id": "stemma:bio.abductor-pollicis-brevis",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/abductor-pollicis-brevis.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:02fc999b6b4c4ba22bd388f2213ad6969f8b209281101c33d42656af87e36d02",
+      "id": "stemma:bio.abductor-pollicis-longus",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/abductor-pollicis-longus.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:86f7c278a89ea3aecfc46a6e9bf77d19ffff428302cbc3fb36a15f85169057e7",
+      "id": "stemma:bio.abiotic",
+      "kind": "entity",
+      "relpath": "content/biology/general/abiotic.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:bfd21d64cb5a602f51a5a35720ab1b297066a27efa36c278b9acc9ec6ea17148",
+      "id": "stemma:bio.allele",
+      "kind": "entity",
+      "relpath": "content/biology/general/allele.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:469ef97300b164ab19606efe5fd2edafee952683307d38d866b15497c6aad881",
+      "id": "stemma:bio.cell",
+      "kind": "entity",
+      "relpath": "content/biology/general/cell.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:c0aca984f594aa4835c80533b827aec7f3b36d21c1fe9f991f7ce3b731670d8f",
+      "id": "stemma:bio.cell-membrane",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/cell-membrane.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:ffbe6cb40dbe2bfc23bdd891810e37e31dd56ce41ba387cffbabf01e61a061d3",
+      "id": "stemma:bio.cellular-respiration",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/cellular-respiration.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:373469eef67fcd3ae002987b13d210c5e87f123207441da34a3cf8d64b9a26bd",
+      "id": "stemma:bio.chromosome",
+      "kind": "entity",
+      "relpath": "content/biology/general/chromosome.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:b03a1a9da9e975a3098699dc2e14b12f26156a29e341539e872033b5720e0280",
+      "id": "stemma:bio.cytoplasm",
+      "kind": "entity",
+      "relpath": "content/biology/general/cytoplasm.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0bb637bbfbe9f7ddc25f7f994d3a6fb5caff592abd3a5071cbbd1ba8aee0c654",
+      "id": "stemma:bio.ecosystem",
+      "kind": "entity",
+      "relpath": "content/biology/general/ecosystem.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:d6ee4439d8cd0d64665dca274db67bd8541ea004e1f33638a2f43fbe203b3c24",
+      "id": "stemma:bio.enzyme",
+      "kind": "entity",
+      "relpath": "content/biology/general/enzyme.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:082cd4356e7a554954fb764fa79b8753c80757d12cc54ab17cb023d13e812e33",
+      "id": "stemma:bio.evolution",
+      "kind": "entity",
+      "relpath": "content/biology/general/evolution.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:36e8a189edfc512782f64ff4ec0d3bae57e83daf82ad7ad38300c82e429d902a",
+      "id": "stemma:bio.food-chain",
+      "kind": "entity",
+      "relpath": "content/biology/general/food-chain.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:98e68114e362c4f9bb8814391986c0c1bf3474e71740266f1d6fcca9dde28b82",
+      "id": "stemma:bio.gene",
+      "kind": "entity",
+      "relpath": "content/biology/general/gene.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:8805c99ae97eb26ca159961a73eb6649da76ff7aafcaca7690db5c8b9fd8bd74",
+      "id": "stemma:bio.genotype",
+      "kind": "entity",
+      "relpath": "content/biology/general/genotype.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:4b3a2999f28eab68154e875f28d6fc6c4850c6b5b3b85c6a1a070cdc54bab7f5",
+      "id": "stemma:bio.homeostasis",
+      "kind": "entity",
+      "relpath": "content/biology/general/homeostasis.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:b0811151bae190ffbb48b18f2df580d6baf89b7bb833022db7abed2dfa4764c2",
+      "id": "stemma:bio.hormone",
+      "kind": "entity",
+      "relpath": "content/biology/general/hormone.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:1b7405f213701d82ffa78575f657e01e1cfc17f5b165837ed39e35ad4d763da2",
+      "id": "stemma:bio.immune-system",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/immune-system.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:65a8c82b39c7331030cfa3e91953b9331865ac14e99ff230feb804fc76a75ba9",
+      "id": "stemma:bio.meiosis",
+      "kind": "entity",
+      "relpath": "content/biology/general/meiosis.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:58bbcf14e62755d7ea91813e5ae04002d74d6499ca3251b0af60e911bb826c77",
+      "id": "stemma:bio.metabolism",
+      "kind": "entity",
+      "relpath": "content/biology/general/metabolism.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:f2beff7f797437a8246724576374feaab7f8b676d7ae3a25ec877211e3cf0ce8",
+      "id": "stemma:bio.mitochondrion",
+      "kind": "entity",
+      "relpath": "content/biology/physiology/mitochondrion.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:6b7e7f57fc5c750b76649230b4e3b8e8e765d6aed4ce4a5dc3e29d31f00abe4a",
+      "id": "stemma:bio.mitosis",
+      "kind": "entity",
+      "relpath": "content/biology/general/mitosis.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:f2ba7b5f2b62576c42655ff588262687beae9df54c7865675d2f16e26e7dd071",
+      "id": "stemma:bio.mutation",
+      "kind": "entity",
+      "relpath": "content/biology/general/mutation.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:019087bf8e135d502f22212392823f986a1e83e1fc8a5c8c432369b61c56b1e9",
+      "id": "stemma:bio.natural-selection",
+      "kind": "entity",
+      "relpath": "content/biology/general/natural-selection.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:8c70e2b6b04ccc65a7b80fe7ea13d0b52ce11ef52bdeebfe2dd45ab0dd99a2c3",
+      "id": "stemma:bio.neuron",
+      "kind": "entity",
+      "relpath": "content/biology/general/neuron.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:c28ddd10932d5614198b01f206e70bab36462b34ee36c15a7dbb8dac95b845c3",
+      "id": "stemma:bio.organelle",
+      "kind": "entity",
+      "relpath": "content/biology/general/organelle.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:1ce21b554d14340478cf3981ec0ca55460c67b80f9a134070db2fb34bbbd2c79",
+      "id": "stemma:bio.phenotype",
+      "kind": "entity",
+      "relpath": "content/biology/general/phenotype.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:6fc87d420b4e1440470bfc5b5c181f350f41d7a50e003d4be0b38fb3c1ec7cf3",
+      "id": "stemma:bio.population",
+      "kind": "entity",
+      "relpath": "content/biology/general/population.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:fe50e364c89ef0a969f7164108607ad79dbc4a1d58d25e8e44f678846645a648",
+      "id": "stemma:bio.protein",
+      "kind": "entity",
+      "relpath": "content/biology/general/protein.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:1f1d7017240224e4266dfb1e8dd353e3943f570206f046dbc7d8341200410d79",
+      "id": "stemma:bio.ribosome",
+      "kind": "entity",
+      "relpath": "content/biology/general/ribosome.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:86eeaecc7eaa49b0777a78c7f945bb8cc97e4f3d6f17331ce721acfa0084912f",
+      "id": "stemma:bio.species",
+      "kind": "entity",
+      "relpath": "content/biology/general/species.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e434d14f27eef608264d8d683108bf795710db428c5842b24dee09abbafe66eb",
+      "id": "stemma:bio.transcription",
+      "kind": "entity",
+      "relpath": "content/biology/general/transcription.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0e200ea0df16acd7792b2a009d6fdf1ac8b877f54b68749fefedd6747d166c7d",
+      "id": "stemma:bio.translation",
+      "kind": "entity",
+      "relpath": "content/biology/general/translation.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:cb06297f24f079ae60206cb6c19b3aafc1b1a577d806639cbffd9ba124ab1560",
+      "id": "stemma:chem.accuracy",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/accuracy.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:ced64f91bb5aa381dacadb0a8e6f328c212ce480e70a0f6f8a0483e720e822e7",
+      "id": "stemma:chem.acid",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/acid.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:5f3e6330e7748ef1603516599dca2c88fb8f6a15d72165468dfa01d3bea059c5",
+      "id": "stemma:chem.acid-anhydride",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/acid-anhydride.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:acf729013ea84b4a530d22a7dd560692faa320dbd348586edf026e935ac60ff8",
+      "id": "stemma:chem.acid-base-indicator",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/acid-base-indicator.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:2defc19fa20801f82655a9dceb28125eeb24935ae8f0aa58d417074a4aba02d8",
+      "id": "stemma:chem.acid-base-reaction",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/acid-base-reaction.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:4870f4cb950ea0bdf6d40a3ba78567e839d8907a87c4a239adf83491bb79f15e",
+      "id": "stemma:chem.acid-ionization",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/acid-ionization.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:26ba6c184525b4735598d808122dfcbb648b6d8b8181c23e6bdb3ae484fb5ac6",
+      "id": "stemma:chem.acid-ionization-constant-ka",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/acid-ionization-constant-ka.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:69dda40929bfa9db1e80104e6874c24037963d39fc81ee9d3f22f71417b20f59",
+      "id": "stemma:chem.acidic",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/acidic.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0972634a077bd9478e57073445953e58995847330dc97b9dbaa90fadbca3fdaf",
+      "id": "stemma:chem.actinide",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/actinide.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:eaeaa84f132b61f75f7fdf86b6177cda2fbc1ceda2c72d1c235d02f9a2f116cf",
+      "id": "stemma:chem.actinide-series",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/actinide-series.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:77e47df879d286d9687ef32f41cc2244e0b1e07e94df28492bd15e93f344e9ba",
+      "id": "stemma:chem.activated-complex",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/activated-complex.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:54018f53d3b9f0eaa395bf7b9dae277cf63985acc33bc1871218fe2f72d4cd01",
+      "id": "stemma:chem.active-electrode",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/active-electrode.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:35ef69d77a2acd88680b25ad934ff2eef348273ab8fe11936dc72a0d29d9178a",
+      "id": "stemma:chem.actual-yield",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/actual-yield.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:27ba129df292a631fe68d08f78aaca9fbe0c066bc71582a778c34db71117796e",
+      "id": "stemma:chem.atom",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/atom.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:c6743e5b5c10a8663ee295c0ac8f39a4a89dc4c148c77a0faa85505370333648",
+      "id": "stemma:chem.base",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/base.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:a222a1bfc36b8ce126fd393363256543a56ac3073719cf409e6fa3d5166914ec",
+      "id": "stemma:chem.buffer",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/buffer.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:996babb5214a31c1821baa8e5dfbfe60269dd0b370d7175ec2112c01eba87d80",
+      "id": "stemma:chem.calorimetry",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/calorimetry.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:11c65cf86e9830e5f9f3b8234f3959550d48b3af7c812954648e8f3ff7fd1382",
+      "id": "stemma:chem.catalyst",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/catalyst.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:510c4747f7da2082f2127492b4eea1b40423aceb220c8c7beae4194f14ac4f83",
+      "id": "stemma:chem.chemical-equation",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/chemical-equation.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e2b04eab14804aff7fa711506f3b3797d4fe35dcccfde12b5e9133a4dcf2e866",
+      "id": "stemma:chem.covalent-bond",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/covalent-bond.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e58915ee21e65455b8ac655d29d100e6e41fc1ad402617f94670bd79861a661d",
+      "id": "stemma:chem.electron",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/electron.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:1d673e95b9bc66733b40c312e99011e81fff121026c1701cd034dd5c574e08e7",
+      "id": "stemma:chem.electronegativity",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/electronegativity.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:7b3f72b9e8d0fb74586dfaa59e48e985790b9b3de7e71efe3dcd98e4b3aca187",
+      "id": "stemma:chem.empirical-formula",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/empirical-formula.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:7f6bc476008e07eaec55026a3c7454a0648b2e611784748052ab86373ea459b2",
+      "id": "stemma:chem.equilibrium",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/equilibrium.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:f5e08d2af70f80381b463c57abf8767a9ab34eb5f286e93cc86f0f46a1fba65f",
+      "id": "stemma:chem.ion",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/ion.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:acbc8e9e0f1c470245735634167bbaab97c4df80ce8864e8d7d9ae3c7601c530",
+      "id": "stemma:chem.ionic-bond",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/ionic-bond.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:dd6cc1c08f8fe58d97db7f2d2fdee0551e98340033352fd7043238caad10cae0",
+      "id": "stemma:chem.limiting-reactant",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/limiting-reactant.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:67550ebd97ce6dadf9a7564d3c245911a5530575d35856064d921c4042473a15",
+      "id": "stemma:chem.molar-mass",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/molar-mass.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:14e05f434ad8c326832aa5a6da49e86720609b952c9edec069d32dfe7566d971",
+      "id": "stemma:chem.mole",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/mole.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:c037a1aeabd05537fb4990992a3efcea31a3a4474cd23d9f0e4a9b38ad3828c8",
+      "id": "stemma:chem.molecular-formula",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/molecular-formula.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:c695673cb89103b8fc4c080ac5a7513dad9a4f1a89f9a95b1f68bbcdead5f698",
+      "id": "stemma:chem.molecule",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/molecule.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:1e836a80968d728df13c54dc2ba649e70d9d1eac869740167e711ed2444a8f74",
+      "id": "stemma:chem.neutron",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/neutron.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:4c3674d33f2207b7acd1726a0f338a863f7ac7e16c9332b5da9edc636d7a039e",
+      "id": "stemma:chem.organic-compound",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/organic-compound.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:8ba85b1e8a65da1d0bcc0ea65cd3e9b24aa01685164556cd2c8374e6bd8d4da7",
+      "id": "stemma:chem.oxidation",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/oxidation.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:3979e8a86288eb95a870813dc4fad844313ed65c83e3f371841bca6e9fb5ee88",
+      "id": "stemma:chem.percent-yield",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/percent-yield.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:eeb7333283e003bc43401376620b5456bc81b2d343eb2ea8d4358a4d6ec68a9c",
+      "id": "stemma:chem.periodic-table",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/periodic-table.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:8c429250749850352c16e53dbc8b5c519ff764ab63f811f028df0f98d1c1f53c",
+      "id": "stemma:chem.precipitate",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/precipitate.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:59f12223c83b82b8f7582b25cfa48ae5aaaeaff0853b82f1e28710cb690a0792",
+      "id": "stemma:chem.proton",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/proton.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:4a0f4141c13cacddea0b8bb6b74fc5bcb24cfd7e91eabed33e409b471fe243ac",
+      "id": "stemma:chem.reduction",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/reduction.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:f56115e326503ba74c6bd07eedbcfcef5678db7bdb7180fac93b52c9bb7f06c5",
+      "id": "stemma:chem.solute",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/solute.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:a7cecd5d7f1a000bccf9217855912921ef63159365ca0e635aa2061a6be21f15",
+      "id": "stemma:chem.solvent",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/solvent.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:00e5b0b102d521d1c19f82e48935cfd986382511d708f3639ba3b745341e25b7",
+      "id": "stemma:chem.stoichiometry",
+      "kind": "entity",
+      "relpath": "content/chemistry/general/stoichiometry.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:b595c49349c919e51209185cb0d2fddb8ab85230389252c5309d2ceffa505656",
+      "id": "stemma:earth.absorption-spectrum",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/absorption-spectrum.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:bfcebf1d256338a514d7d75c0becd758d3dc86d4bd24b792d6a260371e89de57",
+      "id": "stemma:earth.accelerate",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/accelerate.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:72751c46ba211b9271232aa627dc9d90785f03aa2a508d87a36b4beb4aec30ec",
+      "id": "stemma:earth.accretion",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/accretion.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:ff283e303c7280b9e4012a7115fe170f45f404324c9b4c7a4909f5ca776c03c4",
+      "id": "stemma:earth.accretion-disk",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/accretion-disk.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:9c966941bafed790b5e5336f8dead2132a3ba931b5c97bc5a41325be96bb40bd",
+      "id": "stemma:earth.active-galactic-nuclei-agn",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/active-galactic-nuclei-agn.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:2b12fa3ba3319582e69af2a590e3da417d9a371feee90bb8b95034fd6e072580",
+      "id": "stemma:earth.active-galaxies",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/active-galaxies.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:66ef2b6497e4e53166c49f5365f6fe9a611041e208e8a9c01a61d9234d33a234",
+      "id": "stemma:earth.active-region",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/active-region.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:f89bc18e0264328d8123733a6081abc8ac42f0913772b6c298b879397f77f728",
+      "id": "stemma:earth.adaptive-optics",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/adaptive-optics.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:ee11aabdbcd169707b10e45a9dd09e71d6adbaced32629840f11941ee732b158",
+      "id": "stemma:earth.amino-acids",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/amino-acids.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:795fd5a5029c1fc6ca3afc7045f7354710c17be28d1e2f71f5a7b0947f5cdbfa",
+      "id": "stemma:earth.angular-momentum",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/angular-momentum.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:63797f5bd64e2b78276059fd488b06000d4ce201a910d792169230d0dc6f41ed",
+      "id": "stemma:earth.anthropic-principle",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/anthropic-principle.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0991bcbc18683b531003879de3617213ac5bdac28f71befc59523f3080511e77",
+      "id": "stemma:earth.aperture",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/aperture.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:2760a849fff53f72ce215f02d0e59268037a9024d90e9ed017e479029dcaa87b",
+      "id": "stemma:earth.aphelion",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/aphelion.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:b53a0003a413c953bb04e2f4b7d75221f5a7e2d4ff09f31f5b333a1d44099498",
+      "id": "stemma:earth.apogee",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/apogee.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:9c91ed4de3d60a84c08b5a77c7fac9086399781e58586b5ed5bb91d27ac0c6aa",
+      "id": "stemma:earth.apparent-brightness",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/apparent-brightness.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:9eade99cb949b1bedc0fed3c2067a11ffbeacd69b28e671da6526e8659c517e5",
+      "id": "stemma:earth.apparent-magnitude",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/apparent-magnitude.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:fec9a8fcefe5adae9c581bc7ceabe44a922aa630f9c9b6f5601bfcada936126d",
+      "id": "stemma:earth.aurora",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/aurora.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e7c0713888ca554e69108451f30ea9f1c7103dafebe008a79ecf2e1c1c24bff6",
+      "id": "stemma:earth.big-bang",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/big-bang.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:c0b9caee8786645cdc80b00936fcbd282f619862cee8b90ff967396a25c2d4d2",
+      "id": "stemma:earth.black-hole",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/black-hole.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:065ff738833bbc23bb92fdf2daa5ef4692ce14d988230b7b59f51985ae38caa9",
+      "id": "stemma:earth.comet",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/comet.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:90b015d66b85e5c22c396f426eda07de7f16b3b0663801b815b01491cf239264",
+      "id": "stemma:earth.cosmological-principle",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/cosmological-principle.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:5a5c413173e9754a3b86110d7d76cbeab8bf9b3737d93b0274b173a90b427be2",
+      "id": "stemma:earth.dark-energy",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/dark-energy.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:a32d7586c52aaf8184ad753d86dc97952af44d0466d75de730b5ec2cd8c54b9e",
+      "id": "stemma:earth.dark-matter",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/dark-matter.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:630c32200ffeb973ae9b1ed5f6a68e614a7d730de4ea970550af19f33aaf74a8",
+      "id": "stemma:earth.doppler-effect",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/doppler-effect.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:41f9c10232504dc6a04355fa6f9d35aa211406e2d977689832de5552376e097e",
+      "id": "stemma:earth.event-horizon",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/event-horizon.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:db26cec42ff2ffe6dfb0f6fef71acd6727d068159c22559d3f1e8d6f048e3e78",
+      "id": "stemma:earth.exoplanet",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/exoplanet.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0afcff34dafdbbf0805392b676d86c9af1fbabb80b0042f214a7a2033e3248d0",
+      "id": "stemma:earth.kuiper-belt",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/kuiper-belt.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:652e4f686ee61eef722643d4097e641819afe0eb450e81fbad0f5abc0feffc0c",
+      "id": "stemma:earth.local-group",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/local-group.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:dc5064ce992831a00106ec0faeef3ba134949378513213c881cc208dec41411c",
+      "id": "stemma:earth.luminosity",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/luminosity.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:d7695edc576e792d73150afb85406c21cb1fe9fa0453556770a461a537cab0f2",
+      "id": "stemma:earth.main-sequence",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/main-sequence.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:7866cba52d9a75768699788fa7838ea263ec6a085b0f630457fe15cb1ea6f27e",
+      "id": "stemma:earth.meteor",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/meteor.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:050132d8a0101ffe88c2c647fadb4114cf75c9cd761aeaa50ce700f89b828ef7",
+      "id": "stemma:earth.nebula",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/nebula.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:dc7e91b25ddb7eb20d0b0c641a4408e01eff30750db3d56e0e505156e07e5ec1",
+      "id": "stemma:earth.neutron-star",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/neutron-star.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:6762b09d240701ac9a501640048cd9e7b03c276d1baadc040592ddd863d1c721",
+      "id": "stemma:earth.oort-cloud",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/oort-cloud.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:516d87ff345a62bdc74c0cfa43797b41c8f3ed6a2bcaa19ae09bd1fd2449117b",
+      "id": "stemma:earth.orbit",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/orbit.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0113d64acba864f036b5a6c84d8c7b526d6647dec88865a58be575a8b15b6515",
+      "id": "stemma:earth.parsec",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/parsec.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e9e3201a7b021e9a573c9900e70f33da6f0b1d6f2294cb00d28f12f2fcbcbc78",
+      "id": "stemma:earth.planet",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/planet.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:b103a23c5dbb19a5d4e029dab675c254d0b2a67858e7aa96dfd8c5755d1b2581",
+      "id": "stemma:earth.pulsar",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/pulsar.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:b9a6339b0a225d56f500fb8b2ab1da413f2ecb20c4ca063e91f61011f1907b76",
+      "id": "stemma:earth.quasar",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/quasar.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:a0e9966b903ed37f45809da4b6afd2d9378fd8a8e8356c8b0533ecceb4e9dc18",
+      "id": "stemma:earth.redshift",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/redshift.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:5cedc975af749c3bbf12661eeef44412f4ea05c289b01c4ddc60693f88e9a8ab",
+      "id": "stemma:earth.solar-flare",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/solar-flare.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:d802720f584a6af274322511b251821d0033e304b855451d57382e2fb9567f64",
+      "id": "stemma:earth.sunspot",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/sunspot.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:ca0b870c04eac6f064e7c67a7d74db1a0782f82bd9753f6f19483744c9d261f5",
+      "id": "stemma:earth.telescope",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/telescope.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:9f54d4fbbc478a20efb0be0c47b38a93c0ca83e377fb51c606d517a411f98118",
+      "id": "stemma:earth.terrestrial-planet",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/terrestrial-planet.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:eb2eef07a8378f13263f05d7ba72f9c0a65d9f84725c882691288482db7667c1",
+      "id": "stemma:earth.white-dwarf",
+      "kind": "entity",
+      "relpath": "content/earth-space/astronomy/white-dwarf.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:82e9977cb09c2ec1fa9baae2ad9a8df914c88f4b34b395ee3397e724a226add0",
+      "id": "stemma:eng.3-d-printing",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/3-d-printing.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:76de7603dcf971f9a50ca8061e791710f7331488560d431092b084b857a21fc5",
+      "id": "stemma:eng.3d-visualization",
+      "kind": "entity",
+      "relpath": "content/engineering/data-engineering/3d-visualization.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:a8b872c4bb2f6f2b501f03254bdd43faa7ef81231205f8cb7034178ddba43c86",
+      "id": "stemma:eng.4-d-printing",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/4-d-printing.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:fb9bcdcbefa1214db49b5502cb64a48fc0d89acd24dc1e2542f9948757cc10e2",
+      "id": "stemma:eng.abstract-data-type-adt",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/abstract-data-type-adt.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:5d2a1446b8e9b4582718c5b002b21209e1725f18166213fcc989b4b114b5b0d6",
+      "id": "stemma:eng.abstract-method",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/abstract-method.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:484a87ce0e3a49ecea776d81db1cd8436203feb7b7ff049dddfb1d62cec539b9",
+      "id": "stemma:eng.abstract-model",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/abstract-model.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e1481f55e6ee03a98ed069ed58413c8153be863abc86f98ab90d3d4f8e69bed1",
+      "id": "stemma:eng.abstract-representation",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/abstract-representation.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:d736d4c6b9d920fedd7fa1f79055857533a9eaa0bccbd60dcc163d5815a1fdb9",
+      "id": "stemma:eng.abstraction",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/abstraction.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:8204f1014d7f5c32eae6288591800603deafad7170e648ed29bb1ff99b341fd9",
+      "id": "stemma:eng.acceptance-testing",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/acceptance-testing.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:bd06def5737257aa0c6fd6b5972d92f8f92ae34edaa9c8b7e5d8aedc7fe52901",
+      "id": "stemma:eng.access-control",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/access-control.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:94b71d2329e21ad4cb13835b84a35652fc8d9579128f2aa4ae378259f4f0468e",
+      "id": "stemma:eng.access-control-list-acl",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/access-control-list-acl.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:22397610c50265d554424811110d5cd26f1c36e00a33065fc1bd0aae8f8c6b04",
+      "id": "stemma:eng.access-enforcement",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/access-enforcement.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:fa200d992c96de46467542d5c8f2039e5159c0a6236cd6ba4c63b1235eea6b63",
+      "id": "stemma:eng.access-modifier",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/access-modifier.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:6108236453b3d990c4e171d1a6dd445de1e1a9a4578cec8cddac0f9ce6bb4f78",
+      "id": "stemma:eng.accessibility",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/accessibility.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:09ebe856cafa87f740b4069ff04768583b22142d346d7b217bfe47737575fd0d",
+      "id": "stemma:eng.accessibility-testing",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/accessibility-testing.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:33e74571e4d49be1be505c39b1b527cec4213119810fce36cae5bdae0b9c77ed",
+      "id": "stemma:eng.algorithm",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/algorithm.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:dab735af28b80593fd49f93642cbd5f13c72bef9fcd29b86f3bba420857c88b1",
+      "id": "stemma:eng.authentication",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/authentication.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:33f8447e93a13b5776d2fbb02589adf9f78d0ff961d1eb79ef448a693744f9f8",
+      "id": "stemma:eng.authorization",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/authorization.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:a8bdc97b6f32c58699cd15c5358b1283f4ad7d1d9177056fc46e8ade65e15545",
+      "id": "stemma:eng.code-review",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/code-review.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:b68150fbc2734f755a2101049bb634d53af2b006357b4e6c0dde057608053a6a",
+      "id": "stemma:eng.compiler",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/compiler.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:fa41f39e0c0fefe78e28dc203db9f0d20d11d4a0e0820f35388ce999eae7afe7",
+      "id": "stemma:eng.complexity",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/complexity.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:208e5ea4342baabd8f148cf86a2720bafea4d5e5abdccc83afa261fddf3826ec",
+      "id": "stemma:eng.concurrency",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/concurrency.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:ee6e28745a60f592a92c31229a5624b60da6d6f76424536d1c118dc58afa4611",
+      "id": "stemma:eng.continuous-integration",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/continuous-integration.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:640034d5ca5d5e2275369f29210757b9f8a86f25920febd4634736d92add3e2c",
+      "id": "stemma:eng.data-structure",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/data-structure.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:1d2bcec7278568869b439a23d88b10624f41a65eb7c134da2cabe92c5d2ea9ab",
+      "id": "stemma:eng.debugging",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/debugging.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:ac57822110d518cdd21efc54c7ddfb52364c87fd07dda698659163a2f2b3d7eb",
+      "id": "stemma:eng.deployment",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/deployment.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:f3bc683e31b8d7d29f5f8c1e65c2e0c74760b498c7a5392e894c951270b2ae57",
+      "id": "stemma:eng.design-pattern",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/design-pattern.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:01e5f037a1c2d4c604e2630f95afb52ce25590dba2542767e9407d4bd1f262ae",
+      "id": "stemma:eng.encapsulation",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/encapsulation.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0af4406443c86d0f1e99e55ee95ef5e0de078d5eb1590a1343910130658fd1ed",
+      "id": "stemma:eng.encryption",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/encryption.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:3de91617e8cfb5467e7cac9388ac730ead7ad1f782a957f5d52be6a1cbb4a4b6",
+      "id": "stemma:eng.index",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/index.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:c0f89244bc100268e489d6144fda6206e4e35a68a4bf7da88857e7fc32bdfb09",
+      "id": "stemma:eng.inheritance",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/inheritance.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:1f56f86d679d346ee2023f798e3ef896474183fd4f748d3f0fde102f5a62432f",
+      "id": "stemma:eng.interface",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/interface.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:ca8cd570c417f173ea6d4cb27c5466d1e7deecf3d3686fd7e5b5fc7767deb95b",
+      "id": "stemma:eng.machine-learning",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/machine-learning.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e10e72c24dd79c032f2bd996931c2b52b27bb2641ea50bef8dcbe538ece693ba",
+      "id": "stemma:eng.network",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/network.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:99a0c1469112926fa3875b94daf3e5b129beb514bd422a56365f173edebe893e",
+      "id": "stemma:eng.neural-network",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/neural-network.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:f837bc42a57325a1a1d2386d9eaef0c2b15d89e027f786d6bcf129fe9e4b9a29",
+      "id": "stemma:eng.normalization",
+      "kind": "entity",
+      "relpath": "content/engineering/data-engineering/normalization.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:d49547a9bcab1bb5d326c9bedff1a535d4bdb4b1bb727e95214a87e1b72b6dc1",
+      "id": "stemma:eng.operating-system",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/operating-system.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0e21011ce313d40b52db825be558cdb0244b62fcc02105c41c7cef1f5224c4b4",
+      "id": "stemma:eng.polymorphism",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/polymorphism.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:961310f61776f5f6f26952f1f83c51caba08f662b0c15c22ba960e4e30e3630f",
+      "id": "stemma:eng.refactoring",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/refactoring.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e67d1efaa27bd38aa9c43f6c1863d5c36097b90be6c2b2f894a5431c214e17d4",
+      "id": "stemma:eng.software-architecture",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/software-architecture.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:523b57967686d1532d62f26d435f823e43ab2c6e3a30a142c1065f25a0c12d2c",
+      "id": "stemma:eng.stack",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/stack.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0c00d512bfa9b3ff7931960be7447909975c7d5d32552e1bc8fac1c0e276c68c",
+      "id": "stemma:eng.transaction",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/transaction.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:ef002fc47ee4a4ddc484328bd2d2e510c0c6a6fa2623c3e58affc5b0cf908c83",
+      "id": "stemma:eng.unit-testing",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/unit-testing.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:f3a5ddc16a7183f200713e764eb1fc9acdf6e321ca1b903d5b5b3b2c5873d98a",
+      "id": "stemma:eng.version-control",
+      "kind": "entity",
+      "relpath": "content/engineering/computer/version-control.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e6e3877c8d35ea923f05403ef1736016ae65ca89c225b9de637e5a0be1325498",
+      "id": "stemma:math.absolute-convergence",
+      "kind": "entity",
+      "relpath": "content/math/calculus/absolute-convergence.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:1e3fb1a33f4cc156190dcaa4252421df2b3bc5163e3967db6185c9129291fdd4",
+      "id": "stemma:math.absolute-error",
+      "kind": "entity",
+      "relpath": "content/math/calculus/absolute-error.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:92e9e2448e871db05ad5b7b277284c7520934eca34e83370bd0dd5182581a220",
+      "id": "stemma:math.absolute-extremum",
+      "kind": "entity",
+      "relpath": "content/math/calculus/absolute-extremum.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:f728968c562f49950022299dfb55dc0031bd60ab3a2534ac0047e81816179837",
+      "id": "stemma:math.absolute-maximum",
+      "kind": "entity",
+      "relpath": "content/math/calculus/absolute-maximum.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:ebc2745e4e18d97e7c6b09d7f8e50f20f1b212cb692cddfa285d5a811716c87a",
+      "id": "stemma:math.absolute-minimum",
+      "kind": "entity",
+      "relpath": "content/math/calculus/absolute-minimum.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:eedc7c28cc8685bbb63fadb47d72d2bd1931d0b955cad3978ca27e487b511a8e",
+      "id": "stemma:math.absolute-value-equation",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/absolute-value-equation.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:f742e441661d40f09e2cbac8611b1e916a2e8018b816e2e4b8f3ae4b06d82438",
+      "id": "stemma:math.absolute-value-function",
+      "kind": "entity",
+      "relpath": "content/math/calculus/absolute-value-function.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:74b49e28a93a7af40fd8fa35da7708b09fe6f60692d995ddce69a0972e2eb58d",
+      "id": "stemma:math.absolute-value-inequality",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/absolute-value-inequality.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:04ce0483e19ed77b703eb2b7e485e41418795bc824511f50a634fe53b27730d5",
+      "id": "stemma:math.acceleration",
+      "kind": "entity",
+      "relpath": "content/math/calculus/acceleration.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:02b362e6540fee793f9d177d8a03022f3bb9969b468063f0b5175aa4553407be",
+      "id": "stemma:math.acceleration-vector",
+      "kind": "entity",
+      "relpath": "content/math/calculus/acceleration-vector.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:a48b1f40927d50f8879688bd71f54abcb1a31fa63016945c596b9282f3d95023",
+      "id": "stemma:math.addition-method",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/addition-method.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:19bb859017503b344cc219e037a645cecc890be3fac3223c578ea09a51d082ff",
+      "id": "stemma:math.addition-principle",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/addition-principle.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:fd5c16f8d5398da04f5eb187566a91d4dd8b51ea6a887490890fe769818dc4aa",
+      "id": "stemma:math.adjacent-side",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/adjacent-side.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0d1b9b67682011ad343c7cfe02191da3221cc63639dfd2888f507a7deb4b4597",
+      "id": "stemma:math.algebraic-expression",
+      "kind": "entity",
+      "relpath": "content/math/algebra/algebraic-expression.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e4cc23dcc5f73986daf834c0945d36eeb0fe036ad8644b9ad001fe3223c898b7",
+      "id": "stemma:math.algebraic-function",
+      "kind": "entity",
+      "relpath": "content/math/calculus/algebraic-function.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:997bea63d759fc747c6a341427ea5189f415192659d24380925333902a83552e",
+      "id": "stemma:math.arithmetic-sequence",
+      "kind": "entity",
+      "relpath": "content/math/calculus/arithmetic-sequence.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:75c9ee8fbb91663a677bab02977aad9031d314c392c6edf8047b1670cacb1520",
+      "id": "stemma:math.binomial-theorem",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/binomial-theorem.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:c924746d649dd29083274a139955051718b39ce61641811503bcdf95f8b1f480",
+      "id": "stemma:math.combination",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/combination.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:5c1c76f1db33e8e0259957ffdaccb4dcad39e55628fe1a69d9e7607224b54196",
+      "id": "stemma:math.complex-number",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/complex-number.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:dbb43fe541a73007616ef0ab608270d15ae0cb279d2f88cf2faf4a82cbe962b4",
+      "id": "stemma:math.conic-section",
+      "kind": "entity",
+      "relpath": "content/math/calculus/conic-section.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:485d7cc8e0daa791bbf56d9e2a91993bd8a41f9f9ab96f5a34fb43f1fa4d8d72",
+      "id": "stemma:math.derivative",
+      "kind": "entity",
+      "relpath": "content/math/calculus/derivative.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e6ed3f316a21b4d1a6ec0690188c0a37a7c3f0bdaff8e9b061337a5644879774",
+      "id": "stemma:math.differential-equation",
+      "kind": "entity",
+      "relpath": "content/math/calculus/differential-equation.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:af852e653e8f9c65137c85c999e8901b679d9b0700a50934554e49dc56fa595e",
+      "id": "stemma:math.domain",
+      "kind": "entity",
+      "relpath": "content/math/calculus/domain.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0c741ffe8cf11042531f2ff6a64413b733869ac21448e845e1c3425601794ee5",
+      "id": "stemma:math.ellipse",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/ellipse.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:4565dcb93edfec8931d351f69d6441da29219290b7e902e5ce647d3914a0f01f",
+      "id": "stemma:math.exponential-growth",
+      "kind": "entity",
+      "relpath": "content/math/calculus/exponential-growth.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:ebacb7787047bf7804ad34acf8e575eb7a07599b9c502709c9c8eac612bc8241",
+      "id": "stemma:math.function",
+      "kind": "entity",
+      "relpath": "content/math/calculus/function.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:01433f1ef6e2009320c15604a8486265986a0f3682517b2bfe52a4865e95f8da",
+      "id": "stemma:math.geometric-sequence",
+      "kind": "entity",
+      "relpath": "content/math/calculus/geometric-sequence.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:56ec6a5603ddf038e8775c625b240a0a6827c0e6a1961d9aa90b1d158ec2897d",
+      "id": "stemma:math.hyperbola",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/hyperbola.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:be681f9b8143fd243d9212fecbbf1c92e1d0cfea51a9f68cca73546ff0fb1826",
+      "id": "stemma:math.limit",
+      "kind": "entity",
+      "relpath": "content/math/calculus/limit.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:6be86a75bf9dc08a0ed7431ef6e8d010fed89fbea74e74e7dc475d12f01976b2",
+      "id": "stemma:math.logarithm",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/logarithm.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0be7989f7d6296fc2f0a42597d127b8a60eb82bfa6e83fab418f888cd638b7d6",
+      "id": "stemma:math.logarithmic-function",
+      "kind": "entity",
+      "relpath": "content/math/calculus/logarithmic-function.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:7cc9a41703a5a636fb7f9aad7bccd02248efc9d72ab39ec2b2bb53cd6c5b3d6d",
+      "id": "stemma:math.matrix",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/matrix.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:b777d204db770a51703c7f659212345d68a4e0fc4260df89d857a1b7b908aa19",
+      "id": "stemma:math.mean",
+      "kind": "entity",
+      "relpath": "content/math/statistics-probability/mean.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:d3229a8d6d4739223bf339b5978ff13fc3d2148c89b9dbe06160f89dbdfb2f73",
+      "id": "stemma:math.parabola",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/parabola.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:51e7c7d30e8888e6f72f4529a5e977d7fdf67363ea1323f7475f21383e181903",
+      "id": "stemma:math.permutation",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/permutation.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:42aa50a6767dc15aad31e955230949daea7114ab215086f830eb9c1bd3846024",
+      "id": "stemma:math.polar-coordinates",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/polar-coordinates.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:203d65c82e5255defa6d311feda5d71c37543b3fc35979286d615a41de78f1e9",
+      "id": "stemma:math.polynomial",
+      "kind": "entity",
+      "relpath": "content/math/algebra/polynomial.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:cb065baa959fb2737ea58174b353f8701aedff2d49d9a2f82e85d6ae3cc67141",
+      "id": "stemma:math.probability",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/probability.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:46472b202af0a2e0a88f85c66c6749a1f625ce824307110175c2bf7a8567ada9",
+      "id": "stemma:math.range",
+      "kind": "entity",
+      "relpath": "content/math/calculus/range.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:b787c7a6f9b8ac7905d099af527cd77fa50d1ac416bcb74652245d790bf52a66",
+      "id": "stemma:math.rational-function",
+      "kind": "entity",
+      "relpath": "content/math/calculus/rational-function.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:c284aa3b2147840b469cbc48512c5fe3c126dbfee81f681ae0d7351cac939402",
+      "id": "stemma:math.relation",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/relation.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:221aafce9fbf4480e6bbecb3918488d20724984d22ae5ff13790c4186ae48596",
+      "id": "stemma:math.sequence",
+      "kind": "entity",
+      "relpath": "content/math/calculus/sequence.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:bbf46783a25becf48f459d4181bc49b454df0d4b5776a47241145566db56a176",
+      "id": "stemma:math.series",
+      "kind": "entity",
+      "relpath": "content/math/precalculus/series.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:b0e30ec65e4dee9258a338fb25cab0d39eeccc8d24049754267643ca5d859991",
+      "id": "stemma:math.variance",
+      "kind": "entity",
+      "relpath": "content/math/statistics-probability/variance.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:2719dc09d857adab28a0fcda702340fdb8652811dd7c0cabbb3d96295c81844c",
+      "id": "stemma:math.vector",
+      "kind": "entity",
+      "relpath": "content/math/calculus/vector.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:4aad0940daea01ef2432e4905ee44b76b02a5ae329062d3ffcdbbb107e72a55c",
+      "id": "stemma:phys.absolute-pressure",
+      "kind": "entity",
+      "relpath": "content/physics/thermal-physics/absolute-pressure.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:bdb5399e3840be3041fbf4b8f3a5f8464db6bbdbcda2e5770b6f244d247e9c68",
+      "id": "stemma:phys.absolute-temperature-scale",
+      "kind": "entity",
+      "relpath": "content/physics/thermal-physics/absolute-temperature-scale.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:8a09d35b0339d82cb408d1d5eef860569e2b51a07d287496826e820d0dad1526",
+      "id": "stemma:phys.absolute-zero",
+      "kind": "entity",
+      "relpath": "content/physics/thermal-physics/absolute-zero.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:85c53b1dc9305b4ee9ce5485eaee1161dd44e7174d2d93559ba5d4dba5d3e79a",
+      "id": "stemma:phys.absorber",
+      "kind": "entity",
+      "relpath": "content/physics/thermal-physics/absorber.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:81a7b9416ec9a0beb4af79562eacb1c14171bfa34a116369abfbe621fdccd33a",
+      "id": "stemma:phys.ac-current",
+      "kind": "entity",
+      "relpath": "content/physics/electricity-magnetism/ac-current.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:094627a48ac233c51cadcacc01e82e237a979dc48e4b490b352d6ac49c8258d0",
+      "id": "stemma:phys.ac-voltage",
+      "kind": "entity",
+      "relpath": "content/physics/electricity-magnetism/ac-voltage.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:2651de94fa22bfe9996c6bf8ee4add9992c2515e3c70c5db1dffd0b93ce1aea3",
+      "id": "stemma:phys.action-at-a-distance-force",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/action-at-a-distance-force.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:24405abaeab50e54fe1c8ac13b91a4878c79497c59f50bc80ad6d9fc3201f039",
+      "id": "stemma:phys.alternating-current",
+      "kind": "entity",
+      "relpath": "content/physics/electricity-magnetism/alternating-current.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:1215a3d976e5614da6ef22b37957bc862a227d3beb5fbb75548ef855e408ca66",
+      "id": "stemma:phys.alternating-current-ac",
+      "kind": "entity",
+      "relpath": "content/physics/electricity-magnetism/alternating-current-ac.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e2dba35247a82ce6a54f04bb09029dbef7db461ca3ec2f95ae9672d4e9152809",
+      "id": "stemma:phys.angle-of-rotation",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/angle-of-rotation.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:a65e656dfbe3302839ec4d16111aa7f0bf937f139ccba4c8903954eb94abd0ab",
+      "id": "stemma:phys.angular-acceleration",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/angular-acceleration.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:1e3202b36c0058f5b42298e228aa170dce14335c64bc071b5b11f8e479d92564",
+      "id": "stemma:phys.angular-velocity",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/angular-velocity.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:fbcb3fbb2cf3e094e732ebde4196044cbecb3090720a6f6e17dbe9018c3866e8",
+      "id": "stemma:phys.center-of-mass",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/center-of-mass.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e6da3a3de5e6378e819cc277dbc4091d55ca307220f053d98a1ed08934af8f30",
+      "id": "stemma:phys.elastic-collision",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/elastic-collision.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:534547f7f511ad6d716ea4f0347f1310c586491124b4226994a83194ba73990d",
+      "id": "stemma:phys.electric-charge",
+      "kind": "entity",
+      "relpath": "content/physics/electricity-magnetism/electric-charge.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0c089fce146ab41989c4a70f188e0779fdc4e81308522a0ea3ffd49c0c9f9757",
+      "id": "stemma:phys.electric-current",
+      "kind": "entity",
+      "relpath": "content/physics/electricity-magnetism/electric-current.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:70ce63e21a724f5e9d49224ca7779893936e183229d6b69560236f471ae2f14c",
+      "id": "stemma:phys.electric-field",
+      "kind": "entity",
+      "relpath": "content/physics/electricity-magnetism/electric-field.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:8d0aa43156a6ce2d174a6f34dffa178f68fdbd6896bfdb8328445f69923bbf9b",
+      "id": "stemma:phys.electric-potential",
+      "kind": "entity",
+      "relpath": "content/physics/electricity-magnetism/electric-potential.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:08086de0adbc55ce4791304769a229ff9a172ae3cd3601d7843f749708616a66",
+      "id": "stemma:phys.electric-power",
+      "kind": "entity",
+      "relpath": "content/physics/electricity-magnetism/electric-power.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:5777bca87cff55f60c535554945e67236f3c256ee7a0dbcf8d274be331aa44a3",
+      "id": "stemma:phys.energy",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/energy.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:fa5d182909bf0a8831b6c5efc3343d29ecf51c39cf95fbf305b93a623c066f15",
+      "id": "stemma:phys.entropy",
+      "kind": "entity",
+      "relpath": "content/physics/thermal-physics/entropy.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:e0433ab4ea11ff61bde56d07d0ff4aa3b249346782748e95a86f3eae01982c1c",
+      "id": "stemma:phys.first-law-thermodynamics",
+      "kind": "entity",
+      "relpath": "content/physics/thermal-physics/first-law-thermodynamics.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:a1a589294e528eae1c949f2fda0eb96f4d5d570bc0a14cb0af5fce4f119b533f",
+      "id": "stemma:phys.friction",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/friction.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:4364b52926832ab1af0426b025a89013464c5a085e85e578fcb16aa0ea7b537a",
+      "id": "stemma:phys.heat",
+      "kind": "entity",
+      "relpath": "content/physics/thermal-physics/heat.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:0d99a2eef44f3138408f46b9b6a5c677fd60580a7223950769820ef2c8ac9b10",
+      "id": "stemma:phys.inelastic-collision",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/inelastic-collision.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:c7395ec783db6a5917b4fd8cbf423073379c9ded2ff7f7ad68b49e0d43cf477f",
+      "id": "stemma:phys.instantaneous-velocity",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/instantaneous-velocity.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:f962c80c75bfae9baefb3b125d62c48a06dcca5910f4add3a47f6b2fdd763622",
+      "id": "stemma:phys.kinetic-energy",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/kinetic-energy.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:580916b67a7a08dfe5e40f180ce008e4d73447a0e12abec23a304a6e9a498eb1",
+      "id": "stemma:phys.magnetic-field",
+      "kind": "entity",
+      "relpath": "content/physics/electricity-magnetism/magnetic-field.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:871e30f6bf90e41ce258b14af21738f5f177a1385104754f9f35f81f1104cd9e",
       "id": "stemma:phys.metre",
       "kind": "entity",
       "promotion_history": [
@@ -74,8 +2564,108 @@
       "reviewer": "human:curator.001",
       "status": "canonical",
       "writer": "human:curator.001"
+    },
+    {
+      "content_hash": "sha256:379d82d86982527007de5e8530e06cbf1a1851fa6df388532016c30f68105625",
+      "id": "stemma:phys.momentum",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/momentum.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:d0d67001b4be5c378de5931e9c8f630dee51aecb92e763ff0e456ca06dd117d7",
+      "id": "stemma:phys.potential-energy",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/potential-energy.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:c18e613e3a05cf53855e943ef91c63972354851c12f35659b123c975ee0ec2db",
+      "id": "stemma:phys.pressure",
+      "kind": "entity",
+      "relpath": "content/physics/thermal-physics/pressure.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:bec6e3fd5016d436b7ec5def759e8ee35173302535908480a1b5b218ede29658",
+      "id": "stemma:phys.second-law-thermodynamics",
+      "kind": "entity",
+      "relpath": "content/physics/thermal-physics/second-law-thermodynamics.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:a0d28f0b0ae376e910b4c92d412c5d9244c7581baecfb63fd336f5435179448d",
+      "id": "stemma:phys.simple-harmonic-motion",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/simple-harmonic-motion.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:2fd37ff5393f346c0ddee3028c71fe21de3a1a6069b89ad074a3eff77848b5b9",
+      "id": "stemma:phys.temperature",
+      "kind": "entity",
+      "relpath": "content/physics/thermal-physics/temperature.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:d833b90261a6999ae405836c3e04d201d7d65c9a6c55ecd683c91e2991740ed8",
+      "id": "stemma:phys.torque",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/torque.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:ce725f76ea12377489cca5eeaf103773a4125fab3fbf50e779fb2f520d2b616b",
+      "id": "stemma:phys.velocity",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/velocity.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:8102ae3d4dc28046325fa18887eff6105ff845ddc2b16c81ae4bd4b9853d9e0f",
+      "id": "stemma:phys.voltage",
+      "kind": "entity",
+      "relpath": "content/physics/electricity-magnetism/voltage.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
+    },
+    {
+      "content_hash": "sha256:48e7ba07f5005abd27769311eebc27b2787c3fd562125f31005a6faf47f7e56e",
+      "id": "stemma:phys.work",
+      "kind": "entity",
+      "relpath": "content/physics/mechanics/work.md",
+      "reviewed_at": "2026-10-20T00:00:00+00:00",
+      "reviewer": "process:content-validator.v1",
+      "status": "canonical",
+      "writer": "process:openstax-importer.v1"
     }
   ],
-  "entry_count": 2,
+  "entry_count": 261,
   "manifest_version": "1.0.0"
 }

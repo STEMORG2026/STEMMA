@@ -1,0 +1,227 @@
+{
+  "report_version": "1.0.0",
+  "source_content_hash": "sha256:df7943c4e08e53620f6169cce4b58f99b6371f362d1833b355d32fd5656944f9",
+  "export_version": "2.2.0",
+  "mechanism": "heuristic-worksheet-ordering",
+  "predictive_model": false,
+  "heuristic_active": true,
+  "content_effect": "order-only",
+  "weights": {
+    "pagerank": 2.0,
+    "degree": 0.01,
+    "source_refs": 0.25,
+    "governed_by": 0.1,
+    "definition": 0.1
+  },
+  "activation": {
+    "decisions_required": 200,
+    "domains_required": 3,
+    "decisions_met": false,
+    "domains_met": false,
+    "met": false
+  },
+  "observed": {
+    "decisions": 6,
+    "domains": 1,
+    "domain_list": [
+      "physics"
+    ]
+  },
+  "entity_queue": [
+    {
+      "id": "stemma:phys.force",
+      "name": "Force",
+      "domain": "physics",
+      "type": "quantity",
+      "status": "draft",
+      "score": 0.843334,
+      "features": {
+        "pagerank": 0.016667,
+        "degree": 1,
+        "source_refs": 2,
+        "governed_by": 2,
+        "definition_chars": 494,
+        "has_definition": true,
+        "review_status": "draft"
+      },
+      "reasons": [
+        "centrality 0.016667",
+        "graph degree 1",
+        "2 source ref(s)"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "stemma:phys.newtons-second-law",
+      "name": "Newton's Second Law",
+      "domain": "physics",
+      "type": "law",
+      "status": "draft",
+      "score": 0.833334,
+      "features": {
+        "pagerank": 0.016667,
+        "degree": 0,
+        "source_refs": 2,
+        "governed_by": 2,
+        "definition_chars": 422,
+        "has_definition": true,
+        "review_status": "draft"
+      },
+      "reasons": [
+        "centrality 0.016667",
+        "2 source ref(s)"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "stemma:phys.mass",
+      "name": "Mass",
+      "domain": "physics",
+      "type": "quantity",
+      "status": "draft",
+      "score": 0.621666,
+      "features": {
+        "pagerank": 0.030833,
+        "degree": 1,
+        "source_refs": 1,
+        "governed_by": 2,
+        "definition_chars": 378,
+        "has_definition": true,
+        "review_status": "draft"
+      },
+      "reasons": [
+        "centrality 0.030833",
+        "graph degree 1",
+        "1 source ref(s)"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "stemma:phys.conservation-energy",
+      "name": "Conservation of Energy",
+      "domain": "physics",
+      "type": "law",
+      "status": "draft",
+      "score": 0.583334,
+      "features": {
+        "pagerank": 0.016667,
+        "degree": 0,
+        "source_refs": 1,
+        "governed_by": 2,
+        "definition_chars": 399,
+        "has_definition": true,
+        "review_status": "draft"
+      },
+      "reasons": [
+        "centrality 0.016667",
+        "1 source ref(s)"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "stemma:phys.kilogram",
+      "name": "Kilogram",
+      "domain": "physics",
+      "type": "unit",
+      "status": "draft",
+      "score": 0.583334,
+      "features": {
+        "pagerank": 0.016667,
+        "degree": 0,
+        "source_refs": 1,
+        "governed_by": 2,
+        "definition_chars": 427,
+        "has_definition": true,
+        "review_status": "draft"
+      },
+      "reasons": [
+        "centrality 0.016667",
+        "1 source ref(s)"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "stemma:phys.length",
+      "name": "Length",
+      "domain": "physics",
+      "type": "quantity",
+      "status": "draft",
+      "score": 0.583334,
+      "features": {
+        "pagerank": 0.016667,
+        "degree": 0,
+        "source_refs": 1,
+        "governed_by": 2,
+        "definition_chars": 363,
+        "has_definition": true,
+        "review_status": "draft"
+      },
+      "reasons": [
+        "centrality 0.016667",
+        "1 source ref(s)"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "stemma:phys.second",
+      "name": "Second",
+      "domain": "physics",
+      "type": "unit",
+      "status": "draft",
+      "score": 0.583334,
+      "features": {
+        "pagerank": 0.016667,
+        "degree": 0,
+        "source_refs": 1,
+        "governed_by": 2,
+        "definition_chars": 427,
+        "has_definition": true,
+        "review_status": "draft"
+      },
+      "reasons": [
+        "centrality 0.016667",
+        "1 source ref(s)"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "stemma:phys.time",
+      "name": "Time",
+      "domain": "physics",
+      "type": "quantity",
+      "status": "draft",
+      "score": 0.583334,
+      "features": {
+        "pagerank": 0.016667,
+        "degree": 0,
+        "source_refs": 1,
+        "governed_by": 2,
+        "definition_chars": 461,
+        "has_definition": true,
+        "review_status": "draft"
+      },
+      "reasons": [
+        "centrality 0.016667",
+        "1 source ref(s)"
+      ],
+      "rank": 8
+    }
+  ],
+  "connection_queue": [
+    {
+      "id": "stemma:conn.000157",
+      "relation": "mathematically_requires",
+      "source": "stemma:phys.force",
+      "target": "stemma:phys.mass",
+      "evidence_count": 2,
+      "endpoint_degree": 2,
+      "score": 0.52,
+      "rank": 1
+    }
+  ],
+  "invariants": [
+    "canonical remains per-object and human-only (L2)",
+    "routing changes order only, never content",
+    "no predictive model is activated below the threshold"
+  ]
+}

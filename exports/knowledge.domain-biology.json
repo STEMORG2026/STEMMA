@@ -1,0 +1,3457 @@
+{
+  "export_version": "2.2.0",
+  "schema_version": "1.4.0",
+  "policy": "domain:biology",
+  "content_hash": "sha256:d98304ee3f9efabf81443d52d40d7486debc76b900c65c9747122659aa628bac",
+  "source": "content/ + connections/ + sources/ (canonical)",
+  "entity_count": 45,
+  "connection_count": 0,
+  "entities": [
+    {
+      "id": "stemma:bio.3-utr",
+      "type": "concept",
+      "name": "3' UTR",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The 3' untranslated region is a segment located downstream of the protein-coding sequence within an RNA molecule. This area remains untranslatted into amino acids but often contains regulatory elements that influence mRNA stability and translation efficiency.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/16-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/16-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing synthetic gene circuits for biotechnology.",
+        "Analyzing differential expression across cell types."
+      ]
+    },
+    {
+      "id": "stemma:bio.5-cap",
+      "type": "concept",
+      "name": "5' cap",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "A 5' cap is a methylated guanosine triphosphate molecule attached to the beginning of messenger RNA. This structure protects the transcript from enzymatic degradation and facilitates ribosome binding during the initiation of protein synthesis.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/16-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/16-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Enhancing vaccine mRNA stability for therapeutics.",
+        "Facilitating ribosome binding during translation initiation."
+      ]
+    },
+    {
+      "id": "stemma:bio.5-utr",
+      "type": "concept",
+      "name": "5' UTR",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The 5' untranslated region is a segment located upstream of the coding sequence within an RNA molecule. Although not translated into protein, this area plays critical roles in regulating translation initiation and mRNA stability.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/16-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/16-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Engineering riboswitches for metabolic control.",
+        "Optimizing protein expression levels in bioreactors."
+      ]
+    },
+    {
+      "id": "stemma:bio.7-methylguanosine-cap",
+      "type": "concept",
+      "name": "7-methylguanosine cap",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The 7-methylguanosine cap is a specific chemical modification added to the start of pre-messenger RNA transcripts. This structure shields the molecule from degradation and assists ribosomes in recognizing the mRNA for efficient translation.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/15-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/15-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Improving therapeutic mRNA delivery efficiency.",
+        "Enabling accurate ribosome recognition mechanisms."
+      ]
+    },
+    {
+      "id": "stemma:bio.a-horizon",
+      "type": "structure",
+      "name": "A horizon",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The A horizon represents a soil layer consisting of organic material mixed with weathered mineral products. This zone typically exhibits distinct coloration due to the accumulation of humus and leached clay particles from upper layers.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/31-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/31-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Guiding sustainable agricultural land management practices.",
+        "Assessing nutrient availability for crop growth."
+      ]
+    },
+    {
+      "id": "stemma:bio.abdominal-aorta",
+      "type": "structure",
+      "name": "abdominal aorta",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The abdominal aorta is the portion of the main artery situated below the diaphragm and above the common iliac arteries. It serves as the primary vessel distributing oxygenated blood to organs within the abdomen and pelvis.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Surgical planning for aneurysm repair or organ transplantation.",
+        "Diagnosing vascular diseases affecting pelvic blood flow."
+      ]
+    },
+    {
+      "id": "stemma:bio.abdominopelvic-cavity",
+      "type": "structure",
+      "name": "abdominopelvic cavity",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The abdominopelvic cavity is a major division of the anterior body cavity housing abdominal and pelvic viscera. It encompasses both the abdomen proper and the pelvis, separated by an imaginary line between the hip bones.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Clinical diagnosis of internal injuries or infections in trauma cases.",
+        "Surgical approaches for accessing digestive or reproductive systems."
+      ]
+    },
+    {
+      "id": "stemma:bio.abducens-nerve",
+      "type": "structure",
+      "name": "abducens nerve",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The abducens nerve is the sixth cranial nerve responsible for controlling specific extraocular muscles. Its primary function involves contracting a muscle that moves the eye laterally away from its resting position.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Neurological assessment for stroke or tumor affecting eye muscles.",
+        "Rehabilitation therapy restoring gaze after nerve damage."
+      ]
+    },
+    {
+      "id": "stemma:bio.abduct",
+      "type": "process",
+      "name": "abduct",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "To abduct is to move a body part or bone away from the midline in the sagittal plane. This motion typically occurs at joints like the shoulder or hip, increasing the angle between the limb and the torso.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Physical therapy exercises to restore range of motion after injury.",
+        "Biomechanical analysis of human gait or limb positioning."
+      ]
+    },
+    {
+      "id": "stemma:bio.abduction",
+      "type": "process",
+      "name": "abduction",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Abduction describes the movement of a bone away from the midline of the body. This action increases the angle between the limb and the central axis, occurring primarily at joints such as the shoulder or hip.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/38-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/38-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Analyzing human gait and limb mechanics.",
+        "Designing prosthetic joint range-of-motion limits."
+      ]
+    },
+    {
+      "id": "stemma:bio.abductor",
+      "type": "concept",
+      "name": "abductor",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An abductor is a type of skeletal muscle responsible for moving a specific bone away from the body's midline. This action increases the angle between the limb and the central axis, facilitating lateral movement essential for fine motor control.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing physical therapy for lateral movement injuries.",
+        "Analyzing gait mechanics in sports science."
+      ]
+    },
+    {
+      "id": "stemma:bio.abductor-digiti-minimi",
+      "type": "structure",
+      "name": "abductor digiti minimi",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The abductor digiti minimi is a specific muscle located in the hand that moves the little finger away from the midline. It originates on the pisiform bone and inserts onto the fifth metacarpal to enable abduction of this digit.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Treating carpal tunnel syndrome or trigger thumb conditions.",
+        "Rehabilitating grip strength after tendon repairs."
+      ]
+    },
+    {
+      "id": "stemma:bio.abductor-pollicis-brevis",
+      "type": "structure",
+      "name": "abductor pollicis brevis",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The abductor pollicis brevis is a superficial muscle in the thenar eminence that moves the thumb away from the palm. It originates on the scaphoid and trapezium bones to facilitate abduction of the first digit.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Surgical repair of de Quervain's tenosynovitis affecting wrist movement.",
+        "Assessing nerve compression in carpals impacting hand function."
+      ]
+    },
+    {
+      "id": "stemma:bio.abductor-pollicis-longus",
+      "type": "structure",
+      "name": "abductor pollicis longus",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The abductor pollicis longus is a deep muscle that moves the thumb away from the plane of the palm. It inserts into the first metacarpal bone to assist in abduction and extension during grasping motions.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Treating radial nerve palsy affecting thumb mobility in trauma cases.",
+        "Rehabilitating grip strength after wrist fractures or ligament tears."
+      ]
+    },
+    {
+      "id": "stemma:bio.abiotic",
+      "type": "concept",
+      "name": "abiotic",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Abiotic components are the nonliving physical and chemical factors of an ecosystem, such as sunlight, temperature, water, and soil. They shape organism survival and are distinguished from biotic factors such as predators and competitors.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/44-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/44-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Modeling climate change impacts on habitats.",
+        "Designing controlled environment agriculture systems."
+      ]
+    },
+    {
+      "id": "stemma:bio.allele",
+      "type": "concept",
+      "name": "allele",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "An allele represents a specific variant form of a gene that arises from mutation and occupies the same locus on homologous chromosomes. Different alleles at a single location determine variations in inherited traits among individuals within a population.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/12-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/12-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Predicting genetic disease inheritance patterns.",
+        "Developing crop varieties with specific traits."
+      ]
+    },
+    {
+      "id": "stemma:bio.cell",
+      "type": "concept",
+      "name": "cell",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The cell serves as the smallest fundamental unit of structure and function within all living organisms. It maintains life through specialized organelles that coordinate metabolic activities, reproduction, and response to environmental stimuli.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Advancing regenerative medicine tissue engineering.",
+        "Developing targeted cancer therapies at cellular level."
+      ]
+    },
+    {
+      "id": "stemma:bio.cell-membrane",
+      "type": "structure",
+      "name": "cell membrane",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The cell membrane surrounds all animal cells with a lipid bilayer interspersed with various functional molecules. Also known as the plasma membrane, it regulates material exchange and maintains cellular integrity against external environments.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Developing drug delivery systems targeting specific cells.",
+        "Understanding antibiotic mechanisms disrupting bacterial membranes."
+      ]
+    },
+    {
+      "id": "stemma:bio.cellular-respiration",
+      "type": "process",
+      "name": "cellular respiration",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Cellular respiration is the production of ATP from glucose oxidation through glycolysis and oxidative phosphorylation. This process releases energy stored in chemical bonds to power cellular activities.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Optimizing fermentation processes in biotechnology industries.",
+        "Understanding metabolic disorders affecting energy production."
+      ]
+    },
+    {
+      "id": "stemma:bio.chromosome",
+      "type": "structure",
+      "name": "chromosome",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A chromosome is a distinct structure located within the nucleus comprising condensed chromatin. It contains DNA sequences that carry genetic information necessary for inheritance and cellular function.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/4-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Mapping disease-causing mutations in genomes.",
+        "Breeding plants with desirable agricultural characteristics."
+      ]
+    },
+    {
+      "id": "stemma:bio.cytoplasm",
+      "type": "structure",
+      "name": "cytoplasm",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Cytoplasm fills the entire region between the plasma membrane and nuclear envelope within a cell. It consists of organelles suspended in gel-like cytosol, supported by the cytoskeleton and various dissolved chemicals essential for life.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/4-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Understanding cell structure in tissue engineering models.",
+        "Analyzing metabolic pathways occurring outside the nucleus."
+      ]
+    },
+    {
+      "id": "stemma:bio.ecosystem",
+      "type": "system",
+      "name": "ecosystem",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An ecosystem represents a functional unit comprising all living organisms within a specific area alongside their nonliving environmental components. It functions through complex interactions where biotic factors depend on abiotic resources to sustain energy flow and nutrient cycling.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing sustainable agricultural practices based on local cycles.",
+        "Predicting climate change impacts on biodiversity hotspots."
+      ]
+    },
+    {
+      "id": "stemma:bio.enzyme",
+      "type": "material",
+      "name": "enzyme",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "An enzyme acts as a catalyst in biochemical reactions, typically functioning as a complex protein. It accelerates specific metabolic pathways without being consumed during the reaction.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Developing industrial biocatalysts for green chemistry processes.",
+        "Creating targeted therapies that inhibit disease-causing pathways."
+      ]
+    },
+    {
+      "id": "stemma:bio.evolution",
+      "type": "concept",
+      "name": "evolution",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Descent with modification across generations, driven by mutation, genetic drift, gene flow, and natural selection. Over long spans it produces adaptation and new lineages, and it explains both the unity and diversity of living organisms.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Informing public health strategies against antibiotic resistance.",
+        "Guiding conservation efforts to preserve genetic diversity."
+      ]
+    },
+    {
+      "id": "stemma:bio.food-chain",
+      "type": "model",
+      "name": "food chain",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A food chain provides a linear representation of energy flow from primary producers to higher-level consumers. This model illustrates how organisms depend on one another for nutrition, describing essential ecosystem structure and dynamic interactions.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/46-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/46-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Managing fisheries by understanding predator-prey dynamics.",
+        "Assessing impact of invasive species on native food webs."
+      ]
+    },
+    {
+      "id": "stemma:bio.gene",
+      "type": "concept",
+      "name": "gene",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A gene represents the physical and functional unit of heredity consisting of a specific DNA sequence. It directs the synthesis of proteins that determine an organism's traits through transcription and translation.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/10-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/10-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Engineering crops with enhanced nutritional value or drought resistance.",
+        "Diagnosing hereditary conditions through genetic sequencing tests."
+      ]
+    },
+    {
+      "id": "stemma:bio.genotype",
+      "type": "concept",
+      "name": "genotype",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "The genotype constitutes the complete genetic makeup of an organism, encompassing both expressed and non-expressed alleles inherited from parents. This internal blueprint dictates potential physical characteristics but does not always directly match observable phenotypic traits.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/12-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/12-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Predicting disease risk based on inherited allele combinations.",
+        "Breeding livestock for specific desirable traits efficiently."
+      ]
+    },
+    {
+      "id": "stemma:bio.homeostasis",
+      "type": "concept",
+      "name": "homeostasis",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Homeostasis describes the biological capability of an organism to maintain stable internal conditions despite external environmental fluctuations. This dynamic equilibrium is essential for survival, ensuring that variables like temperature and pH remain within narrow limits.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing life-support systems for space exploration missions.",
+        "Treating metabolic disorders that disrupt physiological balance."
+      ]
+    },
+    {
+      "id": "stemma:bio.hormone",
+      "type": "concept",
+      "name": "hormone",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A hormone is a chemical signaling molecule, typically composed as proteins or steroids, secreted directly into the bloodstream by endocrine cells. These molecules travel to distant target organs where they regulate specific physiological processes like growth and metabolism.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Developing treatments for diabetes involving insulin regulation.",
+        "Managing reproductive health through hormonal therapy protocols."
+      ]
+    },
+    {
+      "id": "stemma:bio.immune-system",
+      "type": "system",
+      "name": "immune system",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The immune system functions as a series of barriers, cells, and soluble mediators responding to infections. It coordinates complex defenses against pathogenic organisms, protecting the body from disease while maintaining internal stability.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing vaccines to stimulate adaptive immunity responses.",
+        "Developing immunosuppressants for organ transplant patients."
+      ]
+    },
+    {
+      "id": "stemma:bio.meiosis",
+      "type": "process",
+      "name": "meiosis",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "intermediate",
+      "status": "canonical",
+      "definition": "Meiosis is a specialized nuclear division process resulting in four genetically unique haploid cells. It reduces chromosome number by half to facilitate sexual reproduction and genetic diversity.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/11-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/11-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Understanding genetic inheritance patterns in pedigree analysis.",
+        "Developing treatments for chromosomal abnormalities like Down syndrome."
+      ]
+    },
+    {
+      "id": "stemma:bio.metabolism",
+      "type": "process",
+      "name": "metabolism",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Metabolism encompasses all chemical reactions occurring inside cells, including anabolic and catabolic pathways. It manages energy conversion and synthesis of cellular components essential for life.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/6-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/6-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing diets based on metabolic rates.",
+        "Developing treatments for metabolic disorders like diabetes."
+      ]
+    },
+    {
+      "id": "stemma:bio.mitochondrion",
+      "type": "structure",
+      "name": "mitochondrion",
+      "domain": "biology",
+      "subdomain": "physiology",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A mitochondrion is a membrane-bound organelle enclosed by a double lipid bilayer that generates cellular energy in the form of ATP. Often called the powerhouse, it converts nutrients into usable chemical energy through oxidative phosphorylation processes.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-anatomy-and-physiology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Anatomy and Physiology 2e (2022), OpenStax. Term locator: https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "J. Gordon Betts, Kelly A. Young, James A. Wise, Eddie Johnson, Brandon Poe, Dean H. Kruse, Oksana Korol, Jody E. Johnson, Mark Womble, Peter DeSaix, William Blaker, Julie Bowers, Matthew Barlow, Michael Hortsch, Emily Bradshaw, Kathleen Tallman, Boyd Campbell, Rohinton Tarapore, Branko Jablanovic, Pamela Dobbins, Brian Shmaefsky, Barbara Christie-Pope, Douglas Sizemore, Maurice Culver, Debra McLaughlin, Bruce Maring, Peter Dukehart, Susan Dentel, Elizabeth Tattersall, Margaret Weck, Neil Westergaard, Marnie Chapman, William Kleinelp, Brenda Leady, Susanna Heinze, Julie May, Ann Caplea, Kim Aaronson, Lopamudra Agarwal, Gary Allen, Nishi Bryska, Susan Caley Opsal, Norman Johnson, Sarah Leupen, Robert Mallet, Kenneth Crane, Heather Cushman, Chaya Gopalan, Mark Hubley, Dale Horeth, Kathleen Weiss, Sharon Ellerton, Janis Thompson, Rita Thrasher, Nicholas Mitchell, David Van Wylen, Elisabeth Martin, Ivan Paul, Lihua Liang, David Wortham, Shobhana Natarajan, Betsy Ott, Sondra Dubowsky, Mary Jane Niles, Mark Thomas, Mike Pyle, Umesh Yadav, Ann Henninger, Elizabeth DuPriest, Timothy Ballard, Phillip Nicotera, Michael Giangrande, Natalie Maxwell, Cameron Perkins, Robert Rawding, Lynn Gargan, Jeff Keyte, Victor Greco, Robert Allison, Heather Armbruster, Lynn Wandrey, David Pfeiffer, Mark Jonasson, Susan Spencer, Leigh Kleinert, Jason Schreer, Thomas Pilat, Ikemefuna Nwosu, Patty Dolan, Ellen DuPré, John Lepri, Carla Endres, Eileen Preston, Eric Sun, Tom Swenson, Tony Yates, Justin York, Cheri Zao, Elena Zoubina, Noelle Cutter, Lynnette Danzl-Tauer, Myriam Feldman, Jane Davis, Rosemary Hubbard, Aaron Payette, Greg Fitch, Robert Sullivan, AnnMarie DelliPizzi, Cynthia Standley, Shobhana Natarajan, Scott Payne, Laird Sheldahl, Pam Elf",
+        "link": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Investigating mitochondrial diseases causing muscle weakness.",
+        "Engineering biofuels using enhanced energy production pathways."
+      ]
+    },
+    {
+      "id": "stemma:bio.mitosis",
+      "type": "process",
+      "name": "mitosis",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Mitosis is a period of the cell cycle where duplicated chromosomes separate into identical nuclei. This process includes distinct phases like prophase and anaphase to ensure accurate genetic distribution.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/10-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/10-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Understanding tissue repair and growth mechanisms.",
+        "Diagnosing cancer through abnormal cell division rates."
+      ]
+    },
+    {
+      "id": "stemma:bio.mutation",
+      "type": "concept",
+      "name": "mutation",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A mutation constitutes a variation in the nucleotide sequence of an organism's genome. Such changes can alter genetic information, potentially leading to new traits or affecting biological functions depending on their location and nature within DNA.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/14-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/14-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Developing gene therapies for genetic diseases.",
+        "Tracking viral evolution during pandemics."
+      ]
+    },
+    {
+      "id": "stemma:bio.natural-selection",
+      "type": "process",
+      "name": "natural selection",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Natural selection is a fundamental evolutionary process where individuals possessing advantageous traits survive environmental pressures better than others. This differential survival and reproduction cause favorable genetic characteristics to become more common in populations over successive generations.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/18-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/18-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Informing conservation strategies for endangered species.",
+        "Understanding antibiotic resistance development in bacteria."
+      ]
+    },
+    {
+      "id": "stemma:bio.neuron",
+      "type": "structure",
+      "name": "neuron",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A neuron is a specialized excitable cell designed to receive, process, and transmit electrical or chemical signals throughout the nervous system. These cells form intricate networks that enable rapid communication between different parts of an organism's body.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/35-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/35-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Designing brain-computer interfaces for prosthetics.",
+        "Treating neurological disorders via synaptic modulation."
+      ]
+    },
+    {
+      "id": "stemma:bio.organelle",
+      "type": "structure",
+      "name": "organelle",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A membrane-bound or structurally distinct compartment inside a cell that carries out a specialized function. Examples include mitochondria for energy conversion, ribosomes for protein synthesis, and the nucleus for storing genetic material.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Engineering synthetic cells for biomanufacturing.",
+        "Targeting mitochondria in metabolic disease research."
+      ]
+    },
+    {
+      "id": "stemma:bio.phenotype",
+      "type": "concept",
+      "name": "phenotype",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The phenotype represents the observable physical characteristics or traits expressed by an organism. These features result from the interaction between its genetic makeup and environmental influences, distinguishing them directly from underlying genotypes.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/12-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/12-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Predict crop yield under varying climate conditions.",
+        "Personalizing medicine based on individual trait variations."
+      ]
+    },
+    {
+      "id": "stemma:bio.population",
+      "type": "concept",
+      "name": "population",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A population comprises all individuals of a single species living within a specific geographic area. These groups interact through mating and competition, forming the fundamental unit for studying ecological dynamics and evolutionary changes over time.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/1-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/1-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Managing wildlife reserves for biodiversity.",
+        "Modeling disease spread within human communities."
+      ]
+    },
+    {
+      "id": "stemma:bio.protein",
+      "type": "material",
+      "name": "protein",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A protein is a biological macromolecule constructed from one or more chains of amino acids. These molecules perform diverse roles such as catalyzing reactions, providing structural support, and regulating cellular processes.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Creating enzyme replacements for metabolic defects.",
+        "Developing novel materials with high tensile strength."
+      ]
+    },
+    {
+      "id": "stemma:bio.ribosome",
+      "type": "structure",
+      "name": "ribosome",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The ribosome is a cellular structure responsible for synthesizing proteins by translating genetic instructions from messenger RNA. Acting as the cell's primary protein factory, it ensures that essential enzymes and structural components are produced accurately.",
+      "examples": [],
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/4-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/4-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Producing insulin via recombinant DNA technology.",
+        "Designing antibiotics that target bacterial ribosomes."
+      ]
+    },
+    {
+      "id": "stemma:bio.species",
+      "type": "concept",
+      "name": "species",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "A species defines a group of populations that interbreed naturally to produce fertile offspring. This classification relies on reproductive compatibility, ensuring genetic continuity while distinguishing distinct biological entities within the broader ecosystem.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/18-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/18-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "applications": [
+        "Conservation biology strategies to protect unique genetic lineages.",
+        "Evolutionary studies tracking divergence in isolated populations."
+      ]
+    },
+    {
+      "id": "stemma:bio.transcription",
+      "type": "process",
+      "name": "transcription",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "The synthesis of an RNA copy from a DNA template, catalysed by RNA polymerase. In eukaryotes the initial transcript is processed before it leaves the nucleus, and it carries the coding or regulatory information of a gene.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "RNA polymerase copies a gene into messenger RNA.",
+        "Eukaryotic transcripts are spliced before export from the nucleus."
+      ],
+      "formal": {
+        "statement": "RNA polymerase reads the DNA template strand and synthesises a complementary RNA strand.",
+        "variables": [
+          {
+            "symbol": "template strand",
+            "meaning": "DNA strand read by the polymerase"
+          },
+          {
+            "symbol": "transcript",
+            "meaning": "RNA copy produced"
+          }
+        ],
+        "conditions": [
+          "template read 3-prime to 5-prime",
+          "RNA synthesised 5-prime to 3-prime"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Gene expression analysis to understand cellular function regulation.",
+        "Biotechnology production of recombinant proteins via genetic engineering."
+      ]
+    },
+    {
+      "id": "stemma:bio.translation",
+      "type": "process",
+      "name": "translation",
+      "domain": "biology",
+      "subdomain": "general",
+      "level": "foundational",
+      "status": "canonical",
+      "definition": "Translation is the process through which RNA directs the formation of specific proteins within cellular machinery. During this stage, ribosomes read genetic codes to assemble amino acids into polypeptide chains that fold into functional structures.",
+      "same_dimensional_quantities": null,
+      "source_refs": [
+        "stemma:src.openstax-biology-2e"
+      ],
+      "provenance": {
+        "ai_drafted": true,
+        "source_kind": "textbook",
+        "source": "Biology 2e (2018), OpenStax. Term locator: https://openstax.org/books/biology-2e/pages/3-key-terms. Used as a reference; definition independently phrased.",
+        "writer": "process:openstax-importer.v1",
+        "drafted_by": "llm:qwen3.5-9b",
+        "original_author": "Mary Ann Clark, Matthew Douglas, Jung Choi",
+        "link": "https://openstax.org/books/biology-2e/pages/3-key-terms",
+        "retrieved_at": "2026-10-20",
+        "review_mode": "owner_delegated",
+        "reviewer": "process:content-validator.v1",
+        "reviewed_at": "2026-10-20T00:00:00+00:00",
+        "verification": {
+          "method": "schema + source-resolution + no-verbatim + definition-quality",
+          "verifier": "process:content-verifier.v1",
+          "verified_at": "2026-10-20",
+          "notes": "Deterministic checks over the cited OpenStax inventory row; no human review claimed.",
+          "checks": [
+            {
+              "name": "schema",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "source-resolution",
+              "status": "pass",
+              "evidence": "process:content-validator.v1"
+            },
+            {
+              "name": "no-verbatim",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            },
+            {
+              "name": "definition-quality",
+              "status": "pass",
+              "evidence": "process:content-verifier.v1"
+            }
+          ]
+        },
+        "delegation": {
+          "delegated_by": "human:curator.001",
+          "delegation_ref": "docs/decisions/0060-owner-delegated-content-canonicalization.md",
+          "scope": "OpenStax-derived bachelor STEM content tranche, 2026-10-20 inventory",
+          "sanctioned_at": "2026-10-20",
+          "retire_when": "a domain human reviewer is registered and accepts the tranche",
+          "limitations": [
+            "reference grade is Tier C (NC-SA) or Tier B; no source prose reused",
+            "machine checks cover schema, provenance, source resolution, and copying only",
+            "not a substitute for domain-expert review of scientific correctness"
+          ]
+        }
+      },
+      "rights": {
+        "license": "CC-BY-4.0",
+        "attribution": "Original STEMMA definition generated from the cited reference; no source prose copied."
+      },
+      "examples": [
+        "A ribosome adds amino acids in the order set by mRNA codons.",
+        "Transfer RNA matches each codon to its amino acid."
+      ],
+      "formal": {
+        "statement": "A ribosome reads messenger RNA codons and joins the corresponding amino acids into a polypeptide.",
+        "variables": [
+          {
+            "symbol": "codon",
+            "meaning": "three-nucleotide mRNA unit"
+          },
+          {
+            "symbol": "polypeptide",
+            "meaning": "chain of amino acids"
+          }
+        ],
+        "conditions": [
+          "mRNA read 5-prime to 3-prime",
+          "genetic code and tRNA charging available"
+        ],
+        "dimensions": null
+      },
+      "applications": [
+        "Drug development targeting specific protein synthesis pathways.",
+        "Understanding antibiotic mechanisms that disrupt bacterial translation."
+      ]
+    }
+  ],
+  "connections": []
+}

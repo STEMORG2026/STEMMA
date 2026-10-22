@@ -1,0 +1,42 @@
+id: stemma:src.openstax-chemistry-2e
+type: textbook
+citation: Paul Flowers, Don Frantz, Paul Hooker, George Kaminski, Jennifer Look, Carol Martinez, Andrew
+  Eklund, Mark Blaser, Klaus Theopold, Richard Langley, Tom Sorensen, Allison Soult, Troy Milliken, Vicki
+  Moravec, Jason Powell, Emad El-Giar, Simon Bott, Don Carpenetti, William R. Robinson, PhD (2019). Chemistry
+  2e. OpenStax. https://openstax.org/books/chemistry-2e
+title: Chemistry 2e
+authors:
+- Paul Flowers
+- Don Frantz
+- Paul Hooker
+- George Kaminski
+- Jennifer Look
+- Carol Martinez
+- Andrew Eklund
+- Mark Blaser
+- Klaus Theopold
+- Richard Langley
+- Tom Sorensen
+- Allison Soult
+- Troy Milliken
+- Vicki Moravec
+- Jason Powell
+- Emad El-Giar
+- Simon Bott
+- Don Carpenetti
+- William R. Robinson, PhD
+year: '2019'
+publisher: OpenStax
+isbn: 978-1-947172-61-6
+url: https://openstax.org/books/chemistry-2e
+language: en
+source_role: secondary
+accessed_at: '2026-10-20'
+retrieved_at: '2026-10-20'
+writer: process:openstax-importer.v1
+license: Creative Commons Attribution-NonCommercial-ShareAlike License 4.0
+locator_authority: OpenStax
+rights:
+  license: Creative Commons Attribution-NonCommercial-ShareAlike License (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+  attribution: OpenStax, Chemistry 2e. Used as a Tier C reference for term discovery and factual verification;
+    canonical definitions are independently phrased.

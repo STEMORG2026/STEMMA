@@ -1,0 +1,32 @@
+id: stemma:src.openstax-algebra-and-trigonometry-2e
+type: textbook
+citation: Jay Abramson, Valeree Falduto, Rachael Gross, David Lippman, Melonie Rasmussen, Rick Norwood,
+  Nicholas Belloit, Harold Whipple, Jean-Marie Magnier, Christina Fernandez (2021). Algebra and Trigonometry
+  2e. OpenStax. https://openstax.org/books/algebra-and-trigonometry-2e
+title: Algebra and Trigonometry 2e
+authors:
+- Jay Abramson
+- Valeree Falduto
+- Rachael Gross
+- David Lippman
+- Melonie Rasmussen
+- Rick Norwood
+- Nicholas Belloit
+- Harold Whipple
+- Jean-Marie Magnier
+- Christina Fernandez
+year: '2021'
+publisher: OpenStax
+isbn: 978-1-951693-40-4
+url: https://openstax.org/books/algebra-and-trigonometry-2e
+language: en
+source_role: secondary
+accessed_at: '2026-10-20'
+retrieved_at: '2026-10-20'
+writer: process:openstax-importer.v1
+license: Creative Commons Attribution-NonCommercial-ShareAlike License 4.0
+locator_authority: OpenStax
+rights:
+  license: Creative Commons Attribution-NonCommercial-ShareAlike License (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+  attribution: OpenStax, Algebra and Trigonometry 2e. Used as a Tier C reference for term discovery and
+    factual verification; canonical definitions are independently phrased.

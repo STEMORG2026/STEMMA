@@ -5,6 +5,7 @@ name: Conservation of Energy
 domain: physics
 subdomain: mechanics
 status: draft
+level: foundational
 definition: 'Conservation of energy: for an isolated system the total energy — summed
   over all forms (kinetic, potential, thermal, chemical, nuclear, ...) — remains constant
   in time; energy transforms between forms but is neither created nor destroyed. Historical

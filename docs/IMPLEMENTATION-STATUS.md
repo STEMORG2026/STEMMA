@@ -143,11 +143,11 @@ Phase 4 Content as Acceptance Test Before IRI Gate Hours to Days proof engine wo
 
 Phase 5 Organization/IRI Gate Roadmap R3 Human decision owning organization domain IRI base everything touching published IRIs waits for this.
 
-Phase 6 Projection Publication Roadmap R4 After Phase 5 Days exports/knowledge.jsonld+SKOS mapping+context file+SHACL shapes learn-from+signed release bundle+integrity manifest pluggable BFO schema.org exit.
+Phase 6 Projection Publication Roadmap R4 After Phase 5 Days exports/knowledge.jsonld+SKOS mapping+context file+SHACL shapes learn-from+signed release bundle+integrity manifest pluggable BFO schema.org exit. — DONE 2026-10-21 (stemma-urn-only).
 
-Phase 7 Consumer Views and Routing After Phase 6 Days exports/views/* generation determinism tests calibration report from real review data review-queue routing R7 heuristic.
+Phase 7 Consumer Views and Routing After Phase 6 Days exports/views/* generation determinism tests calibration report from real review data review-queue routing R7 heuristic. — DONE 2026-10-21 (ADR-0058).
 
-Phase 8 Scale Readiness Days benchmark git performance at 10^4 entities design content-addressed store with Merkle roots decide via ADR whether to migrate at 10^5 keep sharded YAML+LFS for now document migration plan.
+Phase 8 Scale Readiness Days benchmark git performance at 10^4 entities design content-addressed store with Merkle roots decide via ADR whether to migrate at 10^5 keep sharded YAML+LFS for now document migration plan. — DONE 2026-10-21 (ADR-0059, docs/SCALE-READINESS.md).
 
 ## Current Status — After Ideal Order Rewrite + New Docs
 
